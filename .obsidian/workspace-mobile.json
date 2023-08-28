@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
+                "file": "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
+            "file": "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
+            "file": "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md"
+            "file": "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md"
           }
         }
       }
@@ -131,11 +131,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b9b51be308d7e5e",
+  "active": "37369ce84a01c8ad",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
+    "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
+    "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
+    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
     "Fall 2023 Semester/CS 311/L01/Logical operators.md",
-    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+    "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
+    "Fall 2023 Semester/CS 311/L01/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/Files/HandoutBasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Files",
     "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",

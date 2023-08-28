@@ -33,7 +33,7 @@ $\equiv$ \<Domination>
 
 $T$
 
-Tautology
+[[Discrete Math Terminology#^502eb0|Tautology]]
 
 
 

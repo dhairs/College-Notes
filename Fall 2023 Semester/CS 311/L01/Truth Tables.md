@@ -11,4 +11,4 @@ Truth Tables have $2^n$ rows, where N is the number of unique statements ($p$, $
 | F | T | T  | F | T |
 | F | F | T  | F | F |
 
-Truth tables can also be used to [[Proofs Using Truth Tables|prove]] [[Terminology#^4bae64|compound propositions]].
+Truth tables can also be used to [[Proofs Using Truth Tables|prove]] [[Discrete Math Terminology#^4bae64|compound propositions]].
