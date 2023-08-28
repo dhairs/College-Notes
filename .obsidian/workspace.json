@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/What is a Proof?.md",
-                "mode": "source",
+                "file": "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/What is a Proof?.md",
+                "file": "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/What is a Proof?.md",
+                "file": "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/What is a Proof?.md"
+                "file": "Fall 2023 Semester/ECO 304K/Foundations of Economics.md"
               }
             }
           }
@@ -171,24 +170,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4bd99811a52e3968",
+  "active": "d0ece39f146fa350",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/What is a Proof?.md",
+    "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
+    "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
     "Fall 2023 Semester/CS 311/What is Discrete Math?.md",
     "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
-    "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
-    "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
     "Fall 2023 Semester/CS 311/L01/Terminology.md",
     "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
     "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/Files",
     "Fall 2023 Semester/CS 311/Files/HandoutBasicEquivalences.pdf",
     "First Note.md",
-    "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
     "iPad test.md",
     "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
     "Testing on iPad.md",
