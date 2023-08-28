@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d9f3e44dd76fd9b4",
+        "id": "c77388a2f371d6ae",
         "type": "tabs",
         "children": [
           {
-            "id": "da43e44679c1fec4",
+            "id": "8cd942c2ba06ac44",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md"
+          }
         }
       }
     ],
@@ -123,10 +131,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37369ce84a01c8ad",
+  "active": "8cd942c2ba06ac44",
   "lastOpenFiles": [
-    "iPad test.md",
+    "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
+    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
+    "iPad test.md",
     "Testing on iPad.md"
   ]
 }
