@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c77388a2f371d6ae",
+        "id": "4465af5b56b6a53c",
         "type": "tabs",
         "children": [
           {
-            "id": "8cd942c2ba06ac44",
+            "id": "8b9b51be308d7e5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
-                "mode": "source",
+                "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+            "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+            "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md"
+            "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md"
           }
         }
       }
@@ -131,10 +131,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8cd942c2ba06ac44",
+  "active": "8b9b51be308d7e5e",
   "lastOpenFiles": [
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
+    "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+    "Fall 2023 Semester/CS 311/Files/HandoutBasicEquivalences.pdf",
+    "Fall 2023 Semester/CS 311/Files",
     "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
     "iPad test.md",
     "Testing on iPad.md"
