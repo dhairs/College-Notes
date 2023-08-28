@@ -11,15 +11,24 @@
             "id": "8b9b51be308d7e5e",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "b5f41d279cf01841",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
-                "mode": "preview",
+                "file": "Trig Substitution.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
+            "file": "Trig Substitution.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
+            "file": "Trig Substitution.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +123,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md"
+            "file": "Trig Substitution.md"
           }
         }
       }
@@ -131,16 +140,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37369ce84a01c8ad",
+  "active": "b5f41d279cf01841",
   "lastOpenFiles": [
+    "Trig Substitution.md",
+    "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
+    "Fall 2023 Semester/Courses.md",
+    "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
-    "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
-    "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
     "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
     "Fall 2023 Semester/CS 311/L01/What is a Proof?.md",
