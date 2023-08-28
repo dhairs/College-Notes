@@ -16,8 +16,8 @@ $\lim_{x\to a}{f(x)\pm g(x)}$
 
 **Example:**
 
-$\int\frac{1}{(10-x^2)^{\frac{3}{2}}}$
-$\int\frac{1}{(\sqrt{10-x^2})^3}$
+$\int\frac{1}{(16-x^2)^{\frac{3}{2}}}$
+$\int\frac{1}{(\sqrt{16-x^2})^3}$
 
 
 
