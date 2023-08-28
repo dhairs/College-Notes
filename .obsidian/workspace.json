@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
+                "file": "First Note.md",
                 "mode": "preview",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
+                "file": "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
+                "file": "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Integration by Parts Review.md"
+                "file": "Fall 2023 Semester/ECO 304K/Foundations of Economics.md"
               }
             }
           }
@@ -158,10 +158,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8a03b08d0dbfdb5",
+  "active": "574a0ccd8a23a166",
   "lastOpenFiles": [
-    "Testing on iPad.md",
     "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
+    "Testing on iPad.md",
     "College-Notes",
     "Fall 2023 Semester/M 408D/M 408D Links.md",
     "Fall 2023 Semester/M 408D/Product, Quotient, & Chain Rule Review.md",
