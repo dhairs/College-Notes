@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/Classes.md",
-                "mode": "preview",
+                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/Classes.md",
+                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/Classes.md",
+                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/Classes.md"
+                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md"
               }
             }
           }
@@ -172,8 +172,12 @@
   },
   "active": "d0ece39f146fa350",
   "lastOpenFiles": [
+    "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
+    "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
+    "Fall 2023 Semester/M 408D/Trig Substitution.md",
     "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
     "Fall 2023 Semester/Classes.md",
+    "Fall 2023 Semester/Courses.md",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
     "Fall 2023 Semester/CS 311/What is Discrete Math?.md",
@@ -190,7 +194,6 @@
     "Fall 2023 Semester/CS 311/Files/HandoutBasicEquivalences.pdf",
     "First Note.md",
     "iPad test.md",
-    "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
     "Testing on iPad.md",
     "College-Notes",
     "Fall 2023 Semester/M 408D/M 408D Links.md",
@@ -198,11 +201,8 @@
     "Fall 2023 Semester/ECO 304K/Model Building & Gains from Trade.md",
     "Fall 2023 Semester/ECO 304K/ECO 304K Links.md",
     "Fall 2023 Semester/ECO 304K/Contact.md",
-    "Fall 2023 Semester/CS 314/CS 314 links.md",
     "Fall 2023 Semester/CS 311/L01",
     "Fall 2023 Semester/M 408D",
-    "Fall 2023 Semester/CS 311/Day 1.md",
-    "Fall 2023 Semester/Course Links.md",
     "Fall 2023 Semester/CS 311",
     "Fall 2023 Semester/ECO 304K",
     "Fall 2023 Semester/UGS 303",
