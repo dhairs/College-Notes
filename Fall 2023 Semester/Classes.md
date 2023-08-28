@@ -1,4 +1,7 @@
+#### UTCS Advising 
+**GDC 2.702**
 
+#### Course Schedule
 |Unique|Course|Status|Meeting Information|   |   |Title|
 |---|---|---|---|---|---|---|
 |52650|C S 314||MWF  <br>M|11:00- 12:00  <br>3:00- 4:00P|CAL 100  <br>SZB 2.216|DATA STRUCTURES|
