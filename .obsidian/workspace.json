@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
+                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
+                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
+                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md"
+                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md"
               }
             }
           }
@@ -172,9 +172,12 @@
   },
   "active": "d0ece39f146fa350",
   "lastOpenFiles": [
+    "Fall 2023 Semester/M 408D/Trig Substitution.md",
+    "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
+    "Fall 2023 Semester/CS 311/L02",
+    "Fall 2023 Semester/CS 311/Untitled.md",
     "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
     "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
-    "Fall 2023 Semester/M 408D/Trig Substitution.md",
     "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
     "Fall 2023 Semester/Classes.md",
     "Fall 2023 Semester/Courses.md",
@@ -199,15 +202,12 @@
     "Fall 2023 Semester/M 408D/M 408D Links.md",
     "Fall 2023 Semester/M 408D/Product, Quotient, & Chain Rule Review.md",
     "Fall 2023 Semester/ECO 304K/Model Building & Gains from Trade.md",
-    "Fall 2023 Semester/ECO 304K/ECO 304K Links.md",
-    "Fall 2023 Semester/ECO 304K/Contact.md",
     "Fall 2023 Semester/CS 311/L01",
     "Fall 2023 Semester/M 408D",
     "Fall 2023 Semester/CS 311",
     "Fall 2023 Semester/ECO 304K",
     "Fall 2023 Semester/UGS 303",
     "Fall 2023 Semester",
-    "Untitled.canvas",
-    "UMN Honors Letter.pdf"
+    "Untitled.canvas"
   ]
 }
