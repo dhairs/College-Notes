@@ -1,6 +1,6 @@
-In trig subsititoon, we subtitute $x$ and $\mathrm{d}x$ with trig functions of 
+In trig substitution, we substitute $x$ and $\mathrm{d}x$ with trig functions of 
 
-Trig Subsitutuon can be approrpate when you have (in the integrand) one of these:
+Trig substitution can be appropriate when you have (in the integrand) one of these:
 
 $\sqrt{a^2-x^2}$ - use $x=a\sin(\theta)$
 
