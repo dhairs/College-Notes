@@ -14,21 +14,8 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "b5f41d279cf01841",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trig Substitution.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Trig Substitution.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -111,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Trig Substitution.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,9 +107,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Trig Substitution.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -140,9 +123,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5f41d279cf01841",
+  "active": "8b9b51be308d7e5e",
   "lastOpenFiles": [
     "Trig Substitution.md",
+    "Fall 2023 Semester/M 408D/Trig Substitution.md",
+    "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
+    "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
+    "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
+    "Fall 2023 Semester/CS 311/L02",
     "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
     "Fall 2023 Semester/Courses.md",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
