@@ -1,2 +1,2 @@
 
-![[HandoutBasicEquivalences.pdf]]
+![[BasicEquivalences.pdf]]

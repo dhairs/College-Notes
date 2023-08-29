@@ -8,25 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d0ece39f146fa350",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e8a03b08d0dbfdb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/What is a Proof?.md",
-                "mode": "preview",
+                "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -109,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
+                "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
+                "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md"
+                "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md"
               }
             }
           }
@@ -170,10 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0ece39f146fa350",
+  "active": "e8a03b08d0dbfdb5",
   "lastOpenFiles": [
-    "Fall 2023 Semester/M 408D/Trig Substitution.md",
+    "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
+    "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
+    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+    "Fall 2023 Semester/CS 311/What is a Proof?.md",
+    "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
+    "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
+    "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
+    "Fall 2023 Semester/M 408D/Trig Substitution.md",
     "Fall 2023 Semester/CS 311/L02",
     "Fall 2023 Semester/CS 311/Untitled.md",
     "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
@@ -181,27 +176,19 @@
     "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
     "Fall 2023 Semester/Classes.md",
     "Fall 2023 Semester/Courses.md",
-    "Fall 2023 Semester/CS 311/What is a Proof?.md",
-    "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
     "Fall 2023 Semester/CS 311/What is Discrete Math?.md",
-    "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
-    "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
-    "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
-    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/L01/Terminology.md",
     "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
     "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/Files",
-    "Fall 2023 Semester/CS 311/Files/HandoutBasicEquivalences.pdf",
     "First Note.md",
     "iPad test.md",
     "Testing on iPad.md",
     "College-Notes",
     "Fall 2023 Semester/M 408D/M 408D Links.md",
     "Fall 2023 Semester/M 408D/Product, Quotient, & Chain Rule Review.md",
-    "Fall 2023 Semester/ECO 304K/Model Building & Gains from Trade.md",
     "Fall 2023 Semester/CS 311/L01",
     "Fall 2023 Semester/M 408D",
     "Fall 2023 Semester/CS 311",
