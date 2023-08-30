@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
+                "file": "Fall 2023 Semester/Courses.md",
                 "mode": "preview",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
+                "file": "Fall 2023 Semester/Courses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
+                "file": "Fall 2023 Semester/Courses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md"
+                "file": "Fall 2023 Semester/Courses.md"
               }
             }
           }
@@ -160,6 +160,7 @@
   },
   "active": "e8a03b08d0dbfdb5",
   "lastOpenFiles": [
+    "Fall 2023 Semester/M 408D/Trig Substitution.md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
     "Fall 2023 Semester/M 408D/M 408D Links.md",
@@ -173,7 +174,6 @@
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
-    "Fall 2023 Semester/M 408D/Trig Substitution.md",
     "Fall 2023 Semester/CS 311/L02",
     "Fall 2023 Semester/CS 311/Untitled.md",
     "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
