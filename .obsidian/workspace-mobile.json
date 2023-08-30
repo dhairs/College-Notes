@@ -13,54 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
+                "file": "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
                 "mode": "preview",
                 "source": false
               }
-            },
-            "group": "9c39770cb653fcff"
-          }
-        ]
-      },
-      {
-        "id": "9319e9cb58b8c9b2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "dcee606594dba5d8",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 3,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1.655994725067452,
-                  "close": false
-                }
-              }
-            },
-            "group": "9c39770cb653fcff"
+            }
           }
         ]
       }
@@ -128,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
+            "file": "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -145,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
+            "file": "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -157,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2023 Semester/M 408D/Trig Substitution.md"
+            "file": "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md"
           }
         }
       }
@@ -174,8 +131,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b9b51be308d7e5e",
+  "active": "37369ce84a01c8ad",
   "lastOpenFiles": [
+    "Fall 2023 Semester/M 408D/Trig Substitution.md",
     "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
@@ -183,7 +141,6 @@
     "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
     "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
     "Fall 2023 Semester/M 408D/Product, Quotient, & Chain Rule Review.md",
-    "Fall 2023 Semester/M 408D/Trig Substitution.md",
     "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
     "Trig Substitution.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
