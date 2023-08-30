@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
+                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
                 "mode": "preview",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
+                "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -128,7 +128,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
+            "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md",
+            "file": "Fall 2023 Semester/M 408D/Trig Substitution.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -157,7 +157,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Logical operators.md"
+            "file": "Fall 2023 Semester/M 408D/Trig Substitution.md"
           }
         }
       }
@@ -174,13 +174,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcee606594dba5d8",
+  "active": "8b9b51be308d7e5e",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
     "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
-    "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
     "Fall 2023 Semester/M 408D/Product, Quotient, & Chain Rule Review.md",
     "Fall 2023 Semester/M 408D/Trig Substitution.md",
