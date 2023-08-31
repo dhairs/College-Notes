@@ -6,5 +6,6 @@
 2. 
    let $s =$ The system is in multiuser state
    let $o =$ it is operating normally
-   The 
+   In propositional form: $s \leftrightarrow o$
+   
 1. 
