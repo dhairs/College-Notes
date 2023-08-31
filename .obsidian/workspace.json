@@ -11,11 +11,25 @@
             "id": "a11a52684feb88af",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
-                "mode": "preview",
-                "source": false
+                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "bdec42f4777693b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f84b5e6949ce32b3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
               }
             }
           }
@@ -69,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "2b60910d5d3f47a6",
@@ -85,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
+                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
+                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Rules of Inference.md"
+                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
               }
             }
           }
@@ -148,10 +163,11 @@
   },
   "active": "a11a52684feb88af",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
+    "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
+    "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
-    "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
-    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
@@ -168,7 +184,6 @@
     "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
     "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
-    "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/L02",
     "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
     "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
