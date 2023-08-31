@@ -1,4 +1,4 @@
-Used [[Basic Equivalences]] to manipulate compound propositions. 
+Use [[Basic Equivalences]] to manipulate compound propositions.  ^b052a7
 
 We can also use them to prove things:
 - compound propositions are tautologies
