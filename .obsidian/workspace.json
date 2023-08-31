@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Homework 1.md",
+                "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
+                "file": "Fall 2023 Semester/CS 311/Homework 1.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,12 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8a03b08d0dbfdb5",
+  "active": "4bd99811a52e3968",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
-    "Fall 2023 Semester/CS 311/What is a Proof?.md",
+    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/Homework 1.md",
+    "Fall 2023 Semester/CS 311/L01/Logical operators.md",
+    "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/Courses.md",
     "Fall 2023 Semester/M 408D/Trig Substitution.md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
@@ -174,7 +176,6 @@
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
     "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
-    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/L02",
     "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
