@@ -54,7 +54,6 @@ However, this is a contradiction, because one of our premises is $\neg i$, so **
 
 #### Problem 4
 ##### a. Prove $(p\to q)\vee (q\to r)$
-
 $(p\to q)\vee (q\to r)$
 $\equiv$ \<Implication Simplification>
 $(\neg p \vee q) \vee(\neg q\vee r)$
@@ -66,11 +65,9 @@ $\equiv$ \<Domination Laws>
 $T\vee r$
 $\equiv$ \<Domination Laws>
 $T$
-
 $\therefore$ the proposition is a Tautology
 
 ##### b. Prove $\neg(\neg(p\wedge q)\to (p\to \neg q))$
-
 $\neg(\neg(p\wedge q)\to (p\to \neg q))$
 $\equiv$ \<DeMorgan's Laws>
 $\neg((\neg p\vee\neg q)\to (p\to \neg q))$
@@ -84,11 +81,9 @@ $\equiv$ \<DeMorgan's & Double Negation>
 $\neg(p\vee q)\wedge ( p\wedge q)$
 $\equiv$ \<Contradiction>
 $F$
-
 $\therefore$ the proposition is a contradiction.
 
 ##### c. Prove $((\neg p\vee q)\to q)$
-
 $((\neg p\vee q)\to q)$
 $\equiv$ \<Implication Simplification>
 $(\neg(\neg p\vee q)\vee q)$
@@ -100,7 +95,6 @@ $\equiv$ \<Excluded Middle>
 $(p\vee q)\wedge T$
 $\equiv$ \<Identity Laws>
 $p\vee q$
-
 $\therefore$ the proposition is a **contingency** because the truth value is based on the values of both $p$ and $q$.
 
 #### Problem 5 
