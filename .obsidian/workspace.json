@@ -6,6 +6,7 @@
       {
         "id": "4e351750d76ec60d",
         "type": "tabs",
+        "dimension": 47.800338409475465,
         "children": [
           {
             "id": "a11a52684feb88af",
@@ -16,12 +17,22 @@
                 "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
               }
             }
+          },
+          {
+            "id": "0eebf0f1e5380766",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "bdec42f4777693b2",
         "type": "tabs",
+        "dimension": 52.199661590524535,
         "children": [
           {
             "id": "f84b5e6949ce32b3",
@@ -83,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "2b60910d5d3f47a6",
@@ -100,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +126,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +147,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
-              }
+              "state": {}
             }
           }
         ]
@@ -161,10 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a11a52684feb88af",
+  "active": "0eebf0f1e5380766",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
+    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
