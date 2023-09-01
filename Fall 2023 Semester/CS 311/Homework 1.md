@@ -59,5 +59,23 @@ $(p\to q)\vee (q\to r)$
 $\equiv$ \<Implication Simplification>
 $(\neg p \vee q) \vee(\neg q\vee r)$
 $\equiv$ \<Associative Laws>
+$(\neg p \vee (q\vee\neg q))\vee r$ 
+$\equiv$ \<Excluded Middle>
+$(\neg p \vee T) \vee r$
+$\equiv$ \<Domination Laws>
+$T\vee r$
+$\equiv$ \<Domination Laws>
+$T$
+
+$\therefore$ the proposition is a Tautology
+
+##### b. Prove $\neg(\neg(p\wedge q)\to (p\to \neg q))$
+
+$\neg(\neg(p\wedge q)\to (p\to \neg q))$
+$\equiv$ \<DeMorgan's Laws>
+$(\neg(\neg(p\wedge q)) \to 
+
+
+¬(¬(p ∧ q) → (p → ¬q))
 
 
