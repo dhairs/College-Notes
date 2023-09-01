@@ -12,22 +12,15 @@
             "id": "a11a52684feb88af",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
+                "file": "Fall 2023 Semester/CS 311/Homework 1.md",
+                "mode": "source",
+                "source": false
               }
             }
-          },
-          {
-            "id": "0eebf0f1e5380766",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "bdec42f4777693b2",
@@ -110,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fall 2023 Semester/CS 311/Homework 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Fall 2023 Semester/CS 311/Homework 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Fall 2023 Semester/CS 311/Homework 1.md"
+              }
             }
           }
         ]
@@ -167,19 +164,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0eebf0f1e5380766",
+  "active": "a11a52684feb88af",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Homework 1.md",
+    "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
+    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
-    "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
-    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
     "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/L02/Well-Formed Formulae.md",
-    "Fall 2023 Semester/CS 311/Homework 1.md",
     "Fall 2023 Semester/ECO 304K/Test.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
     "Fall 2023 Semester/Courses.md",
