@@ -91,4 +91,25 @@ $\therefore$ the proposition is a contradiction.
 
 $((\neg p\vee q)\to q)$
 $\equiv$ \<Implication Simplification>
-$(\neg)
+$(\neg(\neg p\vee q)\vee q)$
+$\equiv$ \<DeMorgan's Law & Double Negation>
+$(p\wedge\neg q)\vee q$
+$\equiv$ \<Distributive Laws>
+$(p\vee q)\wedge(q\vee\neg q)$
+$\equiv$ \<Excluded Middle>
+$(p\vee q)\wedge T$
+$\equiv$ \<Identity Laws>
+$p\vee q$
+
+$\therefore$ the proposition is a **contingency** because the truth value is based on the values of both $p$ and $q$.
+
+#### Problem 5 
+##### Prove $((p\vee q)\wedge (\neg p\vee r))\to (q\vee r)$
+
+$((p\vee q)\wedge (\neg p\vee r))\to (q\vee r)$
+$\equiv$ \<Implication Simplification>
+$\neg((p\vee q)\wedge (\neg p\vee r))\vee(q\vee r)$
+$\equiv$ \<DeMorgan's Laws>
+$(\neg(p\vee q)\vee \neg(\neg p\vee r))\vee(q\vee r)$
+$\equiv$ \<DeMorgan's Laws & Double Negation>
+$((\neg p\wedge\neg q)\vee (p\wedge\neg r))\vee(q\vee r)$
