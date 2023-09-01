@@ -29,16 +29,35 @@ Since $k\equiv T$, and $\neg k\vee i$, $i$ MUST be true. As a result, $i\equiv T
 However, this is a contradiction, because one of our premises is $\neg i$, so **the system is not consistent.**
 
 #### Problem 3
+##### a. 
+| $p$ | $q$ | $r$ | $p\to q$ | $p\to r$ | $q\vee r$ | $p\to(q\vee r)$ | $p\to q\vee p\to r$ |
+| - | - | - | ---- | ---- | ---- | - | - |
+| T | T | T | T | T | T | T | T |
+| T | T | F | T | F | T | T | T |
+| T | F | T | F | T | T | T | T |
+| T | F | F | F | F | F | F | F |
+| F | T | T | T | T | T | T | T |
+| F | T | F | T | T | T | T | T |
+| F | F | F | T | T | F | T | T |
+| F | F | T | T | T | T | T | T |
 
-| p | q | r | $p\to q$ | $p\to r$ | $q\vee r$ | $p\to(q\vee r)$ |
-| - | - | - | ---- | ---- | ---- | - |
-| T | T | T | T | T | T | T | 
-| T | T | F | T | F | T | T | 
-| T | F | T | F | T | T | T |
-| T | F | F | F | F | F | F |
-| F | T | T | T | T | T | T | 
-| F | T | F | T | T | T | T | 
-| F | F | F | T | T | F | T |
-| F | F | T | T | F | T | T |
-   
-   Because there is a condition where all values are true, **this is consistent**.
+**Because both $p\to(q\vee r)$ and $p\to q\vee p\to r$ columns in the proof table have the same values, both compound propositions are equivalent.**
+##### b.
+| $p$ | $q$ | $\neg q$ | $p\vee q$ | $(p\vee q)\to \neg q$ | $\neg((p\vee q)\to\neg q)$ |
+| - | - | - |  --  | --------- | ------------ |
+| T | T | F |   T  |     F     |       T      | 
+| T | F | T |   T  |     T     |       F      | 
+| F | T | F |   T  |     F     |       T      | 
+| F | F | T |   F  |     T     |       F      | 
+
+**Because the columns for both $q$ and $\neg((p\vee q)\to\neg q)$ have the same truth values for every truth value of $p$ and $q$, both propositions are equivalent.**
+
+#### Problem 4
+##### a. Prove $(p\to q)\vee (q\to r)$
+
+$(p\to q)\vee (q\to r)$
+$\equiv$ \<Implication Simplification>
+$(\neg p \vee q) \vee(\neg q\vee r)$
+$\equiv$ \<Associative Laws>
+
+

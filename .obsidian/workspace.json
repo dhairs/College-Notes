@@ -6,7 +6,7 @@
       {
         "id": "4e351750d76ec60d",
         "type": "tabs",
-        "dimension": 47.800338409475465,
+        "dimension": 41.70896785109983,
         "children": [
           {
             "id": "a11a52684feb88af",
@@ -19,21 +19,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1f9b8fd81c951b2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       },
       {
-        "id": "bdec42f4777693b2",
+        "id": "43089a1cf9775ef6",
         "type": "tabs",
-        "dimension": 52.199661590524535,
+        "dimension": 58.29103214890017,
         "children": [
           {
-            "id": "f84b5e6949ce32b3",
+            "id": "305a991c0425d17d",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
+                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
               }
             }
           }
@@ -167,8 +179,9 @@
   "active": "a11a52684feb88af",
   "lastOpenFiles": [
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
-    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/Homework 1.md",
+    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+    "Fall 2023 Semester/CS 311/What is Discrete Math?.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
@@ -191,7 +204,6 @@
     "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
     "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
     "Fall 2023 Semester/Classes.md",
-    "Fall 2023 Semester/CS 311/What is Discrete Math?.md",
     "Fall 2023 Semester/CS 311/L01/Terminology.md",
     "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
     "Fall 2023 Semester/CS 311/Files",
