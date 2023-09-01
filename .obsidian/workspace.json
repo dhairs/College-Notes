@@ -6,7 +6,7 @@
       {
         "id": "4e351750d76ec60d",
         "type": "tabs",
-        "dimension": 83.07952622673434,
+        "dimension": 51.945854483925544,
         "children": [
           {
             "id": "a11a52684feb88af",
@@ -15,20 +15,18 @@
               "type": "markdown",
               "state": {
                 "file": "Fall 2023 Semester/CS 311/Homework 1.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1f9b8fd81c951b2b",
+            "id": "3d89f7a45dd44462",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
-                "mode": "source",
-                "source": false
+                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
               }
             }
           }
@@ -37,7 +35,7 @@
       {
         "id": "43089a1cf9775ef6",
         "type": "tabs",
-        "dimension": 16.920473773265652,
+        "dimension": 48.05414551607445,
         "children": [
           {
             "id": "305a991c0425d17d",
@@ -178,11 +176,11 @@
   },
   "active": "a11a52684feb88af",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
+    "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Homework 1.md",
+    "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/What is Discrete Math?.md",
-    "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
