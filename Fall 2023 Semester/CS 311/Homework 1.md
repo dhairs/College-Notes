@@ -73,9 +73,22 @@ $\therefore$ the proposition is a Tautology
 
 $\neg(\neg(p\wedge q)\to (p\to \neg q))$
 $\equiv$ \<DeMorgan's Laws>
-$(\neg(\neg(p\wedge q)) \to 
+$\neg((\neg p\vee\neg q)\to (p\to \neg q))$
+$\equiv$ \<Implication Simplification>
+$\neg((\neg p\vee\neg q)\to (\neg p\vee\neg q))$
+$\equiv$ \<Implication Simplification>
+$\neg(\neg(\neg p\vee \neg q)\vee(\neg p\vee \neg q))$
+$\equiv$ \<DeMorgan's & Double Negation>
+$\neg((p\wedge q)\vee (\neg p\vee \neg q))$
+$\equiv$ \<DeMorgan's & Double Negation>
+$\neg(p\vee q)\wedge ( p\wedge q)$
+$\equiv$ \<Contradiction>
+$F$
 
+$\therefore$ the proposition is a contradiction.
 
-¬(¬(p ∧ q) → (p → ¬q))
+##### c. Prove $((\neg p\vee q)\to q)$
 
-
+$((\neg p\vee q)\to q)$
+$\equiv$ \<Implication Simplification>
+$(\neg)
