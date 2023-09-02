@@ -100,6 +100,7 @@ $(\neg(p\vee q)\vee \neg(\neg p\vee r))\vee(q\vee r)$
 $\equiv$ \<DeMorgan's Laws & Double Negation>
 $((\neg p\wedge\neg q)\vee (p\wedge\neg r))\vee(q\vee r)$
 $\equiv$ \<Associative Laws>
-$(((\neg p\wedge\neg q)\vee (p\wedge\neg r))\vee q)\vee r$
-$\equiv$ \<Associative Laws>
-$()
+$((\neg p\wedge\neg q)\vee (p\wedge\neg r)\vee q)\vee r$
+$\equiv$ \<Associative and Commutative Laws>
+$(((\neg p\wedge q)\vee(q\vee(p\wedge\neg r)))$
+$\equiv$ 
