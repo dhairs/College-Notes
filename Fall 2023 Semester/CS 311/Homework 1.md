@@ -102,5 +102,12 @@ $((\neg p\wedge\neg q)\vee (p\wedge\neg r))\vee(q\vee r)$
 $\equiv$ \<Associative Laws>
 $((\neg p\wedge\neg q)\vee (p\wedge\neg r)\vee q)\vee r$
 $\equiv$ \<Associative and Commutative Laws>
-$(((\neg p\wedge q)\vee(q\vee(p\wedge\neg r)))$
-$\equiv$ 
+$(((\neg p\wedge\neg q)\vee(q\vee(p\wedge\neg r)))\vee r$
+$\equiv$  \<Associative Laws>
+$(((\neg p\wedge \neg q)\vee q)\vee(p\wedge\neg r))\vee r$
+$\equiv$ \<Associative Laws>
+$((\neg p\wedge \neg q)\vee q)\vee((p\wedge\neg r)\vee r)$
+$\equiv$ \<Distributive Laws x2>
+$((\neg p\vee \neg q)\wedge(q\vee q))\vee((p\vee r)\wedge(r\vee\neg r))$
+$\equiv$ \<Idempotent Laws & Excluded Middle>
+$((\neg p\vee q)\wedge T)\vee((p\vee r)\wedge T)$
