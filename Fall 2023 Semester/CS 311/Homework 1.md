@@ -111,3 +111,20 @@ $\equiv$ \<Distributive Laws x2>
 $((\neg p\vee \neg q)\wedge(q\vee q))\vee((p\vee r)\wedge(r\vee\neg r))$
 $\equiv$ \<Idempotent Laws & Excluded Middle>
 $((\neg p\vee q)\wedge T)\vee((p\vee r)\wedge T)$
+$\equiv$ \<Identity Laws x2>
+$(\neg p\vee q)\vee (p\vee r)$
+$\equiv$ \<Associative Laws>
+$((\neg p\vee q)\vee p)\vee r$
+$\equiv$ \<Associative Laws>
+$(\neg p\vee (q\vee p))\vee r$
+$\equiv$ \<Commutative Laws>
+$(\neg p\vee (p\vee q))\vee r$
+$\equiv$ \<Associative Laws>
+$((\neg p\vee p)\vee q)\vee r$
+$\equiv$ \<Excluded Middle>
+$(T\vee q)\vee r$
+$\equiv$ \<Domination Laws>
+$T\vee r$
+$\equiv$ \<Domination Laws>
+$T$
+$\therefore$ the proposition is a tautology.
