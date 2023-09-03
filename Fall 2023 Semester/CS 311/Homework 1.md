@@ -1,3 +1,7 @@
+---
+aliases:
+  - CS 311 HW 1
+---
 #### Problem 1
    a. $(b\wedge \neg c)\to a$
    b. $\neg c \to a$
