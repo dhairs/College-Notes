@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
-                "mode": "source",
+                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
+                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
+                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md"
+                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md"
               }
             }
           }
@@ -168,12 +168,13 @@
   },
   "active": "a11a52684feb88af",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
+    "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
+    "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
     "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
     "Fall 2023 Semester/M 408D/Sequences.md",
     "Fall 2023 Semester/M 408D/Improper Integrals.md",
     "Fall 2023 Semester/UGS 303/Drug Interactions Report.md",
-    "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
-    "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Homework 1.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
@@ -194,7 +195,6 @@
     "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
     "Fall 2023 Semester/CS 311/L02",
-    "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
     "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
     "Fall 2023 Semester/Classes.md",
     "Fall 2023 Semester/CS 311/Files",
