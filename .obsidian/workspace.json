@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a11a52684feb88af",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
-              }
-            }
-          },
-          {
             "id": "8ba2db544a63de4c",
             "type": "leaf",
             "state": {
@@ -103,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
-              }
+              "state": {}
             }
           }
         ]
@@ -164,8 +150,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a11a52684feb88af",
+  "active": "8ba2db544a63de4c",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/Courses.md",
     "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
@@ -176,7 +163,6 @@
     "Fall 2023 Semester/M 408D/Sequences.md",
     "Fall 2023 Semester/M 408D/Improper Integrals.md",
     "Fall 2023 Semester/UGS 303/Drug Interactions Report.md",
-    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Homework 1.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
@@ -194,7 +180,6 @@
     "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
     "Fall 2023 Semester/CS 311/L02",
-    "Fall 2023 Semester/ECO 304K/Foundations of Economics.md",
     "Fall 2023 Semester/CS 311/Files",
     "College-Notes",
     "Fall 2023 Semester/CS 311/L01",
