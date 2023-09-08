@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Homework 1.md",
+                "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Homework 1.md",
+            "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Homework 1.md",
+            "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Homework 1.md"
+            "file": "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md"
           }
         }
       }
@@ -131,15 +131,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37369ce84a01c8ad",
+  "active": "8b9b51be308d7e5e",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Homework 1.md",
+    "Fall 2023 Semester/UGS 303/Drug Interactions Report.md",
+    "Fall 2023 Semester/M 408D/Improper Integrals.md",
+    "Fall 2023 Semester/M 408D/Sequences.md",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
     "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
-    "Fall 2023 Semester/CS 311/Homework 1.md",
     "Fall 2023 Semester/CS 311/L02/Well-Formed Formulae.md",
     "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
     "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
