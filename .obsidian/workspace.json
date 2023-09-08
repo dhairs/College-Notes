@@ -11,11 +11,9 @@
             "id": "a11a52684feb88af",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Fall 2023 Semester/Courses.md",
-                "mode": "preview",
-                "source": false
+                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
               }
             }
           },
@@ -105,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/Courses.md",
+                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/Courses.md",
+                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/Courses.md"
+                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
               }
             }
           }
@@ -168,6 +166,7 @@
   },
   "active": "a11a52684feb88af",
   "lastOpenFiles": [
+    "Fall 2023 Semester/Courses.md",
     "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
     "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
@@ -188,7 +187,6 @@
     "Fall 2023 Semester/CS 311/L02/Well-Formed Formulae.md",
     "Fall 2023 Semester/ECO 304K/Test.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
-    "Fall 2023 Semester/Courses.md",
     "Fall 2023 Semester/M 408D/Trig Substitution.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
     "Fall 2023 Semester/M 408D/M 408D Links.md",
