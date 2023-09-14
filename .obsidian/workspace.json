@@ -8,22 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d89f7a45dd44462",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
-              }
-            }
-          },
-          {
             "id": "e17972f47391d174",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Trivial Proof.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "def",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md"
               }
             }
           }
@@ -156,14 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d89f7a45dd44462",
+  "active": "e17972f47391d174",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/Definitions/Trivial Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
+    "Fall 2023 Semester/CS 311/Definitions/Direct Proof by Contraposition.md",
     "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
-    "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
+    "Fall 2023 Semester/CS 311/Definitions/Untitled.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
     "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
     "Fall 2023 Semester/CS 311/Definitions/Vacuous Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Trivial Proof.md",
+    "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/Definitions",
     "Fall 2023 Semester/CS 311/Untitled.md",
@@ -182,10 +177,6 @@
     "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
     "Fall 2023 Semester/UGS 303/Drug Interactions Report.md",
     "Fall 2023 Semester/CS 311/Homework 1.md",
-    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
-    "Fall 2023 Semester/CS 311/What is Discrete Math?.md",
-    "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
-    "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/L02",
     "Fall 2023 Semester/CS 311/Files",
     "College-Notes",
