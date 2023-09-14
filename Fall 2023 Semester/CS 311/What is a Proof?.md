@@ -1,4 +1,4 @@
-A proof is an argument that applies one or more 
+A [[Proofs|proof]] is an argument that applies one or more 
 - sound reasoning methods to a collection of
 	- facts, definitions, premises to produce a conclusion that must be true whenever the premises are true
 
