@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
+                "file": "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
+            "file": "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
+            "file": "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md"
+            "file": "Fall 2023 Semester/CS 311/L02/Rules of Inference.md"
           }
         }
       }
@@ -133,6 +133,7 @@
   },
   "active": "37369ce84a01c8ad",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
     "Fall 2023 Semester/CS 311/Definitions/Vacuous Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
@@ -142,7 +143,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Trivial Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Direct Proof by Contraposition.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
-    "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
     "Fall 2023 Semester/CS 311/Definitions",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/L02/Well-Formed Formulae.md",
