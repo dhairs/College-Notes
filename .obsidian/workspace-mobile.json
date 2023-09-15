@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
+            "file": "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
+            "file": "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L02/Rules of Inference.md"
+            "file": "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md"
           }
         }
       }
@@ -131,10 +131,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b9b51be308d7e5e",
+  "active": "37369ce84a01c8ad",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+    "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
+    "Fall 2023 Semester/CS 311/Definitions/Vacuous Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
     "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
+    "Fall 2023 Semester/CS 311/Notes.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
+    "Fall 2023 Semester/CS 311/Definitions/Trivial Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Direct Proof by Contraposition.md",
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions",
+    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/L02/Well-Formed Formulae.md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
     "Fall 2023 Semester/CS 311/Homework 1.md",
@@ -151,18 +161,9 @@
     "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
-    "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
-    "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
-    "Fall 2023 Semester/M 408D/Product, Quotient, & Chain Rule Review.md",
-    "Trig Substitution.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/L02",
-    "Fall 2023 Semester/Courses.md",
-    "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
-    "Fall 2023 Semester/CS 311/L01/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/Files/HandoutBasicEquivalences.pdf",
-    "Fall 2023 Semester/CS 311/Files",
-    "iPad test.md",
-    "Testing on iPad.md"
+    "Fall 2023 Semester/CS 311/Files"
   ]
 }
