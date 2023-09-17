@@ -23,9 +23,11 @@
             "id": "db088d20ea2892ef",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.13"
+                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Notes.md",
+                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Notes.md",
+                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Notes.md"
+                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md"
               }
             }
           },
@@ -169,8 +171,20 @@
   },
   "active": "db088d20ea2892ef",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Equations to Implement.md",
+    "Math/Linear Algebra and Matrices/Rotation Matrices.md",
+    "Math/Linear Algebra and Matrices",
+    "Math/Untitled.md",
+    "Math",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Dead Reckoning.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Fall 2023 Semester/CS 311/Notes.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation",
+    "Clubs/Longhorn Racing Electric/Untitled.md",
+    "Clubs/Longhorn Racing Electric",
+    "Clubs/Untitled.md",
+    "Clubs",
+    "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Vacuous Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
@@ -190,21 +204,9 @@
     "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
     "Fall 2023 Semester/M 408D/Improper Integrals.md",
     "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
-    "Fall 2023 Semester/M 408D/Trig Substitution.md",
-    "Fall 2023 Semester/M 408D/Sequences.md",
-    "Fall 2023 Semester/M 408D/Product, Quotient, & Chain Rule Review.md",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
-    "Fall 2023 Semester/Courses.md",
-    "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
-    "Fall 2023 Semester/UGS 303/Drug Interactions Report.md",
-    "Fall 2023 Semester/CS 311/Homework 1.md",
     "Fall 2023 Semester/CS 311/L02",
     "Fall 2023 Semester/CS 311/Files",
-    "College-Notes",
-    "Fall 2023 Semester/CS 311/L01",
-    "Fall 2023 Semester/M 408D",
-    "Fall 2023 Semester/CS 311",
-    "Fall 2023 Semester/ECO 304K",
     "Untitled.canvas"
   ]
 }
