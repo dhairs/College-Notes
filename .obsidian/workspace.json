@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "db088d20ea2892ef",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,6 +139,16 @@
                 "file": "Fall 2023 Semester/CS 311/Notes.md"
               }
             }
+          },
+          {
+            "id": "35331abbc3a88a27",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -146,7 +167,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e17972f47391d174",
+  "active": "db088d20ea2892ef",
   "lastOpenFiles": [
     "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
     "Fall 2023 Semester/CS 311/Notes.md",
