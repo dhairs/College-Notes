@@ -17,13 +17,15 @@ $$\begin{align}
 2=\frac{a^2}{b^2}\\
 \therefore <algebra> \\
 2b^2=a^2
-\end{align}
-$$
+\end{align}$$
+
 Since $b$ is an integer, $a^2$ is an even integer.
+
 $\therefore$ Using result, $a$ is even.
+
 $\therefore$ there exists an integer $k$ such that $a=2k$
-$$
-\begin{align}
+
+$$\begin{align}
 a=2k\\
 \therefore\;2b^2=(2k)^2\\
 \therefore <algebra>\\
