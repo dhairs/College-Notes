@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md",
+                "file": "Fall 2023 Semester/CS 311/Homework 1.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md",
+            "file": "Fall 2023 Semester/CS 311/Homework 1.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md",
+            "file": "Fall 2023 Semester/CS 311/Homework 1.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md"
+            "file": "Fall 2023 Semester/CS 311/Homework 1.md"
           }
         }
       }
@@ -131,12 +131,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37369ce84a01c8ad",
+  "active": "8b9b51be308d7e5e",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
     "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
-    "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
     "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
     "Clubs/Longhorn Racing Electric",
