@@ -11,8 +11,7 @@ Assume $\sqrt2$ is rational.
 $\therefore$ There exists integers $a,b$ ($b\neq0$) such that $\sqrt2 = \frac{a}{b}$ and $a$ and $b$ have no common factors.
 
 Now, 
-$$
-\begin{align}
+$$\begin{align}
 \sqrt2=\frac{a}{b}\\
 \therefore <\mathrm{sq. both\; sides}>\\
 2=\frac{a^2}{b^2}\\
@@ -31,5 +30,4 @@ a=2k\\
 2b^2=4k^2\\
 \therefore <algebra>\\
 b^2=2k^2
-\end{align}
-$$
+\end{align}$$
