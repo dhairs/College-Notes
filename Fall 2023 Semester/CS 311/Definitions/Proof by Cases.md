@@ -1,3 +1,4 @@
+### Definition
 $(p_1\vee p_2\vee\ldots\vee p_n)\to q\equiv(p_1\to q)\wedge(p_2\to q)\wedge\ldots(p_n\to q)$
 
 
