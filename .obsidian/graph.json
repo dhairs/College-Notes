@@ -1,12 +1,20 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "path:\"Fall 2023 Semester/CS 311\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [],
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"Fall 2023 Semester/CS 311\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.2313280651406147,
-  "close": false
+  "scale": 1.2909747810806507,
+  "close": true
 }
