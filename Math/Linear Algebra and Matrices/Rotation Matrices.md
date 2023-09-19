@@ -1,4 +1,5 @@
 A rotation matrix follows the convention
+
 $$\begin{flalign}
 \begin{bmatrix}  
 \cos(x) & \pm\sin(x) \\  
