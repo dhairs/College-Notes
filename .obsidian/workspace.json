@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
+                "file": "Fall 2023 Semester/CS 311/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
+                "file": "Fall 2023 Semester/CS 311/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
+                "file": "Fall 2023 Semester/CS 311/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/M 408D/Integration by Parts Review.md"
+                "file": "Fall 2023 Semester/CS 311/Notes.md"
               }
             }
           },
@@ -156,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,7 +170,11 @@
   },
   "active": "db088d20ea2892ef",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
     "Fall 2023 Semester/CS 311/Notes.md",
+    "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
+    "Fall 2023 Semester/CS 311/Definitions/Trivial Proof.md",
     "Fall 2023 Semester/M 408D/Integration by Parts Review.md",
     "Math/Linear Algebra and Matrices/Rotation Matrices.md",
     "Untitled.canvas",
@@ -191,13 +194,9 @@
     "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Vacuous Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/Definitions/Direct Proof by Contraposition.md",
     "Fall 2023 Semester/CS 311/Definitions/Untitled.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
-    "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
-    "Fall 2023 Semester/CS 311/Definitions/Trivial Proof.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/Definitions",

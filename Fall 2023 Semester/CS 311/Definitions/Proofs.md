@@ -12,7 +12,7 @@ In Math and CS, we mostly use **informal proofs**.
 * We must *begin* with the truth
 * We must start with premises that are true.
 * To prove a mathematical statement, we will need the following tools
-	* definitions 
+	* [[Definitions]] 
 	* [[Theorems |Theorem]] - A statement that can be shown to be true
 	* axioms - Statements we assume to be true
 	* lemma - A helping theorem or result which is needed to prove a theorem
