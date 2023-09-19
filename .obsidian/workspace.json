@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "db088d20ea2892ef",
+            "id": "4a0b0bfa0d475329",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -168,9 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db088d20ea2892ef",
+  "active": "4a0b0bfa0d475329",
   "lastOpenFiles": [
     "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
+    "Fall 2023 Semester/CS 311/Notes.md",
     "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
     "Fall 2023 Semester/CS 311/Definitions/Trivial Proof.md",
@@ -180,7 +181,6 @@
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
     "Fall 2023 Semester/CS 311/L02/Well-Formed Formulae.md",
-    "Fall 2023 Semester/CS 311/Notes.md",
     "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
     "Fall 2023 Semester/CS 311/Definitions/Direct Proof by Contraposition.md",
     "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
