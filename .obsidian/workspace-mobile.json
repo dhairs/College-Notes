@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
+                "file": "Fall 2023 Semester/CS 311/Homework 1.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
+            "file": "Fall 2023 Semester/CS 311/Homework 1.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
+            "file": "Fall 2023 Semester/CS 311/Homework 1.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Math/Linear Algebra and Matrices/Matrix Multiplication.md"
+            "file": "Fall 2023 Semester/CS 311/Homework 1.md"
           }
         }
       }
@@ -131,12 +131,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37369ce84a01c8ad",
+  "active": "8b9b51be308d7e5e",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md",
+    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
+    "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
     "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
     "Clubs/Longhorn Racing Electric",
     "Clubs",
-    "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
     "Math/Linear Algebra and Matrices/Rotation Matrices.md",
     "Math/Linear Algebra and Matrices",
     "Math",
@@ -145,14 +149,12 @@
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation",
-    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
     "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
     "Fall 2023 Semester/CS 311/Definitions/Vacuous Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
     "Fall 2023 Semester/CS 311/Notes.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
     "Fall 2023 Semester/CS 311/Definitions/Trivial Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Direct Proof by Contraposition.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
@@ -163,7 +165,6 @@
     "Fall 2023 Semester/M 408D/Improper Integrals.md",
     "Fall 2023 Semester/M 408D/Sequences.md",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
-    "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/L02",
