@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
+                "file": "Fall 2023 Semester/Courses.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
+                "file": "Fall 2023 Semester/Courses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
+                "file": "Fall 2023 Semester/Courses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md"
+                "file": "Fall 2023 Semester/Courses.md"
               }
             }
           },
@@ -157,9 +157,10 @@
   },
   "active": "4a0b0bfa0d475329",
   "lastOpenFiles": [
+    "Fall 2023 Semester/Course Links.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
     "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
     "Fall 2023 Semester/CS 311/Definitions/Direct Proof by Contraposition.md",
     "Fall 2023 Semester/CS 311/Notes.md",
     "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
@@ -187,7 +188,6 @@
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation",
     "Clubs/Longhorn Racing Electric/Untitled.md",
     "Clubs/Longhorn Racing Electric",
-    "Clubs/Untitled.md",
     "Clubs",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Definitions",
