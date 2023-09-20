@@ -8,25 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e17972f47391d174",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4a0b0bfa0d475329",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md"
               }
             }
           },
@@ -167,22 +155,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e17972f47391d174",
+  "active": "4a0b0bfa0d475329",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
     "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
+    "Fall 2023 Semester/CS 311/Definitions/Direct Proof by Contraposition.md",
     "Fall 2023 Semester/CS 311/Notes.md",
     "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
     "Fall 2023 Semester/CS 311/Definitions/Trivial Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Vacuous Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
     "Fall 2023 Semester/CS 311/L02/Well-Formed Formulae.md",
     "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
-    "Fall 2023 Semester/CS 311/Definitions/Direct Proof by Contraposition.md",
     "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Math/Linear Algebra and Matrices/Rotation Matrices.md",
