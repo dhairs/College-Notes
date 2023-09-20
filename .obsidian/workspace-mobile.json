@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Homework 1.md",
+                "file": "Fall 2023 Semester/CS 314/CS 314 links.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Homework 1.md",
+            "file": "Fall 2023 Semester/CS 314/CS 314 links.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Homework 1.md",
+            "file": "Fall 2023 Semester/CS 314/CS 314 links.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Homework 1.md"
+            "file": "Fall 2023 Semester/CS 314/CS 314 links.md"
           }
         }
       }
@@ -133,6 +133,7 @@
   },
   "active": "8b9b51be308d7e5e",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Homework 1.md",
     "Fall 2023 Semester/CS 311/Definitions/Exhaustive Proof.md",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
@@ -160,7 +161,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Fall 2023 Semester/CS 311/Definitions",
     "Fall 2023 Semester/CS 311/L02/Well-Formed Formulae.md",
-    "Fall 2023 Semester/CS 311/Homework 1.md",
     "Fall 2023 Semester/UGS 303/Drug Interactions Report.md",
     "Fall 2023 Semester/M 408D/Improper Integrals.md",
     "Fall 2023 Semester/M 408D/Sequences.md",
