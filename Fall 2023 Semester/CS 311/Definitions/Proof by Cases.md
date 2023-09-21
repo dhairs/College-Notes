@@ -2,7 +2,7 @@
 $(p_1\vee p_2\vee\ldots\vee p_n)\to q\equiv(p_1\to q)\wedge(p_2\to q)\wedge\ldots(p_n\to q)$
 
 
-the original conditionalk statement wtih a hypotehsis made up of a disjunction of propositions $p_1, p_2,\ldots,p_n$ can be proved by proving each of the $n$ conditional statements $p_i\to q$ individually.
+the original conditional statement wtih a hypothesis made up of a disjunction of propositions $p_1, p_2,\ldots,p_n$ can be proved by proving each of the $n$ conditional statements $p_i\to q$ individually.
 
 To prove $p\to q$, we can find $$p_1\vee p_2\vee\ldots\vee p_n\equiv p$$ and then individually prove every case.
 
@@ -71,7 +71,7 @@ $\therefore$ for $x≤0, y≤0$, we have $|xy|=|x||y|$
 $\therefore$ for all real numbers, $x$, $y$: $|xy|=|x||y|$
 
 
-## Without loss of generality
+## Without loss of generality (WLOG)
 - in the last example, we dismissed case 3 because it was the same as case 2 with reversed roles
 - to shorten the proofs, we could have proved cases 2 and 3 together because both are completely arbitrary, and whichever one is positive and whichever one is even does not matter
 

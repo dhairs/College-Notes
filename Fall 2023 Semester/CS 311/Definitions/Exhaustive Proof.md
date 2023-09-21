@@ -7,5 +7,5 @@ This is a type of [[Proof by Cases]]
 - Better for computers, but even those have limits
 ### Example: Prove that $(n+1)^3≥3^n$ if $n$ is a positive integer such that $n≤4$
 
-###
+### not completed in class yet 
 

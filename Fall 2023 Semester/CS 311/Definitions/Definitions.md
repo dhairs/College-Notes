@@ -8,4 +8,4 @@ $Def^n$: A real number $r$ is rational if there exists integers $p$ and $q$, whe
 
 ^48abf7
 
-$Def^n$: $|a$ is the absolute value of $a$ and it equals $a$, when $a≥0$, and equals $-a$ when $a≤0$.
+$Def^n$: $|a|$ is the absolute value of $a$ and it equals $a$ when $a≥0$, and equals $-a$ when $a≤0$.
