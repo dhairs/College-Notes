@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "path:\"Fall 2023 Semester/CS 311\"  ",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -25,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.2528793641083007,
+  "scale": 0.7904018896762613,
   "close": true
 }

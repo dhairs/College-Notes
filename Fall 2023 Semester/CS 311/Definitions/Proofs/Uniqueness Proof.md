@@ -10,4 +10,10 @@ Recall what uniqueness looks like in terms of quantifiers:
 ### Example: Show that if $a$ and $b$ are real numbers $a\neq0$ then there is a unique real number $r$ such that $ar+b=0$
 
 #### Proof:
-Let's no
+Let's note that the real number $r=\frac{-b}{a}$ is a solution of $ar+b=0$, since $a(\frac{-b}{a})+b=0$
+
+So a real number exists for $ar+b=0$ where $a$ and $b$ are arbitrary real numbers
+
+Second, let's suppose that $s$ is a real number such that $as+b=0$, then its $ar+b=as+b$, where $r=\frac{-b}{a}$
+
+Subtracting $b$ from both sides, and dividing by $a$, since $a\neq0$, we see that $r=s$.

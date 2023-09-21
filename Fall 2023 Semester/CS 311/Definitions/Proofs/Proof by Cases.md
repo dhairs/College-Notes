@@ -10,8 +10,8 @@ To prove $p\to q$, we can find $$p_1\vee p_2\vee\ldots\vee p_n\equiv p$$ and the
 - Drawing incorrect conclusions from examples
 - No matter how many cases we cover in our own proof, we cannot prove the [[Theorems |theorem]] to be true *unless* we prove **every case**
 
-Ex: if $x$ is a real number, then $x^2$ is a positive real number.
-Proof: Let us consider two cases:
+#### Example: if $x$ is a real number, then $x^2$ is a positive real number.
+##### Proof: Let us consider two cases:
 1. $x$ is positive, since a positive number times a positive number is positive, $x^2$ must be positive.
 2. $x$ is negative, since a negative number times a negative number is positive, $x^2$ must be positive
 This "completes" the proof (no it doesn't. the proof is wrong)
