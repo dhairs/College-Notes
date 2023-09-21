@@ -6,6 +6,18 @@ the original conditional statement wtih a hypothesis made up of a disjunction of
 
 To prove $p\to q$, we can find $$p_1\vee p_2\vee\ldots\vee p_n\equiv p$$ and then individually prove every case.
 
+### Common Errors 
+- Drawing incorrect conclusions from examples
+- No matter how many cases we cover in our own proof, we cannot prove the [[Theorems |theorem]] to be true *unless* we prove **every case**
+
+Ex: if $x$ is a real number, then $x^2$ is a positive real number.
+Proof: Let us consider two cases:
+1. $x$ is positive, since a positive number times a positive number is positive, $x^2$ must be positive.
+2. $x$ is negative, since a negative number times a negative number is positive, $x^2$ must be positive
+This "completes" the proof (no it doesn't. the proof is wrong)
+
+**Why?** 
+$Sol^n$: we missed the case where $x=0$
 ### Example: Use proof by cases to prove that $|xy|=|x||y|$, where $x$ and $y$ are real numbers.
 
 First, we need the definition of absolute value.
