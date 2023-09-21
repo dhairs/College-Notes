@@ -36,7 +36,8 @@ $$
 Since $k$ is an integer, $r=2k^2+2k$ is also an integer. $\therefore$ n^2 can be written as $2r+1 \therefore$ by the definition of odd integers, $n^2$ is odd.
 ### Example 2: Give a direct proof of the theorem "The sum of two real rational numbers is rational"
 
-$Def^n$: A real number $r$ is rational if there exists integers $p$ and $q$, where $q\neq0$, $r=\frac{p}{q}$
+Remember the definition of a rational number: 
+![[Definitions#Rational Number]]
 
 #### Proof:
 Arbitrarily pick 2 rational numbers.
