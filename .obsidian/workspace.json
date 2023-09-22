@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Notes.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Notes.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Notes.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Notes.md"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Definitions.md"
               }
             }
           },
@@ -158,6 +158,7 @@
   },
   "active": "4a0b0bfa0d475329",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Notes.md",
     "Fall 2023 Semester/CS 314/CS 314 links.md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
@@ -173,7 +174,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof.md",
-    "Fall 2023 Semester/CS 311/Notes.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof by Contraposition.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
