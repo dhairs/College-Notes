@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Definitions.md"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs.md"
               }
             }
           },
@@ -158,6 +158,7 @@
   },
   "active": "4a0b0bfa0d475329",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Fall 2023 Semester/CS 311/Notes.md",
     "Fall 2023 Semester/CS 314/CS 314 links.md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
@@ -167,7 +168,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
     "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Cases.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Exhaustive Proof.md",

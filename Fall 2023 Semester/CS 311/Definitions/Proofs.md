@@ -19,3 +19,10 @@ In Math and CS, we mostly use **informal proofs**.
 	* proof - A valid argument that establishes the truth of a theorem
 	* corollary - A theorem that can be established directly from a theorem
 	* conjecture - A statement that is proposed to be true, usually on the basis of some partial evidence or intuition of an expert. When proof is found, the conjecture becomes a theorem.
+
+## Types of Proofs
+- [[Exhaustive Proof]]
+- [[Direct Proof]]
+- [[Direct Proof by Contraposition]]
+- [[Proof by Contradiction]]
+- 
