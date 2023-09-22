@@ -1,4 +1,5 @@
 ![[Basic Equivalences#Law of Excluded Middle]]
+## Definition
 
 For any statement $p$, either it is true or false. There is nothing in the middle.
 
@@ -8,7 +9,7 @@ Suppose from that I derive $F$ or any contradiction.
 
 Basically, proof by contradiction relies on you making an assumption (a negation of part of the statement) and then proving that the statement is false when that assumption is made, then you can say that the original is true.
 
-### Example: Prove that $\sqrt{2}$ is irrational.
+## Example: Prove that $\sqrt{2}$ is irrational.
 Assume $\sqrt2$ is rational.
 $\therefore$ There exists integers $a,b$ ($b\neq0$) such that $\sqrt2 = \frac{a}{b}$ and $a$ and $b$ have no common factors.
 
@@ -43,14 +44,14 @@ Since $a$ and $b$ are even, and $b$ and $a$ have a common factor of 2.
 
 This contradicts the fact that the $a$ and $b$ are co-prime and have no common factors. Therefore, the opposite must be true, and $\sqrt{2}$ is irrational.
 
-### Example 2: Prove a claim of the form $p\to q$ using proof by contradiction
+## Example 2: Prove a claim of the form $p\to q$ using proof by contradiction
 
 We assume the negation $\neg(p\to q)$ and derive a contradiction.
 
 Assume that both $p\wedge\neg q$. Derive a contradiction. We can resolve the contradiction by giving up p, but p is our premises, we will stick with $p$. Therefore, $q$ must be true. Therefore, $p\to q$.
 
 
-### Example 3: Prove "for any integer $n$, if $3n+2$ is odd, then $n$ is odd"
+## Example 3: Prove "for any integer $n$, if $3n+2$ is odd, then $n$ is odd"
 
 For the negation, we assume that $n$ is even and $3n+2$ is odd.
 

@@ -1,7 +1,8 @@
+## Definition
 $p\to q\equiv\neg q\to\neg p$
-If we can prove that the negation 
+If we can prove that the negation  ^4086d9
 
-### Example: Prove that for any integer $n$ if $3n+2$ is odd, then $n$ is odd.
+## Example: Prove that for any integer $n$ if $3n+2$ is odd, then $n$ is odd.
 
 This theorem is of the form $p\to q$. What is $p$ and $q$?
 
