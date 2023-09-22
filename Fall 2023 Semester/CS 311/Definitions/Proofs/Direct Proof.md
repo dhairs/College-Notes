@@ -54,6 +54,6 @@ r+s \\
 \frac{pu+tq}{qu}
 \end{split}
 $$
-Let $u$ = $pu+tq$ and $q=qu$.
+Let $u$ = $pu+tq$ and $w=qu$.
 Since $p,q,t,u$ are integers & $q\neq 0$ and $u\neq 0$, $u$ and $w$ are integers and $w\neq0$.
 $\therefore$ by definition of rational numbers, $r+s$ is rational.

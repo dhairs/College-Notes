@@ -25,4 +25,8 @@ In Math and CS, we mostly use **informal proofs**.
 - [[Direct Proof]]
 - [[Direct Proof by Contraposition]]
 - [[Proof by Contradiction]]
-- 
+- [[Uniqueness Proof]]
+- [[Vacuous Proof]]
+- [[Proof by Cases]]
+- [[Trivial Proof]]
+- [[Existence Proof]]

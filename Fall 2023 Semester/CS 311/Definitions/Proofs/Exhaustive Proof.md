@@ -6,6 +6,7 @@ This is a type of [[Proof by Cases]]
 - We call this exhaustive proofs
 - Better for computers, but even those have limits
 
+## Common Errors
 ![[Proof by Cases#Common Errors]]
 #### Example: It is true that every non-negative integer is the sum of 18 fourth power integers.
 
@@ -20,7 +21,7 @@ One might conclude it is possible based on this example, but 79 cannot be writte
 ### Example: Prove that $(n+1)^3≥3^n$ if $n$ is a positive integer such that $n≤4$
 
 #### Proof:
-$n$ is a positive integer where $n≥4$. Therefore, $n=1,2,3\;\text{or}\;4$
+$n$ is a positive integer where $n≤4$. Therefore, $n=1,2,3\;\text{or}\;4$
 
 For $n=1$
 $$\begin{align}
