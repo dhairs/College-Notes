@@ -1,6 +1,7 @@
 ## Definition
+
 $p\to q\equiv\neg q\to\neg p$
-If we can prove that the negation  ^4086d9
+If we can prove that the negation ^4086d9
 
 ## Example: Prove that for any integer $n$ if $3n+2$ is odd, then $n$ is odd.
 
@@ -17,6 +18,7 @@ $\neg p$: $3n+2$ is even.
 Proof:
 Assume $n$ is even. Therefore, $n=2k$, where $k$ is an integer.
 Now,
+
 $$
 \begin{align}
 3n+2 \\
@@ -30,4 +32,5 @@ $$
 2j
 \end{align}
 $$
+
 Since $j$ is an integer, $3n+2$ is even. Therefore, $\neg q\to\neg p$. Therefore $p\to q$.

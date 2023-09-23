@@ -1,12 +1,14 @@
-Note to start: $\sqrt{x^2}=x$  only *sometimes*
+Note to start: $\sqrt{x^2}=x$ only _sometimes_
 
-**In this class, $\infty$ is a symbol saying "Some unbounded process is going on."
+\*\*In this class, $\infty$ is a symbol saying "Some unbounded process is going on."
 
 So, $\infty$ is not a number, and therefore writing $\frac{1}{\infty}$ is not allowed.
+
 #### Limit theorem shown in class
+
 For functions f(x) and g(x)
 
-if $\lim_{x\to a}{f(x)=k}$, a real number, 
+if $\lim_{x\to a}{f(x)=k}$, a real number,
 and if $\lim_{x\to a}{g(x)=\pm\infty}$,
 
 Then, the limit $\lim_{x\to a}{\frac{f(x)}{g(x)}}=0$

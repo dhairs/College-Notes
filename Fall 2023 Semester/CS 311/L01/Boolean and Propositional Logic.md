@@ -1,4 +1,4 @@
-**Truth values** (only two): *true* and *false*
+**Truth values** (only two): _true_ and _false_
 
 **Variables to represent propositions**: p, q, etc. ^20fbeb
 

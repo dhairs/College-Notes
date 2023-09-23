@@ -3,5 +3,7 @@
 ^5787ca
 
 $$p\vee\neg p\equiv T$$
-## PDF of all Equivalences 
+
+## PDF of all Equivalences
+
 ![[BasicEquivalences.pdf]] ^786766

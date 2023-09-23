@@ -1,6 +1,6 @@
-We can use the [[Basic Equivalences|basic equivalences]] to develop proofs as an alternative to using truth tables. 
+We can use the [[Basic Equivalences|basic equivalences]] to develop proofs as an alternative to using truth tables.
 
-*Note:* Always place your performed equivalence on a new line, with the name of the equivalence in sideways carrots (<>)
+_Note:_ Always place your performed equivalence on a new line, with the name of the equivalence in sideways carrots (<>)
 
 **Example:**
 Starting with $(p\wedge q)\implies p$
@@ -34,7 +34,3 @@ $\equiv$ \<Domination>
 $T$
 
 [[Discrete Math Terminology#^502eb0|Tautology]]
-
-
-
-

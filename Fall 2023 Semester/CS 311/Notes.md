@@ -1,4 +1,3 @@
-
 ![[Proofs]]
 ![[Theorems]]
 ![[Definitions]]

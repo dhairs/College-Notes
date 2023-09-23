@@ -1,11 +1,12 @@
 **Definitions**:
 Even
 ![[Definitions#^ef410c]]
-Odd 
+Odd
 ![[Definitions#^dec16c]]
-Rational 
+Rational
 ![[Definitions#^13fe65]]
 Absolute Value ![[Definitions#^4fb273]]
+
 - Proof By Cases![[Proof By Cases#Definition|Exhaustive Proof]]
 - Direct Proof![[Direct Proof#Definition]]
 - Direct Proof by Contradiction![[Direct Proof by Contraposition#^4086d9]]
