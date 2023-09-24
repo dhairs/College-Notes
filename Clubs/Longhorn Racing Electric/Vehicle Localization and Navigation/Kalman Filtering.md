@@ -2,11 +2,9 @@
 Kalman filtering is a recursive state filter. It's used for removing erroneous values and honing in on accurate state positions for quickly updating systems.
 
 # How it works
-
 **There are 7 steps associated with running a Kalman filter**
 
 ### Example Values
-
 Say we're given:
 
 $$
@@ -14,11 +12,9 @@ v_{0x} = 280m/s, x_0=4000m
 $$
 
 ## Step 0. Initial State
-
 Here, we initialize our Kalman filter with initial state values. If we have a position matrix and a covariance matrix, we use it.
 
 ## Step 1. Predicted State
-
 Described by the equation: 
 
 $$X_{k_p} = AX_{k-1}+Bu_k+w_k$$
@@ -73,5 +69,24 @@ $$P_{k-1}=\begin{bmatrix}
 ## Step 3. Predicted Process Covariance Matrix
 The equation is given by 
 
-$$P_{k_p}=AP_{k-1}A^T+Q_R$$
+$$\begin{align}
+P_{k_p}=AP_{k-1}A^T+Q_R \\
+= \begin{bmatrix} 1 & \Delta{t} \\ 0 & 1 \end{bmatrix} \begin{bmatrix}
+\Delta{x}^2 & \Delta{x}\Delta{v}\\
+\Delta{x}\Delta{v}  &\Delta{v_x}^2 
+\end{bmatrix} \begin{bmatrix} 1 & 0 \\ \Delta{t} & 1 \end{bmatrix}
++ 0
+\end{align}$$
+So we are now given the Process Covariance Matrix as:
 
+$$
+P_{k_p}=\begin{bmatrix} 1 & \Delta{t} \\ 0 & 1 \end{bmatrix} \begin{bmatrix}
+\Delta{x}^2 & \Delta{x}\Delta{v}\\
+\Delta{x}\Delta{v}  &\Delta{v_x}^2 
+\end{bmatrix} \begin{bmatrix} 1 & 0 \\ \Delta{t} & 1 \end{bmatrix}
+$$
+
+## Step 4: Calculating the Kalman Gain
+The equation is given as:
+
+$$K = \frac{P_{k_p}H^T}{HP_{k_p}H^T+R}$$
