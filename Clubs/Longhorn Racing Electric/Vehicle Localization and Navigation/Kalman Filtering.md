@@ -90,3 +90,8 @@ $$
 The equation is given as:
 
 $$K = \frac{P_{k_p}H^T}{HP_{k_p}H^T+R}$$
+Where $H$ is a $2\times2$ identity matrix denoted as $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
+
+So, in this case, the Kalman gain ends up being 
+
+$$K = \frac{P_{k_p}}{P_{k_p}+R}$$
