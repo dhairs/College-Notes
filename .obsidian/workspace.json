@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md",
-                "mode": "preview",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "2b60910d5d3f47a6",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md"
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md"
               }
             }
           },
@@ -158,6 +159,7 @@
   },
   "active": "3ca7b4c2f01a293e",
   "lastOpenFiles": [
+    "Math/Linear Algebra and Matrices/Rotation Matrices.md",
     "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
     "Fall 2023 Semester/CS 311/Note Sheet Quiz 4 (Proofs).md",
     "Fall 2023 Semester/CS 311/Notes.md",
@@ -184,7 +186,6 @@
     "Fall 2023 Semester/Course Links.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
-    "Fall 2023 Semester/CS 311/L02/Well-Formed Formulae.md",
     "Untitled.canvas",
     "Math/Linear Algebra and Matrices",
     "Math",
