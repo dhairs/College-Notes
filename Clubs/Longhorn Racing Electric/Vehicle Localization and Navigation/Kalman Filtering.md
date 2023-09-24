@@ -14,7 +14,7 @@ $$
 ## Step 0. Initial State
 Here, we initialize our Kalman filter with initial state values. If we have a position matrix and a covariance matrix, we use it.
 
-## Step 1. Predicted State
+## Step 1: Predicted State
 Described by the equation: 
 
 $$X_{k_p} = AX_{k-1}+Bu_k+w_k$$
@@ -58,7 +58,7 @@ $$
 
 In our system on the car, we can use an average between both IMU's every frame for the acceleration. $\Delta{t}$ will be provided to the method.
 
-## Step 2. Initial Process Covariance Matrix
+## Step 2: Initial Process Covariance Matrix
 We use our process errors to develop this matrix. We will **only do this once.** This matrix is created from what we determine to be the error.
 
 $$P_{k-1}=\begin{bmatrix}
@@ -66,7 +66,7 @@ $$P_{k-1}=\begin{bmatrix}
 \Delta{x}\Delta{v}  &\Delta{v_x}^2 
 \end{bmatrix}$$
 
-## Step 3. Predicted Process Covariance Matrix
+## Step 3: Predicted Process Covariance Matrix
 The equation is given by 
 
 $$\begin{align}
@@ -95,3 +95,19 @@ Where $H$ is a $2\times2$ identity matrix denoted as $\begin{bmatrix} 1 & 0 \\ 0
 So, in this case, the Kalman gain ends up being 
 
 $$K = \frac{P_{k_p}}{P_{k_p}+R}$$
+#### CHECK $R$ MEANING
+
+## Step 5: New Observation
+Denoted as
+
+$$\begin{align}
+Y_k=CY_{k_m}+Z_k \\
+Y_k = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}Y + 0 \\
+Y_k = Y
+\end{align}$$
+
+## Step 6: Calculating the Current State
+Denoted as 
+
+$$X_k=X_{k_p}+K\,[Y_k-HX_{k_p}]$$
+
