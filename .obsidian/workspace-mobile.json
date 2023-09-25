@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4465af5b56b6a53c",
+        "id": "907951e0329ebc2b",
         "type": "tabs",
         "children": [
           {
-            "id": "8b9b51be308d7e5e",
+            "id": "eec65a9c21591606",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md"
+          }
         }
       }
     ],
@@ -123,8 +131,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37369ce84a01c8ad",
+  "active": "eec65a9c21591606",
   "lastOpenFiles": [
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/To Learn.md",
+    "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
+    "Fall 2023 Semester/CS 311/Note Sheet Quiz 4 (Proofs).md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof by Contraposition.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Exhaustive Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Cases.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/Notes.md",
     "Math/Linear Algebra and Matrices/Rotation Matrices.md",
@@ -139,27 +160,14 @@
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/Definitions/Proof by Contradiction.md",
     "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proof by Cases.md",
-    "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
     "Clubs/Longhorn Racing Electric",
     "Clubs",
     "Math/Linear Algebra and Matrices",
     "Math",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Dead Reckoning.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Equations to Implement.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation",
-    "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
-    "Fall 2023 Semester/CS 311/Definitions/Direct Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
-    "Fall 2023 Semester/CS 311/Definitions/Vacuous Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
-    "Fall 2023 Semester/CS 311/Definitions/Trivial Proof.md",
     "Fall 2023 Semester/CS 311/Definitions",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
-    "Fall 2023 Semester/CS 311/L02",
-    "Fall 2023 Semester/CS 311/Files/HandoutBasicEquivalences.pdf"
+    "Fall 2023 Semester/CS 311/L02"
   ]
 }
