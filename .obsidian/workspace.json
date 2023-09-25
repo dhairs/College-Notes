@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/To Learn.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "2b60910d5d3f47a6",
@@ -95,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/To Learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/To Learn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/To Learn.md"
+              }
             }
           },
           {
@@ -162,9 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7da72fc9bacc00a9",
+  "active": "a00261edb98865bf",
   "lastOpenFiles": [
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/To Learn.md",
     "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
     "Math/Linear Algebra and Matrices/Rotation Matrices.md",
     "Fall 2023 Semester/CS 311/Note Sheet Quiz 4 (Proofs).md",
@@ -190,7 +193,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
     "Fall 2023 Semester/Courses.md",
     "Fall 2023 Semester/Course Links.md",
-    "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
     "Untitled.canvas",
     "Math/Linear Algebra and Matrices",
     "Math",
