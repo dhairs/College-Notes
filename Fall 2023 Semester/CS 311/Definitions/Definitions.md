@@ -48,3 +48,17 @@ $\{\varnothing\}$: singleton (we are saying that we have a Set with a null set w
 ### U: Universal
 Refers to all the elements that are in the currently referenced scope.
 
+### Ordered $n$-tuple
+$Def^n$: $(a_1, a_2, \ldots, a_n)$ is an ordered collection of $n$ objects.
+
+Note that there are **parentheses instead of curly brackets**. When this is the case, order *does* matter.
+
+$(a_1, a_2, \ldots, a_n) = (b_1, b_2, \ldots, b_n)$ as long as
+
+$$\begin{align}
+a_1=b_1 \\
+a_2=b_2 \\ 
+\vdots \\
+a_n=b_n
+\end{align}$$
+If $n=2$, then we have an **ordered pair.**

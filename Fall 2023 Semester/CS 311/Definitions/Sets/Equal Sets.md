@@ -13,4 +13,3 @@ $$A\subseteq{B}\wedge{A}\neq{B}$$
 $$
 (\forall{x}|x\in U: x\in{A}\to{x}\in{B}) \wedge(\exists)
 $$
-
