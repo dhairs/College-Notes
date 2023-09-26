@@ -1,3 +1,4 @@
+## Definitions of Numbers
 ### Even Number
 
 $Def^n$: An integer $n$ is said to be even if there exists an integer $k$ such that $n=2k$ ^ef410c
@@ -15,3 +16,35 @@ $Def^n$: A real number $r$ is rational if there exists integers $p$ and $q$, whe
 ^48abf7
 
 $Def^n$: $|a|$ is the absolute value of $a$ and it equals $a$ when $a≥0$, and equals $-a$ when $a≤0$. ^4fb273
+
+## Definitions of Sets
+### Natural Numbers
+$Def^n$: The set of natural numbers is defined to be 
+
+$$\mathbb{N}=\{0,1,2,3,\ldots\}$$
+
+Note that $0$ exists in this set. This is debated heavily, but for the purposes of this class, we assume it is a natural number.
+
+### Integers
+$Def^n$: The set of natural numbers is defined to be
+
+$$Z=\{\ldots,-2,-1,0,1,2,\ldots\}$$
+
+### Rationals
+$Def^n$: The set of rational numbers is defined to be
+$$Q=\{\frac{p}{q}|p\in{z}\wedge{q}\in{z}\wedge{q}\neq0\}$$
+
+### Real
+$\mathbb{R}$ 
+
+### Empty Set/Null Set
+Is simply $\{\}$ or $\varnothing$
+
+### Singleton Set
+A set with exactly one element.
+
+$\{\varnothing\}$: singleton (we are saying that we have a Set with a null set within it)
+
+### U: Universal
+Refers to all the elements that are in the currently referenced scope.
+

@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Sets.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc5c87f10ba47b40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,7 +39,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bicon",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Sets.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Sets.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Sets.md"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md"
               }
             }
           },
@@ -164,10 +177,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a00261edb98865bf",
+  "active": "cc5c87f10ba47b40",
   "lastOpenFiles": [
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
     "Fall 2023 Semester/Courses.md",
     "Fall 2023 Semester/Course Links.md",
@@ -188,10 +206,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof by Contraposition.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Exhaustive Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
-    "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Cases.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
     "Untitled.canvas",
     "Math/Linear Algebra and Matrices",
@@ -201,7 +215,6 @@
     "Clubs",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Definitions",
-    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
-    "Fall 2023 Semester/CS 311/L02"
+    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
   ]
 }
