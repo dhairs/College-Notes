@@ -1,5 +1,5 @@
 # Definition
-Kalman filtering is a recursive state filter. It's used for removing erroneous values and honing in on accurate state positions for quickly updating systems.
+Kalman filtering is a recursive state filter function. It's used for removing erroneous values and honing in on accurate state positions for quickly updating systems.
 
 # How it works
 **There are 7 steps associated with running a Kalman filter**
