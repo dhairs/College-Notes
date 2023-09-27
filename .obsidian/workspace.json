@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
-                "mode": "source",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs.md"
               }
             }
           },
@@ -170,8 +170,18 @@
   },
   "active": "a00261edb98865bf",
   "lastOpenFiles": [
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Equations to Implement.md",
+    "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Exhaustive Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Cases.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof by Contraposition.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Equations to Implement.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Dead Reckoning.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Cartesian Product.md",
@@ -182,21 +192,11 @@
     "Fall 2023 Semester/CS 311/Definitions/Sets/Cardinality.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets",
     "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
-    "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
     "Fall 2023 Semester/Courses.md",
     "Fall 2023 Semester/Course Links.md",
     "Fall 2023 Semester/M 408D/Product, Quotient, & Chain Rule Review.md",
     "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
-    "Math/Linear Algebra and Matrices/Rotation Matrices.md",
-    "Fall 2023 Semester/CS 311/Note Sheet Quiz 4 (Proofs).md",
-    "Fall 2023 Semester/CS 311/Notes.md",
-    "Fall 2023 Semester/CS 311/Homework 1.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
     "Untitled.canvas",
     "Math/Linear Algebra and Matrices",
