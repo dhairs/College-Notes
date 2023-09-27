@@ -11,11 +11,9 @@
             "id": "a00261edb98865bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
-                "mode": "preview",
-                "source": false
+                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
               }
             }
           },
@@ -97,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
+                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
+                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs.md"
+                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
               }
             }
           },
@@ -170,6 +168,8 @@
   },
   "active": "a00261edb98865bf",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
     "Fall 2023 Semester/CS 311/Definitions/Theorems.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
@@ -191,12 +191,10 @@
     "Fall 2023 Semester/CS 311/Definitions/Sets/Power Set.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Cardinality.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
     "Fall 2023 Semester/Courses.md",
     "Fall 2023 Semester/Course Links.md",
     "Fall 2023 Semester/M 408D/Product, Quotient, & Chain Rule Review.md",
-    "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
     "Untitled.canvas",
     "Math/Linear Algebra and Matrices",
@@ -205,7 +203,6 @@
     "Clubs/Longhorn Racing Electric",
     "Clubs",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
-    "Fall 2023 Semester/CS 311/Definitions",
-    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
+    "Fall 2023 Semester/CS 311/Definitions"
   ]
 }
