@@ -29,7 +29,7 @@ n^2 \\
 \equiv\, <\mathrm{algebra}> \\
 4k^2+4k+1 \\
 \equiv\, <\mathrm{algebra}> \\
-2(2k^2+2k)+1
+2(2k^2+2k)+1 \\
 \equiv\, <\mathrm{substitution}> \\
 2r+1
 \end{flalign}
