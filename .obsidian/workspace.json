@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "reasoning",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -165,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df5bcc09a8538b22",
+  "active": "fc0196a2fedae907",
   "lastOpenFiles": [
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
