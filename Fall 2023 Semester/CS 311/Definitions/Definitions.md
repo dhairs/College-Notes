@@ -9,11 +9,11 @@ $Def^n$: An integer $n$ is said to be odd if there exists an integer $k$ such th
 
 ### Rational Number
 
-$Def^n$: A real number $r$ is rational if there exists integers $p$ and $q$, where $q\neq0$, $r=pq=$ ^13fe65
+$Def^n$: A real number $r$ is rational if there exists integers $p$ and $q$, where $q\neq0$, $r=\frac{p}{q}$ ^13fe65
 
 ### Irrational Number
 
-$Def^n$: A real number $r$ is irrational if there exists integers $p$ and $q$, where $q\neq0$, $r=\frac{p}{q}$, and $p$ and $q$ have **no common factors** ^13fe65
+$Def^n$: A real number $r$ is irrational if there exists integers $p$ and $q$, where $q\neq0$, $r=\frac{p}{q}$, and $p$ and $q$ have **no common factors**
 
 ### Absolute Value
 
