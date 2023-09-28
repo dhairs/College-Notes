@@ -21,9 +21,11 @@
             "id": "df5bcc09a8538b22",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -74,8 +76,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md"
               }
             }
           },
@@ -166,14 +167,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc0196a2fedae907",
+  "active": "df5bcc09a8538b22",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
     "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
     "Fall 2023 Semester/CS 311/L01/Logical operators.md",
-    "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/To Learn.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
