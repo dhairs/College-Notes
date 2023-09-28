@@ -41,7 +41,7 @@ $$
 \mathrm{let}\,r=2k^2+2k
 $$
 
-Since $k$ is an integer, $r=2k^2+2k$ is also an integer. $\therefore$ n^2 can be written as $2r+1 \therefore$ by the definition of odd integers, $n^2$ is odd.
+Since $k$ is an integer, $r=2k^2+2k$ is also an integer. $\therefore n^2$ can be written as $2r+1 \therefore$ by the definition of odd integers, $n^2$ is odd.
 
 ## Example 2: Give a direct proof of the theorem "The sum of two real rational numbers is rational"
 
