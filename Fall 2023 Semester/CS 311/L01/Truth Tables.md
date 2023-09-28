@@ -2,7 +2,7 @@ An easy way to display the truth values of a compound proposition.
 
 One row for each possible value of the elementary position.
 
-Truth Tables have $2^n$ rows, where N is the number of unique statements ($p$, $q$, etc.)
+Truth Tables have $2^n$ rows, where N is the number of unique variables ($p$, $q$, etc.)
 
 | p   | q   | $\neg p$ | $p\wedge q$ | $p\vee q$ |
 | --- | --- | -------- | ----------- | --------- |
