@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md"
+                "file": "Fall 2023 Semester/CS 311/L01/Truth Tables.md"
               }
             }
           },
@@ -169,8 +169,9 @@
   },
   "active": "df5bcc09a8538b22",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
+    "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
