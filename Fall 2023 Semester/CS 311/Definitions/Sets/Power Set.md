@@ -9,11 +9,11 @@ $|P(S)|=8$
 
 ###### Ex: $A=\varnothing$
 
-$P(A)=\{\varnothing\}$ 
+$P(A)=\{ \varnothing \}$ 
 $|P(A)|=1$
 
 ###### Ex: $B=\{\varnothing\}$
 
 $|B|=1$
-$P(B)=\{\varnothing,\{\varnothing\}\}$
+$P(B)= \{ \varnothing, \{ \varnothing \} \}$
 $|P(B)|=2$
