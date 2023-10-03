@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Power Set.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Subset Method.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Subset Method.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Power Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Subset Method.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Power Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Subset Method.md"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Power Set.md"
               }
             }
           },
@@ -169,13 +168,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df5bcc09a8538b22",
+  "active": "a00261edb98865bf",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Subset Method.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Power Set.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Cartesian Product.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets/Multisets (Multiple member sets).md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set Identities.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets",
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets/Power Set.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Cardinality.md",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
@@ -196,9 +199,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets.md",
     "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
-    "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
-    "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets",
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
     "Untitled.canvas",
@@ -206,7 +206,6 @@
     "Math",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation",
     "Clubs/Longhorn Racing Electric",
-    "Clubs",
-    "Fall 2023 Semester/CS 311/Definitions"
+    "Clubs"
   ]
 }
