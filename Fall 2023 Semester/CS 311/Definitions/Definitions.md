@@ -66,3 +66,44 @@ a_2=b_2 \\
 a_n=b_n
 \end{align}$$
 If $n=2$, then we have an **ordered pair.**
+
+### Union
+$$A\cup{B}$$
+is defined as 
+
+$$x\in A \vee x\in B$$
+
+### Intersection
+$$A\cap B$$
+
+is defined as $$x\in A\wedge x\in B$$
+
+### Difference
+$$ A - B $$
+is defined as 
+
+$$x\in A \wedge \neg x\in B$$
+
+### Complement
+
+$$\overline{A}$$
+is defined as
+
+$$x\in U\wedge \neg x\in A$$
+Complement of $B$ with respect to $A$ is the difference
+
+### Set Identities
+
+
+### Cardinality of Combined Sets (Principle of Inclusion-Exclusion)
+$|A\cup B| = |A| + |B| - |A\cap B|$
+
+$|A\cup B\cup C| = |A|+|B|+|C|-|A\cap B| - |B\cap C| - |C\cap A| + |A\cap B\cap C|$
+
+$$|A\cup B\cup C\cup D| = |A|+|B|+|C|+|D|-|A\cap B| - |B\cap C| - |C\cap D| - |C\cap D| - |A\cap B| - |A\cap C| + |A\cap B\cap C| + |A\cap C\cap D|+|B\cap C\cap D|+|A\cap B\cap D|-|A\cap B\cap C\cap D|$$
+
+
+
+$A_1\cup A_2$ 
+
+$\bigcup\limits_{i=1}^{n}A_i$

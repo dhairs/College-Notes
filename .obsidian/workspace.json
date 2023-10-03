@@ -11,9 +11,11 @@
             "id": "a00261edb98865bf",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -23,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
-                "mode": "preview",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Subset Method.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Subset Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Subset Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Subset Method.md"
               }
             }
           },
@@ -169,14 +171,20 @@
   },
   "active": "df5bcc09a8538b22",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Subset Method.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets/Power Set.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets/Cartesian Product.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets/Cardinality.md",
+    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
-    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
     "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
     "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/To Learn.md",
@@ -186,17 +194,11 @@
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof by Contraposition.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets.md",
     "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
     "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
-    "Fall 2023 Semester/CS 311/L02/Well-Formed Formulae.md",
-    "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
-    "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
-    "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
-    "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets",
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
     "Untitled.canvas",
