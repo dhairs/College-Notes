@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Multisets (Multiple member sets).md",
                 "mode": "source",
                 "source": false
               }
@@ -34,7 +34,7 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
+            "sortOrder": "byCreatedTime"
           }
         }
       },
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+            "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Multisets (Multiple member sets).md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+            "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Multisets (Multiple member sets).md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md"
+            "file": "Fall 2023 Semester/CS 311/Definitions/Sets/Multisets (Multiple member sets).md"
           }
         }
       }
@@ -133,6 +133,12 @@
   },
   "active": "eec65a9c21591606",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets/Multisets (Multiple member sets).md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set Identities.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
     "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
     "Fall 2023 Semester/CS 311/L01/Logical operators.md",
@@ -155,19 +161,13 @@
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Exhaustive Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof by Contraposition.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Cardinality.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Cartesian Product.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets",
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
     "Clubs/Longhorn Racing Electric",
     "Clubs",
     "Math/Linear Algebra and Matrices",
     "Math",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation",
-    "Fall 2023 Semester/CS 311/Definitions"
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation"
   ]
 }
