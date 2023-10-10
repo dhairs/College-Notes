@@ -107,3 +107,13 @@ $$|A\cup B\cup C\cup D| = |A|+|B|+|C|+|D|-|A\cap B| - |B\cap C| - |C\cap D| - |C
 $A_1\cup A_2$ 
 
 $\bigcup\limits_{i=1}^{n}A_i$
+
+## Functions
+### Increasing/Decreasing Functions
+if $x<y$ then $f(x)\leq f(y)$ this is increasing
+
+$f(x)<f(y)$ this is strictly increasing
+
+if $x>y$ then $f(x)\geq f(y)$ this is decreasing
+
+if $x>y$ then $f(x)>f(y)$ this is strictly decreasing
