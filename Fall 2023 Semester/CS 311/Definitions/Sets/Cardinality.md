@@ -9,5 +9,3 @@ $|B|=3$
 ###### Ex: Given $O=\{\varnothing,\{\varnothing\},\{1,\varnothing\}\}$
 $|O|=3$
 
-
-Testing 123
