@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
-                "mode": "preview",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md"
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md"
               }
             }
           },
@@ -170,13 +170,15 @@
   },
   "active": "a00261edb98865bf",
   "lastOpenFiles": [
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
     "Fall 2023 Semester/CS 311/Composition of Functions.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Cardinality.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Cartesian Product.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
     "Fall 2023 Semester/M 408D/Test.md",
@@ -198,14 +200,12 @@
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/To Learn.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Exhaustive Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Cases.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets",
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
     "Untitled.canvas",
     "Math/Linear Algebra and Matrices",
     "Math",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation",
-    "Clubs/Longhorn Racing Electric",
-    "Clubs"
+    "Clubs/Longhorn Racing Electric"
   ]
 }
