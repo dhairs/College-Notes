@@ -12,7 +12,7 @@ v_{0x} = 280m/s, x_0=4000m
 $$
 
 ## Step 0. Initial State
-Here, we initialize our Kalman filter with initial state values. If we have a position matrix and a covariance matrix, we use it.
+Here, we initialize our Kalman filter with initial state values. If we have a position matrix and a [[Process Covariance Matrix|covariance matrix]], we use it.
 
 ## Step 1: Predicted State
 Described by the equation: 
