@@ -47,12 +47,8 @@
             "id": "8b3defc8f4b55b1f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Test.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -122,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Test.md"
-              }
+              "state": {}
             }
           },
           {
@@ -195,10 +187,16 @@
   },
   "active": "8b3defc8f4b55b1f",
   "lastOpenFiles": [
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
-    "Test.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
+    "Fall 2023 Semester/CS 311/What is a Proof?.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
+    "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md",
+    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+    "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
     "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
+    "Test.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Dead Reckoning.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
@@ -218,13 +216,7 @@
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
-    "Fall 2023 Semester/CS 311/L01/Proofs Using Truth Tables.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
-    "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
-    "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets",
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
     "Untitled.canvas",
