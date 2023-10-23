@@ -47,8 +47,12 @@
             "id": "8b3defc8f4b55b1f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Fall 2023 Semester/CS 311/Composition of Functions.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -118,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fall 2023 Semester/CS 311/Composition of Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Fall 2023 Semester/CS 311/Composition of Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Fall 2023 Semester/CS 311/Composition of Functions.md"
+              }
             }
           },
           {
@@ -187,6 +195,7 @@
   },
   "active": "8b3defc8f4b55b1f",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Definitions/Sets.md",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md",
@@ -201,7 +210,6 @@
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
     "Fall 2023 Semester/CS 311/Composition of Functions.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Cardinality.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
