@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/Structural Induction.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/Structural Induction.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/Structural Induction.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/Structural Induction.md"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md"
               }
             }
           },
@@ -195,8 +195,11 @@
   },
   "active": "8b3defc8f4b55b1f",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/Composition of Functions.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set Identities.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
     "Fall 2023 Semester/Structural Induction.md",
+    "Fall 2023 Semester/CS 311/Composition of Functions.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets.md",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
@@ -219,9 +222,6 @@
     "Fall 2023 Semester/M 408D/Test.md",
     "Fall 2023 Semester/M 408D/Limit Theorem Shown in Class.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Power Set.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Multisets (Multiple member sets).md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set Identities.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
