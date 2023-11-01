@@ -47,9 +47,11 @@
             "id": "8b3defc8f4b55b1f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -120,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Sets.md"
               }
             }
           },
