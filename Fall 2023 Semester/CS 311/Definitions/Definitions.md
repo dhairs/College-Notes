@@ -30,7 +30,7 @@ $$\mathbb{N}=\{0,1,2,3,\ldots\}$$
 Note that $0$ exists in this set. This is debated heavily, but for the purposes of this class, we assume it is a natural number.
 
 ### Integers
-$Def^n$: The set of natural numbers is defined to be
+$Def^n$: The set of integer numbers is defined to be
 
 $$Z=\{\ldots,-2,-1,0,1,2,\ldots\}$$
 
