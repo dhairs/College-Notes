@@ -47,11 +47,9 @@
             "id": "8b3defc8f4b55b1f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Composition of Functions.md",
-                "mode": "preview",
-                "source": false
+                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "image",
+                "query": "set builder",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Composition of Functions.md",
+                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Composition of Functions.md",
+                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Composition of Functions.md"
+                "file": "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
               }
             }
           },
@@ -195,15 +193,17 @@
   },
   "active": "8b3defc8f4b55b1f",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
+    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets.md",
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Fall 2023 Semester/CS 311/Composition of Functions.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Cardinality.md",
-    "Fall 2023 Semester/CS 311/Composition of Functions.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Power Set.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set Identities.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
@@ -221,10 +221,7 @@
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Dead Reckoning.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering",
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Cartesian Product.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets",
-    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
-    "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Definitions/Sets",
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
     "Untitled.canvas",
