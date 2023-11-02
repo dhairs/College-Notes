@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,6 +71,16 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "559c09a2f391a9fe",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
       }
     ],
     "currentTab": 0
@@ -85,7 +95,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
+            "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
+            "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +124,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md"
+            "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md"
           }
         }
       }
@@ -131,15 +141,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37369ce84a01c8ad",
+  "active": "eec65a9c21591606",
   "lastOpenFiles": [
+    "Fall 2023 Semester/Structural Induction.md",
+    "Test.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
     "Fall 2023 Semester/CS 311/Composition of Functions.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
     "Fall 2023 Semester/M 408D/Test.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Multisets (Multiple member sets).md",
     "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set Identities.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
@@ -158,16 +172,12 @@
     "Fall 2023 Semester/CS 311/L02/Rules of Inference.md",
     "Fall 2023 Semester/CS 311/L02/Equivalence-Style Proofs.md",
     "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Definitions/Sets",
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
     "Clubs/Longhorn Racing Electric",
     "Clubs",
     "Math/Linear Algebra and Matrices",
-    "Math",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation"
+    "Math"
   ]
 }
