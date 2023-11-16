@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
                 "mode": "preview",
                 "source": false
               }
@@ -102,8 +102,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md"
               }
             }
           },
@@ -194,8 +193,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b3defc8f4b55b1f",
+  "active": "574a0ccd8a23a166",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Exhaustive Proof.md",
+    "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
     "Fall 2023 Semester/CS 311/Composition of Functions.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
@@ -223,7 +224,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
     "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
     "Test.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Dead Reckoning.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets",
     "Fall 2023 Semester/CS 311/Definitions/Sets",
