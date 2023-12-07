@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
                 "mode": "preview",
                 "source": false
               }
@@ -102,8 +102,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md",
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md"
+                "file": "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md"
               }
             }
           },
@@ -196,25 +195,27 @@
   },
   "active": "8b3defc8f4b55b1f",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Cases.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets/Cartesian Product.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
+    "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
     "Fall 2023 Semester/CS 311/Notes.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof by Contraposition.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Exhaustive Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
     "Fall 2023 Semester/CS 311/Composition of Functions.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set-Builder Notation.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set Identities.md",
     "Fall 2023 Semester/CS 311/Files/Set Identities.pdf",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Equal Sets.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Cases.md",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Cardinality.md",
@@ -223,8 +224,6 @@
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
     "Fall 2023 Semester/Structural Induction.md",
     "Fall 2023 Semester/CS 311/What is a Proof?.md",
-    "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md",
-    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets",
     "Fall 2023 Semester/CS 311/Definitions/Sets",
