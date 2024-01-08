@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
                 "mode": "preview",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md"
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md"
               }
             }
           },
@@ -195,6 +195,11 @@
   },
   "active": "8b3defc8f4b55b1f",
   "lastOpenFiles": [
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Equations to Implement.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Dead Reckoning.md",
+    "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Cases.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Contradiction.md",
@@ -219,11 +224,6 @@
     "Fall 2023 Semester/CS 311/Files/Set Identities.pdf",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Cardinality.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Power Set.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Trivial Proof.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
-    "Fall 2023 Semester/Structural Induction.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets",
     "Fall 2023 Semester/CS 311/Definitions/Sets",
