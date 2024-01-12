@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d7d843d33f93dadb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -172,7 +184,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -193,12 +207,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b3defc8f4b55b1f",
+  "active": "d7d843d33f93dadb",
   "lastOpenFiles": [
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Dead Reckoning.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Equations to Implement.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/To Learn.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Equations to Implement.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Dead Reckoning.md",
     "Fall 2023 Semester/CS 311/Definitions/Forward and Backward Reasoning.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Existence Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Proof by Cases.md",
@@ -220,7 +235,6 @@
     "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
     "Fall 2023 Semester/CS 311/Composition of Functions.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set Identities.md",
     "Fall 2023 Semester/CS 311/Files/Set Identities.pdf",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
