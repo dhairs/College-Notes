@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md"
+                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md"
               }
             }
           },
@@ -209,6 +209,13 @@
   },
   "active": "d7d843d33f93dadb",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
+    "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
+    "First Note.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+    "Test.md",
+    "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics",
+    "Spring 2023 Semester",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Dead Reckoning.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Equations to Implement.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/To Learn.md",
@@ -230,11 +237,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Exhaustive Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
-    "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
-    "Fall 2023 Semester/CS 311/Composition of Functions.md",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
     "Fall 2023 Semester/CS 311/Files/Set Identities.pdf",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
@@ -243,8 +245,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Sets",
     "Fall 2023 Semester/CS 311/Definitions/Proofs",
     "Untitled.canvas",
-    "Math/Linear Algebra and Matrices",
-    "Math",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation"
+    "Math/Linear Algebra and Matrices"
   ]
 }
