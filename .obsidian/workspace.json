@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
+                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
+                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
+                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md"
+                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md"
               }
             }
           },
@@ -209,8 +209,9 @@
   },
   "active": "d7d843d33f93dadb",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
+    "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
+    "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
     "First Note.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Test.md",
@@ -236,7 +237,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Direct Proof by Contraposition.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Vacuous Proof.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Exhaustive Proof.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
     "Fall 2023 Semester/CS 311/Files/Set Identities.pdf",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
