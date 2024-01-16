@@ -2,7 +2,7 @@
 
 Can be defined as the likelihood of an outcome occurring. **Alternatively**, it can be defined as the proportion of times an event will occur if the experiment is repeated over and over again under the same conditions. 
 
-Written as $\frac{\#\text{ of favorable outcomes}}{\#\text{ of total possible outcomes}}$
+Written as $\frac{\text{num. of favorable outcomes}}{\text{num. of total possible outcomes}}$
 
 Easiest to be understood in a few examples:
 
