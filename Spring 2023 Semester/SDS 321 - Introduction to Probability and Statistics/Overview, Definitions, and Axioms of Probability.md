@@ -42,21 +42,25 @@ A compound event is an event that can be broken down ("decomposed") into simple 
 Events that cannot occur at the same time. If one occurs, it excludes the other from occurring.
 
 ### Ex: What is the sample space for each of the following:
-1. Toss one coin
+1. **Toss one coin**
 2 outcomes ($2^1$)
 $\Omega=\{\text{Heads}, \text{Tails}\}$ 
 $|\Omega|=2$
 
-2. Roll one die
+2. **Roll one die**
 6 outcomes ($6^1$)
 $\Omega=\{1, 2, 3, 4, 5, 6\}$
 $|\Omega|=6$
 
-3. Toss two coins together
-4 outcomes ($2^2$): HH, HT, TH, TT
+3. **Toss two coins together**
+4 outcomes ($2^2$)
+$\Omega=\{HH, HT, TH, TT\}$
+$|\Omega|=4$
 
-4. Toss three coins together
-8 outcomes ($2^3$): HHH, HHT, HTT, HTH, TTH, THT, THH, TTT
+4. **Toss three coins together**
+8 outcomes ($2^3$)
+$\Omega=\{HHH, HHT, HTT, HTH, TTH, THT, THH, TTT\}$
+$|\Omega|=8$
 
 5. Roll two dice
 36 outcomes ($6^2$) (not listed)
