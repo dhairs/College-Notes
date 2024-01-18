@@ -62,7 +62,7 @@ $|\Omega|=4$
 $\Omega=\{HHH, HHT, HTT, HTH, TTH, THT, THH, TTT\}$
 $|\Omega|=8$
 
-5. Roll two dice
+5. **Roll two dice**
 36 outcomes ($6^2$) (not listed)
 
 ## [[Sets]]

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
-                "mode": "source",
+                "file": "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
+                "file": "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
+                "file": "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md"
+                "file": "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "df5bcc09a8538b22",
   "lastOpenFiles": [
-    "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
+    "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
