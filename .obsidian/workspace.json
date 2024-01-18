@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md"
+                "file": "README.md"
               }
             }
           },
@@ -170,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,8 +185,8 @@
   },
   "active": "be6dc7d49a56dd4b",
   "lastOpenFiles": [
-    "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+    "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
     "First Note.md",
     "README.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md",

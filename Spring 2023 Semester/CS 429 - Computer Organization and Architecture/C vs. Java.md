@@ -2,7 +2,12 @@ Note these 2 samples of code:
 
 ```java
 class HelloWorld {
-
+	public static void main(String[] args) {
+	System.out.println("Hello, world!");
+		for (int i = 0; i < args.length; i++) {
+			System.out.printf("%d: %s\n", i, args[i]);
+		}
+	}
 }
 ```
 
@@ -11,14 +16,18 @@ class HelloWorld {
 #include <stdlib.h>
 int main(int argc, char *argv[]) {
 
-fprintf(stdout, "Hello, world!\n");
-for(int i = 0; i < argc; i++) {
-printf("%d: %s\n", i, argv[i]);
-}
-
-return EXIT_SUCCESS;
+	fprintf(stdout, "Hello, world!\n");
+		for(int i = 0; i < argc; i++) {
+			printf("%d: %s\n", i, argv[i]);
+		}
+	
+	return EXIT_SUCCESS;
 }
 ```
+
+Both do the same thing effectively, but note the differences. Java's `io` is built into the language and doesn't require imports. Everything is also made its own class. C is procedural, and lacks the ability to make objects. 
+
+The `*argv[]` in C represents an array of pointers to characters, which are effectively strings that are terminated by the `NUL` character.
 
 ## Encapsulation
 **C**:
@@ -58,3 +67,6 @@ return EXIT_SUCCESS;
 **Java**:
 - Allocates memory for objects when created using `new`
 - Memory is cleared using the JVM Garbage Collector
+
+## "Objects"
+**C** refers to variables as "objects," and they are used interchangeably. Note that it is purely just a reference in memory in C.
