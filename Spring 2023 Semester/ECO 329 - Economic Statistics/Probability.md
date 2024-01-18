@@ -1,3 +1,5 @@
+## Definitions of Probability
+
 Probably best to check the other note at [[Overview, Definitions, and Axioms of Probability]]
 
 **Experiment**: check definition [[Overview, Definitions, and Axioms of Probability#What is an Experiment and Event|here]]

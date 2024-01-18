@@ -1,3 +1,5 @@
+# C vs. Java
+
 Note these 2 samples of code:
 
 ```java
