@@ -66,3 +66,28 @@ $|\Omega|=8$
 36 outcomes ($6^2$) (not listed)
 
 ## [[Sets]]
+
+
+## Axioms of Probability
+### Non-negativity
+
+$P(A)\geq0$ for every event $A$.
+
+### Additivity
+
+If $A$ and $B$ are two disjoint events, then the probability of their union satisfies $P(A\cup B)=P(A)+P(B)$.
+
+This extends to the union of infinitely many disjoint events:
+$$P(A_1\cup A_2\cup \ldots)=P(A_1)+P(A_2)+\ldots$$
+
+### Normalization
+
+The probability of the entire sample space $\Omega$ is equal to $1$. 
+
+## Probability Laws
+
+1. **If $A\subseteq B$, then $P(A)\leq P(B)$**
+2. $P(A\cup B)=P(A)+P(B)-P(A\cap B)$
+	1. "General Addition Rule"
+	2. **If A and B are mutu**
+
