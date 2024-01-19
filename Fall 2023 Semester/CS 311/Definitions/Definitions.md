@@ -86,7 +86,7 @@ $$x\in A \wedge \neg x\in B$$
 
 ### Complement
 
-$$\overline{A}$$
+$$\overline{A}\; \text{or}\; A^\complement $$
 is defined as
 
 $$x\in U\wedge \neg x\in A$$
