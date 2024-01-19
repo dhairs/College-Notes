@@ -40,7 +40,7 @@ The `*argv[]` in C represents an array of pointers to characters, which are effe
 
 ## References
 **C**:
-- Makes pointers explicit (denoted by `*` or `&`)
+- Makes [[pointers]] explicit (denoted by `*` or `&`)
 
 **Java**:
 - Abstract object references automatically managed by the compiler/language
