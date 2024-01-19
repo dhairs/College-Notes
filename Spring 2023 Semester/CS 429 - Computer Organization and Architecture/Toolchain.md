@@ -10,8 +10,9 @@ This is basically to set breakpoints if you want to only stop when a certain con
 
 "`break foo if i == 4`"
 
-`next` - steps one line of code, stepping **over** functions
+`next (n)` - steps one line of code, stepping **over** functions
 
-`step` - steps one line of code, stepping **into** functions
+`step (s)` - steps one line of code, stepping **into** functions
 
-`print <expression` prints any C expression.
+`print <expression>` prints any C expression.
+
