@@ -89,5 +89,7 @@ The probability of the entire sample space $\Omega$ is equal to $1$.
 1. **If $A\subseteq B$, then $P(A)\leq P(B)$**
 2. $P(A\cup B)=P(A)+P(B)-P(A\cap B)$
 	1. "General Addition Rule"
-	2. **If A and B are mutu**
+	2. **If A and B are mutually exclusive, the rule is $P(A\cup B)=P(A)+P(B)$**
+3. $P(A\cup B)\leq P(A)+P(B)$ 
+4. $P(A\cup B\cup C)=P(A)+P(A^\complement \cap B)+P(A^\complement \cap B^\complement \cap C)$
 
