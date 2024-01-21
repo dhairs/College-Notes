@@ -8,7 +8,7 @@ Run Obsidian and click `File > Open Vault`, or click the little vault icon in th
 
 If you for some reason don't want to use Obsidian, you can browse them on GitHub but note that certain expressions in LaTeX won't render properly, and you won't be able to see links to other files.
 
-## A step further
+# A step further
 ## Desktop
 
 If you want the repository to automatically download on an interval to stay up-to-date, make sure you have `git` installed on your computer.
