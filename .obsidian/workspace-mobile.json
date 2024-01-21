@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -95,7 +95,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -124,7 +124,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md"
+            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md"
           }
         }
       }
@@ -141,13 +141,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eec65a9c21591606",
+  "active": "37369ce84a01c8ad",
   "lastOpenFiles": [
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
+    "README.md",
+    "Fall 2023 Semester/Structural Induction.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
-    "README.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics",
     "Spring 2023 Semester",
@@ -158,7 +159,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
     "Fall 2023 Semester/CS 311/Files/Set Identities.pdf",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Uniqueness Proof.md",
-    "Fall 2023 Semester/Structural Induction.md",
     "Test.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering",
