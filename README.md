@@ -15,7 +15,7 @@ If you want the repository to automatically download on an interval to stay up-t
 
 Go to Obsidian settings and enable community plugins, then, install Obsidian Git.
 
-Configure the settings however you like, it should use
+Configure the settings however you like, it should use the folder's `git` settings.
 
 ## iOS
 
