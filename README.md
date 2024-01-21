@@ -13,7 +13,7 @@ If you for some reason don't want to use Obsidian, you can browse them on GitHub
 
 If you want the repository to automatically download on an interval to stay up-to-date, make sure you have `git` installed on your computer.
 
-Go to Obsidian settings and enable community plugins, then, install Obsidian Git.
+Go to Obsidian settings and enable community plugins, then, install [Obsidian Git](https://obsidian.md/plugins?id=obsidian-git).
 
 Configure the settings however you like, it should use the folder's `git` settings.
 
