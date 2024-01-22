@@ -49,15 +49,24 @@ $$P(A\cap B)=P(B|A)\,P(A)$$
 
 
 
-## Ex: Product returns
+### Ex: Product returns
 
 Suppose a website sells three types of shirts, each with different return rates:
 
-- Shirt 1: 60% of overall shirt sales, 15% of purchases returned  
-- Shirt 2: 30% of overall shirt sales, 25% of purchases returned  
--  Shirt 3: 10% of overall shirt sales, 35% of purchases returned  
-!! : the event that shirt 1 is purchased (!" and !# similarly defined)  
-$: the event that a purchase is returned.  
-%(!! ) = .6  
-%(!" ) = .3  
-%(!# ) = .1
+
+$$P(R|A_1)=.15$$
+- Shirt 1: 60% of overall shirt sales, 15% of purchases returned  $P(A_1)=.6$
+- Shirt 2: 30% of overall shirt sales, 25% of purchases returned $P(A_2)=.3$
+- Shirt 3: 10% of overall shirt sales, 35% of purchases returned $P(A_3)=.1$
+
+For a randomly selected shirt purchase, what is the probability  
+that the purchase is shirt 1 and is returned?
+
+$$P(A_1\cap R)=P(R|A_1)\,P(A_1)=(0.15)(0.6)=0.09=9\%$$
+
+### Law of Total Probability
+
+If $A_1, A_2, \ldots, A_k$ are disjoint events and also exhaustive events, then for any event $B$:
+
+$$P(B)=P(B|A_1)P(A)+P(B|A_2)+\ldots+P(B|A_k)P(A_k)$$
+$$=\sum^{k}_{j=1}P(B|A_j)P(A_j)$$

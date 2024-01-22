@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability Distributions.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tikz",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability Distributions.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability Distributions.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability Distributions.md"
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md"
               }
             }
           },
@@ -158,15 +158,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "616dc9d0dfb72153",
+  "active": "574a0ccd8a23a166",
   "lastOpenFiles": [
-    "Spring 2023 Semester/ECO 329 - Economic Statistics/Conditional Probability.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability Distributions.md",
+    "Spring 2023 Semester/ECO 329 - Economic Statistics/Baye's Theorem.md",
+    "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md",
+    "Spring 2023 Semester/ECO 329 - Economic Statistics/Conditional Probability.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability Notation.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
-    "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md",
     "README.md",
     "Fall 2023 Semester/M 408D/Test.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
@@ -190,7 +191,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Subset Method.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics",
-    "Fall 2023 Semester/CS 311/CS 311 (Discrete Math) Links.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics",
     "Spring 2023 Semester",
     "Fall 2023 Semester/CS 311/Files/Set Identities.pdf",
