@@ -2,6 +2,8 @@
 
 Note these 2 samples of code:
 
+**`Java`**:
+
 ```java
 class HelloWorld {
 	public static void main(String[] args) {
@@ -12,6 +14,8 @@ class HelloWorld {
 	}
 }
 ```
+
+**`C`**:
 
 ```c
 #include <stdio.h>
