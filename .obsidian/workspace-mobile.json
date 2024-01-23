@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
-                "mode": "preview",
+                "file": "Spring 2023 Semester/ECO 329 - Economic Statistics/Baye's Theorem.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -95,7 +95,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
+            "file": "Spring 2023 Semester/ECO 329 - Economic Statistics/Baye's Theorem.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
+            "file": "Spring 2023 Semester/ECO 329 - Economic Statistics/Baye's Theorem.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -124,7 +124,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md"
+            "file": "Spring 2023 Semester/ECO 329 - Economic Statistics/Baye's Theorem.md"
           }
         }
       }
@@ -141,11 +141,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37369ce84a01c8ad",
+  "active": "eec65a9c21591606",
   "lastOpenFiles": [
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+    "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability Notation.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
+    "Spring 2023 Semester/ECO 329 - Economic Statistics/Conditional Probability.md",
+    "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability Distributions.md",
+    "Spring 2023 Semester/ECO 329 - Economic Statistics/Baye's Theorem.md",
     "README.md",
     "Fall 2023 Semester/Structural Induction.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
@@ -171,11 +176,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets/Using Set Identities.md",
     "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
-    "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
-    "Fall 2023 Semester/CS 311/L01/Logical operators.md",
-    "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
-    "Fall 2023 Semester/CS 311/L02/Proofs Using Rules of Inferences (Natural Deduction Proofs).md",
-    "Fall 2023 Semester/CS 311/Homework 1.md",
     "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf",
     "Fall 2023 Semester/CS 311/Files/BasicEquivalences.pdf",
     "Fall 2023 Semester/CS 311/Definitions/Sets"
