@@ -38,7 +38,7 @@ $$P(A|B)=\frac{P(A\cap B)}{P(B)}=\frac{\frac{1}{3}}{\frac{1}{2}}=\frac{2}{3}$$
 The conditional probability that a roll is even given that it is at least 3 is:
 $$P(B|A)=\frac{P(A\cap B)}{P(B)}=\frac{\frac{1}{3}}{\frac{2}{3}}=\frac{1}{2}$$
 
-### Multiplication Rule
+## Multiplication Rule
 
 Comes directly from the conditional probability formula:
 
@@ -64,7 +64,7 @@ that the purchase is shirt 1 and is returned?
 
 $$P(A_1\cap R)=P(R|A_1)\,P(A_1)=(0.15)(0.6)=0.09=9\%$$
 
-### Law of Total Probability
+## Law of Total Probability
 
 If $A_1, A_2, \ldots, A_k$ are disjoint events and also exhaustive events, then for any event $B$:
 

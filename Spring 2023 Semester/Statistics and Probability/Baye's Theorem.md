@@ -1,5 +1,6 @@
 
 # Definition
+
 If $A_1, A_2, \ldots, A_k$ are mutually exclusive and exhaustive events, then for any event $B$,
 
 $$P(A_i|B)=\frac{P(A_i\cap B)}{P(B)}=\frac{P(B|A_i)\,P(A_i)}{\sum^{k}_{j=1}P(B|A_j)\,P(A_j)}$$

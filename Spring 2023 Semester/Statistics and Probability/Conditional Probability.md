@@ -1,5 +1,5 @@
 
-## Why Conditional Probability
+## What is Conditional Probability?
 
 In essence, conditional probability is for when an event has already happened, and we want to model what comes next.
 
@@ -16,3 +16,6 @@ Looking into conditional probability is also important to understand the *indepe
 This causes us to ask these two questions:
 - Are two events actually related?
 - Does knowing one tell us nothing about the other?
+
+The distribution of conditional probability is given by:
+![[Probability Distributions#Conditional Probability Distributions]]
