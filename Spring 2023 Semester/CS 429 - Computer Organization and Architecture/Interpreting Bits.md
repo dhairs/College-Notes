@@ -41,6 +41,44 @@ The cartesian product of $\text{Bit}$ with itself creates *bit tuples*:
 
 Most codes we come across aren't formulaic or algorithmic, which won't work for a computer system.
 
+We want to be able to represent our codes in a [[Value Sets|value set]].
+
 Thats why we move to weighted codes.
 
 ## Weighted Codes
+
+### Ex: How many inches in 7 yards, 2 feet, 5 inches?
+
+We could go about this the long way, manually doing every calculation through dimensional analysis. OR, we could represent the case as a weight vector:
+
+$\text{B}=b_{n-1}\ldots b_0$. In this case: $[7, 2, 5]$
+
+Weights: $\text{W}=\{w_{n-1},\ldots,w_0\}$. In this case, $[36,12,1]$ (these are the number of inches in each unit, respectively)
+
+Value: $w_0b_0+\ldots+w_{n-1}b_{n-1}=\sum^{n-1}_{i=0}w_ib_i=\text{W} \cdot \text{B}$.
+
+### Positional Codes
+
+If the weights can be written as a simple function of positions ($w_i=f(i)$), the function $f$ is sufficient to specify the weight vector
+- Representation: $b_{n-1}\ldots b_0$, Weight: $w_i=2^i$
+- Value: $\text{V}=\sum^{n-1}_{i=0}w_ib_i=\sum^{n-1}_{i=0}b_i\cdot2^i$ 
+
+This gives a positional binary representation of the integer range $D=[0,2^n-1]=\{i:0\leq i\leq 2^n\}$ 
+- This mapping is bijective
+- Bit $b_i$ is said to be **less significant** than bit $b_j$ if $i<j$
+- Extend this to define more significant, least significant, and most significant
+
+### Radix-k (Base-k) Positional Codes
+
+Generalize from binary to other bases
+- Representation: $(d_{n-1}\ldots d_0)_k$ with $0\leq d_i\leq k$
+- Weight: $w_i=k^i$
+- Value: $\text{V}=\sum^{n-1}_{i=0}w_id_i=\sum^{n-1}_{i=0}d_i\cdot k^i$ 
+
+## An approach to converting bases
+
+Say we're given the number $429$ in base-10 (decimal).
+
+How can we convert this to base-16 (hexadecimal)?
+
+$d_2\cdot 16^2 + d_1\cdot 16 + d_0 = 429$ 
