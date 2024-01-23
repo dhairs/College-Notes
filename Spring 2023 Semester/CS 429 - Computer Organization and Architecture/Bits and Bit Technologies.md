@@ -1,6 +1,7 @@
 
 # Bits and Bit Technologies
 
+## What is a Bit?
 **BIT** - **BI**nary digi**T**
 
 A bit is an 'entity' having *two* distinct, *distinguishable*, *discrete* states. Generically designated as $\circ$ and $|$.

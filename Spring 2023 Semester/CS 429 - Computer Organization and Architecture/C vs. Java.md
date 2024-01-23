@@ -76,3 +76,8 @@ The `*argv[]` in C represents an array of pointers to characters, which are effe
 
 ## "Objects"
 **C** refers to variables as "objects," and they are used interchangeably. Note that it is purely just a reference in memory in C.
+
+## Compilation and Running
+In **Java**, you use the JVM, it makes it easy to run code on any machine. 
+
+In **C**, you'll be using the C [[Toolchain]]. Code must be compiled for each machine.
