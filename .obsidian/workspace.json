@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "non-negativity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md"
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md"
               }
             }
           },
@@ -160,12 +160,12 @@
   },
   "active": "616dc9d0dfb72153",
   "lastOpenFiles": [
-    "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
     "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
+    "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
+    "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Notation.md",
     "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md",
-    "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
     "Spring 2023 Semester/Statistics and Probability",
     "Spring 2023 Semester/Sta.md",
