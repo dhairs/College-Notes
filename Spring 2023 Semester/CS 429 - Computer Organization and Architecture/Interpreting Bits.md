@@ -82,3 +82,20 @@ Say we're given the number $429$ in base-10 (decimal).
 How can we convert this to base-16 (hexadecimal)?
 
 $d_2\cdot 16^2 + d_1\cdot 16 + d_0 = 429$ 
+
+
+
+
+
+## Including Negative Integers
+
+**Note:** $U_6$ represents unsigned integers using 6 bits, $S_6$ represents signed integers using 6 bits
+
+Can we make the range of values $S_6=\{s: -32\leq s < 32\}$ rather than $U_6$?
+
+### Two Solutions
+- **Simple method**: $s=u-32$
+	- Not a weighted code
+	- This is called "biasing"
+- **Another way**: Change the weight vector to $W_S=[-2^5, 2^4, 2^3, 2^2, 2^1, 2^0]$
+	- This is called the "two's complement" representation

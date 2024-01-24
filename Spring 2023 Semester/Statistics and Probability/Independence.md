@@ -25,3 +25,22 @@ Thus:
 
 $$\text{if}\; P(A|B)\neq P(A)$$
 The events $A$ and $B$ are dependent.
+
+## Independence of more than two events
+
+The events $A_1,A_2,\ldots,A_k$ are *mutually independent* if, for *any* subset of the events, the joint probability is equal to the product of the individual probabilities.
+
+Similarly, the conditional probability for any event $A_i$ given any subset of the other events is equal to the unconditional probability of $A_i$.
+
+### Ex: 50 events
+
+$$
+\begin{align}
+P(A_1\cap A_2)=P(A_1)\,P(A_2)\;\text{and similarly for any 2 events in}\; \{A_1, \ldots, A_{50}\} \\
+P(A_1\cap A_2\cap A_3)=P(A_1)\,P(A_2)\,P(A_3)\;\text{and similarly for any 3 events in}\; \{A_1, \ldots, A_{50}\} \\
+\ldots \\
+\ldots \\
+\ldots \\
+P(A_1\cap A_2\cap \ldots\cap A_3)=P(A_1)\,P(A_2)\,\ldots\,P(A_{50})
+\end{align}
+$$

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Independence.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Independence.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Independence.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Independence.md"
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md"
               }
             }
           },
@@ -170,26 +170,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "616dc9d0dfb72153",
+  "active": "574a0ccd8a23a166",
   "lastOpenFiles": [
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Number Wheels.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Spring 2023 Semester/Statistics and Probability/Independence.md",
     "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Tables.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
     "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Notation.md",
-    "Spring 2023 Semester/Statistics and Probability/Independence.md",
     "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
     "Spring 2023 Semester/Statistics and Probability",
     "Spring 2023 Semester/Sta.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
     "Spring 2023 Semester/Probability.md",
     "Spring 2023 Semester/Probability Distributions.md",
     "README.md",
@@ -198,7 +199,6 @@
     "Fall 2023 Semester/CS 311/Definitions/Sets.md",
     "Fall 2023 Semester/CS 311/Homework 1.md",
     "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
-    "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
     "Spring 2023 Semester/MAS 316 - Mexican American Studies",
     "Spring 2023 Semester/GOV 312L - U.S. National Security",
     "Spring 2023 Semester/CH 368 - Computational Materials Research",
