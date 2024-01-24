@@ -11,7 +11,7 @@ Examples:
 
 Similar to a heuristic (you know one thing, how can you predict the next).
 
-Looking into conditional probability is also important to understand the *independence* of events. It seems backwards, but if you know the probability of something happened based on something else, you can find if there is a correlation or probability increase.
+Looking into conditional probability is also important to understand the *[[Independence|independence]]* of events. It seems backwards, but if you know the probability of something happened based on something else, you can find if there is a correlation or probability increase.
 
 This causes us to ask these two questions:
 - Are two events actually related?
