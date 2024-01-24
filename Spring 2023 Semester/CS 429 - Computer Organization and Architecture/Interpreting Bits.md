@@ -47,6 +47,10 @@ Thats why we move to weighted codes.
 
 ## Weighted Codes
 
+Weights represent the value of a bit at each position.
+
+So in binary, we know bits to be $2^i$, where $i$ is the position of the bit from the left.
+
 ### Ex: How many inches in 7 yards, 2 feet, 5 inches?
 
 We could go about this the long way, manually doing every calculation through dimensional analysis. OR, we could represent the case as a weight vector:
@@ -99,3 +103,37 @@ Can we make the range of values $S_6=\{s: -32\leq s < 32\}$ rather than $U_6$?
 	- This is called "biasing"
 - **Another way**: Change the weight vector to $W_S=[-2^5, 2^4, 2^3, 2^2, 2^1, 2^0]$
 	- This is called the "two's complement" representation
+
+
+## Range Expansion
+
+Given a $w$-bit vector $b=[b_{w-1}, \ldots, b_0]$, we want to *expand* it to a $(w+k$)-bit vector $b'$ and *re-interpret* $b'$ as an integer. 
+- Moving from a smaller $w$-bit wheel to a larger $(w+k)$-bit wheel
+
+### Expansion:
+- Unsigned: $b'=[0^k, b_{w-1}, \ldots, b_0]$ 
+- Signed: $b'=[b^k_{w-1}, b_{w-1},\ldots, b_0]$
+
+### Re-interpretation: $b$ and $b'$ represent the same integer
+- Unsigned: proof is obvious
+- Signed: proof by induction, $k=1$ is the base case, divide it into two cases based on the value of $b_{w-1}$
+
+## Range Truncation
+
+Given a $w$-bit vector $b=[b_{w-1},\ldots, b_0]$, we want to *truncate* it to a $k$-bit vector $b'$ where $0<k<w$ and *re-interpret* $b'$ as an integer
+- Moving from a larger $w$-bit wheel to a smaller $k$-bit wheel
+
+### Truncation: $b'=[b_{k-1},\ldots,b_0]$
+
+### Re-interpretation:
+- Unsigned: if $b$ represents $n$, then $b'$ represents $m=n\;\text{mod}\;2^k$
+- Signed: if $b$ represents $n$, then $b'$ represents $m'$, where $m'$ has the same representation on the signed $k$-bit wheel as $m$ does on the *unsigned* $k$-bit wheel.
+
+To understand this, lets look at a few calculations
+
+### Remainder and Modulus
+
+Given an integer $a$ and non-zero integer $d$:
+- $\exists q, r: a=qd+r, 0\leq r < |d|$ 
+- We write $r=a\;\text{mod}\;d$. $r$ is also non-negative
+
