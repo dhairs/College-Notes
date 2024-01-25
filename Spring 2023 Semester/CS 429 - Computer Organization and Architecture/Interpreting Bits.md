@@ -5,7 +5,7 @@ Recall the idea of Bits:
 
 ## Representations of Bits
 
-Therefore, we can denote the set $\text{Bit}=\{\circ, |\}$
+We denote the set $\text{Bit}=\{\circ, |\}$ ^efb035
 
 The cartesian product of $\text{Bit}$ with itself creates *bit tuples*:
 - $\text{Byte}=\text{Bit}\times\text{Bit}\times\text{Bit}\times\text{Bit}\times\text{Bit}\times\text{Bit}\times\text{Bit}\times\text{Bit}=\text{Bit}^8$ 
@@ -87,8 +87,11 @@ How can we convert this to base-16 (hexadecimal)?
 
 $d_2\cdot 16^2 + d_1\cdot 16 + d_0 = 429$ 
 
+Just keep dividing by 16 and add the remainder's last digit.
 
+### Base 16 to base 2
 
+Convert each digit separately to be binary.
 
 
 ## Including Negative Integers
