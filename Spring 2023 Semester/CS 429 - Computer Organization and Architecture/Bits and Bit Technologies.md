@@ -23,3 +23,11 @@ Start with silicon,
 
 - Work by magnetizing a thin film of ferromagnetic material on both sides of a disk
 - Sequential changes in the direction of magnetization (at a granularity of millions of magnetic domains, forming a magnetic dipole and generating a magnetic field) represent bits
+
+## Byte
+
+One **Byte (B)** is defined as an aggregation of **8 bits**.
+
+## Nibble
+
+One **Nibble** is defined as an aggregation of **4 bits**, or $\frac{1}{2}$ of a [[Bits and Bit Technologies#Byte|Byte]].
