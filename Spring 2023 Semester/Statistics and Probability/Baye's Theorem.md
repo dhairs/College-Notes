@@ -37,4 +37,4 @@ P(D|T)=\frac{P(T|D)P(D)}{P(T|D)P(D)+P(T|D^\complement)P(D^\complement)}
 \end{align}
 $$
 
-Plugging in the numbers above we finally land at $P(D|T)=0.66$
+Plugging in the numbers above we finally land at $P(D|T)=0.66$.
