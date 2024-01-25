@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
-                "mode": "source",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md"
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md"
               }
             }
           },
@@ -172,8 +172,12 @@
   },
   "active": "616dc9d0dfb72153",
   "lastOpenFiles": [
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Number Wheels.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Dead Reckoning.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Equations to Implement.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Number Wheels.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
@@ -195,10 +199,6 @@
     "Spring 2023 Semester/Probability Distributions.md",
     "README.md",
     "Fall 2023 Semester/M 408D/Test.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Cardinality.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets.md",
-    "Fall 2023 Semester/CS 311/Homework 1.md",
-    "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
     "Spring 2023 Semester/MAS 316 - Mexican American Studies",
     "Spring 2023 Semester/GOV 312L - U.S. National Security",
     "Spring 2023 Semester/CH 368 - Computational Materials Research",
