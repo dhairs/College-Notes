@@ -11,8 +11,12 @@
             "id": "616dc9d0dfb72153",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -105,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md"
+              }
             }
           },
           {
