@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Independence.md",
-                "mode": "preview",
+                "file": "Technologies/DevOps/Jira.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Independence.md",
+                "file": "Technologies/DevOps/Jira.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Independence.md",
+                "file": "Technologies/DevOps/Jira.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Independence.md"
+                "file": "Technologies/DevOps/Jira.md"
               }
             }
           },
@@ -184,6 +184,13 @@
   },
   "active": "616dc9d0dfb72153",
   "lastOpenFiles": [
+    "README.md",
+    "Technologies/DevOps/Jira.md",
+    "Spring 2023 Semester/Statistics and Probability/Independence.md",
+    "Technologies/DevOps",
+    "Technologies",
+    "Clubs/Jira/Technologies.md",
+    "Clubs/Jira",
     "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
     "Spring 2023 Semester/Statistics and Probability/Counting Methods/Sum Rule.md",
     "Spring 2023 Semester/Statistics and Probability/Counting Methods/Product Rule.md",
@@ -191,7 +198,6 @@
     "Spring 2023 Semester/Statistics and Probability/Counting Methods",
     "Spring 2023 Semester/Statistics and Probability/Untitled.md",
     "Spring 2023 Semester/Statistics and Probability/Successive Conditioning.md",
-    "Spring 2023 Semester/Statistics and Probability/Independence.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
     "Spring 2023 Semester/Statistics and Probability/Total Probability Theorem.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Tables.md",
@@ -208,18 +214,12 @@
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Equations to Implement.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Number Wheels.md",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
-    "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
     "Spring 2023 Semester/Statistics and Probability",
     "Spring 2023 Semester/MAS 316 - Mexican American Studies",
     "Spring 2023 Semester/GOV 312L - U.S. National Security",
     "Spring 2023 Semester/CH 368 - Computational Materials Research",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture",
     "Spring 2023 Semester/ECO 329 - Economic Statistics",
-    "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics",
-    "Spring 2023 Semester",
-    "Fall 2023 Semester/CS 311/Files/Set Identities.pdf",
     "Untitled.canvas"
   ]
 }
