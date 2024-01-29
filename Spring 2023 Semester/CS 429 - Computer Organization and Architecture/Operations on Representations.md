@@ -97,10 +97,14 @@ This is very straightforward.
 
 Say we have `int x` in a `C` program, where `sizeof(x) = 4` and `&x = 0x1000`, the occupied bytes of memory's addresses are: `0x1000, 0x1001, 0x1002, 0x1003` because the bytes are stored consecutively.
 
-- Which byte goes into what cell?
-	- Similar to how we order binary bits, we put the least significant byte in the lowest address.
-
-### Two Byte Orders
+**Which byte goes into what cell?** This question only matters if we have multi-byte values
+#### Two Byte Orders
 
 - **Little-endian ordering**: If the least significant byte is in the memory cell with the lowest-numbered address
-- 
+	- Byte $B_0$ is stored in memory $0x1000$
+	- Byte $B_3$ is stored in memory $0x1003$
+- **Big-endian ordering**: If the most significant byte is in the memory cell with the lowest-numbered address
+	- Byte $B_3$ is stored in memory $0x1000$
+	- Byte $B_0$ is stored in memory $0x1003$
+
+In AArch64, instructions are always stored in little-endian order.
