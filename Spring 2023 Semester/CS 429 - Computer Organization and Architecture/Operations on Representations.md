@@ -108,3 +108,7 @@ Say we have `int x` in a `C` program, where `sizeof(x) = 4` and `&x = 0x1000`, t
 	- Byte $B_0$ is stored in memory $0x1003$
 
 In AArch64, instructions are always stored in little-endian order.
+
+## Integers
+
+For integers, we can do [[Integer Arithmetic|integer arithmetic]].
