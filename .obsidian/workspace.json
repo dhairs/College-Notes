@@ -13,31 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f1eb0e152143eb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Sum Rule.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8c2a1884a38db13c",
+            "id": "ced48229573f727c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
+                "file": "Technologies/Data Science/R (Language).md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md"
+                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md"
               }
             }
           },
@@ -184,10 +172,17 @@
   },
   "active": "616dc9d0dfb72153",
   "lastOpenFiles": [
+    "Technologies/Data Science/R (Language).md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Sum Rule.md",
+    "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
+    "Technologies/Data Science",
+    "Technologies/Untitled.md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Product Rule.md",
+    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/L01/Precedence of Logical Operators (PEMDAS for Logical Operators).md",
     "Fall 2023 Semester/CS 311/L01/Logical operators.md",
     "Fall 2023 Semester/CS 311/L01/Boolean and Propositional Logic.md",
-    "Fall 2023 Semester/CS 311/L01/Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/L01/Truth Tables.md",
     "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
@@ -199,9 +194,6 @@
     "Technologies",
     "Clubs/Jira/Technologies.md",
     "Clubs/Jira",
-    "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
-    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Sum Rule.md",
-    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Product Rule.md",
     "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
     "Spring 2023 Semester/Statistics and Probability/Counting Methods",
     "Spring 2023 Semester/Statistics and Probability/Untitled.md",
@@ -211,15 +203,11 @@
     "Spring 2023 Semester/Statistics and Probability/Probability Tables.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
-    "Spring 2023 Semester/MAS 316 - Mexican American Studies/Westward Expansion.md",
     "Spring 2023 Semester/Statistics and Probability",
     "Spring 2023 Semester/MAS 316 - Mexican American Studies",
     "Spring 2023 Semester/GOV 312L - U.S. National Security",
     "Spring 2023 Semester/CH 368 - Computational Materials Research",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture",
-    "Spring 2023 Semester/ECO 329 - Economic Statistics",
     "Untitled.canvas"
   ]
 }
