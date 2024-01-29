@@ -21,7 +21,7 @@ The *joint probability* of two events $A$ and $B$ is the probability that both e
 
 ## Conditional Probability Distributions
 
-The *conditional probability* $P(A|B)$, which is the probability of event $A$ given that event $B$ has occurred, is given by:
+The *[[Conditional Probability|conditional probability]]* $P(A|B)$, which is the probability of event $A$ given that event $B$ has occurred, is given by:
 
 $$P(A|B)=\frac{P(A\cap B)}{P(B)}\; \text{if}\; P(B)>0$$
 

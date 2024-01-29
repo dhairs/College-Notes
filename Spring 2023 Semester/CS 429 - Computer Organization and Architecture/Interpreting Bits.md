@@ -140,3 +140,6 @@ Given an integer $a$ and non-zero integer $d$:
 - $\exists q, r: a=qd+r, 0\leq r < |d|$ 
 - We write $r=a\;\text{mod}\;d$. $r$ is also non-negative
 
+### Special Bit Operations
+
+Because we express bits as $2^i$ in binary, we can do special operations with them. Often called bitwise operations. There are many [[Operations on Representations]] to look over.

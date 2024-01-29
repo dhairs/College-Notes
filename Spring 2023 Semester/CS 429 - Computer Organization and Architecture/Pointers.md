@@ -2,6 +2,8 @@
 
 Essentially, a pointer is an *address* to memory on your machine. 
 
+The space taken up by a pointer is determined by your machine's [[Operations on Representations#Word Size|word size]].
+
 Think of your memory as an array: 
 
 Lets say we have 

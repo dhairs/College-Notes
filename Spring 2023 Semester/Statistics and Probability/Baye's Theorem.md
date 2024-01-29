@@ -1,4 +1,3 @@
-
 # Definition
 
 If $A_1, A_2, \ldots, A_k$ are mutually exclusive and exhaustive events, then for any event $B$,

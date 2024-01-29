@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ced48229573f727c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technologies/Data Science/R (Language).md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md"
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md"
               }
             }
           },
@@ -172,10 +160,22 @@
   },
   "active": "616dc9d0dfb72153",
   "lastOpenFiles": [
+    "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
+    "Spring 2023 Semester/Statistics and Probability/Total Probability Theorem.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
     "Technologies/Data Science/R (Language).md",
     "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
-    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Sum Rule.md",
+    "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
+    "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
+    "Spring 2023 Semester/Statistics and Probability/Probabilities for Equally Likely Choices.md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Sum Rule.md",
     "Technologies/Data Science",
     "Technologies/Untitled.md",
     "Spring 2023 Semester/Statistics and Probability/Counting Methods/Product Rule.md",
@@ -187,22 +187,10 @@
     "Fall 2023 Semester/CS 311/L01/Proofs Using Basic Equivalences.md",
     "Fall 2023 Semester/CS 311/L01/Discrete Math Terminology.md",
     "Technologies/DevOps/Containerization.md",
-    "Technologies/DevOps/Jira.md",
-    "README.md",
-    "Spring 2023 Semester/Statistics and Probability/Independence.md",
     "Technologies/DevOps",
     "Technologies",
-    "Clubs/Jira/Technologies.md",
     "Clubs/Jira",
-    "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
     "Spring 2023 Semester/Statistics and Probability/Counting Methods",
-    "Spring 2023 Semester/Statistics and Probability/Untitled.md",
-    "Spring 2023 Semester/Statistics and Probability/Successive Conditioning.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
-    "Spring 2023 Semester/Statistics and Probability/Total Probability Theorem.md",
-    "Spring 2023 Semester/Statistics and Probability/Probability Tables.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
     "Spring 2023 Semester/Statistics and Probability",
     "Spring 2023 Semester/MAS 316 - Mexican American Studies",
     "Spring 2023 Semester/GOV 312L - U.S. National Security",

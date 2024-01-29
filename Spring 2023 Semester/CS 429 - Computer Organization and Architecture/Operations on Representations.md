@@ -77,6 +77,8 @@ In most cases, that ends up being the arithmetic shift.
 
 ## Word Size
 
+How many bits it takes to hold a pointer, or *address*.
+
 Memory will be abstracted as an array of $2^W$ cells, indexed from $0$ through $2^W-1$.
 - Each cell holds one [[Bits and Bit Technologies#Byte|byte]] of data, each with an address.
 - Memory accesses are in units of these cells (an integral number of bytes)
@@ -86,3 +88,19 @@ Memory will be abstracted as an array of $2^W$ cells, indexed from $0$ through $
 	- AArch64 and x86-64: $W=64$
 	- AArch32 and IA32: $W=32$
 	- This size can be smaller/vary for embedded processing units
+
+### Byte Ordering
+
+Defines the order by which bytes are counted when an address is defined.
+
+This is very straightforward.
+
+Say we have `int x` in a `C` program, where `sizeof(x) = 4` and `&x = 0x1000`, the occupied bytes of memory's addresses are: `0x1000, 0x1001, 0x1002, 0x1003` because the bytes are stored consecutively.
+
+- Which byte goes into what cell?
+	- Similar to how we order binary bits, we put the least significant byte in the lowest address.
+
+### Two Byte Orders
+
+- **Little-endian ordering**: If the least significant byte is in the memory cell with the lowest-numbered address
+- 

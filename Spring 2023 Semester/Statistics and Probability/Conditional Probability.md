@@ -1,4 +1,3 @@
-
 ## What is Conditional Probability?
 
 In essence, conditional probability is for when an event has already happened, and we want to model what comes next.

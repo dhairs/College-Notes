@@ -13,7 +13,7 @@ The biggest question to ask when deciding which one is being used is "does order
 
 An **ordered** subset of distinct choices is called a permutation, and $P_{n,k}=\text{num. of permutations of size}\;k \;\text{that can be formed from}\;n\; \text{objects}$ 
 
-**General formula**: $n$ factorial over $(n-k)$ factorial
+**General formula**: $n$ factorial over $(n-k)$ factorial ^72d40c
 
 $$
 P_{n,k}=\frac{n!}{(n-k)!}
