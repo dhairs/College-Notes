@@ -64,3 +64,29 @@ The element $0$ is the unique **identity** for $\bigoplus^{n}_{s}$
 
 Every element $x$ has a unique **additive inverse** $\ominus^{n}_{u}x$ 
 - i.e., $\forall x\in S_n: x\bigoplus^{n}_{u}(\ominus^{n}_{u}x)=0$
+
+
+### Example Additive Inverse $\ominus^3_sx$ 
+
+| Repr$x$ | $x$ | $\ominus^3_sx$ | Repr($\ominus^3_sx$) | ~Repr($x$) | ~Repr($x$)+1 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 000 | 0 | 0 | 000 | 111 | 000 |
+| 001 | 1 | -1 | 111 | 110 | 111 |
+| 010 | 2 | -2 | 110 | 101 | 110 |
+| 011 | 3 | -3 | 101 | 100 | 101 |
+| 100 | -4 | -4 | 100 | 011 | 100 |
+|  |  |  |  |  |  |
+
+
+### Multiplication: $\bigodot^n_u$ and $\bigodot^n_s$
+
+Operationally (not very useful):
+- Iterated addition — literally definitionally what multiplication is
+- Adjust appropriately for signed
+
+Definition:
+- **Unsigned**: $x\bigodot^n_uy\;{\text{def} \atop =}\;(x\cdot y)\,\text{mod}\,2^n$ 
+- **Signed**: $x\bigodot^n_sy\;{\text{def} \atop =}\;U2S_n((x\cdot y)\,\text{mod}\,2^n)$ 
+
+$U2S$ means Unsigned to Signed
+$S2U$ means Signed to Unsigned
