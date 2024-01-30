@@ -6,7 +6,6 @@ We want to perform the standard collection of integer arithmetic operations: **a
 We can't do mathematical addition with $n$-bit representations
 - We defined the operations $x\bigoplus y$, $x\bigodot y$  
 
-
 ## Unsigned Integer Addition: $x \bigoplus^{n}_{u} y$ 
 
 Operationally:
@@ -66,7 +65,7 @@ Every element $x$ has a unique **additive inverse** $\ominus^{n}_{u}x$
 - i.e., $\forall x\in S_n: x\bigoplus^{n}_{u}(\ominus^{n}_{u}x)=0$
 
 
-### Example Additive Inverse $\ominus^3_sx$ 
+## Example Additive Inverse $\ominus^3_sx$ 
 
 | Repr$x$ | $x$ | $\ominus^3_sx$ | Repr($\ominus^3_sx$) | ~Repr($x$) | ~Repr($x$)+1 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -77,8 +76,7 @@ Every element $x$ has a unique **additive inverse** $\ominus^{n}_{u}x$
 | 100 | -4 | -4 | 100 | 011 | 100 |
 |  |  |  |  |  |  |
 
-
-### Multiplication: $\bigodot^n_u$ and $\bigodot^n_s$
+## Multiplication: $\bigodot^n_u$ and $\bigodot^n_s$
 
 Operationally (not very useful):
 - Iterated addition — literally definitionally what multiplication is
@@ -87,6 +85,67 @@ Operationally (not very useful):
 Definition:
 - **Unsigned**: $x\bigodot^n_uy\;{\text{def} \atop =}\;(x\cdot y)\,\text{mod}\,2^n$ 
 - **Signed**: $x\bigodot^n_sy\;{\text{def} \atop =}\;U2S_n((x\cdot y)\,\text{mod}\,2^n)$ 
+	- First calculate the unsigned value, then convert to a signed value.
 
-$U2S$ means Unsigned to Signed
+$U2S_n$ means Unsigned to Signed - We need this one because of the definition of the mod operator.
+
 $S2U$ means Signed to Unsigned
+
+### Ex: $x\bigodot^3_uy$ with $x=5$ and $y=6$
+
+$$
+\begin{align}
+2^n=2^3=8\\
+5\times6 = 30 = 3\times8+6
+\end{align}
+$$
+
+### Ex: $x\bigodot^3_uy$ with $x=3$ and $y=-2$
+
+$$
+\begin{align}
+2^n=2^3=8 \\
+3\times-2=-6=-1\times8+2
+\end{align}
+$$
+
+### Ex: $x\bigodot^3_uy$ with $x=3$ and $y=-3$
+
+$$
+\begin{align}
+2^n=2^3=8 \\
+3\times-3=-9=-2\times8+7
+\end{align}
+$$
+
+The number's $-2$ and $7$ are chosen because we have defined $\text{mod}$ to not be negative. So we must go farther and then step back.
+
+In this case, we go to $-16$ and then move upwards back to $-9$.
+
+
+### Multiplication by Constants
+
+For $0\leq k < n$:
+- $x\bigodot^n_u2^k=x<<k$
+- $x\bigodot^n_s2^k=x<<k$
+
+This gives us a way of simplifying multiplying by constants using shifts and adds (**strength reduction**).
+
+**Ex:** $x\times 14 = x\times 8 + x\times 4 + x\times 2 = (x<<3) + (x<<2) + (x<<1)$. 
+
+## Floor and Ceiling Functions
+
+For any real number $x$, we define:
+- floor($x$), written $\lfloor x\rfloor$, to be the greatest integer less than or equal to $x$
+- ceil($x$), written $\lceil x\rceil$, to be the smallest integer greater than or equal to $x$
+
+If $n$ is an integer, then $\lfloor n\rfloor = \lceil n\rceil = n$ 
+
+Otherwise, $\lfloor n\rfloor = \lceil n\rceil - 1$
+
+## Integer Division by Constants
+
+For $0\leq k < n$:
+- **Unsigned**: $x >>_L k$ yields $\lfloor x/2^k \rfloor$ 
+- **Signed**: $x>>_A k$ yields $\lfloor x/2^k \rfloor$ 
+- **Signed**: $(x+(1<<k)-1)>>_A k$ y
