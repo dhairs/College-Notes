@@ -46,7 +46,7 @@ Operationally:
 
 Definition:
 - Let $s=x+y$, this is the mathematical sum
-- Then $r=x\bigoplus^{n}_{s}y=
+- Then $r=x\bigoplus^{n}_{s}y=$ 
 
 ### Signed Overflow: $\bigoplus^{n}_{s}$
 
@@ -148,4 +148,25 @@ Otherwise, $\lfloor n\rfloor = \lceil n\rceil - 1$
 For $0\leq k < n$:
 - **Unsigned**: $x >>_L k$ yields $\lfloor x/2^k \rfloor$ 
 - **Signed**: $x>>_A k$ yields $\lfloor x/2^k \rfloor$ 
-- **Signed**: $(x+(1<<k)-1)>>_A k$ y
+- **Signed**: $(x+(1<<k)-1)>>_A k$ yields $\lceil x/2^k \rceil$
+	- We first bias the value and *then* perform the shift
+	- $1<<k=1\times 2^k=2^k-1$  
+
+## Implementing Addition
+
+**Very, *very*** similar to a grade school addition algorithm.
+
+| **s** | **0** | **1** |
+| ---- | ---- | ---- |
+| **0** | 0 | 1 |
+| **1** | 1 | 0 |
+
+| **+** | **0** | **1** |
+| ---- | ---- | ---- |
+| **0** | 00 | 01 |
+| **1** | 01 | 10 |
+
+| **C** | **0** | **1** |
+| ---- | ---- | ---- |
+| **0** | 0 | 0 |
+| **1** | 0 | 1 |
