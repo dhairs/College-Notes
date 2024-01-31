@@ -196,7 +196,7 @@ $$
 
 Literally think of regular addition but in base 2, so instead of reaching 10 and then carrying, we carry when we reach 2.
 
-We use the **ripple-carry adder** scheme
+We still use the **ripple-carry adder** scheme
 - $(d[0], c_{out}[0])=FA(a[0],b[0],1)$
 - $\forall i \in [1:n-1], (d[i], c_{out}[i])=FA(a[i],b[i], c_{out}[i-1])$ 
 - $c=c_{out}[n-1]$
