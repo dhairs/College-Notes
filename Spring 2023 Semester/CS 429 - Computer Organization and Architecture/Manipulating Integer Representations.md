@@ -35,4 +35,4 @@ The trick is to generate masks efficiently and portably
 		- `OxFF` is `1111 1111` in binary, when doing the and, extra `0`'s are appended to the left as needed.
 - Add corresponding bytes of `x` and `y`
 	- `s = (x & 0x7F7F7F7F) + (y & 0x7F7F7F7F);` - we are getting rid of the most significant bit in the byte, so if there does happen to be a carry, all we get is a 1 there
-	- `return ((x^y) & 0x80808080) ^ s`
+	- `return ((x^y) & 0x80808080) ^ s` - we know the bottom 7 bits are good, so we can bring down those values using the XOR mask with 0s, because `x | 0 = x`
