@@ -1,4 +1,6 @@
 {
   "accentColor": "",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "interfaceFontFamily": "",
+  "textFontFamily": "Times New Roman"
 }
