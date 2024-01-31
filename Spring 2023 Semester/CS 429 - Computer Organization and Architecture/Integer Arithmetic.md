@@ -170,3 +170,34 @@ For $0\leq k < n$:
 | ---- | ---- | ---- |
 | **0** | 0 | 0 |
 | **1** | 0 | 1 |
+
+### $n$-bit Adder
+
+We want $(s[n-1:0],c)=SUM(a[n-1:0],b[n-1:0])$
+
+
+Literally think of regular addition but in base 2, so instead of reaching 10 and then carrying, we carry when we reach 2.
+
+We use the **ripple-carry adder** scheme
+- $(s[0], c_{out}[0])=FA(a[0],b[0],0)$
+- $\forall i \in [1:n-1], (s[i], c_{out}[i])=FA(a[i],b[i], c_{out}[i-1])$ 
+- $c=c_{out}[n-1]$
+
+
+### $n$-bit Subtractor
+
+We want $(d[n-1:0],c)=DIFF(a[n-1:0],b[n-1:0])$
+
+We will implement this by using the definition of subtraction in terms of addition and additive inverse:
+
+$$
+a-b=a+(-b)=a+\overline{b}+1
+$$
+
+Literally think of regular addition but in base 2, so instead of reaching 10 and then carrying, we carry when we reach 2.
+
+We use the **ripple-carry adder** scheme
+- $(d[0], c_{out}[0])=FA(a[0],b[0],1)$
+- $\forall i \in [1:n-1], (d[i], c_{out}[i])=FA(a[i],b[i], c_{out}[i-1])$ 
+- $c=c_{out}[n-1]$
+

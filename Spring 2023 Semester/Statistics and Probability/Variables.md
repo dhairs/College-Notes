@@ -82,3 +82,32 @@ $$
 \right. 
 \end{align}
 $$
+
+#### Ex: Labor Force Status
+
+We have more than two options (employed, unemployed, not in labor force), so we define this as:
+
+$$
+\begin{align}
+   employed=\left\{
+\begin{array}{ll}
+      1\;\text{if individual is employed} \\
+	      0\;\text{if not (unemployed or not in LF)} \\
+\end{array} 
+\right. \\ \\
+   unemp=\left\{
+\begin{array}{ll}
+      1\;\text{if individual is unemployed} \\
+	      0\;\text{if not (employed or not in LF)} \\
+\end{array} 
+\right. \\ \\
+   notInLF=\left\{
+\begin{array}{ll}
+      1\;\text{if individual is not in LF} \\
+	      0\;\text{if not (employed or unemployed)} \\
+\end{array} 
+\right. 
+\end{align}
+$$
+
+Note that we ended needing only 2 of these variables, because the rest is still included in the other variables.
