@@ -30,3 +30,8 @@ $$
 C_{n,k}=\Bigl({n\atop k}\Bigl)=\frac{n!}{(n-k)!k!}
 $$
 
+## Sampling with Replacement
+
+There are total $n$ different elements in a population or set, you want to create an ordered arrangement of $k$ elements.
+
+If you pick an element, note it, and put it back, you are sampling with replacement.

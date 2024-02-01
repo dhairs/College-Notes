@@ -74,3 +74,85 @@ int POPCNT(unsigned x) {
 
 - Counting the parity of `int x`
 
+```c
+int PARITY(int x) {
+	int y = x ^ (x >> 1);
+	y ^= (y >> 2); y ^= (y >> 4);
+	y ^= (y >> 8); y ^= (y >> 16);
+	return y & 0x1;
+}
+```
+
+- Counting the number of leading zeros in an `unsigned int x`
+
+```c
+int NLZ(unsigned x) {
+	x |= (x >> 1); x |= (x >> 2);
+	x |= (x >> 4); x |= (x >> 8);
+	x |= (x >> 16);
+	return POPCNT(~x);
+}
+```
+
+## Structured Permutations
+
+Moving all the bits in a structured manner (reversal, perfect shuffle, etc.) can be accomplished using a logarithmic number of steps.
+
+Used recursive doubling principles.
+
+Used for: design of interconnection networks, Fourier analysis, cryptography, etc.
+
+**Examples**:
+- Bit reversal of an `unsigned int x`
+
+```c
+unsigned BitReversal(unsigned x) {
+	x = (x & 0x55555555) << 1 | (x & 0xAAAAAAAA) >> 1;
+	x = (x & 0x33333333) << 2 | (x & 0xCCCCCCCC) >> 2;
+	x = (x & 0x0F0F0F0F) << 4 | (x & 0xF0F0F0F0) >> 4;
+	x = (x & 0x00FF00FF) << 8 | (x & 0xFF00FF00) >> 8;
+	x = (x & 0x0000FFFF) << 16 | (x & 0xFFFF0000) >> 16;
+	return x;
+}
+```
+
+- "Outer perfect shuffle" of the bits of an `unsigned int x`
+
+```c
+unsigned OuterPerfectShuffle(unsigned x) {
+	x = (x & 0x0000FF00) << 8 | (x >> 8) & 0x0000FF00 | x & 0xFF0000FF;  
+	x = (x & 0x00F000F0) << 4 | (x >> 4) & 0x00F000F0 | x & 0xF00FF00F;  
+	x = (x & 0x0C0C0C0C) << 2 | (x >> 2) & 0x0C0C0C0C | x & 0xC3C3C3C3;  
+	x = (x & 0x22222222) << 1 | (x >> 1) & 0x22222222 | x & 0x99999999;  
+	return x;  
+}
+```
+
+## Lookup Tables
+
+Keep precomputed values in a lookup table.
+
+Used standalone or as an assist to other methods
+
+Must control size of lookup table.
+
+**Examples**:
+- Alternative version of `POPCNT(x)`, uses `C` preprocessor to avoid writing out table manually
+
+☠️ Code, don't ever try to write this type of code without knowing how it works
+
+```c
+static const char table[256] = {  
+	#define B2(n) n, n+1, n+1, n+2  
+	#define B4(n) B2(n), B2(n+1), B2(n+1), B2(n+2)  
+	#define B6(n) B4(n), B4(n+1), B4(n+1), B4(n+2)  
+	B6(0), B6(1), B6(1), B6(2)
+};
+
+int POPCNT2(unsigned x) {  
+	return table[x & 0xFF] +  
+	table[(x >> 8) & 0xFF] +  
+	table[(x >> 16) & 0xFF] +  
+	table[(x >> 24)];  
+}
+```
