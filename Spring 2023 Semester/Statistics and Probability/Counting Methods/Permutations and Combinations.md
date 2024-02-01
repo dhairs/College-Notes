@@ -13,11 +13,13 @@ The biggest question to ask when deciding which one is being used is "does order
 
 An **ordered** subset of distinct choices is called a permutation, and $P_{n,k}=\text{num. of permutations of size}\;k \;\text{that can be formed from}\;n\; \text{objects}$ 
 
-**General formula**: $n$ factorial over $(n-k)$ factorial ^72d40c
+**General formula**: $n$ factorial over $(n-k)$ factorial
 
 $$
 P_{n,k}=\frac{n!}{(n-k)!}
 $$
+
+^ee18c4
 
 ## Combinations
 
@@ -35,3 +37,25 @@ $$
 There are total $n$ different elements in a population or set, you want to create an ordered arrangement of $k$ elements.
 
 If you pick an element, note it, and put it back, you are sampling with replacement.
+
+Therefore, for every $k$, we have $n$ options, because the option has been replaced. Therefore we have $n_1\times n_2\times n_3 \times \ldots\times n_k$ options.
+
+**General Formula**:
+
+$$
+n^k
+$$
+
+## Sampling without Replacement (Permutations)
+
+There are total $n$ different elements in a population or set, you want to create an ordered arrangement of all $n$ elements. This is also a permutation.
+
+If you pick an element and don't put it back, you are sampling *without* replacement.
+
+Therefore, we have $n$ options for our first sample, $n-1$ for our second, and so on.
+
+**General Formula**:
+
+$$
+n!
+$$

@@ -22,7 +22,7 @@ choose(100, 5)
 No built in function for permutations, but its very simple, because the equation for permutations itself is simple.
 
 Recall the Permutation general formula:
-![[Permutations and Combinations#^72d40c]]
+![[Permutations and Combinations#^ee18c4]]
 
 We can express this in `R` as:
 
