@@ -36,3 +36,41 @@ The trick is to generate masks efficiently and portably
 - Add corresponding bytes of `x` and `y`
 	- `s = (x & 0x7F7F7F7F) + (y & 0x7F7F7F7F);` - we are getting rid of the most significant bit in the byte, so if there does happen to be a carry, all we get is a 1 there
 	- `return ((x^y) & 0x80808080) ^ s` - we know the bottom 7 bits are good, so we can bring down those values using the XOR mask with 0s, because `x | 0 = x`
+
+## Shifting
+
+Shifting quantities to bring certain bits into desired positions, typically used in conjunction with masking.
+
+**Examples**:
+- Extract the `Most Significant Byte` of `x`
+	- `return (x >> ((sizeof(int) - 1) << 3)) & 0xFFU;`
+	- Rotate (not "shift") `x` left by `k` positions
+		- `return (x << k) | (x >> ((sizeof(int) << 3) - k));` - need to make sure `x` is unsigned
+
+## Recursive Doubling
+
+General and powerful primitive for parallel algorithm design (parallel sum/reduction or prefix sum/scan)
+
+Divide and Conquer Strategy:
+1. Breaks up word into two equal-sized independent pieces — think of merge sort.
+2. Works on them in parallel
+3. Combines their results using an *associative* operator
+
+Allows us to reduce the step complexity of algorithms from $O(n)$ to $O(\log_2(n))$
+
+**Examples**:
+- Counting the number of 1-bits in an `unsigned int x`
+
+```c
+int POPCNT(unsigned x) {
+	x = (x & 0x55555555) + ((x >> 1) & 0x55555555);
+	x = (x & 0x33333333) + ((x >> 2) & 0x33333333);
+	x = (x & 0x0F0F0F0F) + ((x >> 4) & 0x0F0F0F0F);
+	x = (x & 0x00FF00FF) + ((x >> 8) & 0x00FF00FF);
+	x = (x & 0x0000FFFF) + ((x >> 16) & 0x0000FFFF);
+	return x & 0x0000003F;
+}
+```
+
+- Counting the parity of `int x`
+
