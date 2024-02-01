@@ -59,3 +59,32 @@ Therefore, we have $n$ options for our first sample, $n-1$ for our second, and s
 $$
 n!
 $$
+
+### Example: Arranging Books on a Bookshelf
+
+Alex has 10 books that he is going to put on a shelf. Of these, 4 are math books, 3 are chemistry books, 2 are history books, and 1 is a language book. He wants to arrange them in such a way that all books of the same subject are placed together on the same shelf. How many arrangements are possible?
+
+This will be blocks of permutations.
+
+For math: $4\times3\times2\times1=24$ options for arranging the books.
+For chemistry: $3\times2\times1=6$ options for arranging the books.
+For history: $2\times1=2$ options for arranging the books.
+For language: $1$ option for arranging the book.
+
+So, we have $\text{Math}\times\text{Chemistry}\times\text{History}\times\text{Language}$ options to arrange the books. 
+
+This is then $24\times6\times2\times1 = 288$
+
+Finally, we need to find an arrangement for the subjects themselves, which will be the number of categories factorial: $4!$. So, we multiple $288$ by $4!$, and get $4!\times288 = 6,912$ 
+
+### Example: Find out the number of ways
+
+
+1. 3 boys and girls can sit in a row
+	$6! = 720$
+2. 3 boys and 3 girls can sit in a row if the boys and girls are next to each other
+	$2\times3!\times3!=72$ 
+3. 3 boys and 3 girls can sit in a row if only the boys must sit together
+	$4!\times3!=144$ 
+4. 3 boys and 3 girls can sit together if no two people of the same sex are allowed to sit together
+	$3!\times3!\times2=72$ 
