@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
-                "mode": "source",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
+                "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "6019731be5b2c67e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "base k positional notation",
+                "query": "UNARY NEGATION",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,17 +163,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "616dc9d0dfb72153",
+  "active": "6019731be5b2c67e",
   "lastOpenFiles": [
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
     "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
     "Technologies/Data Science/R (Language).md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling/Types of Economic Data.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
     "Spring 2023 Semester/Statistics and Probability/Variables.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling.md",
