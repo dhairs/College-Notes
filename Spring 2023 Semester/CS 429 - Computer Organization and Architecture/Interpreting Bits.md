@@ -75,7 +75,7 @@ This gives a positional binary representation of the integer range $D=[0,2^n-1]=
 ### Radix-k (Base-k) Positional Codes
 
 Generalize from binary to other bases
-- Representation: $(d_{n-1}\ldots d_0)_k$ with $0\leq d_i\leq k$
+- Representation: $(d_{n-1}\ldots d_0)_k$ with $0\leq d_i< k$
 - Weight: $w_i=k^i$
 - Value: $\text{V}=\sum^{n-1}_{i=0}w_id_i=\sum^{n-1}_{i=0}d_i\cdot k^i$ 
 
