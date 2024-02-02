@@ -1,4 +1,3 @@
-
 # Bits and Bit Technologies
 
 ## What is a Bit?
