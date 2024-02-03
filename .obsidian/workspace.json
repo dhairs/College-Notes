@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "approxima",
+                "query": "disjoint",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md"
+                "file": "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md"
               }
             }
           },
@@ -154,11 +154,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,10 +174,20 @@
   },
   "active": "6019731be5b2c67e",
   "lastOpenFiles": [
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
-    "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md",
+    "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
+    "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
+    "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
+    "Spring 2023 Semester/Statistics and Probability/Probability Notation.md",
+    "Spring 2023 Semester/Statistics and Probability/Independence.md",
+    "Spring 2023 Semester/Statistics and Probability/Probability Tables.md",
+    "Spring 2023 Semester/Statistics and Probability/Total Probability Theorem.md",
+    "Spring 2023 Semester/Statistics and Probability/Successive Conditioning.md",
+    "Spring 2023 Semester/Statistics and Probability/Probabilities for Equally Likely Choices.md",
     "Spring 2023 Semester/Statistics and Probability/Variables.md",
     "Spring 2023 Semester/Statistics and Probability/Population Sampling.md",
+    "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
+    "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
@@ -188,17 +200,7 @@
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md",
-    "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
-    "Spring 2023 Semester/Statistics and Probability/Independence.md",
-    "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
-    "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
-    "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
-    "Spring 2023 Semester/Statistics and Probability/Total Probability Theorem.md",
-    "Spring 2023 Semester/Statistics and Probability/Successive Conditioning.md",
-    "Spring 2023 Semester/Statistics and Probability/Probabilities for Equally Likely Choices.md",
-    "Spring 2023 Semester/Statistics and Probability/Probability Tables.md",
     "Technologies/Data Science",
     "Technologies/DevOps",
     "Technologies",
