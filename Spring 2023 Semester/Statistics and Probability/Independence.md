@@ -26,7 +26,7 @@ Thus:
 $$\text{if}\; P(A|B)\neq P(A)$$
 The events $A$ and $B$ are dependent.
 
-## Independence of more than two events
+## Independence of more than two events (Mutual Independence)
 
 The events $A_1,A_2,\ldots,A_k$ are *mutually independent* if, for *any* subset of the events, the joint probability is equal to the product of the individual probabilities.
 
