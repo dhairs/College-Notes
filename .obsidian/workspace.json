@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "20fd3df9ff988df1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-02-04 13.41.23.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
+                "file": "Excalidraw/Drawing 2024-02-04 13.41.23.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
+                "file": "Excalidraw/Drawing 2024-02-04 13.41.23.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md"
+                "file": "Excalidraw/Drawing 2024-02-04 13.41.23.excalidraw.md"
               }
             }
           },
@@ -169,11 +179,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6019731be5b2c67e",
+  "active": "20fd3df9ff988df1",
   "lastOpenFiles": [
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
+    "Excalidraw/Drawing 2024-02-04 13.41.23.excalidraw.md",
+    "Excalidraw",
     "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
     "Spring 2023 Semester/Statistics and Probability/Independence.md",
     "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
@@ -198,8 +212,6 @@
     "Technologies/Data Science/R (Language).md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling/Types of Economic Data.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
-    "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling",
     "Technologies/Data Science",
     "Technologies/DevOps",
@@ -209,7 +221,6 @@
     "Spring 2023 Semester/Statistics and Probability",
     "Spring 2023 Semester/MAS 316 - Mexican American Studies",
     "Spring 2023 Semester/GOV 312L - U.S. National Security",
-    "Spring 2023 Semester/CH 368 - Computational Materials Research",
     "Untitled.canvas"
   ]
 }
