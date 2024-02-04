@@ -11,8 +11,12 @@
             "id": "eec65a9c21591606",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Spring 2023 Semester/Statistics and Probability/Independence.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -91,6 +95,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Spring 2023 Semester/Statistics and Probability/Independence.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -107,6 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Spring 2023 Semester/Statistics and Probability/Independence.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +123,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Spring 2023 Semester/Statistics and Probability/Independence.md"
+          }
         }
       }
     ],
@@ -135,41 +143,42 @@
   },
   "active": "eec65a9c21591606",
   "lastOpenFiles": [
+    "Spring 2023 Semester/Statistics and Probability/Population Sampling.md",
+    "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md",
+    "Spring 2023 Semester/Statistics and Probability/Variables.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
+    "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling",
+    "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling/Types of Economic Data.md",
+    "2024-01-30.md",
+    "Untitled.canvas",
+    "Spring 2023 Semester/Statistics and Probability/Independence.md",
+    "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods",
+    "Spring 2023 Semester/Statistics and Probability/Probabilities for Equally Likely Choices.md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Product Rule.md",
+    "Spring 2023 Semester/Statistics and Probability/Successive Conditioning.md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Sum Rule.md",
+    "Technologies/Data Science/R (Language).md",
+    "Technologies/Data Science",
+    "Technologies",
+    "Technologies/DevOps/Containerization.md",
+    "Technologies/DevOps/Jira.md",
+    "Technologies/DevOps",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Baye's Theorem.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
     "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
-    "Spring 2023 Semester/Statistics and Probability/Independence.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Tables.md",
-    "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Notation.md",
     "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
     "Spring 2023 Semester/Statistics and Probability",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
-    "Spring 2023 Semester/MAS 316 - Mexican American Studies/Westward Expansion.md",
     "Spring 2023 Semester/MAS 316 - Mexican American Studies",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
-    "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability Notation.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
-    "Spring 2023 Semester/ECO 329 - Economic Statistics/Conditional Probability.md",
-    "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability Distributions.md",
-    "README.md",
-    "Fall 2023 Semester/Structural Induction.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
-    "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/Overview, Definitions, and Axioms of Probability.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics",
     "Spring 2023 Semester",
-    "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
-    "Spring 2023 Semester/ECO 329 - Economic Statistics",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture",
-    "Spring 2023 Semester/ECO 329 - Economic Statistics/Probability.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
-    "Fall 2023 Semester/CS 311/Files/Set Identities.pdf",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering",
-    "Fall 2023 Semester/CS 311/Definitions/Proofs/Sets",
-    "Fall 2023 Semester/CS 311/Files/RulesOfInference.pdf"
+    "Spring 2023 Semester/ECO 329 - Economic Statistics"
   ]
 }
