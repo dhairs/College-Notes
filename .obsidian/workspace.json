@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test.md",
-                "mode": "source",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test.md"
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md"
               }
             }
           },
@@ -187,9 +187,9 @@
   },
   "active": "d777181bb4a4efbc",
   "lastOpenFiles": [
+    "Test.md",
     "First Note.md",
     "Excalidraw/Drawing 2024-02-04 13.45.16.excalidraw.md",
-    "Test.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
     "README.md",
     "Excalidraw/README.md",
