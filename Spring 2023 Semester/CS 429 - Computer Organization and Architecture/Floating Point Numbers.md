@@ -10,4 +10,31 @@ We need to find something that is not only efficient in storage space, but also 
 
 Represent a number $x$ as $\pm x_i * x_f$ where:
 - $x_i$ is the integer part of $x$, represented using $a$ radix-$k$ digits
-- 
+- - $x_f$ is the fractional part of $x$, represented using $b$ radix-$k$ digits
+
+Represent $x$ as a $(1+a+b)$ digit radix-$k$ string that we write from most-significant to least-significant digit at the triple (sign; the $a$ digits of $x_i$; the $b$ digits of $x_f$)
+
+Thus, in a fixed point system with ($k=2,a=5,b=16$):
+- The value $\frac{11}{2}$ would be represented as (1; 000 0000 0000 0101; 1000 0000 0000 0000), or `0x80058000`
+- The value $\frac{1}{10}$ would be represented as (0; 000 0000 0000 0000; 0001 1001 1001 1001) or `0x00001999` (approximate)
+- The range would be $2^{-16}\leq |x| \leq 2^15-\epsilon$ along with $\pm0$ 
+
+The problem with this method is there are a lot of wasted bits, we don't use them properly. 
+
+For this reason, we move to using Choice 2:
+
+## Choice 2: Floating Point
+
+Extend the idea that is used in scientific notation:
+- Represent $x$ as $\pm S\times 10^E$ with $S=(d_0\cdot d_1 \ldots)_{10}$ where $1\leq d_0 < 10$ 
+- $S$: significant/mantissa; $E$: exponent
+- The representation of the value $\frac{11}{2}$ is uniquely $+5.5\times 10^0$
+
+Why?
+
+### From Base-10 to Base-2
+
+Represent $x$ as $\pm S\times 2^E$ with $S=(b_0\cdot b_1 \ldots)_{2}$ where $1\leq b_0 < 2$ 
+- Not an infinite number of bits after binary point, so $S=(1\cdot b_1\cdot b_2 \ldots b_{p-1})_{2}$  having $p$ bits in all, of which $b_0=1$ 
+
+We will call the set of representable numbers $\mathbb{FP}(p,q;2)$

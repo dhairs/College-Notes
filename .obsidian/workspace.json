@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "categorical",
+                "query": "definitions",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -187,9 +188,11 @@
   },
   "active": "d777181bb4a4efbc",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
     "Excalidraw/Drawing 2024-02-05 14.11.05.excalidraw.md",
     "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
     "Spring 2023 Semester/Statistics and Probability/Variables.md",
     "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md",
     "Spring 2023 Semester/Statistics and Probability/Population Sampling.md",
@@ -208,12 +211,10 @@
     "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
     "Spring 2023 Semester/Statistics and Probability/Independence.md",
     "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Multisets (Multiple member sets).md",
     "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Notation.md",
-    "Spring 2023 Semester/Statistics and Probability/Probability Tables.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling",
     "Technologies/Data Science",
     "Technologies/DevOps",
