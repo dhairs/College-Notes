@@ -4,7 +4,7 @@ With 64-bit integers, we only get `18,446,744,073,709,600,000` distinct values. 
 
 We need to find something that is not only efficient in storage space, but also in computational time, because we only have so many resources.
 
-![[Drawing 2024-02-05 14.11.05.excalidraw]]
+![[Floating Point Design Problem.excalidraw]]
 
 ## Choice 1: Fixed Point
 

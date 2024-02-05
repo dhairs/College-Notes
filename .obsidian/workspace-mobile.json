@@ -11,8 +11,12 @@
             "id": "eec65a9c21591606",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -31,7 +35,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-02-05 14.11.05.excalidraw.md"
+                "file": "Excalidraw/429/Floating Point Design Problem.excalidraw.md"
               }
             }
           }
@@ -111,6 +115,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -127,6 +132,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -137,7 +143,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md"
+          }
         }
       }
     ],
@@ -156,7 +164,9 @@
   },
   "active": "eec65a9c21591606",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-02-05 14.11.05.excalidraw.md",
+    "Excalidraw/429",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
+    "Excalidraw/429/Floating Point Design Problem.excalidraw.md",
     "Excalidraw/Drawing 2024-02-04 13.45.16.excalidraw.md",
     "Pasted Image 20240204134546_066.jpg",
     "Excalidraw/Drawing 2024-02-04 13.41.23.excalidraw.md",
@@ -188,8 +198,6 @@
     "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
     "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Tables.md",
-    "Spring 2023 Semester/Statistics and Probability/Probability Notation.md",
-    "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
     "Spring 2023 Semester/Statistics and Probability",
     "Spring 2023 Semester/MAS 316 - Mexican American Studies",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics",
