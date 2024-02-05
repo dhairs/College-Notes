@@ -6,7 +6,7 @@ A variable is a *measurable* characteristic of a given unit/observation.
 
 A variable that has a number associated with the characteristic.
 
-**Ex**: 
+**Examples**: 
 - Weekly earnings of an individual
 - Daily facility production
 - Annual GDP of a country
@@ -18,7 +18,7 @@ Three types of Numerical Variable:
 
 A variable where the number of possible values can be counted, even if the number of possible values is infinite. Think of [[Countable Sets|countability]]. Basically things like integers, those are good and discrete.
 
-**Ex**:
+**Examples**:
 - Number of children in a house hold
 - Number of patents given to a firm in a year
 - Number of states with a Republican governor
@@ -27,7 +27,7 @@ A variable where the number of possible values can be counted, even if the numbe
 
 A variable that can take on any value on some interval or intervals of the real line, including even maybe the entire line.
 
-**Ex**:
+**Examples**:
 - Monthly rainfall in Austin
 - Annual GDP of the U.S.
 - Daily stock return of IBM
@@ -38,7 +38,7 @@ A discrete variable that can be treated and modeled as continuous, which is the 
 1. The unit of measurement is small compared to the typical values of the variable
 2. The number of values in the data set is large, with relatively few repeats
 
-**Ex**:
+**Examples**:
 - Weekly earnings of an individual
 - Number of employees in a firm
 - Credit score for an individual
@@ -49,7 +49,7 @@ A variable that has two or more categories, but no obvious numerical measure ass
 
 Categorical variables may be **ordered** if there is some natural ordering of the choices (think of health status: excellent, okay, bad, terrible). They may also be **unordered** if there is no natural ordering to the choices (think of labor force status).
 
-**Ex**: 
+**Examples**: 
 - Labor force status of an individual
 - Health rating of an individual
 - State identifier
@@ -58,7 +58,7 @@ Categorical variables may be **ordered** if there is some natural ordering of th
 
 A special case of categorical variables with only two categories.
 
-**Ex**:
+**Examples**:
 - Married? (yes/no)
 - Homeowner? (yes/no)
 - Vaccinated? (yes/no)

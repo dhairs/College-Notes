@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md",
-                "mode": "preview",
+                "file": "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "independence",
+                "query": "categorical",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md"
+                "file": "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md"
               }
             }
           },
@@ -187,6 +187,11 @@
   },
   "active": "d777181bb4a4efbc",
   "lastOpenFiles": [
+    "Spring 2023 Semester/Statistics and Probability/Variables.md",
+    "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
+    "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md",
+    "Spring 2023 Semester/Statistics and Probability/Population Sampling.md",
+    "Math/Linear Algebra and Matrices/Rotation Matrices.md",
     "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
     "Test.md",
@@ -209,11 +214,6 @@
     "Spring 2023 Semester/Statistics and Probability/Probability Tables.md",
     "Spring 2023 Semester/Statistics and Probability/Total Probability Theorem.md",
     "Spring 2023 Semester/Statistics and Probability/Successive Conditioning.md",
-    "Spring 2023 Semester/Statistics and Probability/Probabilities for Equally Likely Choices.md",
-    "Spring 2023 Semester/Statistics and Probability/Variables.md",
-    "Spring 2023 Semester/Statistics and Probability/Population Sampling.md",
-    "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling",
     "Technologies/Data Science",
     "Technologies/DevOps",
