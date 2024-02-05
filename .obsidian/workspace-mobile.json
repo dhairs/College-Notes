@@ -24,9 +24,18 @@
                 "file": "Excalidraw/Drawing 2024-02-04 13.45.16.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "cebbcff1fd7debbb",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-02-05 14.11.05.excalidraw.md"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +111,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Excalidraw/Drawing 2024-02-04 13.45.16.excalidraw.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -119,7 +127,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Excalidraw/Drawing 2024-02-04 13.45.16.excalidraw.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,9 +137,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Excalidraw/Drawing 2024-02-04 13.45.16.excalidraw.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -149,11 +154,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "37369ce84a01c8ad",
+  "active": "eec65a9c21591606",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-02-05 14.11.05.excalidraw.md",
+    "Excalidraw/Drawing 2024-02-04 13.45.16.excalidraw.md",
     "Pasted Image 20240204134546_066.jpg",
     "Excalidraw/Drawing 2024-02-04 13.41.23.excalidraw.md",
-    "Excalidraw/Drawing 2024-02-04 13.45.16.excalidraw.md",
     "Excalidraw",
     "Spring 2023 Semester/Statistics and Probability/Independence.md",
     "Spring 2023 Semester/Statistics and Probability/Population Sampling.md",
