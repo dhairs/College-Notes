@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md",
                 "mode": "preview",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md"
+                "file": "Math/Linear Algebra and Matrices/Rotation Matrices.md"
               }
             }
           },
@@ -187,6 +187,8 @@
   },
   "active": "d777181bb4a4efbc",
   "lastOpenFiles": [
+    "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
     "Test.md",
     "First Note.md",
     "Excalidraw/Drawing 2024-02-04 13.45.16.excalidraw.md",
@@ -211,9 +213,7 @@
     "Spring 2023 Semester/Statistics and Probability/Variables.md",
     "Spring 2023 Semester/Statistics and Probability/Population Sampling.md",
     "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling",
     "Technologies/Data Science",
     "Technologies/DevOps",
