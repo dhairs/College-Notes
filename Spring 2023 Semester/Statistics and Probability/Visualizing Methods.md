@@ -29,4 +29,7 @@ With histograms, we can visualize the sample distribution of variables.
 The **sample mean** of observations $x_1, x_2, \ldots, x_n$ denoted $\overline{x}$ is given by:
 
 $$
-\overline{x} = \frac{x_1+x_2+\ldots}
+\overline{x} = \frac{x_1+x_2+\ldots+x_n}{n}=\frac{1}{n}\sum^n_{i=1}x_i
+$$
+
+The **sample median** of observations $x_1, x_2, \ldots, x_n$ is denoted ${\tilde{x}_{1/2}}$ is the value for which half the observations are below and half are above.
