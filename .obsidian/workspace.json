@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "616dc9d0dfb72153",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6019731be5b2c67e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d777181bb4a4efbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "definitions",
+                "query": "word size",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md"
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md"
               }
             }
           },
@@ -186,44 +160,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d777181bb4a4efbc",
+  "active": "574a0ccd8a23a166",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Fragmented_Memory.png",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Untitled.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
-    "Excalidraw/Drawing 2024-02-05 14.11.05.excalidraw.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
+    "Excalidraw/429/Memory Allocation Block Diagram.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
+    "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
+    "Untitled.canvas",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Partitions and Multinomial Coefficients.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
+    "Excalidraw/README.md",
+    "Drawing 2024-02-04 13.45.16.excalidraw.md",
+    "Excalidraw/Drawing 2024-02-06 14.07.58.excalidraw.md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
     "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
+    "Excalidraw/429/Floating Point Design Problem.excalidraw.md",
+    "Excalidraw/429",
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
+    "Excalidraw/Drawing 2024-02-05 14.11.05.excalidraw.md",
     "Spring 2023 Semester/Statistics and Probability/Variables.md",
     "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md",
     "Spring 2023 Semester/Statistics and Probability/Population Sampling.md",
     "Math/Linear Algebra and Matrices/Rotation Matrices.md",
     "Math/Linear Algebra and Matrices/Matrix Multiplication.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
-    "Test.md",
-    "First Note.md",
-    "Excalidraw/Drawing 2024-02-04 13.45.16.excalidraw.md",
-    "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
-    "README.md",
-    "Excalidraw/README.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Vehicle Coordinate Systems.md",
-    "Excalidraw/Drawing 2024-02-04 13.41.23.excalidraw.md",
     "Excalidraw",
-    "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
-    "Spring 2023 Semester/Statistics and Probability/Independence.md",
-    "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Multisets (Multiple member sets).md",
-    "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
-    "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
-    "Spring 2023 Semester/Statistics and Probability/Probability Notation.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling",
     "Technologies/Data Science",
     "Technologies/DevOps",
     "Technologies",
     "Clubs/Jira",
     "Spring 2023 Semester/Statistics and Probability/Counting Methods",
-    "Spring 2023 Semester/Statistics and Probability",
-    "Spring 2023 Semester/MAS 316 - Mexican American Studies",
-    "Spring 2023 Semester/GOV 312L - U.S. National Security",
-    "Untitled.canvas"
+    "Spring 2023 Semester/Statistics and Probability"
   ]
 }

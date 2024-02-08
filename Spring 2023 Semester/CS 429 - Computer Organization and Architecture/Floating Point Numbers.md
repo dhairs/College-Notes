@@ -40,7 +40,7 @@ Represent $x$ as $\pm S\times 2^E$ with $S=(b_0\cdot b_1 \ldots)_{2}$ where $1\l
 We will call the set of representable numbers $\mathbb{FP}(p,q;2)$
 
 
-## Parameters for $\mathbb{FP}(p,q;2)$
+### Parameters for $\mathbb{FP}(p,q;2)$
 
 The place value of $b_i$ is $2^{-i}$ 
 
@@ -59,7 +59,7 @@ For an arbitrary normalized FP number $x=\pm S\times 2^E$, the unit in the last 
 $$
 ulp(x)=\epsilon\times2^E
 $$
-### Ex: Toy FP System
+#### Ex: Toy FP System
 
 Consider a system where all normalized FP numbers have the form $(b_0\cdot b_1b_2)_2\times2^E$, with $E\in \{-1,0,1\}$ and with $b_0 = 1$. What values can this system handle?
 
@@ -71,6 +71,174 @@ Consider a system where all normalized FP numbers have the form $(b_0\cdot b_1b_
 | 1.11 | 0.875 | 1.75 | 3.5 |  |
 | ulp | 0.125 | 0.25 | 0.5 |  |
 
-## The Representation of $E$
+### The Representation of $E$
 
 Suppose we represent $E$ using $q$ bits
+- Must handle both positive and negative values of $E$
+
+Define $\text{ebits}_q(E)=W^{-1}_U(E+2^{q-1}-1)$
+- We are biasing
+
+When you are encoding, you need to add the bias. Then, once you are trying to decode, subtract the bias.
+
+
+### Normalized FP Numbers
+
+$$
+\text{bias}=2^{q-1}-1
+$$
+
+Minimum representable exponent:
+
+$$
+E_{\text{min}}=\text{ebits}_q^{-1}(0^{q-1}1)=1-\text{bias}=-(\text{bias}-1)
+$$
+
+Minimum normalized **positive** FP number:
+
+$$
+N_{\text{min}}=(1.0^{p1})_2\times2^{E_{\text{min}}}
+$$
+
+Maximum representable exponent:
+
+$$
+E_\text{max}=\text{ebits}^{-1}_{q}(1^{q-1}0)=\text{bias}
+$$
+
+Maximum normalized **positive** FP number:
+
+$$
+N_\text{max}=(1.1^{p-1})_2\times2^{E_\text{max}}=(2-2^{-(p-1)})\times2^{E_\text{max}} \approx 2^{E_\text{max}+1}
+$$
+
+$2^{-(p-1)}$ is machine epsilon $\mathcal{E}$. 
+
+So, in all, we need $p+q$ bits.
+
+### How to Represent Zero
+
+Since zero is unique, we have a special case
+
+The value 0 has two unique representations:
+
+#### Gaps at Zero
+
+Because we would never be able to approach zero because of the idea of halving, we decide to take equal steps from $N_\text{min}$ to zero.
+
+##### Subnormal Numbers
+
+Extend $\text{ebits}^{-1}_q(E)$ by defining $\text{ebits}^{-1}_q(0^q)=E_\text{min}$, note that this is not equal to $E_\text{min}-1$ 
+
+Now, if $\text{ebits}^{-1}_q(E)=0^q$, then treat the hidden bit $b_0$ as 0 rather than 1 in calculating the value.
+
+$$
+s0^qb_1\ldots b_{p-1}=\pm(0.b_1\ldots b_{p-1})_2
+\times2^{E_\text{min}}
+$$
+### Infinities
+
+Similar to expressing 0, we need to somehow express infinity (but its a concept, not an actual number, so how?)
+
+We point to infinity, but don't actually write it out. How?
+
+We write all `1`'s.
+
+The pattern $01^q0^{p-1}$ will represent the value $+ \infty$
+
+The pattern $11^q0^{p-1}$ will represent the value $-\infty$ 
+
+### Not a Number (NaN)
+
+What are the results of numbers like $\frac{1}{0}, \frac{1}{\infty}, \infty + \infty$ 
+- These situations are well defined in terms of limits: $\infty, 0, \infty$ 
+
+But: $0\times\infty, \frac{0}{0},\infty-\infty$; or the square root of a negative number?
+- These are "ill-defined" or undefined
+- These numbers must become `NaN`'s, and they must **propagate** throughout operations. `1 + NaN = NaN`
+
+Any representation with $\text{ebits}_q(E)=1^q$ but significand $\neq 0^{p-1}$ is a `NaN`.
+
+Multiple `NaN`'s are unordered, but they may be used to represent what kind of illegal operation you hit (e.g., dividing by 0, negative square root, etc.)
+
+### Rounding
+
+Why?
+
+We have defined the finite subset $\mathbb{FP}(p,q)$ of $\mathbb{R}^+=\mathbb{R}\cup\{-\infty,+\infty\}$.  How can we reasonably represent an *arbitrary* extended real number $x\in\mathbb{R}^+$ ignoring `NaN`'s
+
+
+#### Defining $x$
+
+We define $x$ to be within the normalized range if $N_\text{min}\leq |x|\leq N_\text{max}$ 
+
+If $x\notin \mathbb{FP}(p,q)$, then one of the following must hold:
+1. $x$ is not within the normalized range
+2. $x$ is within the normalized range but its representation requires more than $p$ significand bits to represent exactly (imagine $1+2\times10^{-25}$)
+
+
+#### Sandwiching $x$
+
+We want to sandwich $x$ between two numbers, because that means that we can round it up or down towards a value.
+
+Therefore, we define: 
+- $x_{-} = \text{max}\{y\in\mathbb{FP}(p,q):y\leq x\}$
+- $x_{+} = \text{min}\{y\in\mathbb{FP}(p,q):y\geq x\}$
+
+Basically ceiling and floor functions
+
+With these definitions, we can say that 
+- $x\in[x_-, x_+]$ 
+- The range $[x_-,x_+]$ is tight
+- The range collapses to the single point $x$ iff $x\in\mathbb{FP}(p,q)$ 
+
+Representing $x_-$ and $x_+$ 
+
+If $x$ is a positive real number in the normalized range whose exact, possibly infinite representation is
+
+$$
+x=(1.b_1\ldots b_{p-1}b_pb_{b+1}\ldots)_2\times2^E
+$$
+
+**Then:**
+
+$x_-=(1.b_1\ldots b_{p-1}b_pb_{b+1}\ldots)_2\times2^E$
+
+If $x\notin \mathbb{FP}(p,q)$: $x_+=((1.b_1\ldots b_{p-1})_2+(0.0^{p-2}1)_2)\times2^E$ 
+
+There is still a corner case where $x_+$ will be re-encoded, but the result will remain a normalized FP number
+
+If $x\notin \mathbb{FP}(p,q)$, then either the lsb of $x_-$ is 0 and the lsb of $x_+$ is 1, or vice versa.
+
+
+##### Corner Cases
+
+If $x>N_\text{max}$, then define $x_-=N_\text{max}$ and $x_+=+\infty$
+
+If $0<x<N_\text{min}$, then $x_-$ is either a subnormal number, or zero, and $x_+$ is either a subnormal or $N_\text{min}$ 
+
+Reflect around 0 for negative numbers.
+
+#### Round Function
+
+For $x\in\mathbb{R}^+$, if $x\in\mathbb{FP}(p,q)$, $\text{ROUND}(x) = x$
+
+Otherwise, $\text{ROUND}(x)$ depends on the mode:
+- Round down (RD): $\text{ROUND}(x)=x_-$ 
+- Round up (RU): $\text{ROUND}(x)=x_+$
+- Round-to-zero (RTZ): $\text{ROUND}(x)=\text{if } x>0 \text{ then } x_- \text{ else } x_+$ 
+- Round-to-nearest, with tiebreak to even (RTE): $\text{ROUND}(x)=$ whichever of $x_-$ or $x_+$ is closer to $x$
+	- If there is a tie, choose the one whose significand has lsb = 0
+
+
+#### Rounding Arithmetic
+
+Note: After **every single** arithmetic operation, a round is performed.
+
+### Floating Point Exceptions and Responses
+
+1. Invalid operation: Set result to NaN
+2. Division by zero: Set result to $\pm\infty$
+3. Overflow: Set result to $\pm\infty$ or $\pm N_\text{max}$ 
+4. Underflow (subnormal): Set result to $\pm0,\pm N_\text{min}$, or subnormal
+5. Inexact (common): Set to correctly rounded value described above.
