@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Partitions and Multinomial Coefficients.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Partitions and Multinomial Coefficients.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Partitions and Multinomial Coefficients.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Partitions and Multinomial Coefficients.md"
+                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md"
               }
             }
           },
@@ -163,6 +163,8 @@
   },
   "active": "6019731be5b2c67e",
   "lastOpenFiles": [
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Partitions and Multinomial Coefficients.md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
     "Excalidraw/429/Block Formats.md",
     "Excalidraw/429/Memory Allocation Block Diagram.md",
@@ -178,11 +180,9 @@
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
     "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics/SDS 321 (Introduction to Probability and Statistics) Links.md",
     "Untitled.canvas",
-    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Partitions and Multinomial Coefficients.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
     "Excalidraw/README.md",
     "Excalidraw/Drawing 2024-02-06 14.07.58.excalidraw.md",
-    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
     "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
     "Excalidraw/429/Floating Point Design Problem.excalidraw.md",

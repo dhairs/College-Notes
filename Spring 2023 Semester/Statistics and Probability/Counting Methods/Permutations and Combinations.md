@@ -32,6 +32,9 @@ $$
 C_{n,k}=\Bigl({n\atop k}\Bigl)=\frac{n!}{(n-k)!k!}
 $$
 
+
+It's also good to know that $n$ choose $k$ is equivalent to $n$ choose $n-k$, because the bottom term remains the same.
+
 ## Sampling with Replacement
 
 There are total $n$ different elements in a population or set, you want to create an ordered arrangement of $k$ elements.
