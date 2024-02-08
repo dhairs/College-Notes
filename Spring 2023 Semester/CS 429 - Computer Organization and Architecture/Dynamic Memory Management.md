@@ -77,7 +77,7 @@ void free(void *p) {
 
 The free memory is stored as a linked list.
 
-### Free list management 
+## Free list management 
 
 There are five key concerns when designing a memory manager using free list management:
 1. **Format**: what free and allocated blocks should look like; how the metadata for each block is stored.
@@ -91,4 +91,19 @@ There are five key concerns when designing a memory manager using free list mana
 The memory is stored as a 'linked list', but how does that work if we don't have a valid place to put the list into memory? How do we store it?
 
 **The metadata of the blocks.**
+
+### Designing Memory Blocks
+
+![[Block Formats]]
+
+### Free list organization
+
+How can we keep track of the free blocks? Well, we can make a singular linked list (can be singly- or doubly-linked, null terminated or circular).
+
+Each decision has specific implications to be considered.
+
+- Implicit or Explicit methods for organization
+- Combined or binned 
+- Returns blocks maintained in LIFO (Last in first out, e.g., stacks), address-sorted (easiest!! do this one!!), or size-sorted order
+
 
