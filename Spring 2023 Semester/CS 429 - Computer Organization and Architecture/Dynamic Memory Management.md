@@ -75,3 +75,20 @@ void free(void *p) {
 }
 ```
 
+The free memory is stored as a linked list.
+
+### Free list management 
+
+There are five key concerns when designing a memory manager using free list management:
+1. **Format**: what free and allocated blocks should look like; how the metadata for each block is stored.
+2. **Organization**: How tho keep track of all the free blocks.
+3. **Selection**: How to pick and appropriate free block for the current request.
+4. **Splitting**: What to do with the remainder of a free block after allocation.
+5. **Coalescing**: How to handle a block that is being returned to the free list.
+
+### Problems with handling the 'linked list'
+
+The memory is stored as a 'linked list', but how does that work if we don't have a valid place to put the list into memory? How do we store it?
+
+**The metadata of the blocks.**
+
