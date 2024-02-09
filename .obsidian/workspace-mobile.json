@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
-                "mode": "source",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
+                "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "b268e3cc7ea1631b",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-02-04 13.45.16.excalidraw.md"
               }
             }
           },
@@ -64,7 +54,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Word size",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -103,7 +93,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "fdaf694107a29749",
@@ -115,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
+            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -132,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
+            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -144,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md"
+            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md"
           }
         }
       }
@@ -164,8 +154,15 @@
   },
   "active": "eec65a9c21591606",
   "lastOpenFiles": [
-    "Excalidraw/429",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
+    "Excalidraw/429/Block Formats.md",
+    "Drawing 2024-02-04 13.45.16.excalidraw.md",
+    "Excalidraw/429/Memory Allocation Block Diagram.md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Partitions and Multinomial Coefficients.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Fragmented_Memory_Embedded.png",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
+    "Excalidraw/429",
     "Excalidraw/429/Floating Point Design Problem.excalidraw.md",
     "Excalidraw/Drawing 2024-02-04 13.45.16.excalidraw.md",
     "Pasted Image 20240204134546_066.jpg",
@@ -194,13 +191,7 @@
     "Technologies/DevOps/Jira.md",
     "Technologies/DevOps",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
-    "Spring 2023 Semester/ECO 329 - Economic Statistics/Baye's Theorem.md",
-    "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
-    "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
-    "Spring 2023 Semester/Statistics and Probability/Probability Tables.md",
     "Spring 2023 Semester/Statistics and Probability",
-    "Spring 2023 Semester/MAS 316 - Mexican American Studies",
-    "Spring 2023 Semester/SDS 321 - Introduction to Probability and Statistics",
-    "Spring 2023 Semester"
+    "Spring 2023 Semester/MAS 316 - Mexican American Studies"
   ]
 }
