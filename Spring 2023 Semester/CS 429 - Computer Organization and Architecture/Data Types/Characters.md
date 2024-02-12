@@ -45,3 +45,13 @@ int atoi(const char[s]) { // const tells us the parameter array cannot change
 }
 ```
 
+
+
+
+
+
+
+
+## Other representations
+
+There are other representations for characters as well, namely [[Unicode]].
