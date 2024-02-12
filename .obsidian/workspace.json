@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "5d39acec3c3df813",
+        "id": "38a6db3bc28196a0",
         "type": "tabs",
         "children": [
           {
-            "id": "6019731be5b2c67e",
+            "id": "b51f049f343a75b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
-                "mode": "preview",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Characters and Unicode.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9a99db717d98b26a",
+            "id": "d7f6703a2dbe37ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
-                "mode": "source",
-                "source": false
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png"
               }
             }
           }
@@ -78,8 +76,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md"
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png"
               }
             }
           },
@@ -174,24 +171,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9a99db717d98b26a",
+  "active": "574a0ccd8a23a166",
   "lastOpenFiles": [
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
-    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointer Arithmetic.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Characters and Unicode.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Interpreting Bits.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointer Arithmetic.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Fragmented_Memory_Embedded.png",
+    "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling/Types of Economic Data.md",
+    "Spring 2023 Semester/MAS 316 - Mexican American Studies/Westward Expansion.md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
     "Spring 2023 Semester/Statistics and Probability/Independence.md",
     "Spring 2023 Semester/Statistics and Probability/Counting Methods/Partitions and Multinomial Coefficients.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
     "Excalidraw/429/Block Formats.md",
     "Excalidraw/429/Memory Allocation Block Diagram.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Fragmented_Memory_Embedded.png",
     "Drawing 2024-02-04 13.45.16.excalidraw.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Fragmented_Memory.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Untitled.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Floating Point Numbers.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
@@ -200,20 +204,13 @@
     "Excalidraw/README.md",
     "Excalidraw/Drawing 2024-02-06 14.07.58.excalidraw.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
-    "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
-    "Excalidraw/429/Floating Point Design Problem.excalidraw.md",
     "Excalidraw/429",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
-    "Excalidraw/Drawing 2024-02-05 14.11.05.excalidraw.md",
-    "Spring 2023 Semester/Statistics and Probability/Variables.md",
-    "Spring 2023 Semester/Statistics and Probability/Descriptive Statistics and Data Visualization.md",
     "Excalidraw",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling",
     "Technologies/Data Science",
     "Technologies/DevOps",
     "Technologies",
     "Clubs/Jira",
-    "Spring 2023 Semester/Statistics and Probability/Counting Methods",
-    "Spring 2023 Semester/Statistics and Probability"
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods"
   ]
 }
