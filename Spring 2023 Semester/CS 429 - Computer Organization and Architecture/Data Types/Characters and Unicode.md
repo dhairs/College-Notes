@@ -16,10 +16,32 @@ ASCII is a codebook that maps bit patterns `0x00` through `0x7F` to *control cha
 - ASCII encodes 128 values (MSB always 0)
 
 Important codes:
-- `Ox00` or `\0` for `NUL` (not to be confused with the `NULL` pointer, which is word size length), this is 2 bytes
+- `Ox00` or `\0` for `NUL` (not to be confused with the `NULL` pointer, which is word size length), this is 1 byte
 - `0x20` for ' ' (whitespace)
 - `0x7F` for `DEL`
 
+### Codebook
 
 ![[ASCII_Codebook_Table.png]]
+
+## Operations on Characters
+
+Characters are literally just [[Manipulating Integer Representations|integer types]], so you can perform arithmetic operations on them.
+
+### Example: `atoi()`
+
+`atoi()` is part of the standard C library, and provides a way of converting ASCII to Integer (hence the a-to-i name).
+
+`atoi("429")` would return `429`
+
+```c
+int atoi(const char[s]) { // const tells us the parameter array cannot change
+	int retval = 0;
+	for(int i = 0; s[i] != '\0'; i++) {
+		retval *= 10;
+		retval += s[i]-'0';
+	}
+	return retval;
+}
+```
 
