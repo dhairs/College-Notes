@@ -2,6 +2,10 @@
 
 A variable is a *measurable* characteristic of a given unit/observation.
 
+## What is a Random Variable
+
+A random variable is a variable defined in the context of a random [[Overview, Definitions, and Axioms of Probability#What is an Experiment and Event|experiment]].
+
 ## Numerical Variable
 
 A variable that has a number associated with the characteristic.
@@ -22,6 +26,25 @@ A variable where the number of possible values can be counted, even if the numbe
 - Number of children in a house hold
 - Number of patents given to a firm in a year
 - Number of states with a Republican governor
+
+#### Probability Mass Function (PMF)
+
+A probability mass function assigns probabilities to the different values that a discrete random variable can take.
+
+Can be in a table, or function.
+
+#### Example: PMF as a Table
+
+$X=$ number of heads in 2 fair coin tosses
+- $X$ can take values in $\{0,1,2\}$
+
+$P(X=0)=P(\{T,T\})=\frac{1}{4}$ 
+$P(X=1)=P(\{HT,TH\})=\frac{1}{2}$ 
+$P(X=2)=P(\{H,H\})=\frac{1}{4}$ 
+
+| $x$ | **0** | **1** | **2** |
+| ---- | ---- | ---- | ---- |
+| $P(X=x)$ | $\frac{1}{4}$ | $\frac{1}{2}$ | $\frac{1}{4}$ |
 
 ### Continuous Variable
 
