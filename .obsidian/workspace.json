@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Variables.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "discrete variable",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Variables.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Variables.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Variables.md"
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md"
               }
             }
           },
@@ -162,8 +162,9 @@
   },
   "active": "044b7b60518a43cf",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
     "Spring 2023 Semester/Statistics and Probability/Variables.md",
+    "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
+    "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
     "Spring 2023 Semester/Statistics and Probability/Discrete Random Variables.md",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Structs.md",
@@ -192,7 +193,6 @@
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Fragmented_Memory_Embedded.png",
-    "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling/Types of Economic Data.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Fragmented_Memory.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets",
     "Untitled.canvas",

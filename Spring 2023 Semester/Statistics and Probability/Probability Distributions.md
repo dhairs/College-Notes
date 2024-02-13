@@ -38,6 +38,10 @@ $$P(A|B)=\frac{P(A\cap B)}{P(B)}=\frac{\frac{1}{3}}{\frac{1}{2}}=\frac{2}{3}$$
 The conditional probability that a roll is even given that it is at least 3 is:
 $$P(B|A)=\frac{P(A\cap B)}{P(B)}=\frac{\frac{1}{3}}{\frac{2}{3}}=\frac{1}{2}$$
 
+## Bernoulli Distribution
+
+A 
+
 ## Multiplication Rule
 
 Comes directly from the conditional probability formula:

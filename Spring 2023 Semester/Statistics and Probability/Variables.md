@@ -33,18 +33,35 @@ A probability mass function assigns probabilities to the different values that a
 
 Can be in a table, or function.
 
+In general, the probability that a random variable $X$ takes a value $x$ is written as $p_x(x)$, $P_x(x)$, or $P_x(X=x)$
+
+A random variable is always written in upper case and the numerical value we are trying to solve is always written in lower case.
+
+#### Properties of PMF's
+
+1. $P(X=x)\geq 0$ for all values of $x$
+2. $\sum_x P(X=x)=1$ 
+
 #### Example: PMF as a Table
 
 $X=$ number of heads in 2 fair coin tosses
 - $X$ can take values in $\{0,1,2\}$
 
-$P(X=0)=P(\{T,T\})=\frac{1}{4}$ 
-$P(X=1)=P(\{HT,TH\})=\frac{1}{2}$ 
-$P(X=2)=P(\{H,H\})=\frac{1}{4}$ 
+- $P(X=0)=P(\{T,T\})=\frac{1}{4}$ 
+- $P(X=1)=P(\{\{HT\},\{TH\}\})=\frac{1}{2}$ 
+- $P(X=2)=P(\{H,H\})=\frac{1}{4}$ 
 
 | $x$ | **0** | **1** | **2** |
 | ---- | ---- | ---- | ---- |
 | $P(X=x)$ | $\frac{1}{4}$ | $\frac{1}{2}$ | $\frac{1}{4}$ |
+
+#### Example: PMF as a Function
+
+$X=$ the number of rolls of a fair die until you get the first 6
+
+$X$ can take what values?
+
+PMF is $P(X=x)=p\times(1-p)^{n-1}$ where $n$ is the total rolls and $p$ is the probability of getting a 6
 
 ### Continuous Variable
 
@@ -77,7 +94,7 @@ Categorical variables may be **ordered** if there is some natural ordering of th
 - Health rating of an individual
 - State identifier
 
-### Binary Variables
+### Binary Variables (Bernoulli Variables)
 
 A special case of categorical variables with only two categories.
 
