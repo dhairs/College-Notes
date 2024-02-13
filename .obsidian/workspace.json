@@ -11,11 +11,9 @@
             "id": "c38e181d7bfbe216",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Chemistry/Bonding.md",
-                "mode": "source",
-                "source": false
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/MM Lab Architecture.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chemistry/Bonding.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/MM Lab Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chemistry/Bonding.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/MM Lab Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chemistry/Bonding.md"
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/MM Lab Architecture.md"
               }
             }
           },
@@ -162,10 +160,13 @@
   },
   "active": "c38e181d7bfbe216",
   "lastOpenFiles": [
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Objects and Names.md",
-    "Chemistry/Bonding.md",
-    "Chemistry",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Block Formats.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/MM Lab Architecture.md",
+    "Test.md",
+    "Drawing 2024-02-04 13.45.16.excalidraw.md",
+    "Chemistry/Bonding.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Objects and Names.md",
+    "Chemistry",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Floating Point Design Problem.excalidraw.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Unicode.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Characters.md",
@@ -189,12 +190,9 @@
     "Spring 2023 Semester/Statistics and Probability/Independence.md",
     "Spring 2023 Semester/Statistics and Probability/Counting Methods/Partitions and Multinomial Coefficients.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Memory Allocation Block Diagram.md",
-    "Drawing 2024-02-04 13.45.16.excalidraw.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Fragmented_Memory.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering.md",
-    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Process Covariance Matrix.md",
     "Untitled.canvas",
     "Excalidraw/429",
     "Excalidraw",
