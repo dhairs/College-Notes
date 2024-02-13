@@ -11,9 +11,11 @@
             "id": "c38e181d7bfbe216",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/MM Lab Architecture.md"
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/MM Lab Architecture.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
