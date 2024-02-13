@@ -1,12 +1,15 @@
-Implemented as a derived type (not basic)
 
-## Syntax
+## About
+
+Implemented as a derived type (not basic)
 
 Arrays are aggregates of **homogenous** scalar data (this is the reason we can do pointer arithmetic)
 
 *Note: an array's size must be known at compile time, otherwise, you must create an array in runtime using  a call to `malloc`*.
 
-Syntax: `T x[]` or `T x[N]` where `T` is a type and `N` is a constant-expression of integer-type and with value greater than or equal to 0.
+## Syntax
+
+`T x[]` or `T x[N]` where `T` is a type and `N` is a constant-expression of integer-type and with value greater than or equal to 0.
 - The type of the object `x` is "array of `T`" or "array of `N T`'s"
 - The first form / type is said to have an **incomplete type** (a type that describes an object but lacks information needed to determine its size)
 	- Can by **completed** by specifying size in a later declaration
@@ -52,4 +55,16 @@ Syntax: `A[i]`, where `i` has an integer type (*note that `C` does not check the
 
 ## Multidimensional Arrays
 
-Syntax: `T x[M][N]`
+Syntax: `T A[M][N]`
+
+`T A[M][N]` means you have `M` arrays of `N` elements each
+
+### Expression in memory
+
+Quite straightforward, we normally use **Row-major order** (standard in `C`), some languages use **Column-major order**
+
+We store each **Row** contiguous in memory, and each element is accessed through regular pointer arithmetic.
+
+When accessing elements across **Columns**, we have to take larger jumps, by skipping from the start of `ADDR(A)` by the size of the row array (times the `i`th row)
+
+
