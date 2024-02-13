@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
-                "mode": "source",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md"
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md"
               }
             }
           },
@@ -141,8 +141,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -162,7 +161,16 @@
   },
   "active": "044b7b60518a43cf",
   "lastOpenFiles": [
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointer Arithmetic.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Memory Allocation Block Diagram.md",
+    "README.md",
+    "Excalidraw/README.md",
+    "Spring 2023 Semester/Statistics and Probability/Probabilities for Equally Likely Choices.md",
+    "Spring 2023 Semester/MAS 316 - Mexican American Studies/Westward Expansion.md",
+    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Spring 2023 Semester/Statistics and Probability/Variables.md",
+    "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
     "Spring 2023 Semester/Statistics and Probability/Discrete Random Variables.md",
@@ -180,17 +188,8 @@
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Unicode.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Characters.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Interpreting Bits.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointer Arithmetic.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Drawing 2024-02-12 14.27.57.excalidraw.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Fragmented_Memory_Embedded.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Fragmented_Memory.png",

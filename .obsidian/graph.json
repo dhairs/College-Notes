@@ -3,8 +3,8 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -13,18 +13,46 @@
         "a": 1,
         "rgb": 4256356
       }
+    },
+    {
+      "query": "path:\"Spring 2023 Semester/CS 429 - Computer Organization and Architecture\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "path:\"Fall 2023 Semester/CS 311\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6063574
+      }
+    },
+    {
+      "query": "path:Technologies ",
+      "color": {
+        "a": 1,
+        "rgb": 15348921
+      }
+    },
+    {
+      "query": "path: Math  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "lineSizeMultiplier": 1.41930745442708,
   "collapse-forces": false,
   "centerStrength": 0.521505376344086,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6614492034639994,
+  "scale": 0.7439456090960742,
   "close": false
 }

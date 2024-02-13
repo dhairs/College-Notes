@@ -40,7 +40,9 @@ $$P(B|A)=\frac{P(A\cap B)}{P(B)}=\frac{\frac{1}{3}}{\frac{2}{3}}=\frac{1}{2}$$
 
 ## Bernoulli Distribution
 
-A 
+A distribution based on the idea of [[Variables#Binary Variables (Bernoulli Variables)|Binary/Bernoulli Variables]]. Literally is a way of mapping the two categorical values to a function/number.
+
+Look at [[Variables#Coding categorical variables (indicator variables)|Coding categorical variables]].
 
 ## Multiplication Rule
 
