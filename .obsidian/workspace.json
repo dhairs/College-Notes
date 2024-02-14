@@ -23,9 +23,11 @@
             "id": "0ce9a890ecaf37e1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Drawing 2024-02-14 01.02.15.excalidraw.md"
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Drawing 2024-02-14 01.02.15.excalidraw.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Drawing 2024-02-14 01.02.15.excalidraw.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Drawing 2024-02-14 01.02.15.excalidraw.md"
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Toolchain.md"
               }
             }
           },
@@ -172,8 +174,8 @@
   },
   "active": "0ce9a890ecaf37e1",
   "lastOpenFiles": [
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Structs.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Drawing 2024-02-14 01.02.15.excalidraw.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Structs.md",
     "Technologies/DevOps/Jira.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Memory Allocation Block Diagram.md",
