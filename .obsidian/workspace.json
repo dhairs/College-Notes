@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/DevOps/Jira.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Structs.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "typedef",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/DevOps/Jira.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Structs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/DevOps/Jira.md",
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Structs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/DevOps/Jira.md"
+                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Structs.md"
               }
             }
           },
@@ -161,6 +162,7 @@
   },
   "active": "044b7b60518a43cf",
   "lastOpenFiles": [
+    "Technologies/DevOps/Jira.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Memory Allocation Block Diagram.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Block Formats.md",
@@ -187,7 +189,6 @@
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Floating Point Design Problem.excalidraw.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Unicode.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Characters.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types",
