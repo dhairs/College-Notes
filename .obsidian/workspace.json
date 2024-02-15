@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "word size",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md"
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md"
               }
             }
           },
@@ -160,10 +159,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fc0196a2fedae907",
+  "active": "044b7b60518a43cf",
   "lastOpenFiles": [
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
+    "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointer Arithmetic.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
@@ -185,7 +185,6 @@
     "Spring 2023 Semester/MAS 316 - Mexican American Studies/Westward Expansion.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Spring 2023 Semester/Statistics and Probability/Variables.md",
-    "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
     "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
     "Chemistry",

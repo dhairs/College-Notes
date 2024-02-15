@@ -76,3 +76,14 @@ If $A_1, A_2, \ldots, A_k$ are disjoint events and also exhaustive events, then 
 
 $$P(B)=P(B|A_1)P(A)+P(B|A_2)+\ldots+P(B|A_k)P(A_k)$$
 $$=\sum^{k}_{j=1}P(B|A_j)P(A_j)$$
+## Binomial Distribution
+
+Probability of $k$ successes out of $n$ trials.
+
+## Geometric Distribution
+
+Number of trials to get the first success.
+
+If $X$ is the number of trials to get the first success with $p = P(\text{success})$, then $X$ is a **Geometric Random Variable** with parameter $p$, or $X\sim \text{Geo}(p)$ 
+
+We solve this using the **Geometric Series**.
