@@ -1,9 +1,5 @@
 ## Using GDB (GNU Debugger)
 
-
-
-
-
 `cond n [expression]`
 
 This is basically to set breakpoints if you want to only stop when a certain condition is met.
