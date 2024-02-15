@@ -2,7 +2,7 @@
 
 Implemented as a derived type (not basic)
 
-What is the difference between Structs and [[Arrays]]? **Struct**'s are heterogenous. 
+What is the difference between Structs and [[Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Arrays|Arrays]]? **Struct**'s are heterogenous. 
 - can also be called a `record`
 - objects being aggregated are called the `fields`
 ## Syntax
