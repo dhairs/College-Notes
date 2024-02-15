@@ -87,3 +87,18 @@ Number of trials to get the first success.
 If $X$ is the number of trials to get the first success with $p = P(\text{success})$, then $X$ is a **Geometric Random Variable** with parameter $p$, or $X\sim \text{Geo}(p)$ 
 
 We solve this using the **Geometric Series**.
+
+
+### Memoryless Property
+
+Basically, that the number of times it took to get a first success remains the same even after a failure. 
+$$
+P(X=a+b\;| \;X > a)=P(X=b)
+$$
+
+So, note that:
+
+$$
+P(X > a + b \; | \; X > a) = P(X > b)
+$$
+
