@@ -25,3 +25,22 @@ The declaration `struct T {...} x` has the following effect:
 
 Fields of the structure appear **in the same order** in memory as the declaration
 - Each field `f` of the object `x` has a type of $T_f$ and an offset $o \geq 0$ such that the field `x.f` occupies `sizeof(`$T_f$`)` bytes starting at memory location $M_x+o$ 
+
+The size of the struct is **greater than or equal to** the sum of the sizes of all it's fields.
+
+Why greater than?
+
+## Accessing
+
+Given `struct T{...} x, *xp;`
+
+Syntax: `x.f` or `xp->f`
+
+### R-Value
+
+Returns a value of type TYPE(`x.f`) by interpreting the bit representation in BOX(`x.f`)
+
+### L-Value
+
+Updates memory bytes of BOX(`x.f`) with the type-appropriate bit representation of the **R-value** of the assignment operation. (like setting a variable)
+
