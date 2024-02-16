@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "n_\\text",
+                "query": "round to even",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +160,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "044b7b60518a43cf",
+  "active": "fc0196a2fedae907",
   "lastOpenFiles": [
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
