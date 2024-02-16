@@ -76,7 +76,8 @@ Suppose we represent $E$ using $q$ bits
 - Must handle both positive and negative values of $E$
 
 Define $\text{ebits}_q(E)=W^{-1}_U(E+2^{q-1}-1)$
-- We are biasing
+- We are biasing, why bias?
+- We do the bias because it is **much, much easier** to compare a number stored in a biased representation than it is to compare with twos-complement.
 
 When you are encoding, you need to add the bias. Then, once you are trying to decode, subtract the bias.
 
@@ -87,11 +88,15 @@ $$
 \text{bias}=2^{q-1}-1
 $$
 
+^7ca5db
+
 Minimum representable exponent:
 
 $$
 E_{\text{min}}=\text{ebits}_q^{-1}(0^{q-1}1)=1-\text{bias}=-(\text{bias}-1)
 $$
+
+^a30730
 
 Minimum normalized **positive** FP number:
 
@@ -115,6 +120,22 @@ $2^{-(p-1)}$ is machine epsilon $\mathcal{E}$.
 
 So, in all, we need $p+q$ bits.
 
+### How to interpret the mantissa
+
+The mantissa can be interpreted using a simple property. Reading each bit from the left (ignore endian-ness, and instead look at this from a human reading form), we simply multiple the bit by $2^{-\text{bit number (starting at 1)}}$.
+
+#### Example:
+
+Given the binary representation `0 0001 001` of a floating point (FP(p,q; 4)) number $x$, what is $x$?
+
+We know that there are 4 precision and exponent bits each.
+
+1. See that the sign bit is 0, so this number will be positive
+2. The exponent is $1\times2^0-7$ (because the [[Floating Point Numbers#^7ca5db|bias]] is $2^{4-1}-1$) = $-6$
+3. The mantissa is $1.0\;\text{(hidden bit) } + 2^{-1} \times 0 + 2^{-2}\times 0 + 2^{-3}\times 1=1.125$.
+4. Combining all of these values: $2^{E}\times\text{mantissa}$ 
+	1. $2^{-6}\times1.125=0.017578125$
+
 ### How to Represent Zero
 
 Since zero is unique, we have a special case
@@ -135,6 +156,21 @@ $$
 s0^qb_1\ldots b_{p-1}=\pm(0.b_1\ldots b_{p-1})_2
 \times2^{E_\text{min}}
 $$
+
+So, how can we actually interpret a subnormal number?
+
+###### Interpreting Subnormal Numbers
+
+Given the binary representation `0 0000 101` of a floating point (FP(p,q; 4)) number $x$, what is $x$?
+
+We know that there are 4 precision and exponent bits each.
+
+1. See that the sign bit is 0, so this number will be positive
+2. The exponent is all zeroes, so it must be a subnormal number (of course it is, that's the point of this problem). Because this is our special case, we arbitrarily set the exponent to [[Floating Point Numbers#^a30730|E min]] ($E_\text{min}$)
+3. **Because the exponent is all zeroes, the hidden bit also becomes 0**, therefore: The mantissa is $0.0\;\text{(hidden bit) } + 2^{-1} \times 1 + 2^{-2}\times 0 + 2^{-3}\times 1=1.125$.
+4. Combining all of these values: $2^{E}\times\text{mantissa}$ 
+	1. $2^{-6}\times1.125=0.017578125$
+
 ### Infinities
 
 Similar to expressing 0, we need to somehow express infinity (but its a concept, not an actual number, so how?)
