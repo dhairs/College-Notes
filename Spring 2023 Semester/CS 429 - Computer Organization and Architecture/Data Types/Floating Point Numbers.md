@@ -160,6 +160,9 @@ s0^qb_1\ldots b_{p-1}=\pm(0.b_1\ldots b_{p-1})_2
 \times2^{E_\text{min}}
 $$
 
+Essentially, we interpret the mantissa as we do [[Floating Point Numbers#How to interpret the mantissa|regularly]], except we set the hidden bit to `0`, so it becomes `0.<mantissa>`, and then we multiply by the smallest exponent we can represent, which is given by:
+![[Floating Point Numbers#^a30730]]
+
 So, how can we actually interpret a subnormal number?
 
 ###### Interpreting Subnormal Numbers
