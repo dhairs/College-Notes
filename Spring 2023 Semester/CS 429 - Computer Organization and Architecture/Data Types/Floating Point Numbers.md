@@ -70,7 +70,6 @@ Consider a system where all normalized FP numbers have the form $(b_0\cdot b_1b_
 | 1.10 | 0.75 | 1.5 | 3 |  |
 | 1.11 | 0.875 | 1.75 | 3.5 |  |
 | ulp | 0.125 | 0.25 | 0.5 |  |
-
 ### The Representation of $E$
 
 Suppose we represent $E$ using $q$ bits

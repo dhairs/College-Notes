@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nan",
+                "query": "n_\\text",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,12 +160,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fc0196a2fedae907",
+  "active": "044b7b60518a43cf",
   "lastOpenFiles": [
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
     "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointer Arithmetic.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
@@ -187,7 +188,6 @@
     "Spring 2023 Semester/MAS 316 - Mexican American Studies/Westward Expansion.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Spring 2023 Semester/Statistics and Probability/Variables.md",
-    "Fall 2023 Semester/CS 311/Definitions/Sets/Countable Sets.md",
     "Chemistry",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings",
