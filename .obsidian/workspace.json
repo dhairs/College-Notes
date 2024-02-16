@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
-                "mode": "preview",
+                "file": "Spring 2023 Semester/Statistics and Probability/Sample Correlation.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "round to even",
+                "query": "ripple carry",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Sample Correlation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
+                "file": "Spring 2023 Semester/Statistics and Probability/Sample Correlation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md"
+                "file": "Spring 2023 Semester/Statistics and Probability/Sample Correlation.md"
               }
             }
           },
@@ -161,13 +161,15 @@
   },
   "active": "044b7b60518a43cf",
   "lastOpenFiles": [
-    "Floating Point Numbers^N_/text{min}.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
+    "Spring 2023 Semester/Statistics and Probability/Sample Correlation.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
+    "Floating Point Numbers^N_/text{min}.md",
     "Floating Point Numbers^N_",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
     "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointer Arithmetic.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
@@ -186,8 +188,6 @@
     "README.md",
     "Excalidraw/README.md",
     "Spring 2023 Semester/Statistics and Probability/Probabilities for Equally Likely Choices.md",
-    "Spring 2023 Semester/MAS 316 - Mexican American Studies/Westward Expansion.md",
-    "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
     "Chemistry",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings",
