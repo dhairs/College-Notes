@@ -162,8 +162,10 @@
   },
   "active": "044b7b60518a43cf",
   "lastOpenFiles": [
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
+    "Floating Point Numbers^N_/text{min}.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
+    "Floating Point Numbers^N_",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
     "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
     "Spring 2023 Semester/Statistics and Probability/Visualizing Methods.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
@@ -187,7 +189,6 @@
     "Spring 2023 Semester/Statistics and Probability/Probabilities for Equally Likely Choices.md",
     "Spring 2023 Semester/MAS 316 - Mexican American Studies/Westward Expansion.md",
     "Fall 2023 Semester/CS 311/Definitions/Definitions.md",
-    "Spring 2023 Semester/Statistics and Probability/Variables.md",
     "Chemistry",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings",
@@ -200,7 +201,6 @@
     "Excalidraw",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling",
     "Technologies/Data Science",
-    "Technologies/DevOps",
-    "Technologies"
+    "Technologies/DevOps"
   ]
 }
