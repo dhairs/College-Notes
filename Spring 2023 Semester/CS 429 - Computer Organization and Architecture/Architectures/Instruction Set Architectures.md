@@ -7,3 +7,5 @@ When we have something like `gcc -g -o p p1.c p2.c`
 
 This is really what happens:
 
+![[GCC Compilation Process]]
+
