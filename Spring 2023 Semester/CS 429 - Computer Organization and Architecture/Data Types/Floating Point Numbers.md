@@ -10,7 +10,7 @@ We need to find something that is not only efficient in storage space, but also 
 
 Represent a number $x$ as $\pm x_i * x_f$ where:
 - $x_i$ is the integer part of $x$, represented using $a$ radix-$k$ digits
-- - $x_f$ is the fractional part of $x$, represented using $b$ radix-$k$ digits
+- $x_f$ is the fractional part of $x$, represented using $b$ radix-$k$ digits
 
 Represent $x$ as a $(1+a+b)$ digit radix-$k$ string that we write from most-significant to least-significant digit at the triple (sign; the $a$ digits of $x_i$; the $b$ digits of $x_f$)
 
@@ -128,13 +128,13 @@ The mantissa can be interpreted using a simple property. Reading each bit from t
 
 #### Example:
 
-Given the binary representation `0 0001 001` of a floating point (FP(p,q; 4)) number $x$, what is $x$?
+Given the binary representation `0 0001 001` of a floating point (FP(p,q; 4)) number $x$, what is $(x)_{10}$? 
 
 We know that there are 4 precision and exponent bits each.
 
 1. See that the sign bit is 0, so this number will be positive
 2. The exponent is $1\times2^0-7$ (because the [[Floating Point Numbers#^7ca5db|bias]] is $2^{4-1}-1$) = $-6$
-3. The mantissa is $1.0\;\text{(hidden bit) } + 2^{-1} \times 0 + 2^{-2}\times 0 + 2^{-3}\times 1=1.125$.
+3. The mantissa is $1.0\;\text{(hidden bit)} + 2^{-1} \times 0 + 2^{-2}\times 0 + 2^{-3}\times 1=1.125$.
 4. Combining all of these values: $2^{E}\times\text{mantissa}$ 
 	1. $2^{-6}\times1.125=0.017578125$
 
