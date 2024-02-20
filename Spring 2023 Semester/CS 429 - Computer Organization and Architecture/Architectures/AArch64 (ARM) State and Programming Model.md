@@ -51,10 +51,10 @@ Any implementation of the architecture must include at **least** EL0 and EL1, EL
 	- The Zero Register (ZR) is a **pseudo-register** that is encoded as X31. Reading it provides you the bits 0x0. Writes to it aren't performed.
 - Stack pointer **SP**
 	- 64 bit dedicated Stack Pointer register
-	- Least significant 32 bits can be accessed as WSP
+	- Least significant 32 bits can be accessed as WSP (Remember W just denotes the 32-bit variant)
 	- SP must be aligned to a 16-byte boundary
 - Program Counter **PC**
-	- Tells the machine what instruction it is processing
+	- Tells the machine what instruction it is processing 
 	- 64 bit program counter holding the address of the current instruction
 	- Software can't write directly to the PC
 		- The default update rule is `PC <- PC + 4` (because instructions are 4 bytes wide), this is called **sequential access**
