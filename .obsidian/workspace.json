@@ -83,8 +83,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,6 +179,11 @@
   },
   "active": "044b7b60518a43cf",
   "lastOpenFiles": [
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Architectures/Instruction Set Architectures.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/von Neumann Architecture.md",
@@ -205,11 +209,6 @@
     "Spring 2023 Semester/Statistics and Probability/Overview, Definitions, and Axioms of Probability.md",
     "Spring 2023 Semester/Statistics and Probability/Conditional Probability.md",
     "Spring 2023 Semester/Statistics and Probability/Baye's Theorem.md",
-    "Spring 2023 Semester/Statistics and Probability/Total Probability Theorem.md",
-    "Spring 2023 Semester/Statistics and Probability/Probability Notation.md",
-    "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Arrays.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
     "Floating Point Numbers^N_",
     "Chemistry",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings",
