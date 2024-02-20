@@ -14,9 +14,17 @@
               "type": "markdown",
               "state": {
                 "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Architectures/Instruction Set Architectures.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "235837d08f5c2b9b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -171,14 +179,15 @@
   },
   "active": "044b7b60518a43cf",
   "lastOpenFiles": [
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Drawing 2024-02-14 01.02.15.excalidraw.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/von Neumann Architecture.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Architectures/Instruction Set Architectures.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ISA Architecture.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/GCC Compilation Process.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Architectures/Instruction Set Architectures.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Architectures",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointer Arithmetic.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Drawing 2024-02-14 01.02.15.excalidraw.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png",
     "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
     "Spring 2023 Semester/ECO 329 - Economic Statistics/Economic Data Sampling/Types of Economic Data.md",

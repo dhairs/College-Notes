@@ -71,3 +71,29 @@ A stored program computer includes an instruction *set* by design, and can store
 No distinction between data and code.
 
 Started by Turing in 1936.
+
+## The von Neumann Architecture
+
+As described by von Neumann, the architecture has:
+- **Processing unit** containing an ALU (arithmetic something unit) and processor registers
+- **Control unit** containing an instruction register and program counter
+- **Memory unit** that stores data and instructions
+- **External mass storage**
+- **Input output mechanisms**
+
+![[von Neumann Architecture]]
+
+### Limitations
+
+There is only a single connection between the processor and the memory. This means that at any instant of time, either an instruction or data item can in transit, but not both.
+- This limitation is called the **von Neumann bottleneck**
+
+There is no distinction between data memory and instruction memory
+- This unification leads to the possibility of dangerous, self-modifying code
+
+## The Harvard Architecture
+
+A variant of the von Neumann architecture that aims to address both the limitations of von Neumann's
+- Separates memory for instructions and data
+- Separate connections to these instructions and data memories
+
