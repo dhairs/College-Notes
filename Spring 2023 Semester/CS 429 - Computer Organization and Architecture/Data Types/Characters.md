@@ -1,4 +1,3 @@
-
 ## Character Types in C
 
 There are `char`, `signed char`, and `unsigned char` as character types
@@ -44,13 +43,6 @@ int atoi(const char[s]) { // const tells us the parameter array cannot change
 	return retval;
 }
 ```
-
-
-
-
-
-
-
 
 ## Other representations
 
