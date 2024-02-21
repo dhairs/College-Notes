@@ -53,7 +53,7 @@ Any implementation of the architecture must include at **least** EL0 and EL1, EL
 	- 64 bit dedicated Stack Pointer register
 	- Least significant 32 bits can be accessed as WSP (Remember W just denotes the 32-bit variant)
 	- SP must be aligned to a 16-byte boundary
-- Program Counter **PC**
+- Program Counter **PC** ^6298e8
 	- Tells the machine what instruction it is processing 
 	- 64 bit program counter holding the address of the current instruction
 	- Software can't write directly to the PC
