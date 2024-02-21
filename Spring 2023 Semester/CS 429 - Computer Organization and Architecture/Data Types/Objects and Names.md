@@ -15,5 +15,5 @@ For a C object named `x`, define:
 - `TYPE(x)` to be the C language type of `x`
 - `ADDR(x)` to be the lowest numbered memory byte occupied by `x` at runtime (`&x`)
 - `SIZE(x)` to be the number of memory bytes occupied by `x` at runtime (`sizeof(x)`)
-- `BOX(x) = [ADDR(x), ADDR(x)+SIZE(x)-1]`, the range of memory bytes holding the machine representation of `x`
+- `BOX(x) = [ADDR(x), ADDR(x)+SIZE(x)-1]`, the range of memory bytes holding the machine representation of `x` ^b3b72c
 - `VAL(x)` to be the value of `x`, obtained by applying the type-specific interpretation to the machine representation of `x`

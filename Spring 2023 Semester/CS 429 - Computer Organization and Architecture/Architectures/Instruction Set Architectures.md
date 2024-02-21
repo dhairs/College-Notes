@@ -55,7 +55,7 @@ Semantically, the verb that the instruction denotes maps machine states to machi
 
 An instruction **must** specify (at the very least):
 - **Source operands**: what inputs (aka operands) it needs (how many of them, how wide they are, where they come from)
-- **Operation Code (opcode)**: What operation it performs on the inputs.
+- **Operation Code (opcode)**: What operation it performs on the inputs. ^394cf4
 - **Destination**: Where the output (result) goes | *note this is the machine state change*
 - **Side effects**: what side effects, if any, do occur?
 
