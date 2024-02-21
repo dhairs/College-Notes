@@ -38,6 +38,12 @@ $$P(A|B)=\frac{P(A\cap B)}{P(B)}=\frac{\frac{1}{3}}{\frac{1}{2}}=\frac{2}{3}$$
 The conditional probability that a roll is even given that it is at least 3 is:
 $$P(B|A)=\frac{P(A\cap B)}{P(B)}=\frac{\frac{1}{3}}{\frac{2}{3}}=\frac{1}{2}$$
 
+## Bernoulli Distribution
+
+A distribution based on the idea of [[Variables#Binary Variables (Bernoulli Variables)|Binary/Bernoulli Variables]]. Literally is a way of mapping the two categorical values to a function/number.
+
+Look at [[Variables#Coding categorical variables (indicator variables)|Coding categorical variables]].
+
 ## Multiplication Rule
 
 Comes directly from the conditional probability formula:
@@ -70,3 +76,29 @@ If $A_1, A_2, \ldots, A_k$ are disjoint events and also exhaustive events, then 
 
 $$P(B)=P(B|A_1)P(A)+P(B|A_2)+\ldots+P(B|A_k)P(A_k)$$
 $$=\sum^{k}_{j=1}P(B|A_j)P(A_j)$$
+## Binomial Distribution
+
+Probability of $k$ successes out of $n$ trials.
+
+## Geometric Distribution
+
+Number of trials to get the first success.
+
+If $X$ is the number of trials to get the first success with $p = P(\text{success})$, then $X$ is a **Geometric Random Variable** with parameter $p$, or $X\sim \text{Geo}(p)$ 
+
+We solve this using the **Geometric Series**.
+
+
+### Memoryless Property
+
+Basically, that the number of times it took to get a first success remains the same even after a failure. 
+$$
+P(X=a+b\;| \;X > a)=P(X=b)
+$$
+
+So, note that:
+
+$$
+P(X > a + b \; | \; X > a) = P(X > b)
+$$
+
