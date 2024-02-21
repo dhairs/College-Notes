@@ -75,7 +75,7 @@ Started by Turing in 1936.
 ## The von Neumann Architecture
 
 As described by von Neumann, the architecture has:
-- **Processing unit** containing an ALU (arithmetic something unit) and processor registers
+- **Processing unit** containing an ALU (arithmetic logic unit) and processor registers
 - **Control unit** containing an instruction register and program counter
 	- The instruction register includes quickly accessible memory to perform calculations and instructions
 - **Memory unit** that stores data and instructions
