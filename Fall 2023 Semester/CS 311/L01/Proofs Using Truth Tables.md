@@ -1,5 +1,5 @@
 Remember that to prove a theorem, we need to show that a statement of the following form is a tautology:
-![[What is a Proof?#^45a1e8]]
+![[What is a Proof#^45a1e8]]
 
 We can use [[Truth Tables|truth tables]] to show that these premises are true, and therefore our conclusion is true as our proof. ^d6ec52
 
