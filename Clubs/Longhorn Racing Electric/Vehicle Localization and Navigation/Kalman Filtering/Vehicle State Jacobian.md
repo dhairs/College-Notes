@@ -1,9 +1,13 @@
 
-Solving the Jacobians for every variable in the system.
-
-
+Solving the [[Jacobian Matrices|Jacobian]] for every variable in the system.
 
 Because GPS rotates in the clockwise direction, and traditional math assumes a $\theta$ increase in the counter-clockwise direction, we can calculate the mathematical $\theta$ by doing: $90\degree-\theta_\text{GPS}\degree$. This is the angle used in all the following calculations.
+
+Recall the system matrices:
+
+![[Extended Kalman Filter#System Matrices]]
+
+As a result, we can calculate the partial derivatives of each estimate as such:
 
 | Equation ($\text{eq.}$)                                                                                                                        | $\frac{\partial\text{eq.}}{\partial x_\text{old}}$ | $\frac{\partial\text{eq.}}{\partial y_\text{old}}$ | $\frac{\partial\text{eq.}}{\partial \dot{x}_\text{old}}$ | $\frac{\partial\text{eq.}}{\partial \dot{y}_\text{old}}$ | $\frac{\partial\text{eq.}}{\partial \theta_\text{old}}$                             |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -11,4 +15,4 @@ Because GPS rotates in the clockwise direction, and traditional math assumes a $
 | $y_\text{new}=y_\text{old}+v_{y_\text{old}}\times\Delta t + \frac{1}{2}\Delta t^2 (a_{x_\text{old}}\sin(\theta)+a_{y_\text{old}}\cos(\theta))$ | 0                                                  | 1                                                  | 0                                                        | $\Delta t$                                               | $\frac{1}{2}\Delta t^2(a_{x_\text{old}}\cos(\theta)-a_{y_\text{old}}\sin(\theta))$  |
 | $\dot{x}_\text{new}=\dot{x}_\text{old}+\Delta t(a_{x_\text{old}}\cos(\theta)-a_{y_\text{old}}\sin(\theta))$                                    | 0                                                  | 0                                                  | 1                                                        | 0                                                        | $\Delta t(-a_{x_\text{old}}\sin(\theta)-a_{y_\text{old}}\cos(\theta))$              |
 | $\dot{y}_\text{new}=\dot{y}_\text{old}+\Delta t(a_{x_\text{old}}\sin(\theta)+a_{y_\text{old}}\cos(\theta))$                                    | 0                                                  | 0                                                  | 0                                                        | 1                                                        | $\Delta t(a_{x_\text{old}}\cos(\theta)-a_{y_\text{old}}\sin(\theta))$               |
-| $\theta_\text{new}=\omega\times\Delta t+ \theta_\text{old}$                                                                                    | 0                                                  | 0                                                  | 0                                                        | 0                                                        | 0                                                                                   |
+| $\theta_\text{new}=\omega\times\Delta t+ \theta_\text{old}$                                                                                    | 0                                                  | 0                                                  | 0                                                        | 0                                                        | 1                                                                                   |
