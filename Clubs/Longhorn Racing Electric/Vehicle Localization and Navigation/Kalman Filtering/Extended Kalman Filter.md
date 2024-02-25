@@ -34,17 +34,17 @@ Because we have a theta, we will also be using a [[Rotation Matrices|rotation ma
 And all the **perfect estimate equations** are:
 
 $$\begin{align}
-   \text{system perfect estimate}=\left\{
+\text{system perfect estimate}=\left\{
 \begin{array}{ll}
-      x_\text{new}=x_\text{old}+v_{x_\text{old}}\times\Delta t + \frac{1}{2}\Delta t^2 (a_{x_\text{old}}\cos(\theta)-a_{y_\text{old}}\sin(\theta)) \\
-	  
-	  y_\text{new}=y_\text{old}+v_{y_\text{old}}\times\Delta t + \frac{1}{2}\Delta t^2 (a_{x_\text{old}}\sin(\theta)+a_{y_\text{old}}\cos(\theta)) \\
-	
-	  \dot{x}_\text{new}=\dot{x}_\text{old}+\Delta t(a_{x_\text{old}}\cos(\theta)-a_{y_\text{old}}\sin(\theta)) \\
-	  
-	  \dot{y}_\text{new}=\dot{y}_\text{old}+\Delta t(a_{x_\text{old}}\sin(\theta)+a_{y_\text{old}}\cos(\theta)) \\
-	  
-	  \theta_\text{new}=\omega\times\Delta t+ \theta_\text{old}
+x_\text{new}=x_\text{old}+v_{x_\text{old}}\times\Delta t + \frac{1}{2}\Delta t^2 (a_{x_\text{old}}\cos(\theta)-a_{y_\text{old}}\sin(\theta)) \\
+
+y_\text{new}=y_\text{old}+v_{y_\text{old}}\times\Delta t + \frac{1}{2}\Delta t^2 (a_{x_\text{old}}\sin(\theta)+a_{y_\text{old}}\cos(\theta)) \\
+
+\dot{x}_\text{new}=\dot{x}_\text{old}+\Delta t(a_{x_\text{old}}\cos(\theta)-a_{y_\text{old}}\sin(\theta)) \\
+
+\dot{y}_\text{new}=\dot{y}_\text{old}+\Delta t(a_{x_\text{old}}\sin(\theta)+a_{y_\text{old}}\cos(\theta)) \\
+
+\theta_\text{new}=\omega\times\Delta t+ \theta_\text{old}
 \end{array} 
 \right. 
 \end{align}$$
