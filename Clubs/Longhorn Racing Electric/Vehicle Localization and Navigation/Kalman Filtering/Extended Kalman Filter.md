@@ -33,8 +33,7 @@ Because we have a theta, we will also be using a [[Rotation Matrices|rotation ma
 
 And all the **perfect estimate equations** are:
 
-$$
-\begin{align}
+$$\begin{align}
    \text{system perfect estimate}=\left\{
 \begin{array}{ll}
       x_\text{new}=x_\text{old}+v_{x_\text{old}}\times\Delta t + \frac{1}{2}\Delta t^2 (a_{x_\text{old}}\cos(\theta)-a_{y_\text{old}}\sin(\theta)) \\
@@ -48,8 +47,7 @@ $$
 	  \theta_\text{new}=\omega\times\Delta t+ \theta_\text{old}
 \end{array} 
 \right. 
-\end{align}
-$$
+\end{align}$$
 
 ## Predict Steps
 
