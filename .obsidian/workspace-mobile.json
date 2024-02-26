@@ -11,9 +11,11 @@
             "id": "cebbcff1fd7debbb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-02-21 14.05.51.excalidraw.md"
+                "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Vehicle State Jacobian.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -76,7 +78,9 @@
         "state": {
           "type": "all-properties",
           "state": {
-            "sortOrder": "frequency"
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
           }
         }
       }
@@ -93,7 +97,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Excalidraw/Drawing 2024-02-21 14.05.51.excalidraw.md",
+            "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Vehicle State Jacobian.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +114,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Excalidraw/Drawing 2024-02-21 14.05.51.excalidraw.md",
+            "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Vehicle State Jacobian.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +126,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Excalidraw/Drawing 2024-02-21 14.05.51.excalidraw.md"
+            "file": "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Vehicle State Jacobian.md"
           }
         }
       }
@@ -143,6 +147,13 @@
   "active": "cebbcff1fd7debbb",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2024-02-21 14.05.51.excalidraw.md",
+    "Fall 2023 Semester/CS 311/What is a Proof.md",
+    "Math/Linear Algebra and Matrices/Jacobian Matrices.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Extended Kalman Filter.md",
+    "Excalidraw Test.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Instruction Processing Diagram.md",
+    "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Vehicle State Jacobian.md",
+    "Fall 2023 Semester/CS 311/What is Discrete Math.md",
     "Chemistry/Bonding.md",
     "Chemistry",
     "Spring 2023 Semester/Statistics and Probability/Functions.md",
@@ -166,14 +177,7 @@
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ISA Architecture.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/GCC Compilation Process.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/MM Lab Architecture.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Block Formats.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Floating Point Design Problem.excalidraw.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Memory Allocation Block Diagram.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/von Neumann Architecture.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings",
-    "2024-02-21.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Fragmented_Memory_Embedded.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets",
     "Excalidraw/429",
