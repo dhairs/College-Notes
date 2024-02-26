@@ -36,7 +36,7 @@ Can be in a table, or function.
 In general, the probability that a random variable $X$ takes a value $x$ is written as $p_x(x)$, $P_x(x)$, or $P_x(X=x)$
 
 A random variable is always written in upper case and the numerical value we are trying to solve is always written in lower case.
-
+ 
 #### Properties of PMF's
 
 1. $P(X=x)\geq 0$ for all values of $x$
@@ -62,6 +62,27 @@ $X=$ the number of rolls of a fair die until you get the first 6
 $X$ can take what values?
 
 PMF is $P(X=x)=p\times(1-p)^{n-1}$ where $n$ is the total rolls and $p$ is the probability of getting a 6
+
+
+#### Mean and Variance of a Discrete Random Variable
+
+Recall the sample mean formula for a discrete variable in terms of sample proportions:
+
+$$
+\bar{x}=\sum_{k}x^*_kp_k
+$$
+
+Where $x^*_k$ is the possible outcome, and $p_k$ is the probability for that outcome.
+
+When you repeat an experiment many many times, you converge to the true probability.
+
+As a result, the population mean and sample mean are not the same:
+
+##### Population Mean:
+
+$$
+
+$$
 
 ### Continuous Variable
 

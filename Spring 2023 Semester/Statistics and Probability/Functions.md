@@ -18,7 +18,9 @@ $$
 
 The CDF gives us the probability that the variable takes a value less than or equal to $x$. 
 
-A property of CDF's: $0\leq F(X)\leq 1$ for all $x$.
+A property of CDF's: 
+1. $0\leq F(X)\leq 1$ for all $x$.
+2. $x_0 < x_1 \to F_X(x_0)\leq F_X(x_1)$ 
 
 ### Example: Obtaining the CDF from the PMF
 
