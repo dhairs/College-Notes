@@ -81,9 +81,25 @@ As a result, the population mean and sample mean are not the same:
 ##### Population Mean:
 
 $$
+\mu_x=\sum_kx^*_kp_X(x^*_k)
+$$
+
+And the expected value of the population is $\mu_x=E(x)$ which is the sum of all the probabilities.
+
+##### Variance:
+
+Recall the sample variance formula for a discrete variable in terms of sample proportions:
+
+$$
+s^2_x=\frac{n}{n-1}\sum_k (x^*_k-\bar{x})^2p_k\approx\sum_k(x^*_k-\bar{x})^2p_k
+$$
+When you do this experiment many, many times, you approach the true population variance.
+
+As such, population variance is:
 
 $$
 
+$$
 ### Continuous Variable
 
 A variable that can take on any value on some interval or intervals of the real line, including even maybe the entire line.
