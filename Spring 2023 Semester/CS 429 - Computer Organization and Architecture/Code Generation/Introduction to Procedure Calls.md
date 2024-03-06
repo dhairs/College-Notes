@@ -85,7 +85,7 @@ Pass the first parameter in register R0, up until R7 for the 8th parameter. Addi
 
 ### Result Return
 
-Result is returning in the appropriate piece of R0
+Result is returning in the appropriate piece of R0. 
 
 ## Branching and Linking
 
@@ -102,4 +102,6 @@ Result is returning in the appropriate piece of R0
 A procedure linkage is a contract between the compiler, the operating system, and the target machine that clearly divides responsibilities for naming, allocation of resources, addressability, and protection between caller and callee.
 
 Standard procedure linkage requires four pieces of glue code.
+
+![[Procedure Linkage]]
 
