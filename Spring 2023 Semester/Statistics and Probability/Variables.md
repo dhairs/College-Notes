@@ -188,3 +188,19 @@ $$
 $$
 
 Note that we ended needing only 2 of these variables, because the rest is still included in the other variables.
+
+## Continuous Random Variables
+
+A **continuous random variable** is a random variable that can take on any value on some interval, or intervals, of the real line, including perhaps the entire real line. The probability of any specific outcome $x^*$ occurring is equal to zero. We say that a continuous random variable has an [[Countable Sets#^4372ed|uncountable]] set of possible outcomes.
+
+We think of probabilities in terms of intervals instead of in terms of specific values.
+
+
+### Probability Density Function (PDF) and Cumulative Distribution Function (CDF) of Continuous Random Variables
+
+The [[Functions#Cumulative Distribution Function (CDF)|Probability Density Function (PDF)]] of a continuous random variable $X$ is a function $f_X(\cdot)$ such that for any two numbers $a$ and $b$ with $a\leq b$:
+
+$$P(a\leq X\leq b)=\int_a^b f_X(x)dx$$
+Properties of the pdf $f_X(\cdot)$:
+1. $f_X(x)\geq 0$ for all $x$
+2. $\int_{-\infty}^{\infty} f_X(x)dx=1$ 

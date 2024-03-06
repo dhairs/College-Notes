@@ -56,3 +56,32 @@ There are three mechanisms that are in effect together when we want `P` calls `Q
 
 - In this architecture, the stack grows downward, and the heap grows upward. Both of them can be interchanged, but they both have to close in on each other. This helps with flexibility between programs. When closing in on each other, we can have a huge stack and tiny heap, or the other way around. 
 - Both **cannot** meet in the middle, we need a buffer zone.
+
+
+## Control Transfer Mechanics
+
+On call:
+- Push caller's **return address (RA)** on **link stack**
+- Jump to starting instruction of callee
+
+On return:
+- Pop caller's RA from the link stack
+- Jump to this RA
+
+How should we implement this link stack?
+
+x86_64: memory
+
+Arm: save in register
+- A64 stores the RA in register X30, aka the **Link Register (LR)**
+- The value of the RA is the value of the PC for this instruction + 4
+
+## Data Transfer Mechanics
+
+### Parameter Passing
+
+Pass the first parameter in register R0, up until R7 for the 8th parameter. Additional parameters go on the stack.
+
+### Result Return
+
+Result is returning in R0
