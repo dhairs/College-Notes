@@ -78,10 +78,28 @@ Arm: save in register
 
 ## Data Transfer Mechanics
 
+Grossly oversimplified, can learn more [here](https://learn.saylor.org/mod/book/view.php?id=27055&chapterid=3195)
 ### Parameter Passing
 
 Pass the first parameter in register R0, up until R7 for the 8th parameter. Additional parameters go on the stack.
 
 ### Result Return
 
-Result is returning in R0
+Result is returning in the appropriate piece of R0
+
+## Branching and Linking
+
+| Op Code | What it does                                                                       | Assembly Language Syntax               | Limitations                         |
+| ------- | ---------------------------------------------------------------------------------- | -------------------------------------- | ----------------------------------- |
+| `BL`    | Branches unconditionally to a label, setting X30 to PC + 4                         | `BL <label>`                           | Label must be within $\pm128$ bytes |
+| `BLR`   | Branches unconditionally to an address in a register, setting X30 to PC + 4        | `BLR <Xn>`                             |                                     |
+| `RET`   | Branches unconditionally to an address in a register                               | `RET {<Xn>}`                           |                                     |
+| `LDP`   | Loads two 32-bit or two 64-bit values from memory and writes them to two registers | `LDP <Xt1>, <Xt2>, [<Xn\|SP>], #<imm>` |                                     |
+| `STP`   | Stores two 32-bit or 64-bit values to memory from registers                        | `STP <Xt1>, <Xt2>, [<Xn\|SP>], #<imm>` |                                     |
+
+## Procedure Linkage
+
+A procedure linkage is a contract between the compiler, the operating system, and the target machine that clearly divides responsibilities for naming, allocation of resources, addressability, and protection between caller and callee.
+
+Standard procedure linkage requires four pieces of glue code.
+
