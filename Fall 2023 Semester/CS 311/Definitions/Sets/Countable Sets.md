@@ -2,7 +2,7 @@
 All finite sets are countable sets
 If the infinite set has the same cardinality as $\mathbb{Z}^+$, the set is said to be **countable**, denoted by $\aleph_o$
 If the infinite set has a different cardinality than $\mathbb{Z}^+$, then it is **uncountable**
-**KNOW THAT $\mathbb{R}$ IS UNCOUNTABLE**
+**KNOW THAT $\mathbb{R}$ IS UNCOUNTABLE** ^4372ed
 
 $|\mathbb{R}| > |\mathbb{Z}^+|$
 

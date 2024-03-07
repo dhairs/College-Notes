@@ -12,8 +12,6 @@ Recall how we define [[Instruction Set Architectures]].
 5. Write ==results== back to registers *if needed*
 6. Update [[AArch64 (ARM) State and Programming Model#^6298e8|Program Counter]] (PC)
 
-![[Instruction Processing Diagram]]
-
 ## Sources and Destinations
 
 The generic form of an instruction is IW = (**operation**, *operands*, ==result== locations)

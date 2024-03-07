@@ -1,4 +1,3 @@
-
 ## Definition
 
 Suppose we have an $n$-element set which can be partitioned into $r$ disjoint subsets, with the $i$-th subset containing $n$ elements

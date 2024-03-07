@@ -36,7 +36,7 @@ Can be in a table, or function.
 In general, the probability that a random variable $X$ takes a value $x$ is written as $p_x(x)$, $P_x(x)$, or $P_x(X=x)$
 
 A random variable is always written in upper case and the numerical value we are trying to solve is always written in lower case.
-
+ 
 #### Properties of PMF's
 
 1. $P(X=x)\geq 0$ for all values of $x$
@@ -63,6 +63,43 @@ $X$ can take what values?
 
 PMF is $P(X=x)=p\times(1-p)^{n-1}$ where $n$ is the total rolls and $p$ is the probability of getting a 6
 
+
+#### Mean and Variance of a Discrete Random Variable
+
+Recall the sample mean formula for a discrete variable in terms of sample proportions:
+
+$$
+\bar{x}=\sum_{k}x^*_kp_k
+$$
+
+Where $x^*_k$ is the possible outcome, and $p_k$ is the probability for that outcome.
+
+When you repeat an experiment many many times, you converge to the true probability.
+
+As a result, the population mean and sample mean are not the same:
+
+##### Population Mean:
+
+$$
+\mu_x=\sum_kx^*_kp_X(x^*_k)
+$$
+
+And the expected value of the population is $\mu_x=E(x)$ which is the sum of all the probabilities.
+
+##### Variance:
+
+Recall the sample variance formula for a discrete variable in terms of sample proportions:
+
+$$
+s^2_x=\frac{n}{n-1}\sum_k (x^*_k-\bar{x})^2p_k\approx\sum_k(x^*_k-\bar{x})^2p_k
+$$
+When you do this experiment many, many times, you approach the true population variance.
+
+As such, population variance is:
+
+$$
+
+$$
 ### Continuous Variable
 
 A variable that can take on any value on some interval or intervals of the real line, including even maybe the entire line.
@@ -151,3 +188,19 @@ $$
 $$
 
 Note that we ended needing only 2 of these variables, because the rest is still included in the other variables.
+
+## Continuous Random Variables
+
+A **continuous random variable** is a random variable that can take on any value on some interval, or intervals, of the real line, including perhaps the entire real line. The probability of any specific outcome $x^*$ occurring is equal to zero. We say that a continuous random variable has an [[Countable Sets#^4372ed|uncountable]] set of possible outcomes.
+
+We think of probabilities in terms of intervals instead of in terms of specific values.
+
+
+### Probability Density Function (PDF) and Cumulative Distribution Function (CDF) of Continuous Random Variables
+
+The [[Functions#Cumulative Distribution Function (CDF)|Probability Density Function (PDF)]] of a continuous random variable $X$ is a function $f_X(\cdot)$ such that for any two numbers $a$ and $b$ with $a\leq b$:
+
+$$P(a\leq X\leq b)=\int_a^b f_X(x)dx$$
+Properties of the pdf $f_X(\cdot)$:
+1. $f_X(x)\geq 0$ for all $x$
+2. $\int_{-\infty}^{\infty} f_X(x)dx=1$ 
