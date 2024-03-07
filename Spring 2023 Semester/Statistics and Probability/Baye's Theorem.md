@@ -3,7 +3,7 @@
 If $A_1, A_2, \ldots, A_k$ are mutually exclusive and exhaustive events, then for any event $B$,
 
 $$P(A_i|B)=\frac{P(A_i\cap B)}{P(B)}=\frac{P(B|A_i)\,P(A_i)}{\sum^{k}_{j=1}P(B|A_j)\,P(A_j)}$$
-Where $P(A_i)$ is the *prior probability* of the event $A_i$, which means this is the unconditional probability before considering additional information. 
+Where $P(A_i)$ is the *prior probability* of the event $A_i$, which means this is the unconditional probability before considering additional information.  ^750841
 
 Note that the denominator in the Baye's theorem rewrite utilizes the [[Total Probability Theorem]]. 
 
