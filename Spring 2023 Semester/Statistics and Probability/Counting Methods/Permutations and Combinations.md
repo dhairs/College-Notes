@@ -13,7 +13,7 @@ The biggest question to ask when deciding which one is being used is "does order
 
 An **ordered** subset of distinct choices is called a permutation, and $P_{n,k}=\text{num. of permutations of size}\;k \;\text{that can be formed from}\;n\; \text{objects}$ 
 
-**General formula**: $n$ factorial over $(n-k)$ factorial
+**General formula**: $n$ factorial over $(n-k)$ factorial ^e0e91c
 
 $$
 P_{n,k}=\frac{n!}{(n-k)!}
@@ -27,7 +27,7 @@ An **unordered** subset of choices is called a combination, and $C_{n,k}=\text{n
 
 Often written as $C_{n,k}$ can be written $\Bigl({n\atop k}\Bigl)$, which can be read as "$n$ choose $k$"
 
-**General Formula**:
+**General Formula**: ^4542fc
 $$
 C_{n,k}=\Bigl({n\atop k}\Bigl)=\frac{n!}{(n-k)!k!}
 $$
