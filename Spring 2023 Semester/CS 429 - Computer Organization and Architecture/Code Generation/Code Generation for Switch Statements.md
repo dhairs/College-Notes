@@ -28,3 +28,4 @@ A jump table is an array of pointers to code locations (i.e., an array of labels
 - Not in the `C` standard, but available as a non-standard extension in `GNU C`
 
 ![[Jump Tables]]
+
