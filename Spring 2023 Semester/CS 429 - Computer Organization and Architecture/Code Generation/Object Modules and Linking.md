@@ -87,3 +87,6 @@ int sum(int *a, int n) {
 
 ##### Output of the Executable
 
+![[Linking Example Output Executable.png]]
+
+![[Linking Example Output 2.png]]

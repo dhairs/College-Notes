@@ -1,4 +1,4 @@
-## Functions of Random Variables
+## Functions of Discrete Random Variables
 
 Functions of random variables are also random variables.
 
@@ -27,3 +27,9 @@ A property of CDF's:
 Suppose the range of a discrete random variable is $\{0,1,2,3,4\}$ and its probability mass function is $P(X=x)=\frac{x}{10}$
 
 For $x<1$, $F(x)=\sum_
+
+## Functions of Continuous Variables
+
+### Probability Density Function (PDF)
+
+The probability is given by the area under the curve.
