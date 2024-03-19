@@ -21,10 +21,11 @@ A switch statement causes control to jump to, into, or past the statement that i
 
 To force `gcc` to generate jump tables, you can use `--param case-values-threshold=1`
 
-## What is a Jump Table?
+#### What is a Jump Table?
 
 A jump table is an array of pointers to code locations (i.e., an array of labels)
 - This is a **machine-level abstraction**, a read-only data array whose elements are either addresses of machine instructions or data from which such addresses can be computed
+	- So basically, we either store the pointer itself, or we store a delta (difference) between the current address and address of the next instruction that we want to jump to (see the black below)
 - Not in the `C` standard, but available as a non-standard extension in `GNU C`
 
 ![[Jump Tables]]
