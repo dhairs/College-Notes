@@ -90,3 +90,25 @@ int sum(int *a, int n) {
 ![[Linking Example Output Executable.png]]
 
 ![[Linking Example Output 2.png]]
+
+##### What would happen with different function signatures?
+
+What if `sum` had a function signature of `int sum(int *a, int *b, int n)`?
+
+There would be no issues with compilation, because type information is lost once we compile into a `.o` file. We simply have our assembly code, which contains nothing relating to types or function signature, we just have the name.
+
+C++ solves this by "mangling" the name, and adding type information to the function name itself. This is especially important for function overloading.
+
+#### Takeaways
+
+The linker is not concerned with handing local variables and other symbols that are not visible outside individual object modules.
+
+A module's **symbol table** provides information about the externally visible symbols defined in that module and the external symbols referenced by the module.
+- These definitions and references must be matched, this process is called **symbol resolution**
+
+The **relocation entries** of a module provide information about which symbol references in that module need to be adjusted (and how) when combining multiple object modules.
+- Each object module is generated in isolation, in its local coordinate system
+- We need to keep track of where to put each module, and put them into a single, global coordinate system for the final executable. We move code to new locations (hence "relocation")
+- References must be connected to their resolved definitions, this is called **patching**
+
+A variety of violations are detected by the linker, but not all conditions can be caught (e.g., different function signatures)
