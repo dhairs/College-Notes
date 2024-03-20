@@ -30,3 +30,9 @@ We can express this in `R` as:
 factorial(n)/factorial(n-k)
 ```
 
+
+## Normal Distribution in R
+
+`dnorm(x, mean, sd)` can be used to find the [[Variables#Probability Density Function (PDF) and Cumulative Distribution Function (CDF) of Continuous Random Variables|pdf]] of a normal random variable given the standard deviation and mean. It defaults to the PDF for $X~N(0,1)$
+
+`pnorm(x, mean, sd)` can be used to find the [[Variables#Probability Density Function (PDF) and Cumulative Distribution Function (CDF) of Continuous Random Variables|cdf]] of a normal random variable given the standard deviation and mean, it defaults to the CDF for $X~N(0,1)$

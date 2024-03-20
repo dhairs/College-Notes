@@ -88,7 +88,6 @@ If $X$ is the number of trials to get the first success with $p = P(\text{succes
 
 We solve this using the **Geometric Series**.
 
-
 ### Memoryless Property
 
 Basically, that the number of times it took to get a first success remains the same even after a failure. 
@@ -102,3 +101,29 @@ $$
 P(X > a + b \; | \; X > a) = P(X > b)
 $$
 
+## Normal Distribution
+
+A normal random variable $X$ with mean parameter $\mu$ and variance parameter $\sigma^2$, denoted $X~N(\mu,\sigma^2)$, has a probability density function (pdf) given by:
+
+$$
+f_X(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} \text{ for} -\infty<x<\infty
+$$
+
+and $f_X(x) > 0$ for *all* $x$.
+
+### Special Properties of the Normal Distribution
+
+- $\mu_x=E(X)=\mu$
+- $\sigma_x^2=Var(X)=\sigma^2$
+- $\sigma_x=sd(X)=\sigma$
+- $X$ is symmetric around $\mu$, with population mean $\tau_{x,0.5}=\mu$
+- The maximum value of the pdf $f_X(x)$ occurs at $x=\mu$, with the pdf strictly increasing to the left of $x=\mu$, and strictly decreasing to the right of $x=\mu$.
+- The two parameters $\mu$ (mean) and $\sigma^2$ (variance) completely describe the normal distribution
+
+### Cumulative Density Function (CDF) of the Normal Distribution
+
+The cumulative density function (CDF) of the normal random variable $X~N(\mu, \sigma^2)$ is given by:
+
+$$
+F_X(x_0)=P(X\leq x_0)=\int^{x_0}_{-\infty}\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}dx
+$$
