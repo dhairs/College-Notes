@@ -29,4 +29,16 @@ Along with logical signals, power and ground is of course required for our digit
 
 #### Signals, timing, and delay through gates
 
-In reality, we don't purely have a 0 or a 1, because signals must have rising and falling times. Recall [RC circuits](https://www.youtube.com/watch?v=PLQrPqYlPmI&pp=ygULcmMgY2lyY3VpdHM%3D) from AP Physics C E&M. This is a very similar concept.
+In reality, we don't purely have a 0 or a 1, because signals must have rising and falling times. The potential of the system or gate takes time to reach state. So, we only use the logical state in Computer Science.
+
+Additionally, logic gates have to react to their inputs, and therefore their output has a delay. This is called **gate delay** or **[signal propagation delay](https://en.wikipedia.org/wiki/Signal_propagation_delay#:~:text=Logic%20gates%20can%20have%20propagation,on%20the%20technology%20being%20used.)**. Similar to a person reacting to their inputs (perception), electronic circuits still have to react, though at a much smaller scale and on a much quicker timeframe. For this reason, logic gates traditionally have delays ranging from more than 10 nanoseconds all the way down to the picosecond range.
+
+Wires also conduct electricity, but they also have delays. This is completely because of Resistivity and Capacitance of wires, and in addition, the possibility of noise or deformation to the signal. Recall [RC circuits](https://www.youtube.com/watch?v=PLQrPqYlPmI&pp=ygULcmMgY2lyY3VpdHM%3D) from [AP Physics C E&M](https://www.youtube.com/watch?v=FYsfp4bZc2w&t=631s&pp=ygULcmMgY2lyY3VpdHM%3D). This is very similar, if not the exact reason, behind wire delays.
+
+### Digital Logic and Circuits
+
+A digital logic circuit is designed using logic gates connected by signal wires that implement a boolean function.
+
+### Sum of Products (SOP)
+
+Mathematically, a minterm is any product of $n$ literals where each of the $n$ variable appears once in the product. A boolean function or expression is in Disjunctive Normal Form.
