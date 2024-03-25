@@ -7,7 +7,7 @@ Rational
 ![[Definitions#^13fe65]]
 Absolute Value ![[Definitions#^4fb273]]
 
-- Proof By Cases![[Proof By Cases#Definition|Exhaustive Proof]]
+- Proof By Cases![[Proof by Cases#Definition|Exhaustive Proof]]
 - Direct Proof![[Direct Proof#Definition]]
 - Direct Proof by Contradiction![[Direct Proof by Contraposition#^4086d9]]
 - Proof by Contradiction![[Proof by Contradiction#Definition]]
