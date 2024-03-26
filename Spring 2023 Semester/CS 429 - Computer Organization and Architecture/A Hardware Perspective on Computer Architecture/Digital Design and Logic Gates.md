@@ -42,3 +42,29 @@ A digital logic circuit is designed using logic gates connected by signal wires 
 ### Sum of Products (SOP)
 
 Mathematically, a minterm is any product of $n$ literals where each of the $n$ variable appears once in the product. A boolean function or expression is in Disjunctive Normal Form.
+
+### Universal Gates
+
+NAND and NOR are Universal gates, because given *any* boolean expression, you can convert them into an expression of all NANDs or all NORs, using [[Basic Equivalences|DeMorgan's Laws]].
+
+## Combinational Logic and the Arithmetic Logic Unit
+
+### Combinational Logic/Circuits
+
+A combinational circuit's output is dependent on the current value of the inputs, without any regard to the past values or results.
+
+So far, we've talked about combinational logic gates, they are the building blocks for combinational circuits, described by Boolean Expressions.
+
+### Half and Full Adders
+
+Half Adders (HA) and Full Adders (FA) are good examples of combinational logic. Recall the idea of an [[Integer Arithmetic#$n$-bit Adder|n-bit adder]].
+
+HA's sum is = a'.b +a.b
+
+HA's carry out = a.b
+
+FA's sum = a'.b'.c + a'.b.c' + a.b'.c' + a.b.c
+
+FA's carry out = a.b + b.c + c.a
+
+If the inputs change at any point in time, the outputs will as well.
