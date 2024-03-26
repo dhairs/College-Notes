@@ -68,3 +68,14 @@ FA's sum = a'.b'.c + a'.b.c' + a.b'.c' + a.b.c
 FA's carry out = a.b + b.c + c.a
 
 If the inputs change at any point in time, the outputs will as well.
+
+
+### The charm-v2 ALU
+
+
+
+### Condition Flags
+
+Definitions:
+- $N {\text{def}\atop{=}} val_ex[63]$
+- 
