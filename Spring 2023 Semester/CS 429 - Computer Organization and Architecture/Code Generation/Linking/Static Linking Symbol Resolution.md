@@ -3,7 +3,7 @@
 
 - **Symbol resolution**: match every symbol reference with exactly one symbol definition
 - **Relocation**: Merge `.text` and `.data` sections from multiple relocatable object modules in a coordinated manner to create one `.text` and one `.data` section. Do this with other sections similarly as well
-- **Patching**: Modify symbol references to connect then "correctly" with the symbol definitions to which they have been resolved
+- **Patching**: Modify symbol references to connect them "correctly" with the symbol definitions to which they have been resolved
 - **Output creation**: generate the final binary executable
 
 ## Link-Time Symbols
