@@ -114,3 +114,15 @@ The **relocation entries** of a module provide information about which symbol re
 - References must be connected to their resolved definitions, this is called **patching**
 
 A variety of violations are detected by the linker, but not all conditions can be caught (e.g., different function signatures)
+
+
+
+## Sources to Use:
+
+https://courses.cs.washington.edu/courses/cse469/18wi/Lectures/02_Assembly.pdf
+
+https://stackoverflow.com/questions/50957847/how-linkers-resolve-global-symbols-with-the-same-name-defined-at-multiple-places
+
+https://www.sfu.ca/sasdoc/sashtml/iml/chap5/sect9.htm#:~:text=For%20each%20module%20you%20define,in%20its%20local%20symbol%20table.
+
+https://observablehq.com/@benaubin/floating-point
