@@ -28,6 +28,8 @@ Different formats on different systems:
 
 Fat binary: Multiple formats combined into one, which allows the binary to run on multiple systems
 
+![[Object File Format.png]]
+
 ### ELF Format
 
 The header is stored in 16 bytes, and it contains all the necessary information to bootstrap the file and run it.
@@ -101,7 +103,7 @@ C++ solves this by "mangling" the name, and adding type information to the funct
 
 #### Takeaways
 
-The linker is not concerned with handing local variables and other symbols that are not visible outside individual object modules.
+The linker is not concerned with handing local variables and other symbols that are not visible outside individual object modules (static).
 
 A module's **symbol table** provides information about the externally visible symbols defined in that module and the external symbols referenced by the module.
 - These definitions and references must be matched, this process is called **symbol resolution**
