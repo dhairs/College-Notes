@@ -4,13 +4,14 @@ Recall how we define [[Instruction Set Architectures]].
 
 1. Fetch 32-bit instruction word (IW) from memory location pointed to by program counter (PC)
 2. Decode the instruction word
-	1. IW = (**operation**, *operands*, ==result== locations)
-	2. Read operands from registers
+	- IW = (**operation**, *operands*, ==result== locations)
+	- Read operands from registers
 3. Execute arithmetic/logic for operation
+	- Update NZCV 
 4. Access memory *if needed*
-	1. Either a load or a store
+	- Either a load or a store
 5. Write ==results== back to registers *if needed*
-6. Update [[AArch64 (ARM) State and Programming Model#^6298e8|Program Counter]] (PC)
+6. Update [[AArch64 (ARM) State and Programming Model#^6298e8|Program Counter]] (PC) and [[SEQ - A Single Cycle implementation of chARM-v2#Architectural Status|Architectural Status]].
 
 ## Sources and Destinations
 
