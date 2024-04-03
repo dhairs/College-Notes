@@ -52,10 +52,18 @@ Minimum clock cycle time is now $(50 + 20) \text{ ps} = 70\text{ ps}$
 
 Throughput is 14.29 GIPS
 
-Speedup is $\frac{14.29}{3.12}=4.61$. Diminshing Returns
+Speedup is $\frac{14.29}{3.12}=4.61$. Diminishing Returns.
 
 ### $k$ Uniform Pieces
 
 Latency would be $k\cdot (\frac{300}{k}+20)\text{ ps} = (300 + 20k) \text{ ps}$ 
 
-Throughput would be $\frac{1\text{ instructi}}
+Throughput would be $\frac{1\text{ instruction}}{(\frac{300}{k}+20)\times10^{-12}s} = \frac{1000k}{300+20k} \text{ GIPS}$
+
+As $k\to\infty: \text{latency}\to\infty, \text{throughput}\to 50\text{ GIPS}$
+
+$\text{Speedup}\to \frac{50}{3.12}=16.02$ 
+
+
+## Pipelining with Feedback
+
