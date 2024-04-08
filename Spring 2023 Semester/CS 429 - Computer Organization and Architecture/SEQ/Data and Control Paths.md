@@ -18,7 +18,7 @@
 
 - `dst_sel`: $op\in \{\text{BL}\}$
 - `wval_sel`: $op\in \{\text{LDUR}\}$
-- `w_enable`: $op\in \{\text{STUR, B, B.cond, RET, NOP, HLT, CMP, TST}\}$
+- `w_enable`: $op\notin \{\text{STUR, B, B.cond, RET, NOP, HLT, CMP, TST}\}$
 
 ## Architectural Status Logic
 
