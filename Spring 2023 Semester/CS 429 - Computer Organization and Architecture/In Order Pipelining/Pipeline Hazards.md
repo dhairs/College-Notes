@@ -101,3 +101,6 @@ This strategy is once again **stalling**.
 Our mechanism is once again **bubble insertion**, where we insert a singular bubble at F
 
 Detecting this control dependence is about to turn into a control hazard and taking the necessary action to prevent it is the job of the **pipeline control**.
+
+## Control Signals for Pipeline Control
+

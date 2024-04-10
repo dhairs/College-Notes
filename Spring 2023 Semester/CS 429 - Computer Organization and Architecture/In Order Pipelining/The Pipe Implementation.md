@@ -64,3 +64,5 @@ Would have lost 2 cycles in this case without using forwarding (the dependent in
 Still lost 0 cycles. Even though we have 2 dependent instructions.
 
 ### Back-to-Back Load-Use Hazard $I1{d\atop{\to}}I2$ with Forwarding
+
+
