@@ -69,3 +69,35 @@ The pipeline is synchronous — so we need to keep every pipeline stage busy at 
 How can we insert it?
  - The mechanism for "inserting `nop`s" is called **bubble insertion**.
  - We will call inserting the `nop` "inserting a bubble".
+ - We may need to repeat the bubble for multiple cycles
+
+Detecting that a data dependence of the program is about to turn into a data hazard in the pipeline and taking the necessary coordinated action across all the pipeline stages to prevent this from happening is called **pipeline control**.
+- This requires that we have a global view of the entire pipeline so that we can decide what the view needs to be on **the next cycle** so we can ensure correct behavior and take necessary action to set up the correct global view
+
+### Policy: Squashing for `B.cond` Control Hazard
+
+Our branch prediction strategy is Predict Taken
+- If our prediction is incorrect, we discover this only at the end of the cycle where the `B.cond` instruction is in X
+- By this time, two more instructions are already in the pipeline, in F and D
+- These two instructions shouldn't have been in the pipeline in the first place (because we picked up the wrong branch)
+- So we can just remove them from the pipeline
+	- Especially good because they haven't updated any architectural state yet
+- Instructions must be fetched starting at the sequential successor of the `B.cond`
+
+This strategy is called **cancellation/squashing**.
+
+Our mechanism will once again be **bubble insertion**, we'll insert two bubbles in the D and X stages.
+
+Detecting that a control dependence is about to turn into a control hazard and taking necessary actions to prevent this from happening is the job of the **pipeline control**.
+
+### Policy: Stalling for `ret` Control Hazard
+
+With `ret`, we have no clue what the next instruction is, because it is an arbitrary memory location. We won't know the address until `ret` has retrieved the Return Address from register X30 at the end of the next cycle.
+
+Let's just not insert anything for the cycle.
+
+This strategy is once again **stalling**.
+
+Our mechanism is once again **bubble insertion**, where we insert a singular bubble at F
+
+Detecting this control dependence is about to turn into a control hazard and taking the necessary action to prevent it is the job of the **pipeline control**.
