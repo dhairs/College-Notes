@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/A Single Cycle implementation of chARM-v2.md",
-                "mode": "source",
+                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/A Single Cycle implementation of chARM-v2.md",
+            "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/A Single Cycle implementation of chARM-v2.md",
+            "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,7 +141,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/A Single Cycle implementation of chARM-v2.md"
+            "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md"
           }
         }
       }
@@ -162,13 +162,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "831e08fb9d165df4",
+  "active": "aff0c71f5b543e18",
   "lastOpenFiles": [
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/A Single Cycle implementation of chARM-v2.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/Data and Control Paths.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/Timing and Performance.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/A Single Cycle implementation of chARM-v2.md",
     "Excalidraw/Drawing 2024-02-21 14.05.51.excalidraw.md",
     "Chemistry/Bonding.md",
     "Chemistry",
