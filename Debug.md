@@ -33,4 +33,4 @@ Here's an example of what your VS Code should look like when debugging with brea
 
 Btw: if you download the file and unzip it and it disappears, it's because your OS might think it's a hidden file, just make sure hidden files are viewable.
 
-Hope this helps! If you have any problems with it lmk
+Hope this helps! If you have any problems with it lmkc
