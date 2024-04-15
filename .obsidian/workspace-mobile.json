@@ -24,13 +24,8 @@
             "id": "831e08fb9d165df4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -99,8 +94,7 @@
           }
         }
       }
-    ],
-    "currentTab": 0
+    ]
   },
   "right": {
     "id": "fdaf694107a29749",
@@ -112,7 +106,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -129,7 +122,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,9 +132,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -162,12 +152,21 @@
       "random-note:Open random note": false
     }
   },
-  "active": "aff0c71f5b543e18",
+  "active": "831e08fb9d165df4",
   "lastOpenFiles": [
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/A Single Cycle implementation of chARM-v2.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/Data and Control Paths.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Interpreting Bits.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
+    "Spring 2023 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Integer Arithmetic.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointers.md",
+    "Spring 2023 Semester/Statistics and Probability/Probability Distributions.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/A Single Cycle implementation of chARM-v2.md",
+    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/Data and Control Paths.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/SEQ/Timing and Performance.md",
     "Excalidraw/Drawing 2024-02-21 14.05.51.excalidraw.md",
     "Chemistry/Bonding.md",
@@ -183,18 +182,9 @@
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Characters.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Unions or Variant Records.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Objects and Names.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Structs.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Arrays.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Interpreting Bits.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Pointer Arithmetic.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ISA Architecture.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/ASCII_Codebook_Table.png",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/GCC Compilation Process.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/MM Lab Architecture.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Block Formats.md",
-    "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Floating Point Design Problem.excalidraw.md",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Fragmented_Memory_Embedded.png",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets",
