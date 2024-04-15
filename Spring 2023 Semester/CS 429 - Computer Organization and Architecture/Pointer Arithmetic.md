@@ -2,7 +2,7 @@
 
 Pointer arithmetic allows us to do literal mathematical operations with pointer addresses, which allows us to do very interesting things.
 
-This is very important when working with [[Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types/Arrays|Arrays]], but is used outside of that as well.
+This is very important when working with [[Arrays|Arrays]], but is used outside of that as well.
 
 ## How it works
 
