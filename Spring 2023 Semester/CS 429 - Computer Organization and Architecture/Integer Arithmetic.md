@@ -14,7 +14,7 @@ Operationally:
 Definition:
 - $r=x \bigoplus^{n}_{u} y {\text{def}\atop =}(x+y)\,\text{mod}\,2^n$ 
 
-If we go past the red flag in doing this, we have an **unsigned carry**.
+If we go past the red flag (largest representable value) in doing this, we have an **unsigned carry**.
 
 ### Properties of Integer Addition $\bigoplus^{n}_{u}$
 
