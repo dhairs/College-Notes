@@ -78,4 +78,4 @@ If the inputs change at any point in time, the outputs will as well.
 
 Definitions:
 - $N {\text{def}\atop{=}} val_ex[63]$
-- 
+
