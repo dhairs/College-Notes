@@ -4,5 +4,6 @@
   "obsidian-tikzjax",
   "obsidian-latex-environments",
   "obsidian-latex-suite",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "obsidian-git"
 ]
