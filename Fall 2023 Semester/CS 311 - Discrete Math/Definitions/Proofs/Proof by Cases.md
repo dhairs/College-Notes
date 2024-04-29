@@ -9,7 +9,7 @@ To prove $p\to q$, we can find $$p_1\vee p_2\vee\ldots\vee p_n\equiv p$$ and the
 ### Common Errors
 
 - Drawing incorrect conclusions from examples
-- No matter how many cases we cover in our own proof, we cannot prove the [[Theorems |theorem]] to be true _unless_ we prove **every case**
+- No matter how many cases we cover in our own proof, we cannot prove the [[Theorems|theorem]] to be true _unless_ we prove **every case**
 
 #### Example: if $x$ is a real number, then $x^2$ is a positive real number.
 

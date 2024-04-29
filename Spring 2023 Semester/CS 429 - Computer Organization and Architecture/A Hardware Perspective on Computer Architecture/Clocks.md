@@ -36,4 +36,3 @@ coordinates
 **Clock Cycle**: The time interval $T$ between successive rising *or* falling edges, this is measured in seconds
 
 **Clock Frequency**: Reciprocal of the clock cycle, $f=\frac{1}{T}$, this is measured in hertz (Hz)
-
