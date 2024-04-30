@@ -20,4 +20,4 @@ Such a chip stores $d\cdot w$ bits of data, organized as $d$ **supercells**, als
 
 The $d$ supercells for a rectangular array in turn consist of $r$ rows and $c$ columns, such that $r\cdot c=d$. These access are controlled by a block called the **memory controller**, typically in the processor chip. 
 
-Memory is typically in powers of 2 (because, you know, we like [[Bits and Bit Technologies|binary stuff]])
+Memory is typically in powers of 2 (because, you know, we like [[Bits and Bit Technologies|binary stuff]]), so instead of Megabytes (M), we actually have Mebibytes (Mi). 
