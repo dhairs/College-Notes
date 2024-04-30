@@ -13,7 +13,7 @@ A bit can be realized by any physical object that has two stable states that can
 
 Start with silicon, 
 
-- **MOSFET** - **M**etal-**O**xide-**S**emiconductor **F**ield-**E**ffect **T**ransistor
+- **MOSFET** - **M**etal-**O**xide-**S**emiconductor **F**ield-**E**ffect **T**ransistor ^e5350b
 	- controls the *current* between the source and the drain using the electric field generated b the gate *voltage* as the control variable
 	- we use the cut-off region ($\circ$) and saturation region ($|$) digitally
 	- we don't use the linear region because it's not stable, leads to distortion, and can lead to incorrect bits.
