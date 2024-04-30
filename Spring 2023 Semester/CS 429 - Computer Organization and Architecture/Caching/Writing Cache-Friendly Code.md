@@ -11,6 +11,3 @@ Focus:
 - Improving spatial locality
 
 Assume the compiler handles temporal locality by placing scalar variables in registers
-
-## Example 1: Vector Sum
-
