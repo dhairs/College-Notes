@@ -47,10 +47,10 @@ Let $t_{h}$ be the hit time and let $t_m$ be the additionally miss penalty (both
 - e.g., if $m=0.1$, AMAT $=1+0.1\times 100=11$ cycles
 
 ### Memory Effects Dominate Performance
-Compare the magnitudes of the numbers in the memory performance equation with the corresponding magnitudes in the [[Intro to Pipelining#Pipelining|Pipelining Performance Equation]].
+Compare the magnitudes of the numbers in the memory performance equation with the corresponding magnitudes in the [[The Pipe Implementation#Pipeline Performance|Pipeline Performance Equation]].
 
-The AMAT term would totally swamp out the *lp*, *mp*, and *rp* terms.
+The AMAT term would totally swamp out the *load-use-penalty (lp)*, *misprediction penalty (mp)*, and *return penalty (rp)* terms.
 
 Furthermore, this is an average. An individual memory access takes between 1 to 101 cycles.
 
-Dealing.
+Dealing with this in hardware involves a complete rethinking of the processor implementation (Advanced Computer Architecture)

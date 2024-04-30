@@ -72,3 +72,16 @@ Suppose we are processing a long sequence of $n>>5$ instructions on the PIPE imp
 Ignoring pipeline startup and draining cycles, how many cycles $c$ will this take?
 
 Clearly, $c\geq n$. Let $c=n+b$ with $b\geq 0$. Then, **cycles per instruction (CPI)** is $=\frac{c}{n}=\frac{{n+b}}{n}=1+\frac{b}{n}$ 
+
+The **penalty term** is $p=\frac{b}{n}$.
+
+### Approximating the Penalty Term
+Approximate the penalty term $p=\frac{b}{n}$ based on causes.
+- Load penalty $lp$: 1 cycle for every (back-to-back) load use hazard
+- Misprediction penalty $mp$: 2 cycles for every mispredicted branch
+- Return penalty $rp$: 1 cycle for every `ret` instruction.
+
+$p\approx lp+mp+rp$
+- Estimate the penalty terms based on the instruction frequencies and condition frequencies in the execution trace
+
+CPI $=1+p\approx 1+lp+mp+rp$.
