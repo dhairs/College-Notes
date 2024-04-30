@@ -41,4 +41,16 @@ If a memory reference that is a non-compulsory miss in $\$_{1}$ is a *hit* in $\
 Let $R$ be the total number of memory references and let $M$ be the number of these references that miss in $. Define $m=\frac{M}{R}$ to be the miss rate and $h=1-m$ to be the hit rate. We *want* $h$ to be large and $m$ to be small.
 
 Let $t_{h}$ be the hit time and let $t_m$ be the additionally miss penalty (both in processor cycles)
-- Typically, $t_{h}\sim 1, t_{m}\sim $
+- Typically, $t_{h}\sim 1, t_{m}\sim 100$. 
+
+**Average memory access time (AMAT)**: is $=h\cdot t_{h}+m\cdot(t_{h}+t_{m})=t_{h}+m\cdot t_{m}$
+- e.g., if $m=0.1$, AMAT $=1+0.1\times 100=11$ cycles
+
+### Memory Effects Dominate Performance
+Compare the magnitudes of the numbers in the memory performance equation with the corresponding magnitudes in the [[Intro to Pipelining#Pipelining|Pipelining Performance Equation]].
+
+The AMAT term would totally swamp out the *lp*, *mp*, and *rp* terms.
+
+Furthermore, this is an average. An individual memory access takes between 1 to 101 cycles.
+
+Dealing.

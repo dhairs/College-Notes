@@ -65,4 +65,10 @@ Still lost 0 cycles. Even though we have 2 dependent instructions.
 
 ### Back-to-Back Load-Use Hazard $I1{d\atop{\to}}I2$ with Forwarding
 
+## Pipeline Performance
 
+Suppose we are processing a long sequence of $n>>5$ instructions on the PIPE implementation.
+
+Ignoring pipeline startup and draining cycles, how many cycles $c$ will this take?
+
+Clearly, $c\geq n$. Let $c=n+b$ with $b\geq 0$. Then, **cycles per instruction (CPI)** is $=\frac{c}{n}=\frac{{n+b}}{n}=1+\frac{b}{n}$ 

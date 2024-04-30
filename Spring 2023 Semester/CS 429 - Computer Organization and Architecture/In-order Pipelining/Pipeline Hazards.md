@@ -1,7 +1,6 @@
 
 ## Dependences
-
---- 
+unfinished notes on dependences
 
 --- 
 
