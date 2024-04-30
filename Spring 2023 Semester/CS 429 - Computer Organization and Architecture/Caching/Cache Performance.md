@@ -54,3 +54,5 @@ The AMAT term would totally swamp out the *load-use-penalty (lp)*, *mispredictio
 Furthermore, this is an average. An individual memory access takes between 1 to 101 cycles.
 
 Dealing with this in hardware involves a complete rethinking of the processor implementation (Advanced Computer Architecture)
+
+There are good programming practices to reduce the miss rate $m$, we talk about this in [[Writing Cache-Friendly Code]].
