@@ -1,4 +1,3 @@
-
 # Jira
 
 Jira is a task-managing system, similar to something like GitHub issues.

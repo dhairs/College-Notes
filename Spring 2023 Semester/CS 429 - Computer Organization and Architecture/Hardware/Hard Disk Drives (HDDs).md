@@ -40,3 +40,37 @@ $$
 \end{align}
 $$
 Make **sure** you use [[Special Notation#Gigabyte (GB)|Gigabytes]], ***not*** [[Special Notation#Gigibyte (GiB)|Gigibytes]].
+
+### Access Time
+
+#### Components of Access Time
+Access time = seek time + rotational latency + transfer time.
+
+**Seek time**: $T_{\text{seek}}$ is the time taken to move the arm to the track containing the desired sector (overhead). This depends on the previous position of the head.
+
+**Rotational latency**: $T_{\text{rot}}$ is the time taken for the target sector to arrive under the head (overhead). 
+
+**Transfer time**: $T_{\text{tsr}}$ is the time taken to read/write the contents of the sector (productive).
+
+#### Access Time Formulas
+$T_{\text{rot}}(\text{MAX})=\frac{1}{\text{RPM}}\times \frac{60\text{ s}}{1\text{ min}}$
+
+$T_{\text{rot}}(\text{AVG})=\frac{1}{2}\times T_{\text{rot}}(\text{MAX})$
+
+$T_{\text{tsr}}(\text{AVG})=\frac{1}{\text{RPM}}\times \frac{1}{\text{average \# of sectors per track}}\times \frac{60\text{ s}}{1\text{ min}}$
+
+#### Example
+Disk parameters: 512 B sectors, 400 sectors/track on average; 7,200 rpm; average seek time of 9 ms.
+
+$T_{\text{rot}}(\text{AVG})=\frac{1}{2}\times \frac{1\text{ min}}{7,200\text{ rev}}\times \frac{60,000\text{ ms}}{1 \text{ min}}=4.17\text{ ms}$
+
+$T_{\text{tsr}}(\text{AVG})=\frac{1\text{ min}}{7,200\text{ rev}}\times \frac{60,000\text{ ms}}{1 \text{ min}}\times \frac{1\text{ track}}{400\text{ sectors}}=0.02\text{ ms}$
+
+$T_{\text{access}}(\text{AVG})$:
+$$
+\begin{align} \\
+T_{\text{access}}(\text{AVG})=T_{\text{seek}}+T_{\text{rot}}+T_{\text{tsr}} \\
+=(9+4.17+0.02)\text{ ms} \\
+=13.19\text{ ms}
+\end{align}
+$$
