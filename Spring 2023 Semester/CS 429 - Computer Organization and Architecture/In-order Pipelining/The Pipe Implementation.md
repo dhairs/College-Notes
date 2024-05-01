@@ -78,8 +78,8 @@ The **penalty term** is $p=\frac{b}{n}$.
 ### Approximating the Penalty Term
 Approximate the penalty term $p=\frac{b}{n}$ based on causes.
 - Load penalty $lp$: 1 cycle for every (back-to-back) load use hazard ^07c485
-- Misprediction penalty $mp$: 2 cycles for every mispredicted branch
-- Return penalty $rp$: 1 cycle for every `ret` instruction.
+- Misprediction penalty $mp$: 2 cycles for every mispredicted branch ^e4a29f
+- Return penalty $rp$: 1 cycle for every `ret` instruction. ^ced3cf
 
 $p\approx lp+mp+rp$
 - Estimate the penalty terms based on the instruction frequencies and condition frequencies in the execution trace
