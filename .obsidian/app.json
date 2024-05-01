@@ -7,5 +7,6 @@
     "margin": "2",
     "downscalePercent": 85
   },
-  "promptDelete": false
+  "promptDelete": false,
+  "newFileLocation": "current"
 }

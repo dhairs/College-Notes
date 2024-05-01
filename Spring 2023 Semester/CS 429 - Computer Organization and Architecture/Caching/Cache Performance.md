@@ -49,7 +49,7 @@ Let $t_{h}$ be the hit time and let $t_m$ be the additionally miss penalty (both
 ### Memory Effects Dominate Performance
 Compare the magnitudes of the numbers in the memory performance equation with the corresponding magnitudes in the [[The Pipe Implementation#Pipeline Performance|Pipeline Performance Equation]].
 
-The AMAT term would totally swamp out the *load-use-penalty (lp)*, *misprediction penalty (mp)*, and *return penalty (rp)* terms.
+The AMAT term would totally swamp out the [[The Pipe Implementation#^07c485|load-use-penalty (lp)]], *misprediction penalty (mp)*, and *return penalty (rp)* terms. 
 
 Furthermore, this is an average. An individual memory access takes between 1 to 101 cycles.
 
