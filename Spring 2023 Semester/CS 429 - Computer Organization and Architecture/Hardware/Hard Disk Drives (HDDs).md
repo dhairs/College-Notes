@@ -1,5 +1,5 @@
 ## Anatomy of a Disk
-Disks are made up of circular surfaces called "platters." The surface of these platters contain a large number of concentric **tracks**, which are each divided up into **sectors** divided by gaps. A sector is the smallest unit of data that can be read from or written to a disk. A **cylinder** is a collection of tracks on multiple surfaces that are located at the same radius. 
+Disks are made up of circular surfaces called "platters." The surface of these platters contain a large number of concentric **tracks**, which are each divided up into **sectors** divided by gaps. A sector is the smallest unit of data that can be read from or written to a disk. A **cylinder** is a collection of tracks on multiple surfaces that are located at the same radius. There are two **read/write** heads **per platter**.
 
 Early HDDs needed the physical address of a sector to be specified in the cylinder-head-sector (CHS) scheme. To a modern operating system, the HDD is a collection of logical sectors. 
 - 300 [[Special Notation#Gigabyte (GB)|GB]] drive is sectors\[0:585,939,499\], each sector being 512 B 
@@ -33,5 +33,10 @@ Five double-sided platters; 512 B sectors; 20,000 tracks/surface; 300 sectors/tr
 
 What is the capacity?
 $$
-\frac{512\text{B}}{\text{sector}}
+\begin{align}
+\frac{512\text{B}}{\text{sector}} \times \frac{300\text{ sector}}{\text{track}} \times \frac{20{\small,}000\text{ track}}{\text{surface}}\times \frac{2\text{ surface}}{\text{platter}}\times 5\text{ platter} \\
+ = 30{\small,}720{\small,}000
+{\small,}000\text{ B} = 30.72\times 10^9\text{ B}= 30.72\text{ GB}
+\end{align}
 $$
+Make **sure** you use [[Special Notation#Gigabyte (GB)|Gigabytes]], ***not*** [[Special Notation#Gigibyte (GiB)|Gigibytes]].
