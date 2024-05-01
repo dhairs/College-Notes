@@ -23,5 +23,5 @@ Replaces XB, which can be defined as $10^\text{multiple of 3}$ bytes.
 
 To derive the version we're looking for: 
 $$
-10^{3x}\text{ X}=2^{10x}\text{ XiB}
+10^{3x}\text{ XB}=2^{10x}\text{ XiB}
 $$
