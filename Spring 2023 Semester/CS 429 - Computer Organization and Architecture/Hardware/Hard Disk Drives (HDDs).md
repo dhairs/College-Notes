@@ -10,3 +10,28 @@ $\text{LBA}=(C\times\text{HPC}+H)\times\text{SPT}+S$, where $\text{HPC}$ is the 
 
 ## Zone Bit Recording
 The length of a track is proportional to its radius $r$. The angular velocity $\omega$ of all the tracks is the same (think back to high school physics). Therefore, the **linear velocity** $v=\omega r$ of an outer track is greater than that of an inner track (again, back to high school physics). This means there can be more sectors on an outer track than an inner track.
+
+In reality, we don't do this for every track, but the number of sectors per track for a group of adjacent tracks. This grouping is called a **zone.**
+
+Disk throughput is constant within a zone, and decreases from outer to inner tracks.
+
+## Capacity
+There are a few parameters to keep track of when determining the capacity of an HDD:
+
+**Recording Density**: Bits per inch (BPI) - number of bits on a 1" (inch) circumferential segment of track.
+
+**Track Density**: Tracks per inch (TPI) - number of tracks on 1" (inch) radial segment of disk
+
+**Areal Density**: Bits per inch$^2$ - recording $\text{density}\times\text{track density}$.
+
+### Capacity Formula
+$$
+\frac{\text{\# bytes}}{\text{sector}}\times \frac{\text{(avg \# sectors)}}{\text{track}} \times \frac{\text{\# tracks}}{\text{surface}} \times \frac{\text{\# surfaces}}{\text{platter}} \times \frac{\text{\# platters}}{\text{disk}}
+$$
+#### Example
+Five double-sided platters; 512 B sectors; 20,000 tracks/surface; 300 sectors/track on average
+
+What is the capacity?
+$$
+\frac{512\text{B}}{\text{sector}}
+$$
