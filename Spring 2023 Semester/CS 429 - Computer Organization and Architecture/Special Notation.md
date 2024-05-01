@@ -21,7 +21,7 @@ Replaces Megabyte (MB), which is defined as $10^6$ bytes.
 
 $1\text{MiB}=2^{20}\text{ bytes}$.
 
-#### Gigibyte (GiB)
+#### Gibibyte (GiB)
 Replaces Gigabyte (GB), which is defined as $10^9$ bytes.
 
 $1\text{GiB}=2^{30}\text{ bytes}$.

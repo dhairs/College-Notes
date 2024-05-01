@@ -26,7 +26,7 @@ There are a few parameters to keep track of when determining the capacity of an 
 
 ### Capacity Formula
 $$
-\text{C}=\frac{\text{\# bytes}}{\text{sector}}\times \frac{\text{(avg \# sectors)}}{\text{track}} \times \frac{\text{\# tracks}}{\text{surface}} \times \frac{\text{\# surfaces}}{\text{platter}} \times \frac{\text{\# platters}}{\text{disk}}
+\text{C} =\frac{\text{\# bytes}}{\text{sector}}\times \frac{\text{(avg \# sectors)}}{\text{track}} \times \frac{\text{\# tracks}}{\text{surface}} \times \frac{\text{\# surfaces}}{\text{platter}} \times \frac{\text{\# platters}}{\text{disk}}
 $$
 #### Example
 Five double-sided platters; 512 B sectors; 20,000 tracks/surface; 300 sectors/track on average
@@ -39,7 +39,7 @@ $$
 {\small,}000\text{ B} = 30.72\times 10^9\text{ B}= 30.72\text{ GB}
 \end{align}
 $$
-Make **sure** you use [[Special Notation#Gigabyte (GB)|Gigabytes]], ***not*** [[Special Notation#Gigibyte (GiB)|Gigibytes]].
+Make **sure** you use [[Special Notation#Gigabyte (GB)|Gigabytes]], ***not*** [[Special Notation#Gibibyte (GiB)|Gibibytes]].
 
 ### Access Time
 
