@@ -1,4 +1,4 @@
 ## Types of Locality
 There's a few types of locality of reference. We learn two: 
-- **Temporal Locality**: if we use a particular memory location, it is likely that we will want to use it again in the near future. Therefore, we usually store the data in the faster memory because it will be quick to pick up.
-- **Spatial Locality**: if we use a particular memory location, it is likely that nearby memory locations will be referenced in the near future. Therefore, we want to guess the size and shape of the area around the current reference that will make it worthwhile to put into faster memory for subsequent references.
+- **Temporal Locality**: if we use a particular memory location, it is likely that we will want to use it **again** in the near future. Therefore, we usually store the data in the faster memory because it will be quick to pick up.
+- **Spatial Locality**: if we use a particular memory location, it is likely that **nearby** memory locations will be referenced in the near future. Therefore, we want to guess the size and shape of the area around the current reference that will make it worthwhile to put into faster memory for subsequent references.

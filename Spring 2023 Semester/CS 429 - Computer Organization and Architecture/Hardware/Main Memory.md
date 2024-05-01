@@ -1,5 +1,5 @@
 ## What is Main Memory
-Main Memory, or Primary Memory, is memory that is used to store the data and programs or instructions during computer operation. It is *usually* either RAM (random access memory) or 
+Main Memory, or Primary Memory, is memory that is used to store the data and programs or instructions during computer operation. It is *usually* either RAM (random access memory) or ROM (read-only memory).
 ## Dynamic Ram (DRAM)
 
 DRAM cells have a structure of 1 transistor and 1 capacitor. In DRAM, the two states are signified by the presence (or absence) of trapped charge on the capacitor.
