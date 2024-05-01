@@ -11,8 +11,6 @@ $1\text{MB}=10^6$ bytes.
 #### Gigabyte (GB)
 $1\text{GB}=10^9$ bytes.
 
-
-
 #### Kibibyte (KiB)
 Replaces Kilobyte (KB), which is defined as $10^3$ bytes.
 
