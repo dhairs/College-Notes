@@ -16,7 +16,7 @@ A **Rank** is the chips we have on a ram stick that sends data at a time. So, if
 
 ### What's inside of a chip
 #### DRAM
-Typically described by a pair of umbers ($d\times w$). E.g., $54\text{M}\times 16$, $8\text{M}\times 8$, etc.
+Typically described by a pair of numbers ($d\times w$). E.g., $54\text{M}\times 16$, $8\text{M}\times 8$, etc.
 
 Such a chip stores $d\cdot w$ bits of data, organized as $d$ **supercells**, also called **cells** or **words**, each containing $w$ bits. Each access to a supercell results in *all* its bits being read.
 
