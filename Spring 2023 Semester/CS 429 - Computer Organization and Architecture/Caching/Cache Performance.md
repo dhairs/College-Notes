@@ -2,6 +2,8 @@
 
 $\$(A,B,C)$, where $\text{number of sets } S = \frac{C}{A\cdot B}$ 
 
+The lines of cache are given by: $\text{\# lines of cache}=S\cdot A$.
+
 Cache payload = $C$, $B=8C$ bits
 
 Management overhead:
