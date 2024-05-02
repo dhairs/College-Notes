@@ -40,7 +40,7 @@ If a memory reference that is a non-compulsory miss in $\$_{1}$ is *also a miss*
 If a memory reference that is a non-compulsory miss in $\$_{1}$ is a *hit* in $\$_{3}$, then limited associativity is the cause of the miss. This is called a **conflict miss**.
 
 ## Memory Performance Equation
-Let $R$ be the total number of memory references and let $M$ be the number of these references that miss in $. Define $m=\frac{M}{R}$ to be the miss rate and $h=1-m$ to be the hit rate. We *want* $h$ to be large and $m$ to be small.
+Let $R$ be the total number of memory references and let $M$ be the number of these references that miss in \$. Define $m=\frac{M}{R}$ to be the miss rate and $h=1-m$ to be the hit rate. We *want* $h$ to be large and $m$ to be small.
 
 Let $t_{h}$ be the hit time and let $t_m$ be the additionally miss penalty (both in processor cycles)
 - Typically, $t_{h}\sim 1, t_{m}\sim 100$. 
