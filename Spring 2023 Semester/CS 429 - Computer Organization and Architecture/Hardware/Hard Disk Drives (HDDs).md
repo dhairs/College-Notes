@@ -9,7 +9,7 @@ These use the Logical Block Address (LBA) scheme.
 $\text{LBA}=(C\times\text{HPC}+H)\times\text{SPT}+S$, where $\text{HPC}$ is the number of heads per cylinder and $\text{SPT}$ is the number of sectors per track. The disk controller calculates the corresponding $(C,H,S)$ tuple from the $\text{LBA}$.
 
 ## Zone Bit Recording
-The length of a track is proportional to its radius $r$. The angular velocity $\omega$ of all the tracks is the same (think back to high school physics). Therefore, the **linear velocity** $v=\omega r$ of an outer track is greater than that of an inner track (again, back to high school physics). This means there can be more sectors on an outer track than an inner track.
+The length of a track is proportional to its radius $r$. The angular velocity $\omega$ of all the tracks is the same (think back to high school physics). Therefore, the **linear velocity** $v=\omega r$ of an outer track is greater than that of an inner track (again, back to high school physics). **This means there can be more sectors on an outer track than an inner track.**
 
 In reality, we don't do this for every track, but the number of sectors per track for a group of adjacent tracks. This grouping is called a **zone.**
 
