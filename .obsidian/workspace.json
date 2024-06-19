@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md"
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Untitled.md"
               }
             }
           },
@@ -156,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md"
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Untitled.md"
               }
             }
           }
@@ -181,8 +179,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "235837d08f5c2b9b",
+  "active": "574a0ccd8a23a166",
   "lastOpenFiles": [
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Untitled.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md",
     "Fall 2023 Semester/CS 311 - Discrete Math/L01/Basic Equivalences.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/In-order Pipelining/SEQ/A Single Cycle implementation of chARM-v2.md",
@@ -196,7 +196,6 @@
     "README.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/In-order Pipelining/SEQ/Data and Control Paths.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Hard Disk Drives (HDDs).md",
     "Spring 2024 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
@@ -209,7 +208,6 @@
     "Test.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
     "f.canvas",
-    "Excalidraw/Drawing 2024-06-19 12.45.03.excalidraw.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Symbol Resolution Rules.svg",
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Clock Square Wave.svg",
