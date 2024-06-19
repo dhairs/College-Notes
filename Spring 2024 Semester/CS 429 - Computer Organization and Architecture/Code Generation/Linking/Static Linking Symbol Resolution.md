@@ -55,4 +55,4 @@ This can be well-explained using graph theory:
 
 We need a **singular** definition for each symbol
 
-![[Symbol Resolution Rules]]
+![[Symbol Resolution Rules.svg]]

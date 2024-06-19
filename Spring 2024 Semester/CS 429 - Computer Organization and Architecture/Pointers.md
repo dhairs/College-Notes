@@ -15,9 +15,8 @@ int *c = &b
 
 This means **b** is a reference to the `6` in memory, as shown below. `*c` denotes a pointer to the **address** of b (that's what the `&` operator denotes.) As a result, `b` is pointing to that `6` in the memory, and `*c` is the address of that `6` in memory.
 
-| - | - | `6` | - |
-| ---- | ---- | ---- | ---- |
-| - | - |  - | - |
+| -   | -   | `6` | -   |
+| --- | --- | --- | --- |
 
 ### Segmentation Faults
 

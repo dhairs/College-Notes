@@ -20,7 +20,7 @@ OS Services ^JdROxtCP
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.20",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.21",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -160,7 +160,7 @@ OS Services ^JdROxtCP
 			"y": -131.8291177245023,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 77.68164238030667,
+			"width": 77.73046875,
 			"height": 14.482725374664252,
 			"seed": 472037918,
 			"groupIds": [],
@@ -188,7 +188,7 @@ OS Services ^JdROxtCP
 			"containerId": null,
 			"originalText": "Application",
 			"lineHeight": 1.2,
-			"baseline": 12
+			"baseline": 11
 		},
 		{
 			"type": "text",
@@ -206,7 +206,7 @@ OS Services ^JdROxtCP
 			"y": -37.641901286439236,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 63.55770740206909,
+			"width": 63.59765625,
 			"height": 14.482725374664252,
 			"seed": 1441159106,
 			"groupIds": [],
@@ -242,7 +242,7 @@ OS Services ^JdROxtCP
 			"containerId": null,
 			"originalText": "Allocator",
 			"lineHeight": 1.2,
-			"baseline": 12
+			"baseline": 11
 		},
 		{
 			"type": "text",
@@ -260,7 +260,7 @@ OS Services ^JdROxtCP
 			"y": 61.03109418612675,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 77.68164238030667,
+			"width": 77.73046875,
 			"height": 14.482725374664252,
 			"seed": 1558591902,
 			"groupIds": [],
@@ -288,7 +288,7 @@ OS Services ^JdROxtCP
 			"containerId": null,
 			"originalText": "OS Services",
 			"lineHeight": 1.2,
-			"baseline": 12
+			"baseline": 11
 		},
 		{
 			"type": "arrow",
@@ -514,10 +514,10 @@ OS Services ^JdROxtCP
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 407.14632429297745,
-		"scrollY": 300.9944853888519,
+		"scrollX": 213.50342165058925,
+		"scrollY": 208.8804658053915,
 		"zoom": {
-			"value": 1.7442938666584016
+			"value": 2
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

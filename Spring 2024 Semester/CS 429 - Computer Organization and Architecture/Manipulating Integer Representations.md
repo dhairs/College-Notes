@@ -139,7 +139,8 @@ Must control size of lookup table.
 **Examples**:
 - Alternative version of `POPCNT(x)`, uses `C` preprocessor to avoid writing out table manually
 
-☠️ Code, don't ever try to write this type of code without knowing how it works
+> [!warning]
+> ☠️ Scary code, don't ever try to write this type of code without knowing how it works
 
 ```c
 static const char table[256] = {  

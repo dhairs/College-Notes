@@ -33,7 +33,7 @@ There will be an additional micro architectural status when getting to the pipel
 	- `ret_addr = val_a` (For RET, value of register X30)
 
 How do we choose?
- ![[Program Counter Block Diagram]]
+ ![[Program Counter Block Diagram.svg]]
 
 ### Instruction Memory
 
@@ -49,7 +49,7 @@ Instruction memory (can only be ***read*** by EL0 code)
 - A general purpose register is a collection of 64 such bits sharing a common clock, each storing 1 bit of the 64 bit data.
 - Because data can be concurrently read and written to, we maintain a clock to store these values during execution and to stop race conditions.
 
-![[Register File Block Diagram]]
+![[Register File Block Diagram.svg|500]]
 
 ### ALU (Arithmetic Logic Unit)
 

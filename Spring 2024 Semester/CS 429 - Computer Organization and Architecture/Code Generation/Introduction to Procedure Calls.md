@@ -22,7 +22,7 @@ There are three mechanisms that are in effect together when we want `P` calls `Q
 
 ### Example Stack Call Control Flow
 
-![[Procedure Control Flow Example]]
+![[Procedure Control Flow Example.svg]]
 
 ### Takeaways
 
@@ -103,5 +103,5 @@ A procedure linkage is a contract between the compiler, the operating system, an
 
 Standard procedure linkage requires four pieces of glue code.
 
-![[Procedure Linkage]]
+![[Procedure Linkage.svg]]
 

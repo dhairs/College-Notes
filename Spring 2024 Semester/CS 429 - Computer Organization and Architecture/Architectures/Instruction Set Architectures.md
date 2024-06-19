@@ -7,7 +7,7 @@ When we have something like `gcc -g -o p p1.c p2.c`
 
 This is really what happens:
 
-![[GCC Compilation Process]]
+![[GCC Compilation Process.svg]]
 
 
 ## The Instruction Set Architecture (ISA)
@@ -82,7 +82,7 @@ As described by von Neumann, the architecture has:
 - **External mass storage**
 - **Input output mechanisms**
 
-![[von Neumann Architecture]]
+![[von Neumann Architecture.svg]]
 
 ### Limitations
 

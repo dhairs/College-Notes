@@ -1,7 +1,7 @@
 ## Representing Programs
 
 Remember the compilation process:
-![[GCC Compilation Process]]
+![[GCC Compilation Process.svg]]
 
 The LD stands for the Linkage eDitor, and outputs executable
 

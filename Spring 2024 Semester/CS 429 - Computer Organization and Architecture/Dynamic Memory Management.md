@@ -23,7 +23,7 @@ Garbage collection
 - The application interacts with the allocator, which is part of the language run time environment
 - At the back end, the allocator relies on certain OS services
 
-![[Memory Allocation Block Diagram]]
+![[Memory Allocation Block Diagram.svg]]
 
 ### Allocator Efficiency
 
@@ -94,7 +94,7 @@ The memory is stored as a 'linked list', but how does that work if we don't have
 
 ### Designing Memory Blocks
 
-![[Block Formats]]
+![[Block Formats.svg]]
 
 ### Free list organization
 
