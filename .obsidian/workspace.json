@@ -8,25 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "044b7b60518a43cf",
+            "id": "86d2f93c4835aba4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
+                "file": "Excalidraw/README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "86d2f93c4835aba4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/GCC Compilation Process.md"
               }
             }
           },
@@ -112,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
+                "file": "Excalidraw/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
+                "file": "Excalidraw/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md"
+                "file": "Excalidraw/README.md"
               }
             }
           },
@@ -188,13 +178,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "044b7b60518a43cf",
+  "active": "86d2f93c4835aba4",
   "lastOpenFiles": [
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/GCC Compilation Process.md",
+    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
+    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Data Types/Unions or Variant Records.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Memory and IO Buses.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Main Memory.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Hard Disk Drives (HDDs).md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Clock Square Wave.svg",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Clock Square Wave.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Procedure Linkage.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Symbol Resolution Rules.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/von Neumann Architecture.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Floating Point Design Problem.excalidraw.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/GCC Compilation Process.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Instruction Processing Diagram.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Data Path Block Diagrams.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Memory Allocation Block Diagram.md",
@@ -214,17 +213,9 @@
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Special Notation.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Value Sets.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Caching/Writing Cache-Friendly Code.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Caching/Intro to Caching.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Caching/Locality of Reference.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Caching/Cache Performance.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Linking/Static Linking Symbol Resolution.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Symbol Resolution Rules.svg",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Linking/Object Modules and Linking.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/GCC Compilation Process.svg",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Introduction to Procedure Calls.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Procedure Linkage.svg",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Procedure Control Flow Example.svg",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Jump Tables.svg",
     "Clubs/Longhorn Racing Electric/Torque Vectoring/Assets",
     "Clubs/Longhorn Racing Electric/Torque Vectoring",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Architectures",

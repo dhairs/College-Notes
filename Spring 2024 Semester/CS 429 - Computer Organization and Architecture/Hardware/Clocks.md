@@ -2,7 +2,10 @@
 
 A clock is a free running **binary** signal that constantly switches between 0 and 1 on a fixed cycle time. This is representable as a square wave. 
 
-```tikz
+![[Clock Square Wave.svg|500]]
+
+> [!info]- LaTeX
+> ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
 \begin{document}
@@ -26,8 +29,7 @@ coordinates
 {(0,0) (0,1) (1,0) (2,1) (3,0) (4,1) (5,0) (6,1) (7,0)};
 \end{axis}
 \end{tikzpicture}
-\end{document}
-```
+\end{document}```
 
 **Rising Edge**: When the clock transitions from $0\to1$.
 
