@@ -1,13 +1,13 @@
-![[Proofs.md]]
-![[Theorems.md]]
-![[Definitions.md]]
+![[Proofs]]
+![[Theorems]]
+![[Definitions]]
 
-![[Direct Proof.md]]
-![[Direct Proof by Contraposition.md]]
-![[Trivial Proof.md]]
-![[Vacuous Proof.md]]
-![[Proof by Contradiction.md]]
+![[Direct Proof]]
+![[Direct Proof by Contraposition]]
+![[Trivial Proof]]
+![[Vacuous Proof]]
+![[Proof by Contradiction]]
 
-![[Proof by Cases.md]]
+![[Proof by Cases]]
 
-![[Exhaustive Proof.md]]
+![[Exhaustive Proof]]

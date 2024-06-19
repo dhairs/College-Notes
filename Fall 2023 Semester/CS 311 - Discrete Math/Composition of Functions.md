@@ -1,5 +1,6 @@
 # Definition
-Remember that functions map [[Sets.md|sets]]
+
+Remember that functions map [[Sets|sets]]
 $g: A\to B$
 
 $f: B\to C$
@@ -18,10 +19,10 @@ Range of $f\circ g=$ The image of range of $g$ under the function $f$
 
 Range of $g=S$ (subset of codomain of $g$)
 
-[[Matrix Multiplication.md]] can also be understood as a composition of functions.
-
+[[Matrix Multiplication]] can also be understood as a composition of functions.
 
 Function
+
 $$
 \text{Codomain of F is} \;\;
 \begin{align}
@@ -30,10 +31,10 @@ $$
 \end{align}
 $$
 
-
-
 # Example
-$$\begin{align}
+
+$$
+\begin{align}
 A=\{a,b,c\} \\
 C=\{1,2,3\} \\ \\
 g: A\to A \\
@@ -50,6 +51,5 @@ f\circ g(b) = f(g(b)) \\
 f(g(c)) = f(a) \\
 = 3 \\
 \end{align}
-\text{NOTE:}\; g\circ f \; \text{NOT DEFINED BECAUSE g IS A SUBSET OF f}$$
-
-
+\text{NOTE:}\; g\circ f \; \text{NOT DEFINED BECAUSE g IS A SUBSET OF f}
+$$

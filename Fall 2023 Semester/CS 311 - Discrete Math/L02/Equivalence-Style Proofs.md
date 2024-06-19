@@ -1,11 +1,11 @@
-Use [[Basic Equivalences.md]] to manipulate compound propositions. ^b052a7
+Use [[Basic Equivalences]] to manipulate compound propositions. ^b052a7
 
 We can also use them to prove things:
 
 - compound propositions are tautologies
 - one compound proposition is equivalent to another
 
-Very similar layout and process to [[Proofs Using Basic Equivalences.md|proofs using basic equivalences]].
+Very similar layout and process to [[Proofs Using Basic Equivalences|proofs using basic equivalences]].
 
 **Example:**
 $p\implies q \equiv \neg q\implies\neg p$

@@ -23,6 +23,7 @@ $$
 $$
 
 ## Occupancy Problems (Boxes and Objects)
+
 ### Distinguishable Objects and Distinguishable Boxes
 
 The number of ways of distributing $n$ distinguishable objects into $r$ distinguishable boxes so that $n_i$ objects are placed into box $i$, for $i=1,2,\ldots,r$ is:
@@ -34,12 +35,13 @@ $$
 ### Indistinguishable Objects and Distinguishable Boxes
 
 #### Every box gets an object
-Suppose we want to distribute $n$ indistinguishable objects into $k$ boxes so that *every box gets at least one object*
+
+Suppose we want to distribute $n$ indistinguishable objects into $k$ boxes so that _every box gets at least one object_
 
 If $x_i$ is the number of objects going into box $i$, we are looking for the number of solutions to:
 
 $$
-x_1+x_2+\ldots+x_k=n, \text{where } x_i>0 
+x_1+x_2+\ldots+x_k=n, \text{where } x_i>0
 $$
 
 If we express this as bars and stars, you want to place $k-1$ bars in $n-1$ spaces, so this can be expressed as:
@@ -48,14 +50,16 @@ $$
 \Bigl({{n-1}\atop{k-1}}  \Bigl)
 $$
 
-This is just regular [[Permutations and Combinations.md#Combinations|combinations]].
+This is just regular [[Permutations and Combinations#Combinations|combinations]].
+
 #### Not every box gets an object
-Suppose we want to distribute $n$ indistinguishable objects into $k$ boxes so that every box *may or may not get an object*
+
+Suppose we want to distribute $n$ indistinguishable objects into $k$ boxes so that every box _may or may not get an object_
 
 If $x_i$ is the number of objects going into box $i$, we are looking for the number of solutions as the sum of $k$ non-negative integers:
 
 $$
-x_1+x_2+\ldots+x_k=n, \text{where } x_i\geq0 
+x_1+x_2+\ldots+x_k=n, \text{where } x_i\geq0
 $$
 
 The number of ways we can do this can be expressed as:

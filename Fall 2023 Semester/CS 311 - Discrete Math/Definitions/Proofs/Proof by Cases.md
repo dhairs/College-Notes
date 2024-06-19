@@ -9,7 +9,7 @@ To prove $p\to q$, we can find $$p_1\vee p_2\vee\ldots\vee p_n\equiv p$$ and the
 ### Common Errors
 
 - Drawing incorrect conclusions from examples
-- No matter how many cases we cover in our own proof, we cannot prove the [[Theorems.md|theorem]] to be true _unless_ we prove **every case**
+- No matter how many cases we cover in our own proof, we cannot prove the [[Theorems|theorem]] to be true _unless_ we prove **every case**
 
 #### Example: if $x$ is a real number, then $x^2$ is a positive real number.
 
@@ -25,7 +25,7 @@ $Sol^n$: we missed the case where $x=0$
 ### Example: Use proof by cases to prove that $|xy|=|x||y|$, where $x$ and $y$ are real numbers.
 
 First, we need the definition of absolute value.
-![[Definitions.md#Absolute Value]]
+![[Definitions#Absolute Value]]
 
 #### Proof: We will consider four cases.
 
@@ -113,7 +113,7 @@ $\therefore$ for all real numbers, $x$, $y$: $|xy|=|x||y|$
 
 Techniques Employed:
 
-- [[Direct Proof by Contraposition.md]]
+- [[Direct Proof by Contraposition]]
 - Without loss of Generality (WLOG)
 - Proof by cases
 

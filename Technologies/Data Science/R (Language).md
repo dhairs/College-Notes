@@ -1,4 +1,3 @@
-
 ## Combinations in R
 
 The general formula for finding a combination in `R` is:
@@ -7,8 +6,8 @@ The general formula for finding a combination in `R` is:
 choose(n, k)
 ```
 
-Go back to this example: 
-![[Permutations and Combinations.md#Ex Stock Portfolio]]
+Go back to this example:
+![[Permutations and Combinations#Ex Stock Portfolio]]
 
 If finding the first bullet point, where order doesn't matter:
 
@@ -16,13 +15,12 @@ If finding the first bullet point, where order doesn't matter:
 choose(100, 5)
 ```
 
-
 ## Permutations in R
 
 No built in function for permutations, but its very simple, because the equation for permutations itself is simple.
 
 Recall the Permutation general formula:
-![[Permutations and Combinations.md#^ee18c4]]
+![[Permutations and Combinations#^ee18c4]]
 
 We can express this in `R` as:
 
@@ -30,9 +28,8 @@ We can express this in `R` as:
 factorial(n)/factorial(n-k)
 ```
 
-
 ## Normal Distribution in R
 
-`dnorm(x, mean, sd)` can be used to find the [[Variables.md#Probability Density Function (PDF]]%20and%20Cumulative%20Distribution%20Function%20(CDF)%20of%20Continuous%20Random%20Variables|pdf) of a normal random variable given the standard deviation and mean. It defaults to the PDF for $X~N(0,1)$
+`dnorm(x, mean, sd)` can be used to find the [[Variables#Probability Density Function (PDF]]%20and%20Cumulative%20Distribution%20Function%20(CDF)%20of%20Continuous%20Random%20Variables|pdf) of a normal random variable given the standard deviation and mean. It defaults to the PDF for $X~N(0,1)$
 
-`pnorm(x, mean, sd)` can be used to find the [[Variables.md#Probability Density Function (PDF]]%20and%20Cumulative%20Distribution%20Function%20(CDF)%20of%20Continuous%20Random%20Variables|cdf) of a normal random variable given the standard deviation and mean, it defaults to the CDF for $X~N(0,1)$
+`pnorm(x, mean, sd)` can be used to find the [[Variables#Probability Density Function (PDF]]%20and%20Cumulative%20Distribution%20Function%20(CDF)%20of%20Continuous%20Random%20Variables|cdf) of a normal random variable given the standard deviation and mean, it defaults to the CDF for $X~N(0,1)$

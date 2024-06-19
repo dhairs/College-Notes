@@ -2,9 +2,11 @@
 
 Implemented as a derived type (not basic)
 
-What is the difference between Structs and [[Arrays.md]]? **Struct**'s are heterogenous. 
+What is the difference between Structs and [[Arrays]]? **Struct**'s are heterogenous.
+
 - can also be called a `record`
 - objects being aggregated are called the `fields`
+
 ## Syntax
 
 **Anonymous Structure**:
@@ -20,11 +22,13 @@ You need to use a tagged structure if you want to refer to the same type within 
 ## Declaration
 
 The declaration `struct T {...} x` has the following effect:
-- Reserves `sizeof(struct T)` contiguous bytes in memory to hold variable `x`, starting at some location $M_x$ (*thus, `SIZE(x) = sizeof(struct T)`*)
-- `ADDR(x)`$=M_x$ 
+
+- Reserves `sizeof(struct T)` contiguous bytes in memory to hold variable `x`, starting at some location $M_x$ (_thus, `SIZE(x) = sizeof(struct T)`_)
+- `ADDR(x)`$=M_x$
 
 Fields of the structure appear **in the same order** in memory as the declaration
-- Each field `f` of the object `x` has a type of $T_f$ and an offset $o \geq 0$ such that the field `x.f` occupies `sizeof(`$T_f$`)` bytes starting at memory location $M_x+o$ 
+
+- Each field `f` of the object `x` has a type of $T_f$ and an offset $o \geq 0$ such that the field `x.f` occupies `sizeof(`$T_f$`)` bytes starting at memory location $M_x+o$
 
 The size of the struct is **greater than or equal to** the sum of the sizes of all it's fields.
 
@@ -43,4 +47,3 @@ Returns a value of type TYPE(`x.f`) by interpreting the bit representation in BO
 ### L-Value
 
 Updates memory bytes of BOX(`x.f`) with the type-appropriate bit representation of the **R-value** of the assignment operation. (like setting a variable)
-

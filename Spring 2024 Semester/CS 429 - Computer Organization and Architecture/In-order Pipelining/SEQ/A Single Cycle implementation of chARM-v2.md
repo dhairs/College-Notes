@@ -1,10 +1,11 @@
-![[Specifying Operands and Results.md#Instruction Processing]]
+![[Specifying Operands and Results#Instruction Processing]]
 
 ## Architectural Status
 
 Architectural Status is a simplified view of machine health
 
 There are four architectural status codes:
+
 - `STAT_AOK`: **Normal**, code is running
 - `STAT_HLT`: **Normal**, code has exited normally
 - `STAT_INS`: **Error**, reported by instruction memory
@@ -15,7 +16,7 @@ There will be an additional micro architectural status when getting to the pipel
 ## Extracting Instructions from Bit Fields
 
 - Extract opcode from the top 11 bits.
-	- Use the `itable` to lookup the command 
+  - Use the `itable` to lookup the command
 - Register the operands
 - Get immediate operands
 - Shift a certain amount
@@ -23,25 +24,25 @@ There will be an additional micro architectural status when getting to the pipel
 
 ## Building Blocks
 
-### [[AArch64 (ARM]]%20State%20and%20Programming%20Model.md#^6298e8|Program%20Counter)
+### [[AArch64 (ARM]]%20State%20and%20Programming%20Model#^6298e8|Program%20Counter)
 
 - This is a 64-bit **clocked-register** (edge-triggered D flip-flop) with input side labeled `next_PC[63:0]` and output side labeled `current_PC[63:0]`
 - It drives all the combinational logic downstream from it to perform the actions needed to execute an instruction
 - The three possible `next_PC` values are:
-	- `seq_succ = current_PC + 4` (most instructions)
-	- `branch_target = current_PC + branch_offset` (For B, BL, and B.cond)
-	- `ret_addr = val_a` (For RET, value of register X30)
+  - `seq_succ = current_PC + 4` (most instructions)
+  - `branch_target = current_PC + branch_offset` (For B, BL, and B.cond)
+  - `ret_addr = val_a` (For RET, value of register X30)
 
 How do we choose?
- ![[Program Counter Block Diagram.svg]]
+![[Program Counter Block Diagram.svg]]
 
 ### Instruction Memory
 
-Instruction memory (can only be ***read*** by EL0 code)
+Instruction memory (can only be **_read_** by EL0 code)
+
 - Indexed with byte address `imem_addr[63:0]`
 - Returns instruction word `imem_rval[31:0]`. "Combinational".
 - Asserts `imem_arr` if address is invalid
-
 
 ### Register File
 

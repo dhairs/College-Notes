@@ -1,4 +1,4 @@
-|      | [[Logical operators.md]] | Precedence |
+|      | [[Logical operators]] | Precedence |
 | ---- | --------------------- | ---------- |
 | high | $\neg$                | 1          |
 | -    | $\wedge$              | 2          |

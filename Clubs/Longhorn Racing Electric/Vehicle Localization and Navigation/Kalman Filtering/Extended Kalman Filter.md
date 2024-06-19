@@ -2,14 +2,15 @@
 
 We will be using an Extended Kalman filter to calculate the vehicles state as a non-linear first order method (because using theta makes the whole [system non-linear](https://en.wikipedia.org/wiki/Nonlinear_system)).
 
-Because we have "truthy" or "real" IMU acceleration values, we can define our state matrix without those values, and instead use them as our *control* input ($u$).
+Because we have "truthy" or "real" IMU acceleration values, we can define our state matrix without those values, and instead use them as our _control_ input ($u$).
 
 ## System Matrices
+
 The following is the system's **state matrix**, $\hat{x}$:
 
 $$
 \hat{x}=
-\begin{bmatrix}  
+\begin{bmatrix}
 x \\
 \dot{x} \\
 y  \\
@@ -22,14 +23,14 @@ With the given inputs, we can define our **control matrix**, $u$:
 
 $$
 u=
-\begin{bmatrix}  
+\begin{bmatrix}
 \ddot{x} \\
 \ddot{y} \\
 \dot{\theta}
 \end{bmatrix}
 $$
 
-Because we have a theta, we will also be using a [[Rotation Matrices.md|rotation matrix]] to globalize the vehicles positioning.
+Because we have a theta, we will also be using a [[Rotation Matrices|rotation matrix]] to globalize the vehicles positioning.
 
 And all the **perfect estimate equations** are:
 
@@ -47,8 +48,8 @@ y_\text{new}=y_\text{old}+v_{y_\text{old}}\times\Delta t + \frac{1}{2}\Delta t^2
 \dot{y}_\text{new}=\dot{y}_\text{old}+\Delta t(a_{x_\text{old}}\sin(\theta)+a_{y_\text{old}}\cos(\theta)) \\
 
 \theta_\text{new}=\omega\times\Delta t+ \theta_\text{old}
-\end{array} 
-\right. 
+\end{array}
+\right.
 \end{align}
 $$
 

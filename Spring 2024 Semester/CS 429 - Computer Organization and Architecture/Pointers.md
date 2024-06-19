@@ -1,14 +1,14 @@
 ## What are Pointers
 
-Essentially, a pointer is an *address* to memory on your machine. 
+Essentially, a pointer is an _address_ to memory on your machine.
 
-The space taken up by a pointer is determined by your machine's [[Operations on Representations.md#Word Size|word size]].
+The space taken up by a pointer is determined by your machine's [[Operations on Representations#Word Size|word size]].
 
-Think of your memory as an array: 
+Think of your memory as an array:
 
-Lets say we have 
+Lets say we have
 
-```c 
+```c
 int b = 6;
 int *c = &b
 ```
@@ -24,7 +24,7 @@ These occur when the code is unable to access a memory location specified in the
 
 ## Casting Pointers
 
-Casting the type of a pointer changes the type but *not* the value
+Casting the type of a pointer changes the type but _not_ the value
 
 This means when we cast the type of a pointer, we change the `sizeof` of it, because it is interpreted as whatever the new type is.
 
@@ -34,13 +34,14 @@ This means when we cast the type of a pointer, we change the `sizeof` of it, bec
 
 Function types are just another derived type in `C`, so we can have pointers to them
 
-For a function object `f`, `ADDR(f)` is simply the memory address to where its code starts. 
+For a function object `f`, `ADDR(f)` is simply the memory address to where its code starts.
 
-*Note that in C you cannot use `sizeof` on a function*
+_Note that in C you cannot use `sizeof` on a function_
 
 To set a pointer, no need to use the unary `&` for the address, you can simply set `fp = fun` and it would set `fp` to the pointer.
 
 When calling a function pointer, you just call it as usual, no need to de-reference.
+
 ### Example
 
 Say we declare:
@@ -53,5 +54,5 @@ int (*fp) (int, int*); // a pointer to a function that takes in an int and an in
 int y = 1;
 ```
 
-`TYPE(fun): int & int ptr -> int` 
+`TYPE(fun): int & int ptr -> int`
 `TYPE(fp): (int & int ptr -> int)ptr`

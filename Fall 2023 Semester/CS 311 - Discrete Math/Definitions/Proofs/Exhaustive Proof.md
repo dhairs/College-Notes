@@ -1,7 +1,7 @@
 ## Definition
 
-This is a type of [[Proof by Cases.md]]
-![[Proof by Cases.md#Definition]]
+This is a type of [[Proof by Cases]]
+![[Proof by Cases#Definition]]
 
 - Some theorems can be proved by examining a small number of examples
 - We call this exhaustive proofs
@@ -9,7 +9,7 @@ This is a type of [[Proof by Cases.md]]
 
 ## Common Errors
 
-![[Proof by Cases.md#Common Errors]]
+![[Proof by Cases#Common Errors]]
 
 #### Example: It is true that every non-negative integer is the sum of 18 fourth power integers.
 

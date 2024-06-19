@@ -8,24 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "86d2f93c4835aba4",
+            "id": "235837d08f5c2b9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "235837d08f5c2b9b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           },
           {
@@ -65,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pmf",
+                "query": ".md.md",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md"
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md"
               }
             }
           },
@@ -178,9 +170,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "86d2f93c4835aba4",
+  "active": "235837d08f5c2b9b",
   "lastOpenFiles": [
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/In-order Pipelining/SEQ/Data and Control Paths.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Hard Disk Drives (HDDs).md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/In-order Pipelining/SEQ/A Single Cycle implementation of chARM-v2.md",
+    "Spring 2024 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Special Notation.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Main Memory.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Memory and IO Buses.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Special Notation.md.md",
     "Test.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
     "f.canvas",
@@ -192,28 +198,14 @@
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Data Types/Unions or Variant Records.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Memory and IO Buses.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Hard Disk Drives (HDDs).md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Clock Square Wave.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Clock Square Wave.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Procedure Linkage.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Symbol Resolution Rules.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/von Neumann Architecture.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Floating Point Design Problem.excalidraw.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Instruction Processing Diagram.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Data Path Block Diagrams.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Memory Allocation Block Diagram.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Instruction Memory Block Diagram.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/MM Lab Architecture.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Jump Tables.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Block Formats.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Register File Block Diagram.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Program Counter Block Diagram.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Block Formats.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Memory Allocation Block Diagram.svg",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Procedure Control Flow Example.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Program Counter Block Diagram.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/von Neumann Architecture.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/GCC Compilation Process.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Procedure Linkage.svg",

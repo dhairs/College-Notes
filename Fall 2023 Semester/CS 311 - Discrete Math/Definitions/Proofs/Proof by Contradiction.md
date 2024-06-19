@@ -1,4 +1,4 @@
-![[Basic Equivalences.md#Law of Excluded Middle]]
+![[Basic Equivalences#Law of Excluded Middle]]
 
 ## Definition
 

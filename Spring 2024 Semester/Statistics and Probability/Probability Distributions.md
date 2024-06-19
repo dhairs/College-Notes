@@ -1,11 +1,10 @@
-
 # Definition
 
-Is a complete description of the probabilities associated within the sample space $S$. 
+Is a complete description of the probabilities associated within the sample space $S$.
 
 ## Ex: Rolling a six-sided die 🎲
 
-For a fair die and $S=\{1,2,3,4,5,6\}$, the probability distribution is 
+For a fair die and $S=\{1,2,3,4,5,6\}$, the probability distribution is
 
 $$P(1)=P(2)=P(3)=P(4)=P(5)=P(6)=\frac{1}{6}$$
 
@@ -13,15 +12,15 @@ $$P(1)=P(2)=P(3)=P(4)=P(5)=P(6)=\frac{1}{6}$$
 
 ## Marginal (unconditional) probability distributions
 
-$P(A)$, the probability of event $A$, is also sometimes called the *unconditional probability*, or *marginal probability* of $A$
+$P(A)$, the probability of event $A$, is also sometimes called the _unconditional probability_, or _marginal probability_ of $A$
 
 ## Joint Probability Distributions
 
-The *joint probability* of two events $A$ and $B$ is the probability that both events occur, which is $P(A\cap B)$.
+The _joint probability_ of two events $A$ and $B$ is the probability that both events occur, which is $P(A\cap B)$.
 
 ## Conditional Probability Distributions
 
-The *[[Conditional Probability.md|conditional probability]]* $P(A|B)$, which is the probability of event $A$ given that event $B$ has occurred, is given by:
+The _[[Conditional Probability|conditional probability]]_ $P(A|B)$, which is the probability of event $A$ given that event $B$ has occurred, is given by:
 
 $$P(A|B)=\frac{P(A\cap B)}{P(B)}\; \text{if}\; P(B)>0$$
 
@@ -40,28 +39,28 @@ $$P(B|A)=\frac{P(A\cap B)}{P(B)}=\frac{\frac{1}{3}}{\frac{2}{3}}=\frac{1}{2}$$
 
 ## Bernoulli Distribution
 
-A distribution based on the idea of [[Variables.md#Binary Variables (Bernoulli Variables]]|Binary/Bernoulli%20Variables). Literally is a way of mapping the two categorical values to a function/number.
+A distribution based on the idea of [[Variables#Binary Variables (Bernoulli Variables]]|Binary/Bernoulli%20Variables). Literally is a way of mapping the two categorical values to a function/number.
 
-Look at [[Variables.md#Coding categorical variables (indicator variables]]|Coding%20categorical%20variables).
+Look at [[Variables#Coding categorical variables (indicator variables]]|Coding%20categorical%20variables).
 
 ## Multiplication Rule
 
 Comes directly from the conditional probability formula:
 
 $$
-P(A\cap B)=P(A|B)\,P(B)$$
+P(A\cap B)=P(A|B)\,P(B)
+$$
+
 and
 $$P(A\cap B)=P(B|A)\,P(A)$$
-
-
 
 ### Ex: Product returns
 
 Suppose a website sells three types of shirts, each with different return rates:
 
-
 $$P(R|A_1)=.15$$
-- Shirt 1: 60% of overall shirt sales, 15% of purchases returned  $P(A_1)=.6$
+
+- Shirt 1: 60% of overall shirt sales, 15% of purchases returned $P(A_1)=.6$
 - Shirt 2: 30% of overall shirt sales, 25% of purchases returned $P(A_2)=.3$
 - Shirt 3: 10% of overall shirt sales, 35% of purchases returned $P(A_3)=.1$
 
@@ -76,6 +75,7 @@ If $A_1, A_2, \ldots, A_k$ are disjoint events and also exhaustive events, then 
 
 $$P(B)=P(B|A_1)P(A)+P(B|A_2)+\ldots+P(B|A_k)P(A_k)$$
 $$=\sum^{k}_{j=1}P(B|A_j)P(A_j)$$
+
 ## Binomial Distribution
 
 Probability of $k$ successes out of $n$ trials.
@@ -84,13 +84,14 @@ Probability of $k$ successes out of $n$ trials.
 
 Number of trials to get the first success.
 
-If $X$ is the number of trials to get the first success with $p = P(\text{success})$, then $X$ is a **Geometric Random Variable** with parameter $p$, or $X\sim \text{Geo}(p)$ 
+If $X$ is the number of trials to get the first success with $p = P(\text{success})$, then $X$ is a **Geometric Random Variable** with parameter $p$, or $X\sim \text{Geo}(p)$
 
 We solve this using the **Geometric Series**.
 
 ### Memoryless Property
 
-Basically, that the number of times it took to get a first success remains the same even after a failure. 
+Basically, that the number of times it took to get a first success remains the same even after a failure.
+
 $$
 P(X=a+b\;| \;X > a)=P(X=b)
 $$
@@ -109,7 +110,7 @@ $$
 f_X(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2} \text{ for} -\infty<x<\infty
 $$
 
-and $f_X(x) > 0$ for *all* $x$.
+and $f_X(x) > 0$ for _all_ $x$.
 
 ### Special Properties of the Normal Distribution
 

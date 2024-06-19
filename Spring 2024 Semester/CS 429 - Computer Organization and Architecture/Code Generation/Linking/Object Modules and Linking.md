@@ -7,24 +7,26 @@ The LD stands for the Linkage eDitor, and outputs executable
 
 ## Types of Object Files
 
-An object file is a *self-describing* block of bytes
+An object file is a _self-describing_ block of bytes
 
-This is similar to storing the tree in the header of a Huffman encoded file, or the metadata for a [[Dynamic Memory Management.md|malloc]] memory block.
+This is similar to storing the tree in the header of a Huffman encoded file, or the metadata for a [[Dynamic Memory Management|malloc]] memory block.
 
 There are three types:
+
 - **Relocatable**: Binary code and data, suitable for combining (e.g. `p1.o` and `p2.o`)
 - **Shared**: A special type of relocatable object file that can be loaded into memory and linked dynamically, either at load time or at run time (the file `libc.so`)
-	- Note: this is what as `.dll` is on Windows
+  - Note: this is what as `.dll` is on Windows
 - **Executable**: Binary code and data, suitable for being copied into memory and executed (e.g. the file `p`)
 
 ### Object File Formats
 
 Different formats on different systems:
+
 - UNIX (originally): `a.out`
 - Windows: Portable Executable (PE)
 - MacOS-X: Mach Object (Mach-O)
 - AArch64/Linux: Executable and Linkable Format (ELF)
-	- We will discuss this one in depth
+  - We will discuss this one in depth
 
 Fat binary: Multiple formats combined into one, which allows the binary to run on multiple systems
 
@@ -66,7 +68,7 @@ int main(void) {
 ```
 
 - The interface of `sum` is declared
-- `sum` is *defined* elsewhere
+- `sum` is _defined_ elsewhere
 - `sum`is called (referenced)
 
 ```c sum.c
@@ -106,16 +108,16 @@ C++ solves this by "mangling" the name, and adding type information to the funct
 The linker is not concerned with handing local variables and other symbols that are not visible outside individual object modules (static).
 
 A module's **symbol table** provides information about the externally visible symbols defined in that module and the external symbols referenced by the module.
+
 - These definitions and references must be matched, this process is called **symbol resolution**
 
 The **relocation entries** of a module provide information about which symbol references in that module need to be adjusted (and how) when combining multiple object modules.
+
 - Each object module is generated in isolation, in its local coordinate system
 - We need to keep track of where to put each module, and put them into a single, global coordinate system for the final executable. We move code to new locations (hence "relocation")
 - References must be connected to their resolved definitions, this is called **patching**
 
 A variety of violations are detected by the linker, but not all conditions can be caught (e.g., different function signatures)
-
-
 
 ## Sources to Use:
 

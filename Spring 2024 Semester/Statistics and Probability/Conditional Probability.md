@@ -2,7 +2,8 @@
 
 In essence, conditional probability is for when an event has already happened, and we want to model what comes next.
 
-Examples: 
+Examples:
+
 - It is cloudy and might rain
 - Given that you are a felon, probability that you go to college
 - Given that you were accepted to college, probability that you receive a scholarship
@@ -10,11 +11,12 @@ Examples:
 
 Similar to a heuristic (you know one thing, how can you predict the next).
 
-Looking into conditional probability is also important to understand the *[[Independence.md|independence]]* of events. It seems backwards, but if you know the probability of something happened based on something else, you can find if there is a correlation or probability increase.
+Looking into conditional probability is also important to understand the _[[Independence|independence]]_ of events. It seems backwards, but if you know the probability of something happened based on something else, you can find if there is a correlation or probability increase.
 
 This causes us to ask these two questions:
+
 - Are two events actually related?
 - Does knowing one tell us nothing about the other?
 
 The distribution of conditional probability is given by:
-![[Probability Distributions.md#Conditional Probability Distributions]]
+![[Probability Distributions#Conditional Probability Distributions]]
