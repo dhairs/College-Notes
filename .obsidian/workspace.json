@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Linking/Static Linking Symbol Resolution.md",
+                "file": "Test.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Linking/Static Linking Symbol Resolution.md",
+                "file": "Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Linking/Static Linking Symbol Resolution.md",
+                "file": "Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Linking/Static Linking Symbol Resolution.md"
+                "file": "Test.md"
               }
             }
           },
@@ -180,6 +180,10 @@
   },
   "active": "86d2f93c4835aba4",
   "lastOpenFiles": [
+    "f.canvas",
+    "Test.md",
+    "Excalidraw/Drawing 2024-06-19 12.45.03.excalidraw.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Linking/Static Linking Symbol Resolution.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Symbol Resolution Rules.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/GCC Compilation Process.md",
     "Excalidraw/README.md",
@@ -209,10 +213,7 @@
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Memory Allocation Block Diagram.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Procedure Control Flow Example.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Program Counter Block Diagram.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Register File Block Diagram.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Architectures/Instruction Set Architectures.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/von Neumann Architecture.svg",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Special Notation.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/GCC Compilation Process.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Procedure Linkage.svg",
     "Clubs/Longhorn Racing Electric/Torque Vectoring/Assets",
@@ -223,7 +224,6 @@
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Data Types",
     "Spring 2023 Semester/CS 429 - Computer Organization and Architecture/Assets",
-    "Untitled.canvas",
     "Excalidraw/429",
     "Excalidraw"
   ]
