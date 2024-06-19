@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@master
         with:
           path: old_exported
-          respository: ${{secrets.EXPORTED_NOTES_REPO}}
+          respository: ${{vars.EXPORTED_NOTES_REPO}}
 
       - name: Checkout exports Respository
         uses: actions/checkout@master
@@ -43,4 +43,4 @@ jobs:
           github_token: ${{secrets.GH_PAT}}
           directory: "./old_exported/"
           force: true
-          repository: ${{secrets.EXPORTED_NOTES_REPO}}
+          repository: ${{vars.EXPORTED_NOTES_REPO}}
