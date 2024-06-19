@@ -1,6 +1,6 @@
 # College Notes
 
-My notes over the course of college, best viewed on [Obsidian](https://www.obsidian).
+My notes over the course of college, best viewed on [Obsidian](https://www.obsidian.md).
 
 To view these notes, download Obsidian, and Git clone this repository.
 

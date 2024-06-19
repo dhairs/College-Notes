@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md"
+                "file": "README.md"
               }
             }
           },
@@ -172,6 +172,7 @@
   },
   "active": "235837d08f5c2b9b",
   "lastOpenFiles": [
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Operations on Representations.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/In-order Pipelining/SEQ/Data and Control Paths.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md",
@@ -182,7 +183,6 @@
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/C vs. Java.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Bits and Bit Technologies.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Special Notation.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Main Memory.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Memory and IO Buses.md",
