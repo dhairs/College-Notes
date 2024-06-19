@@ -24,7 +24,7 @@ There will be an additional micro architectural status when getting to the pipel
 
 ## Building Blocks
 
-### [[AArch64 (ARM]]%20State%20and%20Programming%20Model#^6298e8|Program%20Counter)
+### [[AArch64 (ARM) State and Programming Model#^6298e8|Program Counter]]
 
 - This is a 64-bit **clocked-register** (edge-triggered D flip-flop) with input side labeled `next_PC[63:0]` and output side labeled `current_PC[63:0]`
 - It drives all the combinational logic downstream from it to perform the actions needed to execute an instruction

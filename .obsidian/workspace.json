@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Architectures/Specifying Operands and Results.md",
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Architectures/Specifying Operands and Results.md",
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Architectures/Specifying Operands and Results.md",
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Architectures/Specifying Operands and Results.md"
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Architectures/Specifying Operands and Results.md"
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md"
               }
             }
           }
@@ -185,6 +185,8 @@
   "lastOpenFiles": [
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/In-order Pipelining/SEQ/A Single Cycle implementation of chARM-v2.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Architectures/AArch64 (ARM) State and Programming Model.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Caching/Intro to Caching.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Architectures/Specifying Operands and Results.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Architectures/AArch64 (ARM.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Data Types/Floating Point Numbers.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Pointer Arithmetic.md",
@@ -209,8 +211,6 @@
     "Excalidraw/Drawing 2024-06-19 12.45.03.excalidraw.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Linking/Static Linking Symbol Resolution.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Symbol Resolution Rules.svg",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/GCC Compilation Process.md",
-    "Excalidraw/README.md",
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Clock Square Wave.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Register File Block Diagram.svg",
