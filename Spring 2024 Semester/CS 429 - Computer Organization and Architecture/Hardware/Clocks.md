@@ -4,7 +4,7 @@ A clock is a free running **binary** signal that constantly switches between 0 a
 
 ![[Clock Square Wave.svg|500]]
 
-> [!NOTE]
+> [!NOTE] LaTeX
 > ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
