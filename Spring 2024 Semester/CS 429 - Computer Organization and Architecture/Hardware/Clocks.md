@@ -4,7 +4,7 @@ A clock is a free running **binary** signal that constantly switches between 0 a
 
 ![[Clock Square Wave.svg|500]]
 
-> [!INFO]
+> [!NOTE]-
 > ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
@@ -38,7 +38,3 @@ coordinates
 **Clock Cycle**: The time interval $T$ between successive rising *or* falling edges, this is measured in seconds
 
 **Clock Frequency**: Reciprocal of the clock cycle, $f=\frac{1}{T}$, this is measured in hertz (Hz)
-
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
