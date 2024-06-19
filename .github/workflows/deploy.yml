@@ -5,13 +5,14 @@ jobs:
   checkout-repo:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Notes Repository
+      - name: Checkout Exported Notes Repository
         uses: actions/checkout@master
         with:
           path: old_exported
           respository: ${{vars.EXPORTED_NOTES_REPO}}
+          token: ${{secrets.GH_PAT}}
 
-      - name: Checkout exports Respository
+      - name: Checkout Current Respository
         uses: actions/checkout@master
         with:
           path: temp_unexported
