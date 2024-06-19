@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md",
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md",
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md",
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md"
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md"
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md"
               }
             }
           }
@@ -183,8 +183,8 @@
   },
   "active": "235837d08f5c2b9b",
   "lastOpenFiles": [
-    "Fall 2023 Semester/CS 311 - Discrete Math/L01/Basic Equivalences.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Digital Design and Logic Gates.md",
+    "Fall 2023 Semester/CS 311 - Discrete Math/L01/Basic Equivalences.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/In-order Pipelining/SEQ/A Single Cycle implementation of chARM-v2.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Architectures/AArch64 (ARM) State and Programming Model.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Caching/Intro to Caching.md",
