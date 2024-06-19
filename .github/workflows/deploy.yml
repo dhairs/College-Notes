@@ -36,6 +36,7 @@ jobs:
           cd old_exported
           git config --local user.email "${{secrets.USER_EMAIL}}"
           git config --local user.name "${{secrets.USER_NAME}}"
+          git add .
           git commit -am "New export"
 
       - name: Push exported markdown
