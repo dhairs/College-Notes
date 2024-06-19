@@ -2,7 +2,7 @@
 
 Essentially, a pointer is an *address* to memory on your machine. 
 
-The space taken up by a pointer is determined by your machine's [[Operations on Representations#Word Size|word size]].
+The space taken up by a pointer is determined by your machine's [](Operations%20on%20Representations.md#Word%20Size|word%20size).
 
 Think of your memory as an array: 
 

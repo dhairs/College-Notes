@@ -61,7 +61,7 @@ Statements with it **must always** have a truth value.
 
 **Only false when antecedent is true yet consequent is false, otherwise true.**
 
-#### [[Truth Tables|Truth Table]]:
+#### [Truth Table](Truth%20Tables.md):
 
 | p   | q   | $p\implies q$ |
 | --- | --- | ------------- |

@@ -4,7 +4,7 @@ Recall what uniqueness looks like in terms of quantifiers:
 
 > $$(\exists x|x\in D: P(x)\wedge(\forall y|y\in D: P(y)\to y=x))$$
 
-- Some [[Theorems|theorems]] assert the existence of a _unique_ element (aka only one element with a certain property)
+- Some [theorems](Theorems.md) assert the existence of a _unique_ element (aka only one element with a certain property)
 
 **Uniqueness Proofs have two parts**:
 

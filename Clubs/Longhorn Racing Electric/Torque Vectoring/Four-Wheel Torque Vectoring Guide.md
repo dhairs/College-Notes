@@ -4,6 +4,6 @@ Just by figuring out this moment, we can apply different torques to wheels to ap
 
 
 
-![[TV Block Diagram.png]]
+![TV Block Diagram](TV%20Block%20Diagram.png)
 
 Wheel slip;

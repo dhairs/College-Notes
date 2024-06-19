@@ -31,5 +31,5 @@ let $S$ be a set.
 1. We need to show that $\varnothing\le S$. In other words, for an arbitrary $x$, if $x\in{\varnothing}$, we must show that $x\in{S}$. However, $\varnothing$ is the empty set $\therefore x\in{\varnothing}$ is false. $\therefore$ Vacuously, if $x\in\varnothing\to{x}\in{S}$ is true, $\therefore\varnothing\le{S}$
 2. We need to show that $S\le{S}$. We need to show that for every element in $S$ if $x\in{S}\to{x}\in{S}$, $x\in{S}$ is always true. $\therefore$ $x\in{S}$ is always true. $\therefore S\le{S}$
 
-![[Definitions#Definitions of Sets]]
+![](Definitions.md#Definitions%20of%20Sets)
 

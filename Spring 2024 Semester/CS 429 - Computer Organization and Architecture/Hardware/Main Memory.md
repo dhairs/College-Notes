@@ -4,7 +4,7 @@ Main Memory, or Primary Memory, is memory that is used to store the data and pro
 
 DRAM cells have a structure of 1 transistor and 1 capacitor. In DRAM, the two states are signified by the presence (or absence) of trapped charge on the capacitor.
 
-The [[Bits and Bit Technologies#^e5350b|MOSFET]] is the control when storing charge when writing, and also senses the presence of charge in reading. However, these capacitors discharge over time and require periodic refreshes to maintain state.
+The [](Bits%20and%20Bit%20Technologies.md#^e5350b|MOSFET) is the control when storing charge when writing, and also senses the presence of charge in reading. However, these capacitors discharge over time and require periodic refreshes to maintain state.
 
 For this reason, the DRAM cell is sensitive to noise and leakage, and is not persistent, but can handle **many many** read and write cycles without breaking.
 
@@ -22,7 +22,7 @@ Such a chip stores $d\cdot w$ bits of data, organized as $d$ **supercells**, als
 
 The $d$ supercells for a rectangular array in turn consist of $r$ rows and $c$ columns, such that $r\cdot c=d$. These access are controlled by a block called the **memory controller**, typically in the processor chip. 
 
-Memory is typically in powers of 2 (because, you know, we like [[Bits and Bit Technologies|binary stuff]]), so instead of Megabytes (M), we actually have [[Special Notation#Mebibyte (MiB)|Mebibytes]] (Mi). 
+Memory is typically in powers of 2 (because, you know, we like [binary stuff](Bits%20and%20Bit%20Technologies.md)), so instead of Megabytes (M), we actually have [](Special%20Notation.md#Mebibyte%20(MiB)|Mebibytes) (Mi). 
 
 Each chip with an 8-bit output is wired to the 64-bit data bus. The multiple chips service the data bus in parallel.
 

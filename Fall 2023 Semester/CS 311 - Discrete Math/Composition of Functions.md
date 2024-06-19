@@ -1,5 +1,5 @@
 # Definition
-Remember that functions map [[Sets|sets]]
+Remember that functions map [sets](Sets.md)
 $g: A\to B$
 
 $f: B\to C$
@@ -18,7 +18,7 @@ Range of $f\circ g=$ The image of range of $g$ under the function $f$
 
 Range of $g=S$ (subset of codomain of $g$)
 
-[[Matrix Multiplication]] can also be understood as a composition of functions.
+[Matrix Multiplication](Matrix%20Multiplication.md) can also be understood as a composition of functions.
 
 
 Function

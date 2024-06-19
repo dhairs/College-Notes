@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test.md",
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test.md",
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test.md",
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test.md"
+                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md"
               }
             }
           },
@@ -180,8 +180,10 @@
   },
   "active": "86d2f93c4835aba4",
   "lastOpenFiles": [
-    "f.canvas",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Main Memory.md",
     "Test.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Dynamic Memory Management.md",
+    "f.canvas",
     "Excalidraw/Drawing 2024-06-19 12.45.03.excalidraw.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Linking/Static Linking Symbol Resolution.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Symbol Resolution Rules.svg",
@@ -191,7 +193,6 @@
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Data Types/Unions or Variant Records.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Memory and IO Buses.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Main Memory.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Hard Disk Drives (HDDs).md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Clocks.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Clock Square Wave.svg",

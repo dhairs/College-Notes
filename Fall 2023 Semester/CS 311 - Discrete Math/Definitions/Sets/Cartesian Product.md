@@ -1,6 +1,6 @@
 # Definition
 Note the definition of an ordered $n$-tuple:
-![[Definitions#Ordered $n$-tuple]]
+![](Definitions.md#Ordered%20$n$-tuple)
 
 Let $A$ and $B$ be sets, the cartesian product of $A$ and $B$ is denoted by $A\times B$, is a set of all ordered pairs $(a,b)$ where $a\in{A}$ and $b\in B$.
 

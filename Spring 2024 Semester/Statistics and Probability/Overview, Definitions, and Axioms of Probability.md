@@ -35,8 +35,8 @@ A compound event is an event that can be broken down ("decomposed") into simple 
 
 ## What is Sample Space?
 - The sample space ($\Omega$) is the set of all possible outcomes of a random experiment.
-	- Therefore, the [[Cardinality|cardinality]] of the sample space must be the # of possible outcomes.
-- The different elements of a sample space must be distinct, [[#Mutually Exclusive Events|mutually exclusive]], and collectively exhaustive.
+	- Therefore, the [cardinality](Cardinality.md) of the sample space must be the # of possible outcomes.
+- The different elements of a sample space must be distinct, [mutually exclusive](#Mutually%20Exclusive%20Events), and collectively exhaustive.
 
 ### Mutually Exclusive Events
 Events that cannot occur at the same time. If one occurs, it excludes the other from occurring.
@@ -65,7 +65,7 @@ $|\Omega|=8$
 5. **Roll two dice**
 36 outcomes ($6^2$) (not listed)
 
-## [[Sets]]
+## [Sets](Sets.md)
 
 
 ## Axioms of Probability

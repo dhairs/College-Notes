@@ -23,7 +23,7 @@ Garbage collection
 - The application interacts with the allocator, which is part of the language run time environment
 - At the back end, the allocator relies on certain OS services
 
-![[Memory Allocation Block Diagram.svg]]
+![Memory Allocation Block Diagram](Memory%20Allocation%20Block%20Diagram.svg)
 
 ### Allocator Efficiency
 
@@ -42,7 +42,7 @@ The memory is then broken up, aka **fragmented**, into variable-sized blocks of 
 - An allocated block is one that has been given to a mutator already, so it cannot be used again `free` is called
 - A free block is one that hasn't yet been allocated, it can be used by `malloc`.
 
-![[Fragmented_Memory_Embedded.png]]
+![Fragmented_Memory_Embedded](Fragmented_Memory_Embedded.png)
 
 (Source: https://dmitryfrank.com/articles/heap_on_embedded_devices)
 
@@ -94,7 +94,7 @@ The memory is stored as a 'linked list', but how does that work if we don't have
 
 ### Designing Memory Blocks
 
-![[Block Formats.svg]]
+![Block Formats](Block%20Formats.svg)
 
 ### Free list organization
 

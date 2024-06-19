@@ -6,4 +6,4 @@ $$p\vee\neg p\equiv T$$
 
 ## PDF of all Equivalences
 
-![[BasicEquivalences.pdf]] ^786766
+![BasicEquivalences](BasicEquivalences.pdf) ^786766

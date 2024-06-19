@@ -10,11 +10,11 @@ Examples:
 
 Similar to a heuristic (you know one thing, how can you predict the next).
 
-Looking into conditional probability is also important to understand the *[[Independence|independence]]* of events. It seems backwards, but if you know the probability of something happened based on something else, you can find if there is a correlation or probability increase.
+Looking into conditional probability is also important to understand the *[independence](Independence.md)* of events. It seems backwards, but if you know the probability of something happened based on something else, you can find if there is a correlation or probability increase.
 
 This causes us to ask these two questions:
 - Are two events actually related?
 - Does knowing one tell us nothing about the other?
 
 The distribution of conditional probability is given by:
-![[Probability Distributions#Conditional Probability Distributions]]
+![](Probability%20Distributions.md#Conditional%20Probability%20Distributions)

@@ -1,6 +1,6 @@
 ## Data Hazards
 
-Recall our [[Pipeline Hazards#Policy Stalling for Data Hazards|stalling policy]] for Data Hazards. This works as a general strategy, but it's not great for performance.
+Recall our [](Pipeline%20Hazards.md#Policy%20Stalling%20for%20Data%20Hazards|stalling%20policy) for Data Hazards. This works as a general strategy, but it's not great for performance.
 
 Why isn't it best for performance?
 - The **values** that are needed by the dependent instruction are often available in pipeline registers before they're placed in the locations from where they are retrieved

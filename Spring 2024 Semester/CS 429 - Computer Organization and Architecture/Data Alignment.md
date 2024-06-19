@@ -22,7 +22,7 @@ An object `x` of a **basic data type** is said to be aligned $\text{iff}$ `ADDR(
 
 So, for this reason, a `char` can be located at any byte address, a `short` has to be on an even byte address, `int`'s must be on multiples of 4, and etc.
 
-An object `x` of pointer type can be located at a byte address that is a multiple of [[Operations on Representations#Word Size|word size]] (8 on most machines)
+An object `x` of pointer type can be located at a byte address that is a multiple of [](Operations%20on%20Representations.md#Word%20Size|word%20size) (8 on most machines)
 
 An aggregate object `x` of a **derived data type** `T` is said to be aligned $\text{iff}$ 
 - **Sub object rule**: every sub-object of the type is recursively *aligned*

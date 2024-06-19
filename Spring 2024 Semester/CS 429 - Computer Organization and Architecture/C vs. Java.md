@@ -44,7 +44,7 @@ The `*argv[]` in C represents an array of pointers to characters, which are effe
 
 ## References
 **C**:
-- Makes [[Pointers|pointers]] explicit (denoted by `*` or `&`)
+- Makes [pointers](Pointers.md) explicit (denoted by `*` or `&`)
 
 **Java**:
 - Abstract object references automatically managed by the compiler/language
@@ -80,4 +80,4 @@ The `*argv[]` in C represents an array of pointers to characters, which are effe
 ## Compilation and Running
 In **Java**, you use the JVM, it makes it easy to run code on any machine. 
 
-In **C**, you'll be using the C [[Toolchain]]. Code must be compiled for each machine.
+In **C**, you'll be using the C [Toolchain](Toolchain.md). Code must be compiled for each machine.

@@ -6,7 +6,7 @@ unfinished notes on dependences
 
 ## Hazards
 
-**Implementation Hazards** (often "pipeline hazards" or "hazard") are *boolean-valued* functions of an [[Instruction Set Architectures|ISA]] implementation $L$ and an instruction sequence $S=[I_1,\ldots, I_n]$, with $I_1\to I_n$.
+**Implementation Hazards** (often "pipeline hazards" or "hazard") are *boolean-valued* functions of an [ISA](Instruction%20Set%20Architectures.md) implementation $L$ and an instruction sequence $S=[I_1,\ldots, I_n]$, with $I_1\to I_n$.
 
 - A hazard value of *True* (a hazard *is* present) indicates that implementation $L$ does not refine IaaT semantics for $S$, and that $S$ is a counterexample/witness to this fact
 - A hazard value of *False* (a hazard is *absent*) indicates that the implementation $L$ does refine IaaT semantics for $S$ 

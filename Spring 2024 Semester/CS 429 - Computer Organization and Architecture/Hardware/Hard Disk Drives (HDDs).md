@@ -2,7 +2,7 @@
 Disks are made up of circular surfaces called "platters." The surface of these platters contain a large number of concentric **tracks**, which are each divided up into **sectors** divided by gaps. A sector is the smallest unit of data that can be read from or written to a disk. A **cylinder** is a collection of tracks on multiple surfaces that are located at the same radius. There are two **read/write** heads **per platter**.
 
 Early HDDs needed the physical address of a sector to be specified in the cylinder-head-sector (CHS) scheme. To a modern operating system, the HDD is a collection of logical sectors. 
-- E.g., if we have a 300 [[Special Notation#Gigabyte (GB)|GB]] drive with sectors\[0:585,939,499\], each sector would be 512 B 
+- E.g., if we have a 300 [](Special%20Notation.md#Gigabyte%20(GB)|GB) drive with sectors\[0:585,939,499\], each sector would be 512 B 
 
 These use the Logical Block Address (LBA) scheme. 
 
@@ -39,7 +39,7 @@ $$
 {\small,}000\text{ B} = 30.72\times 10^9\text{ B}= 30.72\text{ GB}
 \end{align}
 $$
-Make **sure** you use [[Special Notation#Gigabyte (GB)|Gigabytes]], ***not*** [[Special Notation#Gibibyte (GiB)|Gibibytes]].
+Make **sure** you use [](Special%20Notation.md#Gigabyte%20(GB)|Gigabytes), ***not*** [](Special%20Notation.md#Gibibyte%20(GiB)|Gibibytes).
 
 ### Access Time
 

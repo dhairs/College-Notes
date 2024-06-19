@@ -8,13 +8,13 @@ The idea that we talk about 'digital circuits' must imply that there are other t
 	- Analog design deals with continuous waveforms where the *exact* waveforms are essential for amplification, filtering, sensing, etc
 
 - Digital pertains to discrete states for data
-	- Digital design deals with transistors and logic gates as fundamental building blocks where the information is represented in only two states: [[Bits and Bit Technologies#What is a Bit?|on and off]]
+	- Digital design deals with transistors and logic gates as fundamental building blocks where the information is represented in only two states: [](Bits%20and%20Bit%20Technologies.md#What%20is%20a%20Bit?|on%20and%20off)
 
 ### Boolean Algebra
 
 This is a branch of algebra where variables take only one of two values: True (1) or False (0). The same as a bit.
 
-We are therefore able to use operators like AND (.), OR (+), NOT (! or '), etc. You can find all of these in [[Logical operators]]. We can do expressions the same we do in discrete math.
+We are therefore able to use operators like AND (.), OR (+), NOT (! or '), etc. You can find all of these in [Logical operators](Logical%20operators.md). We can do expressions the same we do in discrete math.
 
 Boolean Expressions are combinations of variables using the above operators:
 - Ex: A.B + B.C + C'.D
@@ -45,7 +45,7 @@ Mathematically, a minterm is any product of $n$ literals where each of the $n$ v
 
 ### Universal Gates
 
-NAND and NOR are Universal gates, because given *any* boolean expression, you can convert them into an expression of all NANDs or all NORs, using [[Basic Equivalences|DeMorgan's Laws]].
+NAND and NOR are Universal gates, because given *any* boolean expression, you can convert them into an expression of all NANDs or all NORs, using [DeMorgan's Laws](Basic%20Equivalences.md).
 
 ## Combinational Logic and the Arithmetic Logic Unit
 
@@ -57,7 +57,7 @@ So far, we've talked about combinational logic gates, they are the building bloc
 
 ### Half and Full Adders
 
-Half Adders (HA) and Full Adders (FA) are good examples of combinational logic. Recall the idea of an [[Integer Arithmetic#$n$-bit Adder|n-bit adder]].
+Half Adders (HA) and Full Adders (FA) are good examples of combinational logic. Recall the idea of an [](Integer%20Arithmetic.md#$n$-bit%20Adder|n-bit%20adder).
 
 HA's sum is = a'.b +a.b
 

@@ -5,6 +5,6 @@
   "obsidian-latex-environments",
   "obsidian-latex-suite",
   "obsidian-pandoc",
-  "obsidian-minimal-settings",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-link-converter"
 ]
