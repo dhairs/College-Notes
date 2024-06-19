@@ -1,3 +1,14 @@
+---
+tags:
+  - computer-architecture
+  - cs429
+  - spring-2024
+aliases:
+  - Bit Technologies
+  - Bits
+  - Binary Representations
+---
+
 # Bits and Bit Technologies
 
 ## What is a Bit?

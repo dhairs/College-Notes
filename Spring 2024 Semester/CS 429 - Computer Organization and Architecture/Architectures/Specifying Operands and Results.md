@@ -11,7 +11,7 @@ Recall how we define [[Instruction Set Architectures]].
 4. Access memory _if needed_
    - Either a load or a store
 5. Write ==results== back to registers _if needed_
-6. Update [[AArch64 (ARM]]%20State%20and%20Programming%20Model#^6298e8|Program%20Counter) (PC) and [[A Single Cycle implementation of chARM-v2#Architectural Status|Architectural Status]].
+6. Update [[AArch64 (ARM) State and Programming Model#^6298e8|(PC)]] and [[A Single Cycle implementation of chARM-v2#Architectural Status|Architectural Status]].
 
 ## Sources and Destinations
 
