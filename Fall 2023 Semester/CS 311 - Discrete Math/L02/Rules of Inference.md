@@ -1,1 +1,1 @@
-![RulesOfInference](RulesOfInference.pdf)
+![[RulesOfInference.pdf]]

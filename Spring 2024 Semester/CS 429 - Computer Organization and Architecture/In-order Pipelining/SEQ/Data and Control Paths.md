@@ -1,6 +1,6 @@
 ## Assembling the Data Path (F, D)
 
-![Data Path Block Diagrams](Data%20Path%20Block%20Diagrams.svg)
+![[Data Path Block Diagrams.svg]]
 
 ## Control Signals for D and X
 

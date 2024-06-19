@@ -1,4 +1,4 @@
-![Excalidraw Test](Excalidraw%20Test.md)
+![[Excalidraw Test.md]]
 
 ```mermaid
   graph TD;

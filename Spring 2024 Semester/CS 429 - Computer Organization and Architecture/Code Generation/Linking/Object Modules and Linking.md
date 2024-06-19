@@ -1,7 +1,7 @@
 ## Representing Programs
 
 Remember the compilation process:
-![GCC Compilation Process](GCC%20Compilation%20Process.svg)
+![[GCC Compilation Process.svg]]
 
 The LD stands for the Linkage eDitor, and outputs executable
 
@@ -9,7 +9,7 @@ The LD stands for the Linkage eDitor, and outputs executable
 
 An object file is a *self-describing* block of bytes
 
-This is similar to storing the tree in the header of a Huffman encoded file, or the metadata for a [malloc](Dynamic%20Memory%20Management.md) memory block.
+This is similar to storing the tree in the header of a Huffman encoded file, or the metadata for a [[Dynamic Memory Management.md|malloc]] memory block.
 
 There are three types:
 - **Relocatable**: Binary code and data, suitable for combining (e.g. `p1.o` and `p2.o`)
@@ -28,7 +28,7 @@ Different formats on different systems:
 
 Fat binary: Multiple formats combined into one, which allows the binary to run on multiple systems
 
-![Object File Format](Object%20File%20Format.png)
+![[Object File Format.png]]
 
 ### ELF Format
 
@@ -83,15 +83,15 @@ int sum(int *a, int n) {
 
 ##### Output of Object Files:
 
-![Main.c Object Linking Output](Main.c%20Object%20Linking%20Output.png)
+![[Main.c Object Linking Output.png]]
 
-![Sum.c Object Linking Output](Sum.c%20Object%20Linking%20Output.png)
+![[Sum.c Object Linking Output.png]]
 
 ##### Output of the Executable
 
-![Linking Example Output Executable](Linking%20Example%20Output%20Executable.png)
+![[Linking Example Output Executable.png]]
 
-![Linking Example Output 2](Linking%20Example%20Output%202.png)
+![[Linking Example Output 2.png]]
 
 ##### What would happen with different function signatures?
 

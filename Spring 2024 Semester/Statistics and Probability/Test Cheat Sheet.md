@@ -1,12 +1,12 @@
 **Baye's theorem**
-![](Baye's%20Theorem.md#^750841)
+![[Baye's Theorem.md#^750841]]
 
-![](Permutations%20and%20Combinations.md#Permutations)
+![[Permutations and Combinations.md#Permutations]]
 
-![](Permutations%20and%20Combinations.md#Combinations)
+![[Permutations and Combinations.md#Combinations]]
 Independence Checking
-![](Independence.md#Method%201)
-![](Independence.md#Method%202)
-![](Partitions%20and%20Multinomial%20Coefficients.md#Distinguishable%20Objects%20and%20Distinguishable%20Boxes)
-![](Partitions%20and%20Multinomial%20Coefficients.md#Indistinguishable%20Objects%20and%20Distinguishable%20Boxes)
-![](Overview,%20Definitions,%20and%20Axioms%20of%20Probability.md#Probability%20Laws)
+![[Independence.md#Method 1]]
+![[Independence.md#Method 2]]
+![[Partitions and Multinomial Coefficients.md#Distinguishable Objects and Distinguishable Boxes]]
+![[Partitions and Multinomial Coefficients.md#Indistinguishable Objects and Distinguishable Boxes]]
+![[Overview, Definitions, and Axioms of Probability.md#Probability Laws]]

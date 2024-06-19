@@ -8,7 +8,7 @@ Often used as a convenient way to describe the joint probabilities of events.
 
 Recall:
 
-![](Probability%20Distributions.md#Ex%20Product%20returns)
+![[Probability Distributions.md#Ex Product returns]]
 
 All that data can be cleanly shown in a table:
 

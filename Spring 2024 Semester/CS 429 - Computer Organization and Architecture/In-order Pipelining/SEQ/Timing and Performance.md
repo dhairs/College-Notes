@@ -20,4 +20,4 @@ We can do better than this is (how?)
 
 Though it feels counterintuitive, we need to have a way to increase throughput. Right now, when an instruction moves through the stages of processing, we have the issue of previous stages being idle. Essentially, we're wasting time.
 
-Enter [pipelining](Intro%20to%20Pipelining.md).
+Enter [[Intro to Pipelining.md|pipelining]].

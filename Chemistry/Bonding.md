@@ -4,7 +4,7 @@ You don’t need to know the text with a ~~strikethrough~~ for the test (it’s 
 
 **YouTube and Helpful links will be next to important concepts/topics, don’t hesitate to watch some videos to clear up misconceptions or confusion.**
 
-**Scroll [down](#heading=h.4kptym359fgq) for <span style="text-decoration:underline;">practice problems</span> - answers [here](#heading=h.203zdthmxqyf)**
+**Scroll [[#heading=h.4kptym359fgq|down]] for <span style="text-decoration:underline;">practice problems</span> - answers [[#heading=h.203zdthmxqyf|here]]**
 
 
 ## General Bonding (Chapter 8)
@@ -235,7 +235,7 @@ Note: lone pairs usually take more room than bonded pairs, but we don't need to 
 
 
 
-![alt_text](images/image2.jpg "image_tooltip")
+![[images/image2.jpg "image_tooltip"|alt_text]]
 
 
 
@@ -493,7 +493,7 @@ Form from <strong>unhybridized</strong> orbitals - overlap <strong>side to side<
 
 ## Practice Problems
 
-[Click here for answers](#heading=h.203zdthmxqyf)
+[[#heading=h.203zdthmxqyf|Click here for answers]]
 
 
 
@@ -521,21 +521,21 @@ Form from <strong>unhybridized</strong> orbitals - overlap <strong>side to side<
 
 
 1.  Determine which of the following bonds is more polar using only Periodic Trends: 
-    1. **Mg-O **is more polar; we know that** [electronegativity](#heading=h.n66n64syatgk) increases** as we **go [across a period](#heading=h.xc00pkoyq0xv)** (row) and **[decreases down a group](#heading=h.j0m2glpg713)** (column). Since **O** is in both bonds, we can ignore it’s electronegativity and look at the others. **Be** is higher than **Mg** in the same group, so it must have a higher electronegativity, this means the electronegativities of **O** and **Be** are more similar than that of **Mg **and **O**, so the electrons spend less time with a specific atom in **Be-O** than they do in **Mg-O. **When asked for which is more polar, essentially you’re looking for the compound in which the electron spends more time with a certain atom.
+    1. **Mg-O **is more polar; we know that** [[#heading=h.n66n64syatgk|electronegativity]] increases** as we **go [[#heading=h.xc00pkoyq0xv|across a period]]** (row) and **[[#heading=h.j0m2glpg713|decreases down a group]]** (column). Since **O** is in both bonds, we can ignore it’s electronegativity and look at the others. **Be** is higher than **Mg** in the same group, so it must have a higher electronegativity, this means the electronegativities of **O** and **Be** are more similar than that of **Mg **and **O**, so the electrons spend less time with a specific atom in **Be-O** than they do in **Mg-O. **When asked for which is more polar, essentially you’re looking for the compound in which the electron spends more time with a certain atom.
     2. **K-Cl**, they’re on different periods + further apart in terms of columns.
     3. **Sr-S**, they’re further apart.
     4. Hard to tell; not really discernable with periodic trends without knowing actual #’s
-2. Draw the Lewis Structures (and any Resonance structures) for the following molecules (understand this by clicking [here](#heading=h.evc0qceucr19)):
+2. Draw the Lewis Structures (and any Resonance structures) for the following molecules (understand this by clicking [[#heading=h.evc0qceucr19|here]]):
     5. 
-![alt_text](images/image3.png "image_tooltip")
+![[images/image3.png "image_tooltip"|alt_text]]
 
     6. 
-![alt_text](images/image4.png "image_tooltip")
+![[images/image4.png "image_tooltip"|alt_text]]
 
     7. 
-![alt_text](images/image5.png "image_tooltip")
+![[images/image5.png "image_tooltip"|alt_text]]
 
-3. List the Electron Geometry, Molecular Geometry, and Angles for each of the following (understand this by [VSEPR Model](#heading=h.8su39qslojwi)):
+3. List the Electron Geometry, Molecular Geometry, and Angles for each of the following (understand this by [[#heading=h.8su39qslojwi|VSEPR Model]]):
     8. Linear, Linear, 180°
     9. Tetrahedral, Bent, 109.5°
     10. Octahedral, Octahedral, 90° & 180°

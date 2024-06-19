@@ -5,7 +5,7 @@ A direct proof of a conditional statement $p\to q$ is constructed by
 - Assume $p$ is true
 - Use rules of inferences, axioms, and logical (basic) equivalences to show that $q$ must follow
 
-_Note: In some cases, you may want to use [direct proof by contraposition](Direct%20Proof%20by%20Contraposition.md)_
+_Note: In some cases, you may want to use [[Direct Proof by Contraposition.md|direct proof by contraposition]]_
 
 ## Example 1: Give a direct proof of the theorem "If $n$ is an odd integer, then $n^2$ is odd."
 
@@ -46,7 +46,7 @@ Since $k$ is an integer, $r=2k^2+2k$ is also an integer. $\therefore n^2$ can be
 ## Example 2: Give a direct proof of the theorem "The sum of two real rational numbers is rational"
 
 Remember the definition of a rational number:
-![](Definitions.md#Rational%20Number)
+![[Definitions.md#Rational Number]]
 
 ### Proof:
 

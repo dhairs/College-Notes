@@ -29,4 +29,4 @@ One **Byte (B)** is defined as an aggregation of **8 bits**.
 
 ## Nibble
 
-One **Nibble** is defined as an aggregation of **4 bits**, or $\frac{1}{2}$ of a [](Bits%20and%20Bit%20Technologies.md#Byte|Byte).
+One **Nibble** is defined as an aggregation of **4 bits**, or $\frac{1}{2}$ of a [[Bits and Bit Technologies.md#Byte|Byte]].

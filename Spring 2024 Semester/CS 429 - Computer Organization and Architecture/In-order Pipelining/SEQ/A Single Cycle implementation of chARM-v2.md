@@ -1,4 +1,4 @@
-![](Specifying%20Operands%20and%20Results.md#Instruction%20Processing)
+![[Specifying Operands and Results.md#Instruction Processing]]
 
 ## Architectural Status
 
@@ -23,7 +23,7 @@ There will be an additional micro architectural status when getting to the pipel
 
 ## Building Blocks
 
-### [](AArch64%20(ARM)%20State%20and%20Programming%20Model.md#^6298e8|Program%20Counter)
+### [[AArch64 (ARM]]%20State%20and%20Programming%20Model.md#^6298e8|Program%20Counter)
 
 - This is a 64-bit **clocked-register** (edge-triggered D flip-flop) with input side labeled `next_PC[63:0]` and output side labeled `current_PC[63:0]`
 - It drives all the combinational logic downstream from it to perform the actions needed to execute an instruction
@@ -33,7 +33,7 @@ There will be an additional micro architectural status when getting to the pipel
 	- `ret_addr = val_a` (For RET, value of register X30)
 
 How do we choose?
- ![Program Counter Block Diagram](Program%20Counter%20Block%20Diagram.svg)
+ ![[Program Counter Block Diagram.svg]]
 
 ### Instruction Memory
 
@@ -49,7 +49,7 @@ Instruction memory (can only be ***read*** by EL0 code)
 - A general purpose register is a collection of 64 such bits sharing a common clock, each storing 1 bit of the 64 bit data.
 - Because data can be concurrently read and written to, we maintain a clock to store these values during execution and to stop race conditions.
 
-![500](Register%20File%20Block%20Diagram.svg)
+![[Register File Block Diagram.svg|500]]
 
 ### ALU (Arithmetic Logic Unit)
 

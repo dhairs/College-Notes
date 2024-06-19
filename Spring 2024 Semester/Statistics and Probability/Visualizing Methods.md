@@ -1,6 +1,6 @@
 ## Bar Charts for Categorical Variables
 
-Recall the definition of [](Variables.md#Categorical%20Variables|Categorical%20Variables).
+Recall the definition of [[Variables.md#Categorical Variables|Categorical Variables]].
 
 Consider a categorical variable $x$, with sample $\{x_1,x_2,\ldots,x_3\}$, where there are a total of C possible categories for $x$. Assume that the categories are disjoint and exhaustive.
 
@@ -20,7 +20,7 @@ Note: **The sum of sample proportions is always 1**.
 
 ## Histograms for Discrete and Continuous Variables
 
-Recall the definitions for [](Variables.md#Discrete%20Variable|Discrete%20Variables) and [](Variables.md#Continuous%20Variable|Continuous%20Variables).
+Recall the definitions for [[Variables.md#Discrete Variable|Discrete Variables]] and [[Variables.md#Continuous Variable|Continuous Variables]].
 
 With histograms, we can visualize the sample distribution of variables.
 

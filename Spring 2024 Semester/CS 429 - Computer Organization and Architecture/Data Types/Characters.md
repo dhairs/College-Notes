@@ -21,11 +21,11 @@ Important codes:
 
 ### Codebook
 
-![ASCII_Codebook_Table](ASCII_Codebook_Table.png)
+![[ASCII_Codebook_Table.png]]
 
 ## Operations on Characters
 
-Characters are literally just [integer types](Manipulating%20Integer%20Representations.md), so you can perform arithmetic operations on them.
+Characters are literally just [[Manipulating Integer Representations.md|integer types]], so you can perform arithmetic operations on them.
 
 ### Example: `atoi()`
 
@@ -46,4 +46,4 @@ int atoi(const char[s]) { // const tells us the parameter array cannot change
 
 ## Other representations
 
-There are other representations for characters as well, namely [Unicode](Unicode.md).
+There are other representations for characters as well, namely [[Unicode.md]].

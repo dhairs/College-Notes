@@ -1,6 +1,6 @@
 ## Instruction Processing
 
-Recall how we define [Instruction Set Architectures](Instruction%20Set%20Architectures.md).
+Recall how we define [[Instruction Set Architectures.md]].
 
 1. Fetch 32-bit instruction word (IW) from memory location pointed to by program counter (PC)
 2. Decode the instruction word
@@ -11,7 +11,7 @@ Recall how we define [Instruction Set Architectures](Instruction%20Set%20Archite
 4. Access memory *if needed*
 	- Either a load or a store
 5. Write ==results== back to registers *if needed*
-6. Update [](AArch64%20(ARM)%20State%20and%20Programming%20Model.md#^6298e8|Program%20Counter) (PC) and [](A%20Single%20Cycle%20implementation%20of%20chARM-v2.md#Architectural%20Status|Architectural%20Status).
+6. Update [[AArch64 (ARM]]%20State%20and%20Programming%20Model.md#^6298e8|Program%20Counter) (PC) and [[A Single Cycle implementation of chARM-v2.md#Architectural Status|Architectural Status]].
 
 ## Sources and Destinations
 
@@ -54,7 +54,7 @@ Assembly language syntax:
 ### Memory Operands
 
 This specification is used for operands that are the contents of one or more memory locations. Only relevant for load/store instructions.
-- How wide? Encoded by the [](Instruction%20Set%20Architectures.md#^394cf4|opcode) (`LDUR{[B|H|SB|SH|SW]}`). Call this width $b$ in bytes.
+- How wide? Encoded by the [[Instruction Set Architectures.md#^394cf4|opcode]] (`LDUR{[B|H|SB|SH|SW]}`). Call this width $b$ in bytes.
 	- `H` is half the word size
 - From which memory location? There's too many choices, and we might want different locations from the same code. **So**, we use a formulaic way of determining the location.
 
@@ -62,7 +62,7 @@ The formulaic way of determining the location of memory is given by the formula,
 
 This formula is evaluated in the **Execute Step** of instruction processing to provide a value called the **effective address** (EA). We call this value $a$.
 
-The effective address is used to read from/write to $\text{BOX}(a, a+b-1)$ ([](Objects%20and%20Names.md#^b3b72c|BOX%20Definition)) in the **Memory Stage** of instruction processing.
+The effective address is used to read from/write to $\text{BOX}(a, a+b-1)$ ([[Objects and Names.md#^b3b72c|BOX Definition]]) in the **Memory Stage** of instruction processing.
 
 ### Examples of Instructions
 

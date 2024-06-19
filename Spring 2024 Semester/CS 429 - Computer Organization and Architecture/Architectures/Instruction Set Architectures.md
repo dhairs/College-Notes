@@ -1,13 +1,13 @@
 
 ## The Compilation Process
 
-Remember our [Toolchain](Toolchain.md), we use `gcc` and `gdb`, and some other tools. 
+Remember our [[Toolchain.md]], we use `gcc` and `gdb`, and some other tools. 
 
 When we have something like `gcc -g -o p p1.c p2.c`
 
 This is really what happens:
 
-![GCC Compilation Process](GCC%20Compilation%20Process.svg)
+![[GCC Compilation Process.svg]]
 
 
 ## The Instruction Set Architecture (ISA)
@@ -34,7 +34,7 @@ Interface 1: High level library calls
 
 Application Programming Interface (API): interfaces 1 and 4
 
-![ISA Architecture](ISA%20Architecture.png)
+![[ISA Architecture.png]]
 
 ## Machine and Assembly Languages
 
@@ -82,7 +82,7 @@ As described by von Neumann, the architecture has:
 - **External mass storage**
 - **Input output mechanisms**
 
-![von Neumann Architecture](von%20Neumann%20Architecture.svg)
+![[von Neumann Architecture.svg]]
 
 ### Limitations
 

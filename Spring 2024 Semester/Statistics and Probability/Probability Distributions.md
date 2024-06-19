@@ -21,7 +21,7 @@ The *joint probability* of two events $A$ and $B$ is the probability that both e
 
 ## Conditional Probability Distributions
 
-The *[conditional probability](Conditional%20Probability.md)* $P(A|B)$, which is the probability of event $A$ given that event $B$ has occurred, is given by:
+The *[[Conditional Probability.md|conditional probability]]* $P(A|B)$, which is the probability of event $A$ given that event $B$ has occurred, is given by:
 
 $$P(A|B)=\frac{P(A\cap B)}{P(B)}\; \text{if}\; P(B)>0$$
 
@@ -40,9 +40,9 @@ $$P(B|A)=\frac{P(A\cap B)}{P(B)}=\frac{\frac{1}{3}}{\frac{2}{3}}=\frac{1}{2}$$
 
 ## Bernoulli Distribution
 
-A distribution based on the idea of [](Variables.md#Binary%20Variables%20(Bernoulli%20Variables)|Binary/Bernoulli%20Variables). Literally is a way of mapping the two categorical values to a function/number.
+A distribution based on the idea of [[Variables.md#Binary Variables (Bernoulli Variables]]|Binary/Bernoulli%20Variables). Literally is a way of mapping the two categorical values to a function/number.
 
-Look at [](Variables.md#Coding%20categorical%20variables%20(indicator%20variables)|Coding%20categorical%20variables).
+Look at [[Variables.md#Coding categorical variables (indicator variables]]|Coding%20categorical%20variables).
 
 ## Multiplication Rule
 

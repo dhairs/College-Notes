@@ -29,7 +29,7 @@ u=
 \end{bmatrix}
 $$
 
-Because we have a theta, we will also be using a [rotation matrix](Rotation%20Matrices.md) to globalize the vehicles positioning.
+Because we have a theta, we will also be using a [[Rotation Matrices.md|rotation matrix]] to globalize the vehicles positioning.
 
 And all the **perfect estimate equations** are:
 

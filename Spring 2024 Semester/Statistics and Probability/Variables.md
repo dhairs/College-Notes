@@ -4,7 +4,7 @@ A variable is a *measurable* characteristic of a given unit/observation.
 
 ## What is a Random Variable
 
-A random variable is a variable defined in the context of a random [](Overview,%20Definitions,%20and%20Axioms%20of%20Probability.md#What%20is%20an%20Experiment%20and%20Event|experiment).
+A random variable is a variable defined in the context of a random [[Overview, Definitions, and Axioms of Probability.md#What is an Experiment and Event|experiment]].
 
 ## Numerical Variable
 
@@ -20,7 +20,7 @@ Literally anything quantifiable.
 Three types of Numerical Variable:
 ### Discrete Variable
 
-A variable where the number of possible values can be counted, even if the number of possible values is infinite. Think of [countability](Countable%20Sets.md). Basically things like integers, those are good and discrete.
+A variable where the number of possible values can be counted, even if the number of possible values is infinite. Think of [[Countable Sets.md|countability]]. Basically things like integers, those are good and discrete.
 
 **Examples**:
 - Number of children in a house hold
@@ -191,14 +191,14 @@ Note that we ended needing only 2 of these variables, because the rest is still 
 
 ## Continuous Random Variables
 
-A **continuous random variable** is a random variable that can take on any value on some interval, or intervals, of the real line, including perhaps the entire real line. The probability of any specific outcome $x^*$ occurring is equal to zero. We say that a continuous random variable has an [](Countable%20Sets.md#^4372ed|uncountable) set of possible outcomes.
+A **continuous random variable** is a random variable that can take on any value on some interval, or intervals, of the real line, including perhaps the entire real line. The probability of any specific outcome $x^*$ occurring is equal to zero. We say that a continuous random variable has an [[Countable Sets.md#^4372ed|uncountable]] set of possible outcomes.
 
 We think of probabilities in terms of intervals instead of in terms of specific values.
 
 
 ### Probability Density Function (PDF) and Cumulative Distribution Function (CDF) of Continuous Random Variables
 
-The [](Functions.md#Cumulative%20Distribution%20Function%20(CDF)|Probability%20Density%20Function%20(PDF)) of a continuous random variable $X$ is a function $f_X(\cdot)$ such that for any two numbers $a$ and $b$ with $a\leq b$:
+The [[Functions.md#Cumulative Distribution Function (CDF]]|Probability%20Density%20Function%20(PDF)) of a continuous random variable $X$ is a function $f_X(\cdot)$ such that for any two numbers $a$ and $b$ with $a\leq b$:
 
 $$P(a\leq X\leq b)=\int_a^b f_X(x)dx$$
 Properties of the pdf $f_X(\cdot)$:

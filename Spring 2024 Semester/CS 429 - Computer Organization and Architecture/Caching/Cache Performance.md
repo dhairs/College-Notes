@@ -49,12 +49,12 @@ Let $t_{h}$ be the hit time and let $t_m$ be the additionally miss penalty (both
 - e.g., if $m=0.1$, AMAT $=1+0.1\times 100=11$ cycles
 
 ### Memory Effects Dominate Performance
-Compare the magnitudes of the numbers in the memory performance equation with the corresponding magnitudes in the [](The%20Pipe%20Implementation.md#Pipeline%20Performance|Pipeline%20Performance%20Equation).
+Compare the magnitudes of the numbers in the memory performance equation with the corresponding magnitudes in the [[The Pipe Implementation.md#Pipeline Performance|Pipeline Performance Equation]].
 
-The AMAT term would totally swamp out the *[](The%20Pipe%20Implementation.md#^07c485|load-use-penalty%20(lp))*, *[](The%20Pipe%20Implementation.md#^e4a29f|misprediction%20penalty%20(mp))*, and *[](The%20Pipe%20Implementation.md#^ced3cf|return%20penalty%20(rp))* terms. 
+The AMAT term would totally swamp out the *[[The Pipe Implementation.md#^07c485|load-use-penalty (lp]])*, *[[The Pipe Implementation.md#^e4a29f|misprediction penalty (mp]])*, and *[[The Pipe Implementation.md#^ced3cf|return penalty (rp]])* terms. 
 
 Furthermore, this is an average. An individual memory access takes between 1 to 101 cycles.
 
 Dealing with this in hardware involves a complete rethinking of the processor implementation (Advanced Computer Architecture)
 
-There are good programming practices to reduce the miss rate $m$, we talk about this in [Writing Cache-Friendly Code](Writing%20Cache-Friendly%20Code.md).
+There are good programming practices to reduce the miss rate $m$, we talk about this in [[Writing Cache-Friendly Code.md]].

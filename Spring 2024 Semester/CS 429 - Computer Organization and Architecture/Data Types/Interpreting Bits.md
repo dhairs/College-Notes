@@ -1,7 +1,7 @@
 # Interpreting Bits
 
 Recall the idea of Bits:
-![](Bits%20and%20Bit%20Technologies.md#What%20is%20a%20Bit?)
+![[Bits and Bit Technologies.md#What is a Bit?]]
 
 ## Representations of Bits
 
@@ -41,7 +41,7 @@ The cartesian product of $\text{Bit}$ with itself creates *bit tuples*:
 
 Most codes we come across aren't formulaic or algorithmic, which won't work for a computer system.
 
-We want to be able to represent our codes in a [value set](Value%20Sets.md).
+We want to be able to represent our codes in a [[Value Sets.md|value set]].
 
 Thats why we move to weighted codes.
 
@@ -142,4 +142,4 @@ Given an integer $a$ and non-zero integer $d$:
 
 ### Special Bit Operations
 
-Because we express bits as $2^i$ in binary, we can do special operations with them. Often called bitwise operations. There are many [Operations on Representations](Operations%20on%20Representations.md) to look over.
+Because we express bits as $2^i$ in binary, we can do special operations with them. Often called bitwise operations. There are many [[Operations on Representations.md]] to look over.

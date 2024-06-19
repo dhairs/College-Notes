@@ -1,6 +1,6 @@
 **Atomic Proposition**: propositions that cannot be expressed in terms of smaller propositions (literally like atoms)
 
-**Compound Propositions**: The opposite of atomic propositions, they are formed from existing propositions _using_ [logical operators](Logical%20operators.md). ^4bae64
+**Compound Propositions**: The opposite of atomic propositions, they are formed from existing propositions _using_ [[Logical operators.md|logical operators]]. ^4bae64
 
 **Tautology**: When a compound proposition returns all trues regardless of the variables ^502eb0
 

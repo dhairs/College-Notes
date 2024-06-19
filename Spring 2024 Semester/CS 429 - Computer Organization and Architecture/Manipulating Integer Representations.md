@@ -96,7 +96,7 @@ int NLZ(unsigned x) {
 
 ## Structured Permutations
 
-Moving all the bits in a structured manner (a [](Permutations%20and%20Combinations.md#Permutations|permutation)) (reversal, perfect shuffle, etc.) can be accomplished using a logarithmic number of steps.
+Moving all the bits in a structured manner (a [[Permutations and Combinations.md#Permutations|permutation]]) (reversal, perfect shuffle, etc.) can be accomplished using a logarithmic number of steps.
 
 Used recursive doubling principles.
 

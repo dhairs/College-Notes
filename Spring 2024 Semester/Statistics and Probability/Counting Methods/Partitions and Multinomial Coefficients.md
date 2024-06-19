@@ -48,7 +48,7 @@ $$
 \Bigl({{n-1}\atop{k-1}}  \Bigl)
 $$
 
-This is just regular [](Permutations%20and%20Combinations.md#Combinations|combinations).
+This is just regular [[Permutations and Combinations.md#Combinations|combinations]].
 #### Not every box gets an object
 Suppose we want to distribute $n$ indistinguishable objects into $k$ boxes so that every box *may or may not get an object*
 

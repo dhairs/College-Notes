@@ -1,6 +1,6 @@
 # Procedure Calls
 
-Recall how code is generated for very simple constructs in code: [Introduction to Code Generation](Introduction%20to%20Code%20Generation.md).
+Recall how code is generated for very simple constructs in code: [[Introduction to Code Generation.md]].
 
 We need to understand how procedures are called in the underlying system, and how we can encode them in assembly.
 
@@ -22,7 +22,7 @@ There are three mechanisms that are in effect together when we want `P` calls `Q
 
 ### Example Stack Call Control Flow
 
-![Procedure Control Flow Example](Procedure%20Control%20Flow%20Example.svg)
+![[Procedure Control Flow Example.svg]]
 
 ### Takeaways
 
@@ -103,5 +103,5 @@ A procedure linkage is a contract between the compiler, the operating system, an
 
 Standard procedure linkage requires four pieces of glue code.
 
-![Procedure Linkage](Procedure%20Linkage.svg)
+![[Procedure Linkage.svg]]
 

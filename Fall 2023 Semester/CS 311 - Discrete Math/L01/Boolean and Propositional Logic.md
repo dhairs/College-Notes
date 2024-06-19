@@ -2,4 +2,4 @@
 
 **Variables to represent propositions**: p, q, etc. ^20fbeb
 
-**[Operators](Logical%20operators.md)**: & operands (and): we need to be able to connect/combine things to make more complex and detailed propositions
+**[[Logical operators.md|Operators]]**: & operands (and): we need to be able to connect/combine things to make more complex and detailed propositions

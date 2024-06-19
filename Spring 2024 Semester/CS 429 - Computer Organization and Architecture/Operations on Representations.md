@@ -1,12 +1,12 @@
 # Operations on Bit Representations
 
-Recall how we represent data in digital systems: by using [Bits and Bit Technologies](Bits%20and%20Bit%20Technologies.md).
+Recall how we represent data in digital systems: by using [[Bits and Bit Technologies.md]].
 
 ## Boolean Algebra
 
-We will work over the set of Bits: ![](Interpreting%20Bits.md#^efb035)
+We will work over the set of Bits: ![[Interpreting Bits.md#^efb035]]
 
-We write the possible outcomes as [truth tables](Truth%20Tables.md)
+We write the possible outcomes as [[Truth Tables.md|truth tables]]
 
 | Not (output) | Input |
 | ---- | ---- |
@@ -37,7 +37,7 @@ In `C`, we can write `a&b`, `a|b`, `a^b`, `~a` to perform these operations indep
 ### Ex: Given `a = 0x4a0b`, `b = 0xc3d5`
 
 Performing `c = a & b`
-	1. [](Interpreting%20Bits.md#An%20approach%20to%20converting%20bases|Convert) `a` and `b` into binary from Hexadecimal:
+	1. [[Interpreting Bits.md#An approach to converting bases|Convert]] `a` and `b` into binary from Hexadecimal:
 		1. `a = 0100 1010 0000 1011`
 		2. `b = 1100 0011 1101 0101`
 	2. Now, perform the and operation, we get `c = 0100 0010 0000 0001`
@@ -58,7 +58,7 @@ Given a $w$-bit vector $x=[x_{w-1}, \ldots, x_0]$ and an amount $k$ (with $0<k<w
 
 ### Ex: Given `a = 0x4a0b`, `c = 0xc3d5`
 
-Remember by [](Interpreting%20Bits.md#An%20approach%20to%20converting%20bases|converting),`a = 0100 1010 0000 1011`, `c (unsigned) = 1100 0011 1101 0101`
+Remember by [[Interpreting Bits.md#An approach to converting bases|converting]],`a = 0100 1010 0000 1011`, `c (unsigned) = 1100 0011 1101 0101`
 
 1. `b = a << 3` 
 	1. Take the `a` binary representation, and shift each bit in it to the left by 3, replacing the new voids on the right with `0`'s.
@@ -80,7 +80,7 @@ In most cases, that ends up being the arithmetic shift.
 How many bits it takes to hold a pointer, or *address*.
 
 Memory will be abstracted as an array of $2^W$ cells, indexed from $0$ through $2^W-1$.
-- Each cell holds one [](Bits%20and%20Bit%20Technologies.md#Byte|byte) of data, each with an address.
+- Each cell holds one [[Bits and Bit Technologies.md#Byte|byte]] of data, each with an address.
 - Memory accesses are in units of these cells (an integral number of bytes)
 	- This is called "byte-addressed memory"
 - The number $W$ is called the **word size** of the machine
@@ -111,4 +111,4 @@ In AArch64, instructions are always stored in little-endian order.
 
 ## Integers
 
-For integers, we can do [integer arithmetic](Integer%20Arithmetic.md).
+For integers, we can do [[Integer Arithmetic.md|integer arithmetic]].

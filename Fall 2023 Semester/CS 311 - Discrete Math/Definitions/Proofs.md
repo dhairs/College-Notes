@@ -16,8 +16,8 @@ In Math and CS, we mostly use **informal proofs**.
 - We must _begin_ with the truth
 - We must start with premises that are true.
 - To prove a mathematical statement, we will need the following tools
-  - [Definitions](Definitions.md)
-  - [Theorem](Theorems.md) - A statement that can be shown to be true
+  - [[Definitions.md]]
+  - [[Theorems.md|Theorem]] - A statement that can be shown to be true
   - axioms - Statements we assume to be true
   - lemma - A helping theorem or result which is needed to prove a theorem
   - proof - A valid argument that establishes the truth of a theorem
@@ -26,12 +26,12 @@ In Math and CS, we mostly use **informal proofs**.
 
 ## Types of Proofs
 
-- [Exhaustive Proof](Exhaustive%20Proof.md)
-- [Direct Proof](Direct%20Proof.md)
-- [Direct Proof by Contraposition](Direct%20Proof%20by%20Contraposition.md)
-- [Proof by Contradiction](Proof%20by%20Contradiction.md)
-- [Uniqueness Proof](Uniqueness%20Proof.md)
-- [Vacuous Proof](Vacuous%20Proof.md)
-- [Proof by Cases](Proof%20by%20Cases.md)
-- [Trivial Proof](Trivial%20Proof.md)
-- [Existence Proof](Existence%20Proof.md)
+- [[Exhaustive Proof.md]]
+- [[Direct Proof.md]]
+- [[Direct Proof by Contraposition.md]]
+- [[Proof by Contradiction.md]]
+- [[Uniqueness Proof.md]]
+- [[Vacuous Proof.md]]
+- [[Proof by Cases.md]]
+- [[Trivial Proof.md]]
+- [[Existence Proof.md]]

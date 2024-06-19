@@ -7,7 +7,7 @@ The programmer visible part should **seem** like the implementation is sequentia
 ## ARM Architecture Characteristics
 
 - A large uniform register file
-	- Remember we talk about [](Instruction%20Set%20Architectures.md#The%20von%20Neumann%20Architecture|von%20Neumann%20Architectures) having small, quickly accessible registers on the processor to hold instructions and memory.
+	- Remember we talk about [[Instruction Set Architectures.md#The von Neumann Architecture|von Neumann Architectures]] having small, quickly accessible registers on the processor to hold instructions and memory.
 - A load/store architecture
 	- Data processing operations only operate on register contents, not directly on memory contents
 	- Loading is getting it into the register, then the value is edited, and then it is stored back into memory
@@ -16,7 +16,7 @@ The programmer visible part should **seem** like the implementation is sequentia
 
 ## Exception Levels (EL)
 
-These are similar to the privilege levels we talk about in [Instruction Set Architectures](Instruction%20Set%20Architectures.md).
+These are similar to the privilege levels we talk about in [[Instruction Set Architectures.md]].
 
 ARM defines **four exception levels**: EL0, EL1, EL2, and EL3.
 - EL3 is the highest exception level, EL0 is the lowest
@@ -29,9 +29,9 @@ Any implementation of the architecture must include at **least** EL0 and EL1, EL
 
 ### Execution States
 
-**AArch64**: [](Operations%20on%20Representations.md#Word%20Size|Word%20Size) of 64. Addresses held in 64 bit registers. Supports the ==A64== instruction set. Instructions are still 32 bits wide.
+**AArch64**: [[Operations on Representations.md#Word Size|Word Size]] of 64. Addresses held in 64 bit registers. Supports the ==A64== instruction set. Instructions are still 32 bits wide.
 
-**AArch32**: [](Operations%20on%20Representations.md#Word%20Size|Word%20Size) of 32. Addresses held in 32 bit registers. Supports the ==A32== and ==T32== instruction sets. Instructions are 32 bits wide. (not discussed in this class)
+**AArch32**: [[Operations on Representations.md#Word Size|Word Size]] of 32. Addresses held in 32 bit registers. Supports the ==A32== and ==T32== instruction sets. Instructions are 32 bits wide. (not discussed in this class)
 
 ### Execution Profiles
 

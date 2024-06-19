@@ -2,7 +2,7 @@
 
 Pointer arithmetic allows us to do literal mathematical operations with pointer addresses, which allows us to do very interesting things.
 
-This is very important when working with [Arrays](Arrays.md), but is used outside of that as well.
+This is very important when working with [[Arrays.md]], but is used outside of that as well.
 
 ## How it works
 
@@ -14,13 +14,13 @@ When you have a pointer `T *p` where `T` is the type and `int i`
 
 So basically, the language moves the pointer `i` **elements** of type `T` over. So for an `int` type, we'd be moving over `4` bytes every time we do `+ 1` on the pointer to the `int`.
 
-In terms of [Arrays](Arrays.md), `s* = 'h'` is equivalent to `s[0] = 'h'`
+In terms of [[Arrays.md]], `s* = 'h'` is equivalent to `s[0] = 'h'`
 
 So, `*(s+2) = *(s+4)` is the same as `s[2] = s[4]`
 
 ## Arithmetic with Casted Pointers
 
-Recall [](Pointers.md#Casting%20Pointers|Casting%20Pointers) changes purely the type, not value. We can use this to our advantage.
+Recall [[Pointers.md#Casting Pointers|Casting Pointers]] changes purely the type, not value. We can use this to our advantage.
 
 So, given `char s[8] = "Hello!\n;`
 - The expression `(int *)s + 7` has type pointer to `int` and so the value is `ADDR(s) + SIZE(int) * 7` (in this case, that turns out to be `ADDR(s)+28`)

@@ -2,7 +2,7 @@
 
 A clock is a free running **binary** signal that constantly switches between 0 and 1 on a fixed cycle time. This is representable as a square wave. 
 
-![500](Clock%20Square%20Wave.svg)
+![[Clock Square Wave.svg|500]]
 
 > [!info]- LaTeX
 > ```tikz

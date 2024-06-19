@@ -28,5 +28,5 @@ A jump table is an array of pointers to code locations (i.e., an array of labels
 	- So basically, we either store the pointer itself, or we store a delta (difference) between the current address and address of the next instruction that we want to jump to (see the black below)
 - Not in the `C` standard, but available as a non-standard extension in `GNU C`
 
-![Jump Tables](Jump%20Tables.svg)
+![[Jump Tables.svg]]
 

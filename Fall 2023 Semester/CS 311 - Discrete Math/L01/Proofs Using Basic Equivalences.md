@@ -1,4 +1,4 @@
-We can use the [basic equivalences](Basic%20Equivalences.md) to develop proofs as an alternative to using truth tables.
+We can use the [[Basic Equivalences.md|basic equivalences]] to develop proofs as an alternative to using truth tables.
 
 _Note:_ Always place your performed equivalence on a new line, with the name of the equivalence in sideways carrots (<>)
 
@@ -33,4 +33,4 @@ $\equiv$ \<Domination>
 
 $T$
 
-[](Discrete%20Math%20Terminology.md#^502eb0|Tautology)
+[[Discrete Math Terminology.md#^502eb0|Tautology]]

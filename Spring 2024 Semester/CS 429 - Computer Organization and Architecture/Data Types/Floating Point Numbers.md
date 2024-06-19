@@ -4,7 +4,7 @@ With 64-bit integers, we only get `18,446,744,073,709,600,000` distinct values. 
 
 We need to find something that is not only efficient in storage space, but also in computational time, because we only have so many resources.
 
-![Floating Point Design Problem](Floating%20Point%20Design%20Problem.svg)
+![[Floating Point Design Problem.svg]]
 
 ## Choice 1: Fixed Point
 
@@ -133,12 +133,12 @@ Given the binary representation `0 0001 001` of a floating point (FP(p,q; 4)) nu
 We know that there are 4 precision and exponent bits each.
 
 1. See that the sign bit is 0, so this number will be positive
-2. The exponent is $1\times2^0-7$ (because the [](Floating%20Point%20Numbers.md#^7ca5db|bias) is $2^{4-1}-1$) = $-6$
+2. The exponent is $1\times2^0-7$ (because the [[Floating Point Numbers.md#^7ca5db|bias]] is $2^{4-1}-1$) = $-6$
 3. The mantissa is $1.0\;\text{(hidden bit)} + 2^{-1} \times 0 + 2^{-2}\times 0 + 2^{-3}\times 1=1.125$.
 4. Combining all of these values: $2^{E}\times\text{mantissa}$ 
 	1. $2^{-6}\times1.125=0.017578125$
 
-Note that this was also us finding $N_\text{min}$! The equation for that is [](Floating%20Point%20Numbers.md#^e93d90|here).
+Note that this was also us finding $N_\text{min}$! The equation for that is [[Floating Point Numbers.md#^e93d90|here]].
 ### How to Represent Zero
 
 Since zero is unique, we have a special case
@@ -160,8 +160,8 @@ s0^qb_1\ldots b_{p-1}=\pm(0.b_1\ldots b_{p-1})_2
 \times2^{E_\text{min}}
 $$
 
-Essentially, we interpret the mantissa as we do [](Floating%20Point%20Numbers.md#How%20to%20interpret%20the%20mantissa|regularly), except we set the hidden bit to `0`, so it becomes `0.<mantissa>`, and then we multiply by the smallest exponent we can represent, which is given by:
-![](Floating%20Point%20Numbers.md#^a30730)
+Essentially, we interpret the mantissa as we do [[Floating Point Numbers.md#How to interpret the mantissa|regularly]], except we set the hidden bit to `0`, so it becomes `0.<mantissa>`, and then we multiply by the smallest exponent we can represent, which is given by:
+![[Floating Point Numbers.md#^a30730]]
 
 So, how can we actually interpret a subnormal number?
 
@@ -172,7 +172,7 @@ Given the binary representation `0 0000 101` of a floating point (FP(p,q; 4)) nu
 We know that there are 4 precision and exponent bits each.
 
 1. See that the sign bit is 0, so this number will be positive
-2. The exponent is all zeroes, so it must be a subnormal number (of course it is, that's the point of this problem). Because this is our special case, we arbitrarily set the exponent to [](Floating%20Point%20Numbers.md#^a30730|E%20min) ($E_\text{min}$)
+2. The exponent is all zeroes, so it must be a subnormal number (of course it is, that's the point of this problem). Because this is our special case, we arbitrarily set the exponent to [[Floating Point Numbers.md#^a30730|E min]] ($E_\text{min}$)
 	1. $E_\text{min}$ can be found by doing $-((2^{q-1}-1)-1)=-(\text{bias}-1)$
 	2. So: we do $-((2^{4-1}-1)-1)=-((8-1)-1)=6$ 
 3. **Because the exponent is all zeroes, the hidden bit also becomes 0**, therefore: The mantissa is $0.0\;\text{(hidden bit) } + 2^{-1} \times 1 + 2^{-2}\times 0 + 2^{-3}\times 1=0.625$.
