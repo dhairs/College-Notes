@@ -22,6 +22,6 @@ Global variables are stored at locations named by labels
 | `y -= x`             | `int`  | `ldr w10, [sp, #24]`<br />`ldr w9, [sp, #20]`<br />`subs w9, w9, w10`<br />`str w9, [sp, #20]`                     |
 | `z = x + y - 4`      | `int`  | `ldr w10, [sp, #24]`<br />`ldr w9, [sp, #20]`<br />`add w9, w9, w10`<br />`subs w9, w9, #4`<br />`str w9, [sp, #16]` |
 | `w = &x`             | `int*` | `add x8, sp, #24`<br />`str x8, [sp, #8]`                                                                      |
-| `z = *w`             | `int`  | `ldr x10, [sp, #8] // load W`<br />`ldr w9, [x10]     // load X`<br>`str w9, [sp, #16] // store in Z`          |
+| `z = *w`             | `int`  | `ldr x10, [sp, #8] // load W`<br />`ldr w9, [x10]     // load X`<br />`str w9, [sp, #16] // store in Z`          |
 | `unsigned i, int *E` |        | `i @ [sp #60]`<br />`E @ [sp, #48]`                                                                            |
-| `int x = E[i]`       |        | `ldr x8, [sp, #48]`<br />`ldr w9, [sp, #60]`<br>`ldr w8, [x8, x9, `                                            |
+| `int x = E[i]`       |        | `ldr x8, [sp, #48]`<br />`ldr w9, [sp, #60]`<br />`ldr w8, [x8, x9, `                                            |
