@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Introduction to Code Generation.md",
-                "mode": "preview",
+                "file": "Fall 2023 Semester/Courses.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ".md.md",
+                "query": "\"| \"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Introduction to Code Generation.md",
+                "file": "Fall 2023 Semester/Courses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Introduction to Code Generation.md",
+                "file": "Fall 2023 Semester/Courses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Introduction to Code Generation.md"
+                "file": "Fall 2023 Semester/Courses.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Introduction to Code Generation.md"
+                "file": "Fall 2023 Semester/Courses.md"
               }
             }
           }
@@ -182,6 +182,8 @@
   },
   "active": "235837d08f5c2b9b",
   "lastOpenFiles": [
+    "Fall 2023 Semester/CS 311 - Discrete Math/Definitions/Sets/Cartesian Product.md",
+    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Introduction to Code Generation.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Introduction to Procedure Calls.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Linking/Object Modules and Linking.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Caching/Locality of Reference.md",
@@ -206,8 +208,6 @@
     "Spring 2024 Semester/Statistics and Probability/Counting Methods/Permutations and Combinations.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Manipulating Integer Representations.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Data Alignment.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Special Notation.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Hardware/Main Memory.md",
     "f.canvas",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Assets/Drawings/Symbol Resolution Rules.svg",
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
