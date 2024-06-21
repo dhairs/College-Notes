@@ -10,9 +10,7 @@ Kalman filtering is a recursive state filter function. It's used for removing er
 
 Say we're given:
 
-$$
-v_{0x} = 280m/s, x_0=4000m
-$$
+$$v_{0x} = 280m/s, x_0=4000m$$
 
 ## Step 0. Initial State
 
@@ -30,23 +28,14 @@ rix of the form $\begin{bmatrix} x_0 \\ v_{0x} \end{bmatrix}$
 
 Turns into the equation:
 
-$$=
-\begin{bmatrix}
+$$=\begin{bmatrix}
 1 & \Delta{t} \\
-0 & 1
-\end{bmatrix}
-\begin{bmatrix}
+0 & 1\end{bmatrix}\begin{bmatrix}
 x_0 \\
-v_k
-\end{bmatrix}
-+
+v_k\end{bmatrix}
++\begin{bmatrix}\frac{1}{2}\Delta{t}^2 \\ \Delta{t}\end{bmatrix}
 \begin{bmatrix}
-\frac{1}{2}\Delta{t}^2 \\
-\Delta{t}
-\end{bmatrix}
-\begin{bmatrix}
-a_{x_0}  
-\end{bmatrix}
+a_{x_0}\end{bmatrix}
 + 0$$
 
 Which, by [[Matrix Multiplication|matrix multiplication]] becomes:
@@ -57,12 +46,8 @@ X_{k_p}=
 x_0+v_{0x} \times\Delta{t} \\
 v_k
 \end{bmatrix}
-+
-\begin{bmatrix}
-\frac{a_{x0}}{2}\Delta{t}^2 \\
-a_{x0}\times\Delta{t}
-\\
-\end{bmatrix}
++\begin{bmatrix}\frac{a_{x0}}{2}\Delta{t}^2 \\
+a_{x0}\times\Delta{t}\end{bmatrix}
 $$
 
 
@@ -75,8 +60,7 @@ We use our process errors to develop this matrix. We will **only do this once.**
 $$
 P_{k-1}=\begin{bmatrix}
 \Delta{x}^2 & \Delta{x}\Delta{v}\\
-\Delta{x}\Delta{v}  &\Delta{v_x}^2
-\end{bmatrix}
+\Delta{x}\Delta{v}  &\Delta{v_x}^2\end{bmatrix}
 $$
 
 ## Step 3: Predicted Process Covariance Matrix
