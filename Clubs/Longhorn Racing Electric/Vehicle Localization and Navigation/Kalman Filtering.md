@@ -23,8 +23,7 @@ Described by the equation:
 $$X_{k_p} = AX_{k-1}+Bu_k+w_k$$
 
 Where $A$ is $\begin{bmatrix} 1 & \Delta{t} \\ 0 & 1 \end{bmatrix}$
-Where $X$ is our state mat
-rix of the form $\begin{bmatrix} x_0 \\ v_{0x} \end{bmatrix}$
+Where $X$ is our state matrix of the form $\begin{bmatrix} x_0 \\ v_{0x} \end{bmatrix}$
 
 Turns into the equation:
 
@@ -33,19 +32,16 @@ $$=\begin{bmatrix}
 0 & 1\end{bmatrix}\begin{bmatrix}
 x_0 \\
 v_k\end{bmatrix}
-+\begin{bmatrix}\frac{1}{2}\Delta{t}^2 \\ \Delta{t}\end{bmatrix}
-\begin{bmatrix}
++\begin{bmatrix}\frac{1}{2}\Delta{t}^2 \\ \Delta{t}\end{bmatrix}\begin{bmatrix}
 a_{x_0}\end{bmatrix}
 + 0$$
 
 Which, by [[Matrix Multiplication|matrix multiplication]] becomes:
 
 $$
-X_{k_p}=
-\begin{bmatrix}
+X_{k_p}=\begin{bmatrix}
 x_0+v_{0x} \times\Delta{t} \\
-v_k
-\end{bmatrix}
+v_k\end{bmatrix}
 +\begin{bmatrix}\frac{a_{x0}}{2}\Delta{t}^2 \\
 a_{x0}\times\Delta{t}\end{bmatrix}
 $$
