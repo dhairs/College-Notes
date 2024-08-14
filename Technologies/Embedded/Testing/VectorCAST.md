@@ -7,4 +7,4 @@ Automotive Testing is more catered towards ISO, IEC, etc. standards compliance i
 
 Seems very industry oriented software testing. Very very difficult to set up, seems like companies are moving away from it.
 
-Doesn't actualy provide direct CI, works as an integration with 
+Doesn't actually seem to provide direct CI, works as an integration with existing solutions.
