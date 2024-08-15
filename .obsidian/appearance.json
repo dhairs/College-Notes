@@ -2,7 +2,7 @@
   "accentColor": "#f5ad5c",
   "baseFontSize": 16,
   "interfaceFontFamily": "",
-  "textFontFamily": "Times New Roman",
+  "textFontFamily": "Helvetica Neue,Inter,Times New Roman",
   "cssTheme": "",
   "nativeMenus": true,
   "translucency": true,
