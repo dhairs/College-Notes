@@ -1,3 +1,7 @@
+## Design
+**Every board has a specific purpose (PDU for power, VCU for vehicle controls, etc.)**
+
+**Harness built around the needs of each microcontroller/board. NOT built around the sensor placements themselves**
 #### PDU
 
 **In's**:
@@ -26,7 +30,6 @@
 - PDU Currents 1
 - PDU Currents 2
 - PDU Status
-
 
 #### HVC
 **In's**:
