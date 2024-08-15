@@ -52,4 +52,82 @@
 
 #### VCU
 **In's**:
-- 
+- CAN
+
+**Out's**:
+- 3.3V
+- 5V
+
+**CAN**:
+**In's**
+- Inverter Temp Data 1 
+- Inverter Temp Data 2
+- Inverter Motor Positions
+- Inverter Current
+- Inverter Voltage
+- Inverter State
+- Inverter Faults
+- Inverter Torque Timer
+- Inverter High Speed Message
+- Inverter Parameter Response
+- AMS and IMD
+- Pack Status
+- HVC IMU Accel
+- HVC IMU Gyro
+- CCS Info
+- Fan RPMs
+- Cell Voltages
+- Cell Temps
+- Contactor State
+- Thermals
+- PDU IMU Accel
+- PDU IMU Gyro
+- LV Battery
+- PDU Currents 1
+- PDU Currents 2
+- PDU Status
+- FR Wheelspeed
+- FR IMU Accel
+- FL Wheelspeed
+- FL IMU Accel
+- BR Wheelspeed
+- BR IMU Accel
+- BL Wheelspeed
+- BL IMU Accel
+
+**Out's**
+- HVC Params
+- PDU Params
+- Unsprung Params
+- Dash Params
+- Inverter Torque Command
+- Inverter Parameter Request
+- Brake Light
+- Buzzer
+- PDU Cooling
+- HVC Cooling
+- Dash Info 1
+- Dash Info 2
+
+#### Inverter
+**In's**:
+- 24V power
+
+**Out's**:
+- Power to motor (?)
+
+**CAN:**
+**In's**
+- Inverter Torque Command
+- Inverter Parameter Request
+
+**Out's**:
+- Inverter Temp Data 1
+- Inverter Temp Data 2
+- Inverter Motor Positions
+- Inverter Current
+- Inverter Voltage
+- Inverter State
+- Inverter Faults
+- Inverter Torque Timer
+- Inverter High Speed Message
