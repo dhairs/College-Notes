@@ -2,6 +2,10 @@
 **Every board has a specific purpose (PDU for power, VCU for vehicle controls, etc.)**
 
 **Harness built around the needs of each microcontroller/board. NOT built around the sensor placements themselves**
+
+BSPD MANDATED
+
+LOOK AT CAR IN CAD AND SEE COOLANT SENSORS/ETC AND RELEVANT BOARDS/LOCATIONS OF ITEMS THAT WE NEED TO BE USING TO SENSE
 #### PDU
 
 **In's**:
