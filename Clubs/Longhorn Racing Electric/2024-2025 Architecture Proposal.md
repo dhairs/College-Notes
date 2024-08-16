@@ -8,7 +8,6 @@ Motivation: Save weight, space, materials. Streamline debugging hardware.
 
 **Harness built around each sensor and auxiliary device (unsprung boards, inverter, etc.)**
 
-
 ## Ideas
 ****
 1. Remove PDU board
