@@ -14,3 +14,7 @@ Motivation: Save weight, space, materials. Streamline debugging hardware.
 1. Remove PDU board
 	1. HVC should stay — isoSPI for BMBs
 	2. HVC connects to car with can and can control 24V power to rest of the car
+2. 22 Gauge wire to all fans
+	1. Each fan on average pulls ~1W — At max speed assume RAD fans ~10W
+	2. Current needed is 15W (leeway) / 24V $\approx$ 0.625A. Very comfortable for 22 gauge until ~50 ft.
+	3. 
