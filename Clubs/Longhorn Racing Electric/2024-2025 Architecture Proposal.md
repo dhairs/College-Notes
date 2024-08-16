@@ -17,4 +17,5 @@ Motivation: Save weight, space, materials. Streamline debugging hardware.
 2. 22 Gauge wire to all fans
 	1. Each fan on average pulls ~1W — At max speed assume RAD fans ~10W
 	2. Current needed is 15W (leeway) / 24V $\approx$ 0.625A. Very comfortable for 22 gauge until ~50 ft.
-	3. 
+		1. Assuming the 3.3V and 10A fans, we can still use 22 AWG up to ~25 ft. More than enough for the fans
+3. 
