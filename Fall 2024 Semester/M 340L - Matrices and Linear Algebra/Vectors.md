@@ -5,7 +5,12 @@ A vector is a list of *real* numbers.
 ### Example
 
 $$
-\bar{v}=[1], (1,2,3)
+
+\bar{v}=\begin{bmatrix}
+1 \\
+2 \\
+3
+\end{bmatrix}, (1,2,3)
 $$
 
 Elements are 1-indexed, and for column (vertical) vectors, the topmost value is 1st, for row (horizontal) vectors, the leftmost value is 1st.
