@@ -48,7 +48,7 @@ This explains why Windows has been so successful.
 
 ### End-user's view
 
-Are interested in the applications, and thus the computing system:
+Interested in the applications, and thus the computing system:
 - Must not crash or externalize the ugly aspects of the machine
 - Must protect investment in existing software and applications
 - Users care about applications, not the hardware or the OS
@@ -58,3 +58,36 @@ Contrast Windows, macOS, UNIX
 
 ### System administrator's view
 
+Interested in managing the computing system:
+- How can it track usage for accounting?
+- How easy is it to install new software? Upgrades?
+- Security
+- Fairness
+- Reliability
+
+Contrast Windows, macOS, UNIX, and mainframe systems.
+
+### Conflicts Between Views
+
+There are often some disagreements or issues that arise between different views, for example:
+- Hardware vs. OS designer
+- API vs. User
+- API vs. OS designer (having to stick to an API that's worse)
+- User vs. System administrator
+
+## Operating Systems
+
+The operating system (OS) is a program that mediates between the application programs and the hardware
+
+It provides abstractions to simplify building applications:
+- files instead of 'bytes on a disk'
+- contiguous memory regions instead of 'bits in a RAM chip'
+- processes to run applications
+
+It also allows application programs to co-exist peacefully:
+- enforces security policies
+- enforces safety measures
+	- E.g., virtual memory
+
+Allows effective usage of hardware resources 
+- E.g., CPU time scheduling
