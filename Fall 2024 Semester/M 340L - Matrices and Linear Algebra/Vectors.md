@@ -166,17 +166,19 @@ There is no real value $c$ that linearly scales the left vector to the right vec
 
 ## Linear Combinations of Vectors
 
-We can define a linear vector by 
-
+Say we have a set of vectors $v_{1}, v_{2}, \cdots, v_{k}$ and a set of real numbers $c_{1},c_{2},\cdots,c_{k}$.
 
 Then $c_{1}\bar{v_{1}} +c_{2}\bar{v_{2}}+\cdots+c_{k}\bar{v_{k}}$ is called a **linear combination** of $v_{1},v_{2},\cdots, v_{k}$ with weights $c_{1},c_{2},\cdots,c_{k}$.
-
 
 ## Span of a Vector
 
 The span of a vector is the set of all possible linear combinations of the vector (think back to a [[Power Set]] from discrete math).
 
 If $\bar{v}$ in $\mathbb{R}$
+
+If $\bar{v}, \bar{w}$ in $\mathbb{R}^3$ two non-parallel vectors, then $\text{span}(\bar{v}, \bar{w})$ is a plane through $\bar{o}, \bar{v}, \bar{w}$.
+
+*Note that if $\bar{v}, \bar{w}$ in $\mathbb{R}^2$, non-zero, non-parallel, then $\text{span}(\bar{v}, \bar{w})=\mathbb{R}^2$*
 ### Example of Graph
 
 $$
@@ -219,9 +221,67 @@ $$
 
 $$
 \begin{align}
-
+\text{span}(\bar{v_{1}},\bar{v_{2}}) \\
+=c_{1} \begin{bmatrix}
+1 \\
+0 \\
+0
+\end{bmatrix} +  c_{2}\begin{bmatrix}
+0 \\
+0 \\
+0
+\end{bmatrix}
 \end{align}
 $$
 
 
-If $\bar{v,}$
+
+## Dot Products of Vectors
+
+Suppose you have two vectors of the same size, $\bar{v}, \bar{w} \in \mathbb{R}^n$
+
+$$
+\bar{v} \cdot \bar{w}=v_{1}w_{1}+v_{2}w_{2}+\cdots+v_{n}w_{n}
+$$
+
+This is a **scalar** value, **not** a vector.
+
+### Properties of Dot Products
+
+$$
+\begin{align}
+\bar{v}\cdot \bar{w}=\bar{w} \cdot \bar{v} \\
+\bar{v} * (\bar{w}+\bar{u})=\bar{v} * \bar{w} + \bar{v} * \bar{u} \\
+(\bar{v} + \bar{w}) * \bar{u} = \bar{v} * \bar{u} + \bar{w} * \bar{u} \\
+(c \bar{v})*\bar{w}=c(\bar{v}*\bar{w})=\bar{v}*(c\bar{w})
+\end{align}
+$$
+
+### Example
+
+$$
+\begin{bmatrix}
+1 \\
+2
+\end{bmatrix} \cdot 
+\begin{bmatrix}
+1 \\
+2
+\end{bmatrix}
+=1\cdot 1+2\cdot 2=5
+$$
+
+## Norm/Length of a Vector
+
+$$
+||\bar{v}||=\sqrt{ \bar{v}*\bar{v} }
+$$
+
+### Example
+
+$$
+\begin{align}
+(3\bar{v}+4\bar{v})*(\bar{v}-\bar{w}) \\
+=3\bar{v}*\bar{v}-3\bar{v}*\bar{w}
+\end{align}
+$$
