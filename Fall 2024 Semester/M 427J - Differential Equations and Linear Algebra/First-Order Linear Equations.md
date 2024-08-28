@@ -60,7 +60,58 @@ $$
 = 
 \end{align}
 $$
-### Example
+
+### Useful Antiderivatives
+
+$$
+\begin{align}
+\int e^{at}\cos(bt)dt=\frac{e^{at}}{a^2+b^2}(a\cos(bt)+b(\sin(bt))) \\
+ \\
+\int e^{at}\sin(bt)dt=\frac{e^{at}}{a^2+b^2}(a\sin(bt)-b(\cos(bt))) \\
+ \\
+\text{where a and b are constants}
+\end{align}
+$$
+
+#### Example
+
+Find the general solution of
+
+$$
+\frac{dy}{dt}+2y=10\sin(t)
+$$
+
+There is no initial value, so the solution will include a constant.
+
+We use $a(t) =2$ and $b(t)=10\sin(t)$.
+
+The integrating factor is
+
+$$
+\mu(t)=\exp\left[ \int a(t)dt \right]=\exp[2t]
+$$
+
+$$
+\frac{d}{dt}(e^{2t}y(t))=10e^{2t}\sin(t)
+$$
+
+This implies that
+
+$$
+\begin{align}
+e^{2t}y(t)=\int 10e^{2t}\sin(t)dt \\
+=10\int e^{2t}\sin(t)dt \\
+=10 \frac{e^{2t}}{4+1}(2\sin(t)-\cos(t)) \\ \\
+
+=2e^{2t}(2\sin(t)-\cos(t)) \\ \\
+
+4e^{2t}\sin(t)-2e^{2t}
+\cos(t) + C \\
+\end{align}
+$$
+
+
+### Example with DE given in correct form
 
 Solve
 
@@ -129,3 +180,61 @@ $$
 $$
 
 In addition, $y(0)=1-11(1)=-10$ which satisfies the initial condition.
+
+
+### Example with DE given in incorrect form
+
+Solve
+
+$$
+t \frac{dy}{dt}-3y=10t^7 \text{ with } y(1)=6 
+$$
+
+This is not in the form of our expected pattern, so we need to divide by $t$ to get that.
+
+$$
+\frac{dy}{dt}-\frac{3y}{t}=10t^6
+$$
+
+In this case, $a(t)=-\frac{3}{t}$, $b(t)=10t^6$
+
+The integrating factor is $\mu(t)=\exp\left[ \int a(t)dt \right]=\exp\left[ -3 \int \frac{1}{t}dt \right]$
+
+We have the formula:
+
+$$
+\frac{d}{dt}(\mu(t)y(t))=\mu(t)b(t)
+$$
+
+In this case, $\frac{d}{dt}(t^{-3}y(t))=t^{-3}10t^6=10t^3$. Now we can find the antiderivatives:
+
+$$
+\begin{align}
+t^{-3}y(t)=\int 10t^3dt=\frac{5}{2}t^4+C
+\end{align}
+$$
+
+Now find the constant $C$ using the initial condition $y(1)=6$:
+
+$$
+\begin{align}
+y(1)=\frac{5}{2}+C=6 \\
+C=6-\frac{5}{2}=\frac{7}{2}
+\end{align}
+$$
+
+Substitute this value back into the solution, and we get:
+
+$$
+\begin{align}
+t^{-3}y(t)=\frac{5}{2}t^4+\frac{7}{2}
+\end{align}
+$$
+
+Solving for $y(t)$,
+
+$$
+y(t)=\frac{5}{2}t^7
++\frac{7}{2}t^3
+$$
+
