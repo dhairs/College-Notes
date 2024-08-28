@@ -133,3 +133,95 @@ $$
 To multiply vector $\bar{v}$ (as an arrow) by a scalar $c$, keep the direction and stretch the length by a factor of $c$. 
 
 *Note that if $c<0$, we need to flip the direction of $\bar{v}$*.
+
+
+## Comparing Directions of Vectors
+
+Say $\bar{v}, \bar{w}$ are real, non-zero vectors.
+1. They have the same direction if there is a value $c>0$ such that $\bar{v}=c \bar{w}$
+2. They have the opposite direction if there is a value $c<0$ such that $\bar{v}=c \bar{w}$
+3. $\bar{v}, \bar{w}$ are parallel if 1 or 2 holds
+
+### Example
+
+Are the following vectors parallel?
+
+$$
+\begin{bmatrix}
+1 \\
+2 \\
+3 \\
+4
+\end{bmatrix} 
+=
+\begin{bmatrix}
+2 \\
+4 \\
+6 \\
+7
+\end{bmatrix}
+$$
+
+There is no real value $c$ that linearly scales the left vector to the right vector, thus the vectors are *not* parallel.
+
+## Linear Combinations of Vectors
+
+We can define a linear vector by 
+
+
+Then $c_{1}\bar{v_{1}} +c_{2}\bar{v_{2}}+\cdots+c_{k}\bar{v_{k}}$ is called a **linear combination** of $v_{1},v_{2},\cdots, v_{k}$ with weights $c_{1},c_{2},\cdots,c_{k}$.
+
+
+## Span of a Vector
+
+The span of a vector is the set of all possible linear combinations of the vector (think back to a [[Power Set]] from discrete math).
+
+If $\bar{v}$ in $\mathbb{R}$
+### Example of Graph
+
+$$
+\bar{v_{1}}=
+\begin{bmatrix}
+1 \\
+2
+\end{bmatrix}
+$$
+
+What is the $\text{span}(v_{1})$?
+
+$$
+=\begin{bmatrix}
+c \\
+2c
+\end{bmatrix} : \text{ where c is any number}
+$$
+
+![[Vector Span.svg]]
+
+The span($v_1$) is the line through $\bar{o}, \bar{v}$
+
+### Example
+
+$$
+\bar{v_{1}}=
+\begin{bmatrix}
+1 \\
+0 \\
+0
+\end{bmatrix}
+\bar{v_{2}}=
+\begin{bmatrix}
+0 \\
+1 \\
+0
+\end{bmatrix}
+$$
+
+$$
+\begin{align}
+
+\end{align}
+$$
+
+
+If $\bar{v,}$
