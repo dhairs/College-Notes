@@ -1,4 +1,3 @@
-
 Solving the [[Jacobian Matrices|Jacobian]] for every variable in the system.
 
 Because GPS rotates in the clockwise direction, and traditional math assumes a $\theta$ increase in the counter-clockwise direction, we can calculate the mathematical $\theta$ by doing: $90\degree-\theta_\text{GPS}\degree$. This is the angle used in all the following calculations.

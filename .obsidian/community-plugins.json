@@ -1,5 +1,11 @@
 [
   "obsidian-excalidraw-plugin",
+  "table-editor-obsidian",
+  "obsidian-tikzjax",
+  "obsidian-latex-environments",
+  "obsidian-latex-suite",
+  "obsidian-pandoc",
+  "obsidian-minimal-settings",
   "obsidian-git",
-  "table-editor-obsidian"
+  "flowershow"
 ]

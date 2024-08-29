@@ -1,0 +1,48 @@
+name: GitHub Actions Demo
+run-name: Exporting ${{ github.actor }}'s notes
+on: [push]
+jobs:
+  checkout-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Current Respository
+        uses: actions/checkout@master
+        with:
+          path: temp_unexported
+
+      - name: Set up exports folder
+        run: |
+          mkdir old_exported
+          cd old_exported
+          git init
+          git remote add origin git@github.com:${{vars.EXPORTED_NOTES_REPO}}.git
+
+      # - name: Remove all files from old export
+      #   run: |
+      #     cd old_exported
+      #     git rm -rf .
+      #     git clean -fxd
+
+      - name: Download obsidian export
+        run: |
+          wget https://github.com/zoni/obsidian-export/releases/download/v22.11.0/obsidian-export_Linux-x86_64.bin
+          chmod +x obsidian-export_Linux-x86_64.bin
+
+      - name: Run obsidian export
+        run: ./obsidian-export_Linux-x86_64.bin ./temp_unexported/ ./old_exported/ --no-recursive-embeds --frontmatter=always
+
+      - name: Commit new exports
+        run: |
+          cd old_exported
+          git config --local user.email "${{secrets.USER_EMAIL}}"
+          git config --local user.name "${{secrets.USER_NAME}}"
+          git add .
+          git commit -am "New export"
+
+      - name: Push exported markdown
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{secrets.GH_PAT}}
+          directory: "./old_exported/"
+          force: true
+          repository: ${{vars.EXPORTED_NOTES_REPO}}

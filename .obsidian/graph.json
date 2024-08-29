@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -8,14 +8,14 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Spring 2023 Semester/Statistics and Probability\"  ",
+      "query": "path:\"Spring 2024 Semester/Statistics and Probability\"  ",
       "color": {
         "a": 1,
         "rgb": 4256356
       }
     },
     {
-      "query": "path:\"Spring 2023 Semester/CS 429 - Computer Organization and Architecture\"  ",
+      "query": "path:\"Spring 2024 Semester/CS 429 - Computer Organization and Architecture\"  ",
       "color": {
         "a": 1,
         "rgb": 14069084
@@ -46,13 +46,13 @@
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.0031982421875,
   "lineSizeMultiplier": 1.41930745442708,
   "collapse-forces": false,
-  "centerStrength": 0.521505376344086,
+  "centerStrength": 0.542439778645833,
   "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.5038990146863392,
+  "linkDistance": 358,
+  "scale": 0.6316046762907517,
   "close": false
 }
