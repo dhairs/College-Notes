@@ -116,10 +116,47 @@ There are a few ways to do have the machine store state on what mode it is in:
 	- innermost ring has the most privilege, and moving outwards reduces privileges until the outermost ring, with user privilege.
 - Operating system code runs in the supervisor mode while user programs run in user mode
 - Switching from user to supervisor mode occur on:
-	- **interrupts**: hardware devices needing service
+	- **interrupts (async)**: hardware devices needing service
 		- store machine state deal with interrupt, then return back to previous machine state
 	- **exceptions**: user program acts silly, errors out
 	- **trap instructions**: user program requires OS service (e.g., system call)
+	- processor state is saved in all of these instances
 - Switching back to user mode occurs by an `RTI` instruction
 
 
+### Interrupt Handling
+
+1. The hardware calls the operating system at a predefined location
+2. The operating system saves the state if the user program
+3. The operating system identifies the device and the cause of the interrupt
+4. The OS responds to the interrupt (ex. Killing the program with `CTRL + C`)
+
+
+### Exception Handling
+
+1. Hardware calls OS at predefined location
+2. OS determines the cause of the exception
+3. If the user program has an exception handler, the OS adjusts
+
+### System Calls
+
+1. User program calls the trap instruction
+
+
+### Implications of OS Structure
+
+The OS is just a program:
+- it has a `main()` function, which gets called only once (during boot)
+- like any program, it consumes resource, like memory, can do silly things (like generating an exception), etc.
+
+It’s a strange program, because:
+- it is entered from different locations in response to external events (ex. Interrupts)
+- it does not have a single thread of control: it can be invoked simultaneously by two different events (e.g., system call and interrupt)
+- It is not *supposed* to terminate
+- It can execute any instruction in the machine
+
+Hardware generates exceptions, so a raised exception will cause the OS to terminate itself.
+
+### Control Flow 
+
+![[OS Control Flow.svg]]
