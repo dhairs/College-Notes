@@ -121,3 +121,5 @@ There are a few ways to do have the machine store state on what mode it is in:
 	- **exceptions**: user program acts silly, errors out
 	- **trap instructions**: user program requires OS service (e.g., system call)
 - Switching back to user mode occurs by an `RTI` instruction
+
+
