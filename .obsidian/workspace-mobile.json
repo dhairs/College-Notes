@@ -31,9 +31,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4c19949e3b2e01fd",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "assets/CS439/Drawings/General OS Structure.md"
+              }
+            }
+          },
+          {
+            "id": "8e79781c3f603410",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "assets/CS439/Drawings/General OS Structure.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +131,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Fall 2024 Semester/CS 439 - Principles of Computing Systems/Introduction to Computing Systems.md",
+            "file": "assets/CS439/Drawings/General OS Structure.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -128,7 +148,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Fall 2024 Semester/CS 439 - Principles of Computing Systems/Introduction to Computing Systems.md",
+            "file": "assets/CS439/Drawings/General OS Structure.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,7 +160,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Fall 2024 Semester/CS 439 - Principles of Computing Systems/Introduction to Computing Systems.md"
+            "file": "assets/CS439/Drawings/General OS Structure.md"
           }
         }
       }
@@ -159,12 +179,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bc5d6c3e8531f139",
+  "active": "8e79781c3f603410",
   "lastOpenFiles": [
+    "assets/CS439/Drawings/Drawing 2024-08-29 14.50.37.excalidraw.md",
+    "assets/CS439/Drawings/General OS Structure.md",
+    "assets/CS439/General OS Structure.svg",
+    "Fall 2024 Semester/CS 439 - Principles of Computing Systems/Introduction to Computing Systems.md",
     "assets/CS439/OS Control Flow.svg",
     "assets/CS439/Drawings/OS Control Flow.md",
     "assets/CS439/Drawings/Drawing 2024-08-29 14.29.38.excalidraw.svg",
-    "Fall 2024 Semester/CS 439 - Principles of Computing Systems/Introduction to Computing Systems.md",
     "assets/CS439/Drawings",
     "assets/CS439",
     "Clubs/Longhorn Racing Electric/Vehicle Localization and Navigation/Kalman Filtering/Vehicle State Jacobian.md",
@@ -190,7 +213,6 @@
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/In-order Pipelining/Intro to Pipelining.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/In-order Pipelining/The Pipe Implementation.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/In-order Pipelining/Pipeline Hazards.md",
-    "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Data Types/Unicode.md",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Code Generation/Linking",
     "Spring 2024 Semester/Statistics and Probability/Counting Methods",
     "Spring 2024 Semester/CS 429 - Computer Organization and Architecture/Architectures",
@@ -205,7 +227,6 @@
     "assets/CS429/Drawings/Register File Block Diagram.svg",
     "assets/CS429/Drawings/Jump Tables.svg",
     "assets/CS429/Drawings/Block Formats.svg",
-    "assets/CS429/Drawings/Procedure Control Flow Example.svg",
     "Untitled.canvas"
   ]
 }
