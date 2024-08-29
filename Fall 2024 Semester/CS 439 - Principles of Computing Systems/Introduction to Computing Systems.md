@@ -91,3 +91,33 @@ It also allows application programs to co-exist peacefully:
 
 Allows effective usage of hardware resources 
 - E.g., CPU time scheduling
+
+### Hardware Support
+
+The operating system needs to:
+- Control I/O devices 
+- Control application access to the hardware
+
+It needs to do all this while denying these privileges to user programs for protection and abstraction/ease of use.
+
+The hardware supports two modes of operation (or more):
+- Access to hardware and I/O devices is done through privileged instructions, only available in **supervisor mode**
+- Privileged instructions cannot be executed in **user mode**
+	- this is where applications are run
+	- UNIX terminates the application when it attempts to execute a privileged instruction
+
+This means the OS also manages main memory. The OS also manages what *mode* the system is in.
+
+### Implementation of Machine Modes
+
+There are a few ways to do have the machine store state on what mode it is in:
+- Using a bit in the processor to signify mode 
+- Using protection “rings”
+	- innermost ring has the most privilege, and moving outwards reduces privileges until the outermost ring, with user privilege.
+- Operating system code runs in the supervisor mode while user programs run in user mode
+- Switching from user to supervisor mode occur on:
+	- **interrupts**: hardware devices needing service
+		- store machine state deal with interrupt, then return back to previous machine state
+	- **exceptions**: user program acts silly, errors out
+	- **trap instructions**: user program requires OS service (e.g., system call)
+- Switching back to user mode occurs by an `RTI` instruction
