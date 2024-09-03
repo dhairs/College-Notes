@@ -152,4 +152,14 @@ Disadvantages:
 
 ##### Round Robin Scheduling (RR)
 
-Scheduler implements
+Scheduler implements a FIFO queue
+
+Process at the head of the queue runs until:
+- a **time quantum** expires, in which case the process re-enters the queue
+- the process enters the wait state, in which the process is out of the queue and re-enters when the wait condition is no longer relevant
+
+Advantages:
+- No process starvation
+
+Disadvantages:
+- No context switching
