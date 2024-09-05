@@ -244,6 +244,29 @@ If we are overwriting current memory and there is an error in the `exec` and ove
 
 `exec` replaces the entire memory of the current process with a new program that is provided by pathname. A call to `exec` should *not* return if it is successful. 
 
+This system call may cause confusion because it may be fair to ask "how is the parent getting the return value of the process if `exec` isn't supposed to return anything?"
+
+This works because `exec` replaces the process with a different program. Then, this process is **still the child** of whatever process called `fork` to create it, but there is no longer the old program running, it is a new program, which means that the process return value will be the return value that the parent is able to read.
+
+##### Example of `exec`
+
+```C
+pid = fork();
+
+if (pid) {
+	// Parent stuff
+	rval = wait(pid);
+	printf("%i", rval)
+} else {
+	err = exec("/path/to/some/file");
+	printf("%i", err);
+}
+```
+
+Let's say that the file `/path/to/some/file` exists and `exec` successfully executes. The print statement is never called. Now, the parent process is in the first block of the `if` statement, and is waiting for the result of the child process. When the child process exits, the parent will print the return value (exit code). 
+
+Lets say that the file `/path/to/some/file` does not exist and `exec` fails. `exec` will return a value and `err` will have a value. There will be something printed to the console.
+
 #### The `fork`/`exec` sequence
 
 #### Example
@@ -305,3 +328,45 @@ The system call does the following:
 	- if so, it holds the result value until the parent requests it, process doesn't really *die*, but enters the **zombie/defunct** state
 	- if not, deallocates all data structures, the process is now dead
 - cleans up all waiting zombies
+
+##### `wait`
+
+The `wait` system call allows a parent process to wait for a child process's return value. The thread waits until the child process is exited.
+
+### Process Control
+
+The OS must include calls to enable special control of a process:
+- Priority manipulation
+	- `nice()` which specifies the base process priority (the initial priority)
+	- recall that UNIX priority decays as the process consumes CPU
+- Debugging support:
+	- `ptrace()`, allows a process to be put under control of another
+	- the other process can set breakpoints, examine registers, etc.
+- Alarms and time:
+	- sleep puts a process on a timer queue waiting for some number of seconds, supporting an alarm functionality
+
+#### Signaling
+
+the OS translates some events into **asynchronous** signals:
+- input/output
+- alarms
+
+The OS also translates exceptions into signals:
+- e.g. memory access violations, illegal instructions, overflow, etc.
+
+Signals also used for process control:
+- e.g. `SIGKILL` to kill a process, `SIGSTOP` to stop a process, etc.
+
+Rudimentary process communications:
+- e.g. process may use the `kill()` system call to send signals to each other (`SIGUSR1`, `SIGUSR2`)
+
+#### Signal Handling
+
+A process can:
+- rely on the default signal handler (e.g. core dump in UNIX)
+- ignore signal (temporarily or permanently)
+- 
+
+### Basic Process Implementation
+
+Each process has a **process control block** (PCB) that:
