@@ -205,25 +205,103 @@ Ex. in UNIX, the second process is called `init`
 
 The system interface includes a call to create processes.
 - in UNIX, this is called `fork()`
-	- This creates an exact copy of the current process, including all of the memory and stack
+	- This creates an exact copy of the current process, including all of the memory (heap, stack, etc.) and pointers (this is copying the page tables for the process)
 	- In order to run a different process, you must use `exec()`
 - in Windows, this is called `createProcess()`
 
+Because of address spaces, pointers and heaps retain the same values but in reality have different contexts and do not affect each other.
+
+#### `fork`
+
+Parent and child's code must be in the same program
+- limits the usefulness for general purpose process creation
+- gets out of control quickly if many children are to be created
+
+The child inherits all the open files and network connections
+- having parent and child share the I/O and network is very tricky
+- behavior with respect to the network connections varies
+- if the child does not use the inherited open files, then the work to set up the sharing is useless and the resources that are consumed within the OS are for no reason
+
+Using `fork` is **expensive**.
+
+There is an alternative that does not fully copy the process memory, called `vfork` that does *not* copy the page tables for the parent process.
+
 #### `exec`
+
+The `exec()` call allows a process to 'load' a different program and start execution at `__start`
+
+It allows a process to specify the number of arguments (`argc`) and the string argument array (`argv`)
+
+If the call is successful:
+- it is the same process
+- it runs a different process
+
+Two implementation options:
+1. overwrite current memory segments with the new values
+2. allocate new memory segments, load them with the new values, and deallocate old segments
+
+If we are overwriting current memory and there is an error in the `exec` and overwriting, we have a problem, because the memory is now partially overwritten. As such, it is better to go with the 2nd option and ensure that the new program is able to run.
+
+`exec` replaces the entire memory of the current process with a new program that is provided by pathname. A call to `exec` should *not* return if it is successful. 
+
+#### The `fork`/`exec` sequence
 
 #### Example
 
 Say you have a process with process ID (PID) 0. The following code segment is executed:
 
 ```C
+int i = 3;
 pid = fork();
 
 if (pid) {
 	// Parent process
+	i++;
 } else {
 	// Child process
+	i++;
 	exec("Path name of code to be run")
 }
 ```
 
-The parent process
+`i = 4` in both copies when the process is ended.
+
+The reason the `if` statement works above is because when the process is forked, the new PID is assigned to the PID variable only in the parent process **because** it only assigns the variable **after** the fork, so the copy that the child process has is uninitialized and equal to `0`.
+
+
+#### Example with Files
+
+Files connections are copied over along with the rest of the data when using `fork`, so in the following code segment, both the child and parent are accessing and editing the same file:
+
+```C
+fopen(...)
+pid = fork();
+
+if (pid) {
+	// Parent process
+	i++;
+	fwrite(...)
+} else {
+	// Child process
+	i++;
+	fwrite(...)
+}
+```
+
+This will lead to a race condition, because we don't know which process will edit the file first. This is **not deterministic**.
+
+### Process Termination
+
+#### Orderly Termination: `exit()`
+
+After the program finishes execution, it calls `exit()`
+
+The system call does the following:
+- takes the "result" of the program as an argument (CRT0 calls `exit()` with the value returned by the main program)
+- closes all open files, connections, etc.
+- deallocates memory
+- deallocates most of the OS data structures supporting the process
+- checks if the parent is alive:
+	- if so, it holds the result value until the parent requests it, process doesn't really *die*, but enters the **zombie/defunct** state
+	- if not, deallocates all data structures, the process is now dead
+- cleans up all waiting zombies
