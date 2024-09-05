@@ -175,7 +175,7 @@ Advantages:
 Disadvantages:
 - No context switching
 
-##### Multi-Feedback Queues (UNIX)
+##### Multi-Feedback Queues (MFQ) (UNIX)
 
 The scheduler implements *several* Round Robin queues such that the processes in one queue all have the same priority.
 
