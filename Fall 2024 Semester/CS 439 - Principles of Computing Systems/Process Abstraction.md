@@ -113,8 +113,9 @@ Advantages:
 - Simple
 
 Disadvantage:
-- Cannot give priority to certain processes
+- Cannot give priority to more important processes
 - Slower response time
+- Non-preemptive FCFS can waste cycles (when waiting for I/O)
 
 ##### Shortest Job First (SJF)
 
@@ -129,6 +130,7 @@ Disadvantages:
 - Undecidable problem to know the shortest job
 	- Must ask the user predicted times
 - User has to guess time
+- Important processes are not necessarily given priority
 - Always a shorter process, long processes will be starved
 
 ##### Preemptive vs. Non Preemptive
@@ -156,6 +158,7 @@ Advantages:
 
 Disadvantages:
 - Context switching
+- Subject to starvation
 
 ##### Round Robin Scheduling (RR)
 
@@ -167,8 +170,60 @@ Process at the head of the queue runs until:
 
 Advantages:
 - No process starvation
+- Fair
 
 Disadvantages:
 - No context switching
 
-#### 
+##### Multi-Feedback Queues (UNIX)
+
+The scheduler implements *several* Round Robin queues such that the processes in one queue all have the same priority.
+
+The process at the head of the queue with the highest priority is allowed to run until:
+- a **time quantum** expires, in which case the process re-enters the queue
+- process enters the wait state in which the process is out of the queue and re-enters when the wait condition is no longer relevant
+
+After running for a while, a process is relegated to the next queue in priority order (its priority is decreased).
+
+After spending time in the I/O wait, a process is promoted to the highest priority queue (its priority is set to max).
+
+![[UNIX Multi-Feedback Queue.svg]]
+
+### Process Creation
+
+The system creates the first process (`sysproc` in UNIX).
+
+The first process creates other process such that:
+- the creator is called the **parent process**
+- the created is called the **child process**
+- the parent/child relationships can be expressed by a process tree
+
+Ex. in UNIX, the second process is called `init`
+- it creates all the gettys (login processes) and daemons
+- it should *never* die
+- it controls the system configuration (num of processes, priorities, etc.)
+
+The system interface includes a call to create processes.
+- in UNIX, this is called `fork()`
+	- This creates an exact copy of the current process, including all of the memory and stack
+	- In order to run a different process, you must use `exec()`
+- in Windows, this is called `createProcess()`
+
+#### `exec`
+
+#### Example
+
+Say you have a process with process ID (PID) 0. The following code segment is executed:
+
+```C
+pid = fork();
+
+if (pid) {
+	// Parent process
+} else {
+	// Child process
+	exec("Path name of code to be run")
+}
+```
+
+The parent process
