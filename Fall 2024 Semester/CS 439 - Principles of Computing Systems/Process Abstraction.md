@@ -133,7 +133,14 @@ Disadvantages:
 
 ##### Preemptive vs. Non Preemptive
 
-In non preemptive
+In non preemptive, once a process starts, it is allowed to run until it finishes
+- Simple, efficient
+- Creates problems
+		- Infinite loops can cause queue to never move
+
+In preemptive scheduling, a process is switched back and forth between the 'ready' and 'running' states
+- More sophisticated with lots of capabilities
+- Less efficient (context switching)
 
 
 ##### Priority-Based Scheduling
@@ -163,3 +170,5 @@ Advantages:
 
 Disadvantages:
 - No context switching
+
+#### 
