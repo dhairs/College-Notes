@@ -13,7 +13,7 @@ Favorite holiday of each person:
 
 
 
-Link to your UTCS GitLab repository for this project:
+Link to your UTCS GitLab repository for this project: https://gitlab.cs.utexas.edu/dgja/cs439-project-0
 (For instructions, check the Startup Resources on the CS439 Resources Guide and 
 see the "Version Control and Git" document.)
 
