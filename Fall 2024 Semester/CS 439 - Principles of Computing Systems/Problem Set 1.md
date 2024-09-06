@@ -45,4 +45,4 @@
    3. How many numbers in the file begin with 14?
 	   1. 107 numbers begin with 14
 	   2. `grep -E '14[0-9]' nums.txt | wc`
-6. 
+6. After testing with a simple function that returns a value + 1, and the `getuid` syscall, in our testing we found that system calls are on the order of 20 times slower than procedure calls. Running 100 procedure calls resulted in around a runtime of 1000ns, versus 100 system calls taking 20,000ns.
