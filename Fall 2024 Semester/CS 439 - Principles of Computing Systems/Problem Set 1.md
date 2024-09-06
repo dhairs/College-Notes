@@ -23,11 +23,11 @@
 	   }
 	```
 	How many processes are created if the above piece of code is run?
-	1. $2^5$ processes, so 32 processes are created.
+	1. $2^5$ processes, so 31 processes are created because the original process should not be counted as a created process.
 3. From Anderson and Dahlin, Ch1 question 1:  Suppose a computer system and all of its applications are completely bug free. Suppose further that everyone in the world is completely honest and trustworthy. In other words, we do not need to consider fault isolation.
     
     - How should the operating system allocate the processor? Should it give all of the processor to each application until it no longer needs it? If there are multiple tasks ready to execute at the same time, should it schedule the task with the least amount of work to do or the most? Justify your answer. **You should assume a uniprocessor.**
-        - It would be best to schedule tasks using a first come first serve method. However, if there is already a list of tasks, it would make sense to queue them by the shortest task first so that each user gets the optimal response time.
+        - It would be best to schedule tasks using a first come first serve method because there is no worry of a user having an infinite loop or bug in their code that would hold up the queue. However, if there is already a list of tasks, it would make sense to queue them by the shortest task first so that each user gets the optimal response time.
         
     - How should the operating system allocate physical memory between applications? What should happen if the set of applications does not all fit in memory at the same time?
 	    - The system should allocate physical memory by separating each application's memory space, so that each application believes it has access to all of the system memory. Then, the system can evict the least recently used application's memory when the new application requests more than is available.
