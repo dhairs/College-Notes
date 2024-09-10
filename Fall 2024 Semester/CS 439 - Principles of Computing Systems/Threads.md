@@ -104,6 +104,24 @@ In Linux, there is an idea of lightweight processes, somewhere between processes
 
 ## Thread Hazards
 
+In a classical process (only one thread), the process' stack segment serves to be the stack of the root thread:
+- The stack segment is far away from the code and data segments
+- It grows implicitly during function calls up to the maximum size
+
+In a multithreaded process, each thread needs a stack:
+- Where should the stack be?
+- What size?
+- A thread has to be part of the process' address space
+
+### Stack Allocation Options
+
+**Allocate the stacks on the heap**
+
+This is much easier than the alternative, but very hazardous because everything is in the same heap of the process' address space.
+
+**Allocate the stack away from other stack segments**
+This requires OS support, but is much safer because each stack is separate.
+
 ### Sharing
 
 Consider the following code segment:
@@ -214,9 +232,127 @@ fn() {
 
 What happens here?
 
-Note that we have the bogus value for a pointer, when we try accessing that pointer, we'll get a seg fault, and that leads to an error state.
+Note that we have the bogus value for a pointer, when we try accessing that pointer, we'll get a segmentation fault, and that leads to an error state.
 
 Our child thread has no exception, it should stay alive.
 
 Killing the main thread is not possible because something has to call `exit` and return to CRT0. That's why if its the main thread causing the exception, we may as well just kill the whole process.
 
+### Synchronization
+
+```c
+int a = 1, b = 2, w = 1;
+main() {
+	CreateThread(fn, 4);
+	while(w);
+}
+
+fn() {
+	int v = a + b;
+	w = 0;
+}
+```
+
+The main thread is able to wait for the child thread to complete before exiting.
+### Concurrency
+
+Consider the following code segment:
+```c
+int a = 1, b = 2, w = 1;
+main() {
+	CreateThread(fn, 4);
+	CreateThread(fn, 5);
+	while(w);
+}
+
+fn() {
+	int v = a + b;
+	w—;
+}
+```
+
+This, in theory, should work. However, when the code actually executes, we have assembly under the hood that executes `w--;` in 4 instructions. Both threads are therefore loading the value of `w` into a register, and then doing the computation, and then storing.
+
+As a result, there is a possible race condition where both processes load into the same registers (they share the same assembly), and the number calculated could therefore be `1`, instead of 0.
+
+This code is non-deterministic. We don't know what will happen when it runs.
+
+### Other Hazards and Concerns
+
+If there is a signal, who should receive it?
+- One thread?
+- All thread?
+- Some designated thread?
+
+If there is an exception:
+- Kill only the offending thread?
+- Kill the process?
+
+Hidden concurrency problems:
+- Sharing through files\
+- Shared variables
+
+## Threads in Modern Programming Languages
+
+### Java
+
+```java
+public class MyThread implements Runnable {
+	public void foo() {
+		System.out.println("Thread is running in the foo method!");
+	}
+	
+	@Override
+	public void run() {
+		foo();
+	}
+	
+	public statc void main(String[] args) {
+		MyThread myThread = new MyThread();
+		Thread thread = newThread(myThread);
+		thread.start()
+	}
+}
+```
+
+
+### C++
+
+```c++
+class MyThread {
+public:
+	void foo() {
+		std::cout << "Thread is running in foo method!" << std::endl;
+	}
+};
+
+int main() {
+	MyThread myThread;
+	std::thread t(&MyThread::foo, & myThread);
+	t.join();
+	return 0;
+}
+```
+
+### Python
+
+```python
+import threading
+class MyTask:
+	def foo(self):
+		print("Task is running in foo method!")
+
+task = MyTask()
+t = threading.Thread(target=task.foo)
+t.start()
+t.join()
+```
+
+## Thread Variations
+
+Threads differ according to three dimensions:
+- Implementation: Kernel-level versus User-level
+- Execution: Uniprocessor vs. multi-process
+- Cooperative vs. uncooperative
+
+This gives us 8 combinations.
