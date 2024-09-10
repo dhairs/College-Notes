@@ -328,8 +328,8 @@ public:
 
 int main() {
 	MyThread myThread;
-	std::thread t(&MyThread::foo, & myThread);
-	t.join();
+	std::thread t(&MyThread::foo, & myThread); // create and start running thread
+	t.join(); // wait for the thread to finish execution
 	return 0;
 }
 ```
