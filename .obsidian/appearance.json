@@ -3,7 +3,7 @@
   "baseFontSize": 16,
   "interfaceFontFamily": "",
   "textFontFamily": "Helvetica Neue,Inter,Times New Roman",
-  "cssTheme": "",
+  "cssTheme": "Minimal",
   "nativeMenus": true,
   "translucency": true,
   "showViewHeader": true
