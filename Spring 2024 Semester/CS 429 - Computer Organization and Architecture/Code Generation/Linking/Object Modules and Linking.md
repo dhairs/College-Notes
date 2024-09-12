@@ -12,7 +12,6 @@ An object file is a _self-describing_ block of bytes
 This is similar to storing the tree in the header of a Huffman encoded file, or the metadata for a [[Dynamic Memory Management|malloc]] memory block.
 
 There are three types:
-
 - **Relocatable**: Binary code and data, suitable for combining (e.g. `p1.o` and `p2.o`)
 - **Shared**: A special type of relocatable object file that can be loaded into memory and linked dynamically, either at load time or at run time (the file `libc.so`)
   - Note: this is what as `.dll` is on Windows
