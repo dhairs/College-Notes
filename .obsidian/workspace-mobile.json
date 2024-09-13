@@ -15,6 +15,7 @@
               "state": {
                 "file": "Fall 2024 Semester/CS 439 - Principles of Computing Systems/Introduction to Computing Systems.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -169,6 +170,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
