@@ -21,3 +21,5 @@ Motivation: Save weight, space, materials. Streamline debugging hardware.
 	1. 22 Gauge to fans and other side of car (VCU) (~25 ft, < 30W, <10A)
 4. Make unsprung's larger/more capable (less wire traces running from every corner of suspension)
 	1. Just power and CAN running to a PDU/central board
+
+

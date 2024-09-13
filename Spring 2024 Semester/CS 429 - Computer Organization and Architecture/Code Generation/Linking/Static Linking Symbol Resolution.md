@@ -51,6 +51,8 @@ This can be well-explained using graph theory:
  - If the symbol reference $s$ of module $M$ is resolved to symbol definition symbol $t$ of module $N$, add the directed edge $(\text{REF}(M.s), \text{DEF}(N.t))$ 
  - The resulting graph is **bipartite**, with edges directed from references to definitions
 
+![[Process Abstraction#Static vs. Dynamic Linking]]
+
 ### Rules of Symbol Resolution
 
 We need a **singular** definition for each symbol
