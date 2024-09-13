@@ -53,7 +53,7 @@ At the point CreateThread is called, execution continues in parent thread in the
 
 So how can this help?
 
-Remember the code segment from [[Threads#Example 1|Example 1]]. W can rewrite this as:
+Remember the code segment from [[Threads#Example 1|Example 1]]. We can rewrite this as:
 
 ```c
 main()
