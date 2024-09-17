@@ -24,6 +24,7 @@ Many ways to implement critical solutions
 	- some solutions are for a single threaded application only
 - Busy waiting vs. Blocking
 	- in busy-waiting (spin-locks), a thread retains the CPU, and loops until it can enter the critical section
+		- These are more efficient when there is low-contention to the critical section because then you are wasting less time for other processes when waiting
 	- in blocking, a thread gives up the CPU, and waits on some queue until it gets notified that it can enter the critical section
 
 

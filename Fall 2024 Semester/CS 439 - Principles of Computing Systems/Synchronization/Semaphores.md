@@ -33,7 +33,7 @@ Initialization(val) {
 #### P(s)
 
 ```c
-v—;
+v--;
 if(v < 0) {
 	add thread to L;
 	block;
