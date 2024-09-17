@@ -14,7 +14,6 @@ main()
 **What is wasteful about a program like this?**
 We don't compute while writing, so you waste time writing. Would be better if OS handles the writing in the background while we compute.
 
-
 ### Example 2
 **Consider another fragment:**
 ```c
