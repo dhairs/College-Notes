@@ -1,5 +1,3 @@
-
-
 ## An Abstract Solution to the Concurrency Issues
 
 We could potentially have a 'lock' of some sort that prevents other threads or programs from using or modifying the same resource while another thread or program is. 
@@ -71,5 +69,5 @@ This instruction executes atomically.
 
 There are a few types of blocking synchronization systems:
 - [[Semaphores]]
-- Monitors
+- [[Monitors]]
 - Condition Regions
