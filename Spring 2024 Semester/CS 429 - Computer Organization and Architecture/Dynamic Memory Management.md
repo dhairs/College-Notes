@@ -1,4 +1,3 @@
-
 ## In C
 
 Just think `malloc` and `free`. Literally you managing the memory at runtime.

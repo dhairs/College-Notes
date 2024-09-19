@@ -80,7 +80,7 @@ NULL ^Aw4MkSjn
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.20",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.21",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -155,7 +155,7 @@ NULL ^Aw4MkSjn
 			"containerId": "Di4Orw1okmAYbPTawOIgm",
 			"originalText": "Payload: 100B",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -192,7 +192,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Allocated Block",
 			"lineHeight": 1.15,
-			"baseline": 19
+			"baseline": 18
 		},
 		{
 			"type": "rectangle",
@@ -258,7 +258,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Free Block",
 			"lineHeight": 1.15,
-			"baseline": 19
+			"baseline": 18
 		},
 		{
 			"type": "line",
@@ -552,7 +552,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Header",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -589,7 +589,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Canary Value: 8B",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "line",
@@ -670,7 +670,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Padding: 12B",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -712,12 +712,12 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "*p",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "arrow",
-			"version": 248,
-			"versionNonce": 1993729844,
+			"version": 250,
+			"versionNonce": 117999132,
 			"isDeleted": false,
 			"id": "qP46m96RqeMm0mv5pWrtO",
 			"fillStyle": "solid",
@@ -739,7 +739,7 @@ NULL ^Aw4MkSjn
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1707851898402,
+			"updated": 1726769989762,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -801,7 +801,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Size: 8B",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -1095,7 +1095,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Allocated?",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -1132,7 +1132,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Size (F)",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -1169,7 +1169,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Next",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "rectangle",
@@ -1235,7 +1235,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Free head",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "freedraw",
@@ -1749,7 +1749,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Size",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -1786,7 +1786,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "alloc status",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -1823,7 +1823,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "next",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "rectangle",
@@ -1977,7 +1977,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Size",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -2014,7 +2014,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "alloc status",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -2051,7 +2051,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "next",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "arrow",
@@ -2132,7 +2132,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "0x000",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -2169,7 +2169,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "0x100",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -2272,7 +2272,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Free head",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "freedraw",
@@ -2786,7 +2786,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Size",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -2823,7 +2823,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "alloc status",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -2865,7 +2865,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "next",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "rectangle",
@@ -3019,7 +3019,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "Size",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -3056,7 +3056,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "alloc status",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -3093,7 +3093,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "payload",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "arrow",
@@ -3182,7 +3182,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "0x000",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -3219,7 +3219,7 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "0x100",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
 		},
 		{
 			"type": "text",
@@ -3261,7 +3261,44 @@ NULL ^Aw4MkSjn
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.15,
-			"baseline": 15
+			"baseline": 14
+		},
+		{
+			"id": "gGu10nuD",
+			"type": "text",
+			"x": 293.14719742346483,
+			"y": 1040.2940771074414,
+			"width": 10.001953125,
+			"height": 41.4,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 920502180,
+			"version": 2,
+			"versionNonce": 1608026396,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1726770003046,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 36,
+			"fontFamily": 2,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 33,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.15
 		}
 	],
 	"appState": {
@@ -3279,10 +3316,10 @@ NULL ^Aw4MkSjn
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "triangle",
-		"scrollX": 1265.035799473606,
-		"scrollY": -567.912492697871,
+		"scrollX": 1327.2974799762032,
+		"scrollY": 170.78130096984182,
 		"zoom": {
-			"value": 0.6768332131480685
+			"value": 0.5248641045825317
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
