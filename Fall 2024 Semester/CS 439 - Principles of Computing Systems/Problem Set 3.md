@@ -79,17 +79,38 @@ void borrow_bike() {
 };
 
 V(s) {
-	L.remove(threadPID);
-	unblock;
+	if(L != []) {
+		Remove a thread from L;
+		Unblock(T);
+	} else if(v == 0) {
+		v = 1;
+	}
 }
 
 P(s) {
-	L.add(threadPID);
-	block;
+	if(v == 0) {
+		Add caller to L;
+		Block;
+	} else {
+		v--;
+	}
 }
 ```
-     
-    
+
+```c
+void borrow_bike() {
+	lock->acquire();
+}
+
+while(bike <= 0) {
+	bikeCV->wait();
+	bike--;
+	// <train>
+	bike++;
+	bikeCV->signal();
+	lock->release();
+}
+```
     which may be executed by multiple neighbors (threads) at a time, using:
     
     1. semaphores, and
@@ -109,4 +130,20 @@ void count_up() {
 	int val = counter++;
 	mutex_unlock(&lock);
 };
+```
+
+```c
+atomic my_turn = 0;
+int current_turn = 0;
+
+Enter() {
+	int __myturn = my_turn++;
+	while(__myturn != current_turn) {
+		// busy wait
+	}
+}
+
+Leave() {
+	current_turn++;
+}
 ```
