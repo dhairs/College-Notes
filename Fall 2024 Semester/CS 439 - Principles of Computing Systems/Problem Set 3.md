@@ -1,6 +1,6 @@
 1. Given the following piece of code:
     
-    main(int argc, char**argv)
+    main(int argc, char\*\*argv)
     {
        int child=fork();
        int c=2;
@@ -19,10 +19,10 @@
     }
     
     How many different copies of the variable c are there? What are their values?
-	    **There are 3 copies of `c`. The values are 4, 6, and 8**
+	    **There are 3 copies of `c`. The values are 4, 6, and 8**.
     
 2. Consider a uniprocessor kernel that user programs can trap into using system calls. The kernel receives and handles interrupts from I/O devices. Would there be any need for critical sections within that kernel?
-	1. **Yes, there is the possibility of important data being accessed when an interrupt is handled, that can cause the data to be lost.**
+	1. **Yes, there is the possibility of important data being accessed when an interrupt is handled that accesses a shared resource, that can cause the data to be lost or changed.**
     
 3. Describe the priority inversion problem and give an example situation where it may occur.
 	1. **Priority inversion is when a high priority task is delayed running because a lower priority task holds a lock to an exclusive resource that the high priority task relies on. As a result, a lower priority task that doesn't rely on that same thing can run, effectively allowing lower priorities to run before the highest. This could happen in a situation on, for example, a mars rover.**
@@ -96,3 +96,17 @@ P(s) {
     2. monitors.
     
 	Keep in mind that when each neighbor will need the bike is unpredictable, and neighbors should be able to rest from the time they request the bike until they acquire it.
+
+8. You have access to an atomic counter, such that you can execute the operation  
+	`val = counter++;` 
+	without any interference. Implement a solution to the critical section problem.
+```c
+mutex lock;
+int counter;
+int cause = 0;
+void count_up() {
+	lock = mutex_lock(&lock);
+	int val = counter++;
+	mutex_unlock(&lock);
+};
+```
