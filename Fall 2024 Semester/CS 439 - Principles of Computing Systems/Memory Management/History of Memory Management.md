@@ -47,10 +47,6 @@ There are a few key allocation policies that the system can use to provide memor
 
 The first fit allocation policy simply finds the first available block (partition) of memory that has enough bytes and allocates it.
 
-#### Worst Fit
-
-The worst fit allocation policy is the opposite of the best fit policy. It simply finds the largest block and provides 
-
 #### Buddy Allocation
 
 This is what modern `malloc` implementations use.
