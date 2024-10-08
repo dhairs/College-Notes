@@ -40,6 +40,18 @@ There's a few ways you can implement relocation:
 2. Relocating loader
 3. Relocation register
 
+##### Relocating Linker
+
+The linker knows where the program will run and reads the program binary and translates addresses. If the location of the program needs to be changed, the program has to be relinked.
+
 ##### Relocating Loader
 
-The same as a relocating linker, except that it resolves the references at load time. 
+The same as a relocating linker, except that it resolves the references at load time. This is more flexible, though, because it does not need to know where the program will run beforehand. However, this has more overhead because it has to be done on every program run.
+
+##### Relocation Register
+
+We can just make all the addressing relative to a base register. The program can be relocated by just changing the base register. 
+
+Of course, because this is meant to also protect memory between programs, we have to ensure that the programs can't access the base register themselves.
+
+On modern systems, we need to have a 
