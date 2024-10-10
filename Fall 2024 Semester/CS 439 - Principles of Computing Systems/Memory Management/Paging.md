@@ -3,7 +3,7 @@
 There are a lot of troubles with memory partitioning:
 - Fragmentation
 - Need for compaction/swapping
-- A process size is limited by the 
+- A process size is limited by the amount of physical memory still available
 
 ## What is Paging
 
@@ -21,6 +21,16 @@ The actual allocation does not need to be contiguous.
 
 Use a Memory Management Unit (MMU) to translate the illusory addresses to real, physical ones. 
 
-The [[Virtual Addresses]] are mapped directly to different portions of physical memory, so the program accesses 'contiguous memory' in its virtual space, but can be accessing different frames of physical memory.
+The [[Virtual Addresses]] are mapped directly to different portions of physical memory, so the program accesses 'contiguous memory' in its virtual space, but can be accessing different **frames** of physical memory.
 
 ![[Paging Translation.svg]]
+
+Because we don't have nearly as much memory as the virtual address space, some are not mapped to memory, and cause a `PAGE FAULT`.
+
+#### Process' With Paging
+
+![[Paging Process View.svg|400]]
+
+## Boot Process
+
+Because when the OS boots, there is no abstraction set up for virtual addressing, so it has to create that virtual address space. Then, the OS can also run in its own virtual address space.
