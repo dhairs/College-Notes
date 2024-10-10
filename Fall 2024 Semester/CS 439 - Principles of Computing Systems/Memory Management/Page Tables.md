@@ -6,6 +6,8 @@ Page tables are the answer.
 
 Note that **each process has its own page table**.
 
+It lives in the Process Control Block (PCB) or Process Descriptor.
+
 ### A Simple Abstraction for Page Tables
 
 Page tables can be seen as a simple one-to-one memory mapping for pages to physical memory:
@@ -46,3 +48,4 @@ So, we add our newly compiled code to the heap, and tell the OS that this part o
 ![[Page Table Actual.svg]]
 
 Each page will have its own virtual private number. It will use that to find it's index in the page table, which will then be used to find the frame number in physical memory.
+
