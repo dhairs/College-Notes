@@ -11,7 +11,7 @@ Recall that there are many [[History of Memory Management#Fixed Partition Alloca
 
 Let's propose that instead of providing dynamic partitions, we provide a bunch of 'pages' in the system.
 
-Each page is a pre-determined, static size. So, each request to memory is given a new page, which can then be used however we want. These pages don't have to be contiguous
+Each page is a pre-determined, static size. So, each request to memory is given a new page, which can then be used however we want. These pages don't have to be contiguous in physical memory. 
 
 ### The Basic Solution
 
@@ -21,7 +21,14 @@ The actual allocation does not need to be contiguous.
 
 Use a Memory Management Unit (MMU) to translate the illusory addresses to real, physical ones. 
 
-The [[Virtual Addresses]] are mapped directly to different portions of physical memory, so the program accesses 'contiguous memory' in its virtual space, but can be accessing different **frames** of physical memory.
+The [[Virtual Addresses]] are mapped directly to different portions of physical memory, so the program accesses 'contiguous memory' in its virtual space, but can be accessing different **frames** (of the same size) of physical memory. This also allows for no external fragmentation in the physical memory.
+
+#### Key Facts
+
+The physical address space is independent of the virtual address space:
+- They can have different sizes, though uncommon
+- 
+The page size is always a power of 2 to simplify hardware addressing.
 
 ![[Paging Translation.svg]]
 
@@ -31,6 +38,6 @@ Because we don't have nearly as much memory as the virtual address space, some a
 
 ![[Paging Process View.svg|400]]
 
-## Boot Process
+### Boot Process
 
 Because when the OS boots, there is no abstraction set up for virtual addressing, so it has to create that virtual address space. Then, the OS can also run in its own virtual address space.
