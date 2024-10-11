@@ -1,6 +1,6 @@
 Discussion Section Problem Set #: 5
-Student Name: 
-EID: 
+Student Name: Dhairya Gupta
+EID: DG43932
 
 1. What is a virtual address? What is a physical address? How do they relate to each other?
 
@@ -10,7 +10,7 @@ A virtual address is an address used by programs in their own address space to a
 
 2. What causes a page fault? What is the end result for the running process?
 
-A page fault is caused when a process tries accessing a virtual address not yet mapped to a physical address. 
+A page fault is caused when a process asks for a page not loaded into memory currently. The OS handles this and brings the page into memory.
 
 
 3. What causes a memory exception? What is the end result for the running process?
@@ -20,12 +20,16 @@ A memory exception is caused when a program tries to access memory that it is no
 
 4. Name two advantages of paging over relocation.
 
-Paging is better than relocation because it causes less external fragmentation. Additionally, it makes it easier for processes to share the same pages for things like global DLLs.
+- Paging is better than relocation because it causes no external fragmentation
+- Additionally, it makes it easier for processes to share the same pages for things like global DLLs
+- Process can be larger than the available memory
+- Processes can grow easier
+- Easier to allocate and deallocate memory to/from processes
 
 
 5. Assume you have a virtual memory system that uses paging. Is the system vulnerable to internal and/or external fragmentation? Explain.
 
-Yes. The system can still have internal fragmentation because the page size is fixed and that means that there will be wasted space within each page. There will, however, not be external fragmentation because pages don't have to be contiguous in memory.
+Yes. The system can still have internal fragmentation because the page size is fixed and that means that there will be wasted space within each page. There will, however, not be external fragmentation because pages don't have to be contiguous in physical memory.
 
 
 6. Consider a paging system with 16 pages and a page size of 256 bytes. The system has 1024 bytes of physical memory. How many bits are in a physical address? How many bits represent the page number? How many bits are in the complete virtual address? What size are the page frames?
