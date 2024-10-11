@@ -49,3 +49,23 @@ So, we add our newly compiled code to the heap, and tell the OS that this part o
 
 Each page will have its own virtual private number. It will use that to find it's index in the page table, which will then be used to find the frame number in physical memory.
 
+### Virtual Page Number (VPN)
+
+The virtual page number (VPN) tells us what page to be looking at in the page table. This is similar to a cache line in [[Intro to Caching|caching]].
+
+To represent the virtual page number in an $n$-bit system with $2^m$ page size, you would need $n-m$ bits.
+
+#### Example
+
+Imagine we have 32 bits of physical memory addressing, and a page size of 4096 bytes. We can find the number of bits needed to represent the VPN by doing the following:
+
+1. Find $m$: $2^m=4096 \rightarrow m=\log_{2}(4096)=12$
+2. Calculate bits needed: $32-12=20$
+
+Therefore, we need 20 bits to represent the virtual page number in the virtual address space.
+
+### Offset
+
+The offset tells us what byte we are requesting within the page itself. This is similar to the byte select field in caches.
+
+Following the same terminology in the VPN above, we can find the number of bits needed to represent the offset simply by knowing $m$. 
