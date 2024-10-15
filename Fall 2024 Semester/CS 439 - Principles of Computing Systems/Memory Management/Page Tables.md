@@ -69,3 +69,7 @@ Therefore, we need 20 bits to represent the virtual page number in the virtual a
 The offset tells us what byte we are requesting within the page itself. This is similar to the byte select field in caches.
 
 Following the same terminology in the VPN above, we can find the number of bits needed to represent the offset simply by knowing $m$. 
+
+## Multi-Level Page Tables
+
+Also known as tree-structu
