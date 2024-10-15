@@ -72,4 +72,4 @@ Following the same terminology in the VPN above, we can find the number of bits 
 
 ## Multi-Level Page Tables
 
-Also known as tree-structu
+Also known as tree-structured page tables. These use two or more levels of page tables. All entries in the topmost level must be the root.
