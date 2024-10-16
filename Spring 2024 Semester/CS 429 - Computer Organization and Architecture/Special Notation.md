@@ -28,7 +28,8 @@ $1\text{GiB}=2^{30}\text{ bytes}$.
 
 This pattern continues so on:
 #### The Pattern (XiB)
-Replaces XB, which can be defined as $10^\text{multiple of 3}$ bytes.
+Replaces XB, which can be defined as
+$10^\text{multiple of 3}$ bytes.
 
 To derive the version we're looking for: 
 $$
