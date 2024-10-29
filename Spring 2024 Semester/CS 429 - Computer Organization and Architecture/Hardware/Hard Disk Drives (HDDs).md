@@ -123,3 +123,19 @@ Assuming there are several requests available, there are a few schemes to schedu
 - **Loop**: Same as SCAN, but stops once there are no more requests on the outer.
 - **Elevator**: The same as SCAN, but reverse motion after reaching the last request, and starts at the first requested track.
 - **Priority Based** (very rare): Different priorities, used in things that need real time requirements
+
+## Redundant Array of Inexpensive Disks (RAID)
+
+Single RAID controller: externally a single disk interface, internally, works as parallel data transfer with redundancy built in.
+
+Multiple paradigms and levels for RAID systems with a single RAID controller:
+- **Level 0: Data striping across disks**, parallel seeks and reads. Put data *across* disks.
+	- Now there is a problem, if a single disk fails, and we have data across disks, how can we prevent failure and data loss?
+- **Level 1: Disk Mirroring** (solves for the problem in level 0 with reliability). Completely mirror the data on the disks.
+	- New problem here: we have extremely high overhead, and a limited capacity to a single disk size.
+- **Level 01 (0 + 1): Data replication across disk pairs, data striping across pairs**. This way, we can replicate some disks, and stripe across others.
+- **Level 2: Bit Striping**. Don't use. Never used. Makes no sense. A lot of XORs.
+- **Level 3: Byte Striping.** Still don't use, a little useful compared to bit striping but still nonsensical in most cases.
+- **Level 4: Blocks are read and written independently, one parity disk for reliability**. Very nice, parallel reads, writes not exactly parallel (need to do the parity), individual reads, AND a parity disk for error checking and correcting.
+
+
