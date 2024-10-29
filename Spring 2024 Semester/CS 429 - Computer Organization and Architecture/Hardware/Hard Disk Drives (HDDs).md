@@ -137,5 +137,9 @@ Multiple paradigms and levels for RAID systems with a single RAID controller:
 - **Level 2: Bit Striping**. Don't use. Never used. Makes no sense. A lot of XORs.
 - **Level 3: Byte Striping.** Still don't use, a little useful compared to bit striping but still nonsensical in most cases.
 - **Level 4: Blocks are read and written independently, one parity disk for reliability**. Very nice, parallel reads, writes not exactly parallel (need to do the parity), individual reads, AND a parity disk for error checking and correcting.
+	- Problem: the parity disk is written to every single time.
+- **Level 5: Same as Level 4 but with parity spread across disks (one block of parity per disk)**. This allows us to make the writes to all disks equivalent. No bottlenecks either, because the parity is spread across. Very popular configuration.
+- **Level 6: Same as Level 5 but with two blocks of parity across disks.** Uses Reed-Solomon encoding to recover from failure. This is the de-facto standard.
+- **Level Z: Blocks are read and written independently.** Used by the ZFS file system (used on Linux, macOS, Solaris, etc.). RAID-Z1, Z2, Z3 provide one, two, or three parity blocks, respectively. Uses checksums to protect against data corruption, and dynamically adjustable block sizes.
 
 
