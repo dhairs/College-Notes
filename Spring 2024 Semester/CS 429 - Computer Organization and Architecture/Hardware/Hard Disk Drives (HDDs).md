@@ -87,3 +87,13 @@ T_{\text{access}}(\text{AVG})=T_{\text{seek}}+T_{\text{rot}}+T_{\text{tsr}} \\
 =13.19\text{ ms}
 \end{align}
 $$
+
+### Reliability
+
+**Mean Time To Failure (MTTF)**: usually in hundreds of thousands or millions of hours
+
+Sectors contain **Error Correction Codes (ECC)** (think [[Main Memory#Hamming Codes|Hamming Codes]] for example)
+
+Dual porting for host-failure: two machines could be connected to the same disk
+
+**Bad Sectors**: The disk often comes with ad sectors, the system has to account for them when setting up the disk. It needs to remap those sectors into another space
