@@ -88,7 +88,15 @@ T_{\text{access}}(\text{AVG})=T_{\text{seek}}+T_{\text{rot}}+T_{\text{tsr}} \\
 \end{align}
 $$
 
-### Reliability
+### Average Head Seek Distance
+
+For a disk of $N$ tracks, the average seek distance is 
+
+$$
+\frac{1}{3}\times\left( N-\frac{1}{N} \right)
+$$
+
+## Reliability
 
 **Mean Time To Failure (MTTF)**: usually in hundreds of thousands or millions of hours
 
@@ -96,4 +104,22 @@ Sectors contain **Error Correction Codes (ECC)** (think [[Main Memory#Hamming Co
 
 Dual porting for host-failure: two machines could be connected to the same disk
 
-**Bad Sectors**: The disk often comes with ad sectors, the system has to account for them when setting up the disk. It needs to remap those sectors into another space
+**Bad Sectors**: The disk often comes with ad sectors, the system has to account for them when setting up the disk. It needs to remap those sectors into another space. As a result, the interface masks them.
+
+## Contiguous Sectors
+
+Physically contiguous sectors cannot be read in one singular seek, there is data transfer overhead.
+
+However, logically contiguous sectors are usually physically spaced apart (e.g., every other or every third)
+
+Organizing data such that they can be read sequentially is **key** to the performance in disk systems.
+
+## Disk Head Scheduling
+
+Assuming there are several requests available, there are a few schemes to schedule how the disk head moves:
+- **First Come First Serve (FCFS)**
+- **Shortest Seek First (SSF)**: go to the nearest track first
+- **SCAN**: Start from track 0, handle the requests in order until the outer track, and restart from 0 again (essentially a loop from in to out). Not amazing, keeps going to the end of the track even when there are no more requests
+- **Loop**: Same as SCAN, but stops once there are no more requests on the outer.
+- **Elevator**: The same as SCAN, but reverse motion after reaching the last request, and starts at the first requested track.
+- **Priority Based** (very rare): Different priorities, used in things that need real time requirements
