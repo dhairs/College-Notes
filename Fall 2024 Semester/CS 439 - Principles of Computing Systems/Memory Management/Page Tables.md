@@ -28,7 +28,7 @@ Page tables are indexed by a virtual page number. It contains the frame number (
 
 
 **Optimization Bits**:
-- r: The reference bit is set to 1 whenever the page is read or written to.
+- f: The reference bit is set to 1 whenever the page is read or written to.
 - m: The modified bit is set to 1 whenever the page is modified.
 
 In the data segment of a process:
