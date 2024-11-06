@@ -120,7 +120,7 @@ Assuming there are several requests available, there are a few schemes to schedu
 - **First Come First Serve (FCFS)**
 - **Shortest Seek First (SSF)**: go to the nearest track first
 - **SCAN**: Start from track 0, handle the requests in order until the outer track, and restart from 0 again (essentially a loop from in to out). Not amazing, keeps going to the end of the track even when there are no more requests
-- **Loop**: Same as SCAN, but stops once there are no more requests on the outer.
+- **Look**: Same as SCAN, but stops once there are no more requests on the outer.
 - **Elevator**: The same as SCAN, but reverse motion after reaching the last request, and starts at the first requested track.
 - **Priority Based** (very rare): Different priorities, used in things that need real time requirements
 
