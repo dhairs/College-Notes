@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590.341796875 133.2992887288332" width="590.341796875" height="133.2992887288332" class="excalidraw-svg">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="590.341796875" height="133.2992887288332" fill="#ffffff"/><g stroke-linecap="round" transform="translate(10 10) rotate(0 285.1708984375 55.74574279785156)"><path d="M27.87 0 C207.59 1.2, 386.93 0.95, 542.47 0 M27.87 0 C213.6 -1.52, 398.78 -1.39, 542.47 0 M542.47 0 C559.94 1.22, 568.5 8.39, 570.34 27.87 M542.47 0 C562.31 -0.93, 571.15 10.06, 570.34 27.87 M570.34 27.87 C569.07 49.96, 571.77 69.8, 570.34 83.62 M570.34 27.87 C568.9 45.55, 568.87 62.55, 570.34 83.62 M570.34 83.62 C569.63 101.91, 559.49 112.72, 542.47 111.49 M570.34 83.62 C572.62 103.67, 561.84 110.96, 542.47 111.49 M542.47 111.49 C385.06 110.62, 228.96 110.75, 27.87 111.49 M542.47 111.49 C348.24 111.87, 153.81 112.09, 27.87 111.49 M27.87 111.49 C9.91 112.68, -1.76 101.29, 0 83.62 M27.87 111.49 C10.34 112.29, -0.4 101.78, 0 83.62 M0 83.62 C0.43 67.47, 1.28 52.04, 0 27.87 M0 83.62 C-0.68 63.82, -0.79 44.96, 0 27.87 M0 27.87 C-0.36 8.29, 8.27 1.66, 27.87 0 M0 27.87 C-0.66 7.57, 7.89 -1.54, 27.87 0" stroke="#1e1e1e" stroke-width="2" fill="none"/></g><g stroke-linecap="round"><g transform="translate(467.86181640625 10.74456787109375) rotate(0 0.49853515625 56.026031494140625)"><path d="M-0.8 0.37 C-0.47 19.26, 0.85 94.13, 1.12 112.55 M0.97 -0.47 C1.24 18.11, 0.41 92.01, 0.23 110.7" stroke="#1e1e1e" stroke-width="2" fill="none"/></g></g><mask/><g transform="translate(171.04327392578125 50.835302734375006) rotate(0 63.79296875 16.099999999999994)"><text x="0" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="28px" fill="#1e1e1e" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">File Name</text></g><g transform="translate(488.897705078125 50.8524169921875) rotate(0 34.2548828125 16.099999999999994)"><text x="0" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="28px" fill="#1e1e1e" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">inode</text></g></svg>

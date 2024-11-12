@@ -1,5 +1,5 @@
 
-## Flat File System
+## Understanding Flat File Systems
 
 A fat file system consists of an array of index nodes (or "i-nodes" or "inode")
 
