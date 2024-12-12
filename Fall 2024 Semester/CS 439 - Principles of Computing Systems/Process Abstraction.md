@@ -173,7 +173,7 @@ Advantages:
 - Fair
 
 Disadvantages:
-- No context switching
+- context switching
 
 ##### Multi-Feedback Queues (MFQ) (UNIX)
 
