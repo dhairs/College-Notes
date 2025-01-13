@@ -1,7 +1,7 @@
 
 ## Definition
 
-Consider a [[Introduction to Differential Equations|differential equation]] of the form 
+Consider a [[Semesters/Fall 2024 Semester/M 427J - Differential Equations and Linear Algebra/Introduction to Differential Equations|differential equation]] of the form 
 
 $$\frac{dy}{dt}=\frac{g(t)}{f(y)}$$
 

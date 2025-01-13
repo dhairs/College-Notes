@@ -15,7 +15,7 @@ $$
 \frac{dy}{dt}+a(t)y=0
 $$
 
-### Initial Condition
+### Initial Condition (Initial Value Problems - IVPs)
 
 Sometimes, there will be an extra equation that we will call the initial condition. Typically of the form:
 
@@ -45,7 +45,7 @@ If $u=\int a(t)dt$ then $\mu(t)=e^u$ and $\frac{d\mu}{dt}=\frac{d}{dt}e^u=e^u \f
 We conclude $$
 \frac{du}{dt=\mu(t_{1}a(t))}
 $$
-If $y(t)$ satisifies
+If $y(t)$ satisfies
 
 
 $$

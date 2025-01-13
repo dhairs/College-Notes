@@ -1,4 +1,3 @@
-
 ## Definition
 A **differential equation (DE**) is any equation in which the unknown is a function.
 
@@ -14,9 +13,14 @@ $$
 $$
 This DE has **order 1**, or it is of the **first-order**.
 
+That is the same with $y'=y$.
+
 ### Example 
 $$
 \frac{d^2y}{dt^2}+y\frac{dy}{dt}+(\frac{dy}{dt})^{10}=0
 $$
 
 The first section ($\frac{d^2y}{dt^2}$) has the highest order, which is 2, so this DE has an **order of 2**.
+
+## Ordinary Differential Equations
+
