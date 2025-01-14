@@ -63,4 +63,17 @@ for I = 1, n
 
 - All six permutations of these loops are computationally equivalent
 - Great algorithmic data reuse: each array element is touched $O(N)$ times
-- Execution times of the six 
+- Execution times of the six can be very different if the machine has a cache (due to the locality mentioned above)
+
+## Parts of a Compiler
+### Front-end
+
+Goal: convert linear representation of program to hierarchical representation
+
+
+### High-level optimizer
+Goal: perform high-level analysis
+
+### Low-level optimizer
+
+### Code generator
