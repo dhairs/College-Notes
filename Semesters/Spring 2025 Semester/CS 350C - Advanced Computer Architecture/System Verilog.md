@@ -4,8 +4,22 @@ SystemVerilog is a successor/extension to [[Verilog]] that fixes a lot of common
 
 ## Four-Valued Logic
 
+Following the logic of a high-impedance floating wire, we need to have 4 possible values. Sometimes, we cannot tell when a device is floating in value. It could possibly have issues with pulling up or pulling down, which could leave an intermediary voltage value. As a result, we need to have this in our simulations.
+
 In SystemVerilog, there are 4 values that can occur:
-``
+- 0: false
+- 1: true
+- z: floating
+- x: invalid (don't know, don't care)
+
+### Truth Table of Four-Valued Logic
+
+| AND | 0   | 1   | z   | x   |
+| --- | --- | --- | --- | --- |
+| 0   | 0   | 0   | x   | x   |
+| 1   | 0   | 1   | x   | x   |
+| z   | x   | x   | x   | x   |
+| x   | x   | x   | x   | x   |
 
 ## Syntax
 
