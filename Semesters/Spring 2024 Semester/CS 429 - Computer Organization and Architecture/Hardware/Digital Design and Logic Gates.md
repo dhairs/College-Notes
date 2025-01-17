@@ -53,7 +53,7 @@ NAND and NOR are Universal gates, because given _any_ boolean expression, you ca
 
 ### Combinational Logic/Circuits
 
-A combinational circuit's output is dependent on the current value of the inputs, without any regard to the past values or results.
+A combinational circuit's output is dependent on the current value of the inputs, without any regard to the past values or results. If represented as a graph, combinational logic would be a directed, acyclic graph. It holds no memory.
 
 So far, we've talked about combinational logic gates, they are the building blocks for combinational circuits, described by Boolean Expressions.
 
