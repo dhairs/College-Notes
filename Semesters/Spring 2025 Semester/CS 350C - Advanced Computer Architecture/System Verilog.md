@@ -106,3 +106,121 @@ module tristate (input logic [3:0] a, input logic en, output logic [3:0] y);
 	assign y = en ? A : 4'bz;
 endmodule
 ```
+
+### Logic Gates with Delays
+
+```systemverilog
+`timescale 1ns/1ps
+module example(input logic a, b, c, output logic y);
+	logic ab, bb, cb, n1, n2, n3;
+	assign #1 {ab, bb, cb} = ~{a`, b, c};
+endmodule
+```
+
+### Register
+
+```systemverilog
+module flop(input logic clk, input logic [3:0] d, output logic [3:0] q);
+	always_ff @(posedge clk)
+		q <= d;
+endmodule
+```
+
+There is also a `negedge` word for the clock `clk`.
+### Initial and Always
+
+ **Initial**: only do this once at the start
+ **Always**: do this every time	
+ - Can be in form `always @(condition list)`
+Three types of always:
+- `always_ff` (flip flop)
+- `always_latch` (level-sensitive latch)
+- `always_comb` (combinational)
+
+### Resettable Register (Asynchronous)
+
+```systemverilog
+module flopr_async(input logic clk, reset, input logic [3:0] d, output logic [3:0] q);
+	always_ff @(posedge clk, posedge reset)
+	if (reset) q <= 'b0;
+	else q <= d;
+endmodule
+```
+
+### Resettable Register (Synchronous)
+
+```systemverilog
+module flopr_sync(input logic clk, reset, input logic [3:0] d, output logic [3:0] q);
+	always_ff @(posedge clk)
+	if (reset) q <= 'b0;
+	else q <= d;
+endmodule
+```
+
+### Resettable Enabled Register (Synchronous)
+
+```systemverilog
+module flopr_sync(input logic clk, reset, en, input logic [3:0] d, output logic [3:0] q);
+	always_ff @(posedge clk)
+	if (reset) q <= 'b0;
+	else if (en) q <= d;
+endmodule
+```
+
+### Synchronizer
+
+```systemverilog
+module sync(input logic clk, d, output logic q);
+	logic n1;
+	
+	always_ff @(posedge clk)
+	begin
+		n1 <= d;
+		q <= n1;
+	end
+endmodule
+```
+
+### Level Sensitive D Latch
+
+```systemverilog
+module latch(input logic clk, d, output logic q);
+	always_latch @(clk,d)
+	if (clk) q <= d
+endmodule
+```
+
+### Inverter Using `always`
+
+```systemverilog
+module inv(input logic [3:0] a, output logic [3:0] y);
+	always_comb @(*) // anything happens
+		y = ~a;
+endmodule
+```
+
+### Assignment Statements
+
+If doing an assignment outside of an `always` block:
+- continuous assignment using the `assign` keyword
+- evaluated *concurrently*
+
+Inside an `always` block:
+- block assignment using `=` (use this for combinational logic)
+- non-blocking assignment using `<=` (use for sequential logic)
+
+### Full Adder using `always`
+
+```systemverilog
+module fulladder(input logic a, b, cin, output logic s, cout);
+	logic p, g;
+	
+	always_comb
+		begin
+			p = a ^ b;
+			g  = a & b;
+			s = p ^ cin;
+			cout = g | (p & cin);
+		end
+endmodule
+```
