@@ -224,3 +224,37 @@ module fulladder(input logic a, b, cin, output logic s, cout);
 		end
 endmodule
 ```
+
+### Seven-Segment Display Decoder
+
+```systemverilog
+module sevenseg(input logic[3:0] data, output logic [6:0] segments);
+	always_comb
+		case(data)
+			0: segments = 7'b111_1110;
+			1: segments = 7'b011_0000;
+			...
+			9: segments = ...;
+			default: segments = ...;
+		endcase
+endmodule
+```
+
+### Priority Circuit
+
+#### With Don't Cares
+
+```systemverilog
+module priority_casez(input logic[3:0] a, output logic[3:0] y);
+	always_comb
+		casez(a) 
+			4'b1???: y = 4'b1000; // don't care about the rest of this #
+		endcase
+endmodule
+```
+
+### Multiplier
+
+#### Unsigned
+
+#### Signed
