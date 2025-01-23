@@ -49,7 +49,7 @@ $$
 
 The most common device is a sensor on the wrist. Some provide 6D wrenches. 
 
-These are usually based on strain gauges.
+These are usually based on [[strain gauges]].
 
 
 ### Calibrating a Force/Torque Sensor
