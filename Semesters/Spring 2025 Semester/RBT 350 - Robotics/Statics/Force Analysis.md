@@ -38,7 +38,12 @@ A wrench is a 6D vector combining
 
 Wrenches are associated with a point of action (similarly to torque). Operating wrenches requires all of them to be in the same reference frame.
 
-$\omega= [missing]\in R^6$
+$$
+\omega =\begin{bmatrix}
+F \\
+\tau
+\end{bmatrix} \in R^6
+$$
 
 ## How do Robots Measure Force/Torques?
 
@@ -46,6 +51,11 @@ The most common device is a sensor on the wrist. Some provide 6D wrenches.
 
 These are usually based on strain gauges.
 
-### Strain Gauges
 
-A strain gauge is a sensor that changes its electrical resistance depending on its shape/deformation. It can be used to measure forces and torques. 
+### Calibrating a Force/Torque Sensor
+
+There's two key problems that we have:
+- Sensor biases
+- Hand mass and Center of Mass are not known
+
+The procedure to calibrate is to command the robot to align the gravity term with one of the axes. Collect the wrench at that position and repeat with different positions.
