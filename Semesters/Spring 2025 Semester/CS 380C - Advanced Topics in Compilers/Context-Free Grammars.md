@@ -1,9 +1,15 @@
 ## Definition
 
 A context free grammar consists of:
-- A set of non-terminals $N$
-- A set of terminals $T$
+- A set of non-terminals $N$ ^56b2d0
+	- A symbol that can be rewritten into other symbols.
+- A set of terminals $T$ ^f9b1d7
+	- A symbol that can no longer be rewritten into other symbols.
 - A start symbol $S$
+- A set of productions $P$
+
+Each context-free grammar has an empty-string:
+- A null-symbol $\epsilon$
 
 Recursive rules means the language can generated an unbounded number of variations of sentences (ex. $E\to E+E$ is recursive).
 
@@ -23,5 +29,4 @@ A language that, no matter what grammar generated it, is ambiguous. This means t
 
 1. Begin with a string with the start symbol
 2. Replace any non-terminal $X$ in the string by a right-hand side of some production $X\rightarrow Y_{1}\dots Y_{n}$
-3. Repeat
-4. 
+3. Repeat until eventually at a string consisting of only terminal symbols.
