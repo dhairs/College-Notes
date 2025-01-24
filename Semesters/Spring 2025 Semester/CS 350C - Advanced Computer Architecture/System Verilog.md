@@ -258,3 +258,42 @@ endmodule
 #### Unsigned
 
 #### Signed
+
+### Parameterized N: $2^N$ Decoder
+
+```systemverilog
+module decoder
+	#(parameter N=3)
+	(input logic[N=1:0] a, output logic[2**N-1:0] y);
+	
+	always_comb
+		begin
+			y = 0;
+			y[a] = 1;
+		end
+endmodule
+```
+
+### Generate Statement
+
+Be careful when using this.
+
+```systemverilog
+module andN
+	#(parameter width=8)
+	(input logic[width-1:0] a, output logic y);
+	genvar i;
+	logic[width-1] x;
+	
+	generate
+		assign x[0] = a[0];
+		for(i = 1; i < width; i = i + 1) begin: forloop
+			 assign x[i] = a[i] & x[i-1];
+		end
+	endgenerate
+	
+	assign y = x[width-1];
+endmodule
+```
+
+When we need to define structure in variable sized modules/subsystems, we have to use `generate` to define the structure in a very metaprogramming-esque way.
