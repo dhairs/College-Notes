@@ -297,3 +297,59 @@ endmodule
 ```
 
 When we need to define structure in variable sized modules/subsystems, we have to use `generate` to define the structure in a very metaprogramming-esque way.
+
+### Making a Test Bench
+
+#### Basic Test Bench
+
+```systemverilog
+module testbench2();
+	logic a, b, c, y;
+	// instantiate device under test
+	sillyfunction dut(a, b, c, y);
+	initial begin
+		a = 0; b= 0; c = 0; #10;
+		assert(y === 1) else $error ("000 failed.");
+		c = 1;
+		assert (y === 0) else $error ("001 failed.");
+		...
+	end
+endmodule
+```
+
+#### File Driven Test Bench
+
+It can be better to create a system with a behavioral implementation.
+
+```systemverilog
+module testbench3();
+	logic a, b, c, y;
+	logic[31:0] vectornum, errors;
+	logic[3:0] testv[10000:0];
+	// instantiate device under test
+	sillyfunction dut(a, b, c, y);
+	always begin
+		clk = 1; $5; clk = 0; #5;
+	end
+	
+	initial begin
+		$readmemb("example.tv", testv); // read binray file into memory
+		vectornum = 0; errors = 0;
+		reset = 1; #27; reset = 0;
+	end
+	
+	always @(posedge clk) begin
+		#1; {a, b, c, exp} = testv[vectornum];
+	end
+
+	always @(negedge clk) begin
+		if(~reset) begin
+			if(y !== exp) begin
+				$display("Error: inputs = %b ", {a, b, c});
+				$display("Output = %b (expected %b)", y, exp);
+				errors++;
+			end
+			vectornum++; ...
+		end
+endmodule
+```
