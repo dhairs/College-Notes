@@ -5,6 +5,8 @@ Given [[Context-Free Grammars|grammar]], we need to compute certain sets that wi
 
 From these rules, it is easy to write down code.
 
+Heavily reliant on the definition of [[Rules of Inference]] and [[Well-Formed Formulae]].
+
 ## Parsing SLL(1) Grammars
 
 Java uses this.
@@ -38,14 +40,14 @@ Nullable non-terminal
 `NULLABLE`$\in N$
 
 $$
-\frac{(A\to \epsilon)\in P}{A\in \text{NULLABLE}}
+((A\to \epsilon)\in P)\implies (A\in \text{NULLABLE})
 $$
 
 $$
-\frac{((A\to Y_{1}\dots Y_{n})\in P) \cap Y_{1}\dots Y_{n}\in \text{NULLABLE}}{A\in \text{NULLABLE}}
+(((A\to Y_{1}\dots Y_{n})\in P) \cap (Y_{1}\dots Y_{n}\in \text{NULLABLE})) \implies(A\in \text{NULLABLE})
 $$
 
-Given a proposal that $X\in N$, we can check if the proposal is consistent with inference rules. We want the smallest set that satisfies all the inference rules.
+Given a proposal that $X\in N$, we can check if the proposal is consistent with inference rules. We want the smallest set that satisfies **all** the inference rules.
 
 ##### Example
 
@@ -62,3 +64,13 @@ $$
 - {A} is **not** consistent
 - {A,B,C} **is** consistent
 - {S,A,B,C} **is** consistent
+
+#### Computing NULLABLE
+
+Initialize `NULLABLE` to `{}`
+
+We do a round-based computation
+- In each round, visit every production and see if you can add more elements to `NULLABLE`. Terminate when `NULLABLE` does not change in some round.
+
+### FIRST
+
