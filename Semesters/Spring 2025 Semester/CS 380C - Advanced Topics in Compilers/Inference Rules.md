@@ -74,3 +74,4 @@ We do a round-based computation
 
 ### FIRST
 
+FIRST($A$)$\in TU\{\epsilon\}$ (A is non-terminal). 
