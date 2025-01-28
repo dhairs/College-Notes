@@ -35,7 +35,7 @@ At low pulling forces, stress-strain have a linear relationship for both.
 
 Hook's law: $\sigma=E \epsilon$
 
-The slope is called the Youngs modulus (E)
+The slope is called the Youngs modulus ($E$)
 - Units of pressure
 	- Pa
 	- Pounds per square inch (PSI)
