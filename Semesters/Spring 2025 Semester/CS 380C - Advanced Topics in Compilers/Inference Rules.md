@@ -75,3 +75,38 @@ We do a round-based computation
 ### FIRST
 
 FIRST($A$)$\in TU\{\epsilon\}$ (A is non-terminal). 
+
+if A can be rewritten to a string starting with terminal $t$, then $t$ is in FIRST($A$).
+
+#### Inference Rule for FIRST
+
+$$
+\text{FIRST}(A)\in F=TU\{\epsilon\}
+$$
+
+$$
+\frac{{(A\to Y_{1}Y_{2}\dots Y_{n})\in P}}{}
+$$
+
+### Follow
+
+Follow($B$)$\in TU\{\$\}$ ($ is like end of file/string)
+- $t\in \text{FOLLOW}(B)$ if we can derive a sentential form Bt
+By convention, $\$\in \text{FOLLOW}(S)$
+
+First sentential form (convention):
+- S$ so FOLLOW(S) = {$}
+
+Next sentential form: say we use $S\to A_{1}\dots A_{i}A_{i+1}\dots A_{m}$
+- String becomes $A_{1}\dots A_{i}\dots A_{m}\$$
+
+In general: production $A\to X_{1}\dots X_{k}BY_{1}\dots Y_{m}$
+- $t\in(FIRST(Y_{1}\dots Y_{m})+_{1}\text{FOLLOW}(A))\to t\in \text{FOLLOW}(B)$.
+
+#### Inference rules for Follow
+
+$$
+\text{FOLLOW}\subseteq TU\{\$\}
+
+
+$$
