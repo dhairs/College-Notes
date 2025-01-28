@@ -33,4 +33,11 @@ For each production $A\to Y_{1}Y_{2}\dots Y_{n}$
 
 ### Generalizing Construction (Hard Case)
 
-Now w 
+Now we need to handle $\epsilon$ productions, but this leads to two problems:
+- Where should the production $A\to \epsilon$ go in the parsing table?
+	- Insert $A\to \epsilon$ into Table$[A,x]$ if $x$ in FOLLOW($A$)
+- Where should $S\to Ax$ go in the parsing table?
+
+We then enter production $A\to Y_{1}\dots Y_{n}$ into Table$[A,t]$ for all $t$ such that
+- $t\in \text{FIRST}(Y_{1}\dots Y_{n})$
+- $\epsilon\in \text{FIRST}(Y_{1}\dots Y_{n})$ and $t\in \text{FOLLOW}(A)$
