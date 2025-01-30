@@ -35,3 +35,10 @@ If exponent over or under-flows, generate exception.
 Round to appropriate number of bits
 - May need renormalization
 
+
+### Rounding and Normalization
+
+Three pieces of data enough to produce the correctly rounded value:
+- Rounding digit $r$
+- Sticky digit $s$, anything that happens after rounding error point.
+- Guard digit $g$
