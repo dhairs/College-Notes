@@ -57,3 +57,4 @@ Outputs:
 ### Shift and Add Multiplier
 
 When the state machine is at state ST'/0, all outputs are 0, and the machine is waiting for start signal.
+
