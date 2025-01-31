@@ -42,3 +42,18 @@ Three pieces of data enough to produce the correctly rounded value:
 - Rounding digit $r$
 - Sticky digit $s$, anything that happens after rounding error point.
 - Guard digit $g$
+
+## Floating Point Multiplier Design
+
+Input:
+- Two [[Floating Point Numbers#Normalized FP Numbers|normalized]] floating point number $x$ and $y$
+
+Outputs:
+- $p=\text{ROUND}(x\cdot y)$
+- $\text{Err}=\text{Error Flag}$
+
+![[FP Multiplier.svg]]
+
+### Shift and Add Multiplier
+
+When the state machine is at state ST'/0, all outputs are 0, and the machine is waiting for start signal.
