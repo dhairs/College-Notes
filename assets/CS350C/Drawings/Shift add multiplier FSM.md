@@ -881,11 +881,11 @@ tags: [excalidraw]
 				"type": 2
 			},
 			"seed": 151994178,
-			"version": 53,
-			"versionNonce": 913833630,
+			"version": 74,
+			"versionNonce": 1611199518,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1738340817395,
+			"updated": 1738708581481,
 			"link": null,
 			"locked": false,
 			"points": [
