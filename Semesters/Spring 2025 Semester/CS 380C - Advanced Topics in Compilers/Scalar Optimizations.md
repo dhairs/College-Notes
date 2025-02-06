@@ -14,9 +14,17 @@ The usual goal is the improve time performance for the program. As a result, man
 
 Also, compilation time should be relatively optimized. We should optimize only program hot spots, so the program doesn't take forever to compile. 
 
+A lot of the optimizations occur at the low-level stages of compilation. Usually when we are in an [[Intermediate Code Representation (IR)]].
+
 ## Possible Optimizations
 
 Lots of possibilities to optimize programs, the most common ones include:
+
+| Level         | Optimizations                                                                                                                                                                                                   |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| High-Level IR | Function Inlining<br>Function Cloning<br>Cache Optimizations                                                                                                                                                    |
+| Low-Level IR  | Constant Folding<br>Constant Propagation<br>Value Numbering<br>Dead Code Elimination<br>Loop-Invariant Code Motion<br>Common Sub-Expression Elimination<br>Strength Reduction<br>Branch Prediction/Optimization |
+| Assembly      | Loop Unrolling<br>Register Allocation                                                                                                                                                                           |
 
 ### Constant Propagation
 
@@ -176,3 +184,13 @@ for (; i < n; i++) { S; }
 ```
 
 This can get rid of $\frac{3}{4}$ of conditional branches. **This is basically irrelevant in modern processors because of powerful branch predictors.**
+
+### Function Inlining
+
+Replace a function call with the body of the function.
+
+This doesn't work well for recursive procedures.
+
+### Function Cloning
+
+Create specialized versions of functions that are called from different call sites with different arguments.

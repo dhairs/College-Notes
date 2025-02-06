@@ -6,7 +6,7 @@ First parsers for high-level programming languages. Had to work for the first re
 
 ### String View
 
-Determine a leftmost derivation of the input while reading the input from left to right while looking ahead at most 1 input token
+Determine a leftmost derivation of the input while reading the input from left to right while looking ahead at most 1 input token. We can very easily create sets for the [[Inference Rules]] with these types of compilers.
 
 ### Tree View
 

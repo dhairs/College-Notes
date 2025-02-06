@@ -29,17 +29,17 @@
       }
     },
     {
-      "query": "path:Technologies ",
-      "color": {
-        "a": 1,
-        "rgb": 15348921
-      }
-    },
-    {
       "query": "path: Math  ",
       "color": {
         "a": 1,
         "rgb": 6084269
+      }
+    },
+    {
+      "query": "path:\"Semesters/Spring 2025 Semester/CS 380C\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
       }
     }
   ],
@@ -53,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 358,
-  "scale": 0.5824062531878541,
+  "scale": 0.5243553279719787,
   "close": false
 }
