@@ -40,6 +40,10 @@ In this case, nothing is dead code. Because `z = 1` can be used in the assignmen
 
 It is much easier to build control flow and recognize dead code with low level code, because it is inherently linear.
 
+### Scalar Optimizations
+
+Discussed further in [[Scalar Optimizations]].
+
 ## Control Flow Graphs
 
 This is a graph representation of computation and control flow in the program. We use this as a framework for static analysis of the program control-flow.
@@ -47,3 +51,13 @@ This is a graph representation of computation and control flow in the program. W
 Nodes are basic blocks: straight-line, single-entry code, no branching except at the end of the sequence.
 
 The edges represent the possible flow of control from the end of one block to the beginning of another.
+
+To build an efficient CFG, we want as few basic blocks as possible, and want basic blocks to be as large as possible.
+
+When analyzing a low-level IR, the basic blocks start:
+- At label instructions
+- After jump instructions
+
+And basic blocks end:
+- At jump instructions
+- Before label instructions
