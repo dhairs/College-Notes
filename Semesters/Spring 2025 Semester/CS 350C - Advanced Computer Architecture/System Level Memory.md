@@ -1,3 +1,5 @@
+This is a part of the [[Memory Subsystem]].
+
 ## Terminology
 
 **Memory Channel**: Wires on a motherboard making up a data bus and an address/command bus.
@@ -39,4 +41,31 @@ Each subarray is partitioned into a number of **mats**. A mat is typically 512 r
 
 A data request involves several mats on several DRAM chips. It activates a single wordline in each. mat, with all the DRAM cells in that row placing their data on the bitlines.
 
-### M
+### Memory Access Cases
+
+**Page-hit timing**:
+- Requested cache line is already in the row buffer.
+- Latency = time to ship the bits from the mat to the output pins ($t_{\text{CAS}}$)
+
+**Page-empty timing**:
+- Bit lines have been pre-charged but row buffer is empty.
+- Latency = row activation time ($t_{\text{RCD}}$) + transfer time.
+
+**Page-miss timing**:
+- A different row currently occupies the row buffer
+- Latency = precharge time ($t_{\text{RP}}$) + row activation time + transfer time.
+
+The memory controller incorporates all the intelligence in the memory system
+- It can manage the mapping of addresses to place data differently in memory to
+	- Promote buffer hits: Place consecutive cache lines in the same row. 
+	- To promote parallelism: Place consecutive cache lines in different ranks and banks.
+- Must schedule memory operations, possibly reordering operations
+- Must issue timely refresh operations
+
+## High Bandwidth Memory (HBM)
+
+3D-stacked DRAM, connected using through silicon vias (TSVs) and microbumps and connect the GPU/CPU via the interposer, rather than on-chip.
+
+Meant to offer much higher bandwidth and lower power consumption.
+
+Very wide buses: two 128 channels per die initially.
