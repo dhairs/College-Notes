@@ -8,4 +8,58 @@ A domain is a finite partially-ordered set with a least element. The domain is a
 
 ## Monotonic Functions
 
-The function $f:$
+The function $f: D\to D$ where $D$ is a domain is monotonic if:
+- $x\leq y\to f(x)\leq f(y)$
+
+The function must map elements that are less than or equal to each other to elements that are also less than or equal to each other.
+
+A **different** property that is often confused with monotonicity is **extensivity**, which says that $x\leq f(x)$.
+
+### Intuition
+
+Think of $f$ as an electrical circuit mapping input to output. $f$ is monotonic if increasing the input voltage causes the output voltage to increase or stay the same. $f$ is extensive if the output voltage is greater than or equal to the input voltage.
+
+## Fixpoint of the function of a domain
+
+Suppose $f:D\to D$, a value $x$ is a **fixpoint** of $f$ if $f(x)=x$. $f$ maps $x$ to itself.
+
+### Example with D being a powerset of {a,b,c}
+
+Identity function: $x\to x$
+- Every point in the domain is a fixpoint of this function
+
+$x\to x\cup \{a\}$
+- {a}, {a,b}, {a,c}, {a,b,c} are all fixpoints
+
+$x\to \{a\}-x$
+- no fixpoints
+
+## Fixpoint Theorem with Multiple Functions
+
+If $D$ is a domain and $f,g:D\times D\to D$ are monotonic, the following system of simultaneous equations has a least solution computed in the obvious way:
+- $x=f(x,y)$
+- $y=g(x,y)$
+
+You can generalize this to more than two equations and to the case when $D$ has a greatest element $T$.
+
+### Example with Multiple Functions
+
+$$
+\begin{align} 
+\begin{pmatrix}
+x_{n+1} \\
+y_{n+1}
+\end{pmatrix} = \begin{pmatrix}
+f(x_{n},y_{n}) \\
+g(x_{n}, y_{n})
+\end{pmatrix}
+\\
+\begin{pmatrix}
+\bot \\
+\bot
+\end{pmatrix},\begin{pmatrix}
+f(\bot,\bot) \\
+g(\bot,\bot)
+\end{pmatrix}, \dots
+\end{align}
+$$
