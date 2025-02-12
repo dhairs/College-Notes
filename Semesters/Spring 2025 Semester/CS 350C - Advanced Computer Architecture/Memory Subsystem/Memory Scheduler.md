@@ -8,8 +8,9 @@ Because of this, the memory control has to maintain both a **read queue** and a 
 
 The memory controller decomposes the request into multiple commands that are then placed into that bank's command queue. 
 
-> [!NOTE] 
+> [!NOTE] Decomposing Requests
 > For a request to an already open row, a single column read (CAS) command is enough to service the read request. 
+> 
 > If the request causes a row conflict, then three commands are inserted into the command queue: precharge, activate(RAS), column-read(CAS)
 
 
