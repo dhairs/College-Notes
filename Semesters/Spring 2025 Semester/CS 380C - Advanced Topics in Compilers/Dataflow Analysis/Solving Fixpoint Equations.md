@@ -1,6 +1,6 @@
 ## Fixpoint Equations
 
-Fixpoint equations are elementary equations. They are often represented in the form $x=f(x)$.
+Fixpoint equations are elementary equations. They are represented in the form $x=f(x)$.
 
 ## Domain
 
@@ -63,4 +63,43 @@ g(\bot,\bot)
 \end{pmatrix}, \dots
 \end{align}
 $$
+## Power-Set Domains ($\cap \text{ and } \cup$)
 
+Consider a [[Power Set|power set]] domain
+- Set union and intersection are monotonic functions
+- So we can use them in systems of fixpoint equations
+
+### Example of Power-Set Domain
+
+$f(x,y) = \{a\}$
+
+Equations: 
+$$
+\begin{align}
+x=f(x,y) \\
+y=x\cup y
+\end{align}
+$$
+
+## Join and Meet
+
+If $(D,\leq)$ is a [[Partially Ordered Set|poset]] and $e_{1},e_{2} \in D,\ell\in D$ is a lower bound of $\{e_{1},e_{2}\}$ if $\ell\leq e_{1} \text{ and } \ell\leq e_{2}$. 
+
+This is an easy generalization to lower bound of a set $S$ of elements from $D$.
+
+In general, a set $S$ may have many lower bounds.
+
+**Greatest lower bound (glb)** of $S$: greatest element of $D$ that is a lower bound of $S$:
+- Caveat: glb may not always exist
+
+If for every pair of elements $x,y\in D$ glb({x,y}) exists, we can define a function called **meet**($\wedge:D \times D\to D$)
+- $x\wedge y=glb(\{x,y\})$
+- Meet is idempotent ($\text{meet}(x) = x$), commutative, and associative
+
+**Meet semilattice**: a partially ordered set inw hich every pair of elements has a glb
+
+Analogous notions: upper bounds, least upper bounds, join ($\vee$)
+
+**Join semilattice**: analogous notion
+
+**Lattice**: both a meet and join semilattice
