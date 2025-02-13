@@ -69,6 +69,10 @@ Consider a [[Power Set|power set]] domain
 - Set union and intersection are monotonic functions
 - So we can use them in systems of fixpoint equations
 
+> [!faq]- Things to think about
+> If a system of fixpoint equations has multiple equations for an unknown, is the system still guaranteed to have a solution?
+> Ex: consider the system $x=f(x)$ and $x=g(x)$
+
 ### Example of Power-Set Domain
 
 $f(x,y) = \{a\}$
