@@ -295,3 +295,4 @@ Note: After **every single** arithmetic operation, a round is performed.
 3. Overflow: Set result to $\pm\infty$ or $\pm N_\text{max}$
 4. Underflow (subnormal): Set result to $\pm0,\pm N_\text{min}$, or subnormal
 5. Inexact (common): Set to correctly rounded value described above.
+
