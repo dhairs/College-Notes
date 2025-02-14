@@ -9,5 +9,6 @@
   },
   "promptDelete": false,
   "newFileLocation": "current",
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "rightToLeft": false
 }
