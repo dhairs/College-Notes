@@ -107,3 +107,5 @@ Analogous notions: upper bounds, least upper bounds, join ($\vee$)
 **Join semilattice**: analogous notion
 
 **Lattice**: both a meet and join semilattice
+
+## Meet Over Paths
