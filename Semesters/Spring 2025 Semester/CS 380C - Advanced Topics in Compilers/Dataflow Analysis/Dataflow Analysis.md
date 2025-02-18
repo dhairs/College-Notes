@@ -100,4 +100,54 @@ The [[Solving Fixpoint Equations#Domain|domain]] of this is the [[Power Set|powe
 
 ## Available Expressions
 
-An expression $x \text{ op } y$ is available at $p$ if every path from `START` to 
+An expression $x \text{ op } y$ is available at $p$ if every path from `START` to $p$ contains an evaluation of $x \text{ op} y$ after which there are no assignments to $x$ or $y$.
+
+This is a forward-flow, all-paths problem.
+
+The domain for this is the power set of the expressions of interest.
+
+If we have $x= y\text{ op } z$:
+- $\text{Out}=(\text{In}-\text{Ex}) \cup\{y\text{ op } z\}$
+
+The confluence operator is intersection. 
+
+We compute the greatest solution, start by assuming all expressions are available everywhere except at `START` and iterate.
+
+This is finding **total redundancy**.
+
+## Anticipatable Expressions (Busy Expression)
+
+An expression $x\text{ op } y$ is anticipatable at $p$ if every path from $p$ to `END` contains an evaluation of $x\text{ op } y$ before any assignment to $x$ or $y$. This tells you it is safe to compute the expression at this point.
+
+This is a backward-flow, all-paths problem.
+
+The domain for this is the power set of expressions of interest.
+
+If we have $x=y\text{ op } z$:
+- $\text{In}=(\text{Out}-\text{Ex})\cup\{y\text{ op }z\}$
+
+The confluence operator is intersection. 
+
+We compute the greatest solution, start by assuming all expressions are anticipatable everywhere except at `END` and iterate.
+
+This is called **partial redundancy elimination (or PRE)**.
+
+## Constant Propagation
+
+A variable $x$ is a constant $c$ at a point $p$ if $x$ has the value $c$ at that point on **all** paths from `START` to that point.
+
+This is a forward-flow, all-paths problem.
+
+We perform constant propagation on a set of variables $V$.
+
+The dataflow information at point $p$ is a vector of size $|V|$ where each value comes from the domain.
+
+If we have $x=e$:
+- $\text{Out}=\text{In}\left[ \frac{\text{Eval}(e)\text{ in In}}{x} \right]$
+
+The confluence operator is join.
+
+We compute by initializing all the vectors to $[\bot, \bot, \ldots]$ except at `START` where it is $[\top, \top, \ldots]$.
+
+The solution to dataflow equations does not give meet-over-paths solutions in general, it gives a safe approximation.
+
