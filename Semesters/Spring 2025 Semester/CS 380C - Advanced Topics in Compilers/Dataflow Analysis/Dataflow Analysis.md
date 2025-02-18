@@ -27,7 +27,7 @@ System of fixpoint equations in which unknowns are solutions to the dataflow pro
 
 Solve the system of equations as described in previous lecture.
 
-For many problems, this gives the meet-over-paths solution, and for other problems, it gives a "safe" approximation to the MOP solution.
+For many problems, this gives the meet-over-paths (MOP) solution, and for other problems, it gives a "safe" approximation to the MOP solution.
 
 We'll solve it using fixpoint equations.
 
@@ -69,6 +69,10 @@ graph TD
 
 System of equations can be solved to find the least solution. The iterative method for solving equations will converge even though there are an unbounded number of paths in the program. 
 
+## Live Variables
+
+Variable $v$ is live at a point $p$ in a CFG if there is a path from $p$ to `END` on which there is a use of $v$ before any definition of $v$. We want to be computing the set of variables that are live at each point in the program.
+
 ## Classifications of Dataflow Problems
 
 **Direction of Information Propagation**:
@@ -79,8 +83,21 @@ System of equations can be solved to find the least solution. The iterative meth
 - **All-paths problem**: dataflow fact is true at some point in the program if it is true along **all** paths to/from that point
 - **Any-path problem**: dataflow fact is true at some point in the program if it is true along **any** path to/from that point
 
+|               | Forward                                        | Backward                  |
+| ------------- | ---------------------------------------------- | ------------------------- |
+| **Any-Path**  | Reaching Definitions                           | Live Variables            |
+| **All-Paths** | Constant Propagations<br>Available Expressions | Anticipatable Expressions |
+
+In a backward-flow problem, the information at $p$ depends on the paths from $p$ to `END`.
+
+In an any-path problem, a variable is live at $p$ if there is any path from $p$ to `END` that satisfies the condition.
+
+The [[Solving Fixpoint Equations#Domain|domain]] of this is the [[Power Set|power set]] of the set of variables in the procedure.
 
 > [!FAQ] How can reaching definitions be classified?
 > They are classified as **forward-flow**, **any-path** because you follow the control flow graph, and any way to reach a node includes the dataflow fact.
 
 
+## Available Expressions
+
+An expression $x \text{ op } y$ is available at $p$ if every path from `START` to 
