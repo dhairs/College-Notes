@@ -151,3 +151,8 @@ We compute by initializing all the vectors to $[\bot, \bot, \ldots]$ except at `
 
 The solution to dataflow equations does not give meet-over-paths solutions in general, it gives a safe approximation.
 
+Using vectors to represent the values of variables is inefficient, assignment is to one variable but values of other variables must be copied from the input vector to the output vector. 
+
+For structured programs, you can skip iteration and use elimination-based methods. For unstructured, you need to use an iterative method.
+
+interval analysis.
