@@ -73,7 +73,7 @@ We need two variants to describe this approach:
 
 A single core is **sequential** if the "result of an execution is the same as if the operations had been executed in the order specified by the program."
 
-A multiprocessor is **sequentially consistence** if "the result of any execution is the same as if the operations of **all** cores were executed in **some** sequential order, and the operations of each individual core appear in this sequence in the order specified by its program."
+A multiprocessor is **sequentially consistence** if "the result of any execution is the same as if the operations of **all** cores were executed in **some** sequential order, and the operations of each individual core appear in this sequence in the order specified by its program." ^41d612
 
 | [Lamport 1979](https://ieeexplore.ieee.org/document/1675439) |
 | ------------------------------------------------------------ |
