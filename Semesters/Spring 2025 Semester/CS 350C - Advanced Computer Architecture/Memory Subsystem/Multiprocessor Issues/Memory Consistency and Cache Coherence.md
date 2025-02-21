@@ -1,4 +1,18 @@
-Part of the multiprocessor issues lessons.
+Part of the [[Multiprocessor Issues]] lessons.
+## Consistency Models
+
+Consistency models, model, the behavior of multiprocessor systems. They describe how instructions can be reordered across the local and global memory orders.
+
+In comparing consistency models, we compare executions and implementations.
+
+A consistency model $Y$ is strictly more **relaxed** (**weaker**) than a model $X$ if all $X$ executions are $Y$ executions, but not vice-versa. Two models may be incomparable.
+
+> [!NOTE] What makes a good consistency model (the 4 Ps)
+> **Programmability**: Should make it relatively easy to write multithreaded programs
+> **Performance**: Should facilitate high-performance implementations at a reasonable power, cost, etc.
+> **Portability**: Should be adopted widely.
+> **Precision**: Should be precisely defined, usually with mathematics.
+
 ## Shared Memory Parallelism
 
 There are multiple processor cores, each of which may read and write to a single shared address space.
@@ -133,6 +147,25 @@ WBs are architecturally visible in a multicore processor.
 
 TSO is a consistency model that allows this outcome and permits the use of a simple FIFO write buffer at each core.
 
-#### TSO Executions
+#### TSO Formalism
+
+Notation: 
+- $L(a)$: load to address $a$ (block address)
+- $S(a)$: store to address $a$ (implied value input)
+- $RMW(a)$: atomic read-modify-write to address $a$
+- $op_{1} <^c_{p} op_{2}$: local program order are core $c$
+- $op_{1}<_{m} op_{2}$: global memory order
+- FENCE: synchronization instruction; when executed by core $c$, ensures that $c$'s memory operations before the FENCE according to the local program order get placed in $<_{m}$ before $c$'s memory operations after the FENCE.
+
+A **TSO execution** requires the following:
+
+
+
+Every load gets its value from the last store before it (in $<_{m}$ order) to the same address:
+- $VAL_{c}(L(A))=VAL(\text{max}\{S(a)|S(a)<_{m} L(a) \vee S(a) <^c_{p} L(a) \})$
+
+$FENCE$s order everything:
+- $L(a)<^c_{p}FENCE\implies L(a)<_{m}FENCE$
+- $S(a)<^c_{p}FENCE\implies S(a)<_{m}FENCE$
 
 
