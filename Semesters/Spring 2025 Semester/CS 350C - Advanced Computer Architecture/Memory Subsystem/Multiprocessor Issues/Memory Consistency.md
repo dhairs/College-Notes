@@ -25,7 +25,7 @@ There are multiple processor cores, each of which may read and write to a single
 
 **Consistency** is a precise, architecturally visible definition of shared memory correctness. This provides rules about loads and stores and how they act upon memory. It also usually allows many correct executions while disallowing many more incorrect ones
 
-**Coherence** is a microarchitectural means to supporting a consistency model. In a shared-memory system with caches, the cached values can potentially become out-of-date (or *incoherent*) when one of the processors updates its cached copy of a shared value. Coherence seeks to make the caches of a shared-memory system as functionally invisible as the caches in a single-core system by propagating one processor's write to other processor's caches.
+**[[Cache Coherence|Coherence]]** is a microarchitectural means to supporting a consistency model. In a shared-memory system with caches, the cached values can potentially become out-of-date (or *incoherent*) when one of the processors updates its cached copy of a shared value. Coherence seeks to make the caches of a shared-memory system as functionally invisible as the caches in a single-core system by propagating one processor's write to other processor's caches.
 
 Coherence issues arise because of one fundamental issue: there exist multiple actors with access to caches and memory. In modern systems, these actors are processor cores, DMA engines, and external devices that can read and/or write to caches and memory.
 
@@ -77,9 +77,7 @@ We need two variants to describe this approach:
 - Single-Writer, Multiple Read (SWMR) Invariant
 - Data-Value Invariant
 
-| SWMR                                                                                                                                                         | Data-Value                                                                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| For any memory location A, at any given time, there exists only a single core that may write and read to A **or** some number of cores that may only read A. | The value of the memory location at the start of an epoch is the same as the value of the memory location at the end of its last read-write **epoch**. |
+![[Cache Coherence#Coherence Invariants|Invariants]]
 
 ## Consistency
 
