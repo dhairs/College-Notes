@@ -32,9 +32,9 @@ There are also two stable coherence states for each memory block, **I** and **V*
 
 One **transient** cache state: $\text{IV}^\text{D}$. Moving from invalid to valid, but is waiting for data. Moving from stable state **I** to stable state **V**, waiting for a **D**ata response.
 
-| ![[Cache Controller Specification.png]]                                                                         |
-| --------------------------------------------------------------------------------------------------------------- |
 | Cache controller specification. Shaded entries are impossible and blank entries denote events that are ignored. |
+| --------------------------------------------------------------------------------------------------------------- |
+| ![[Cache Controller Specification.png]]                                                                         |
 | Table 6.2 https://pages.cs.wisc.edu/~markhill/papers/primer2020_2nd_edition.pdf                                 |
 
 | ![[Memory Controller Specification.png]]                                        |
@@ -63,3 +63,44 @@ One **transient** cache state: $\text{IV}^\text{D}$. Moving from invalid to vali
 | **E**xclusive  | Valid, not dirty, exclusive                                                                                                                                                      |
 | **S**hared     | Valid, not exclusive, not dirty, not owned. The cache has a read-only copy of the block                                                                                          |
 | **I**nvalid    | Not valid. The cache either does not contain the block or it contains a potentially stale copy that it may neither read nor write                                                |
+#### Transactions
+
+| Common Transactions                                                             |
+| ------------------------------------------------------------------------------- |
+| ![[Common transactions.png]]                                                    |
+| Table 6.4 https://pages.cs.wisc.edu/~markhill/papers/primer2020_2nd_edition.pdf |
+
+| Common Core Requests to Cache Controller                                        |
+| ------------------------------------------------------------------------------- |
+| ![[Core requests to controller.png]]                                            |
+| Table 6.4 https://pages.cs.wisc.edu/~markhill/papers/primer2020_2nd_edition.pdf |
+
+### Protocol Design Options
+
+**Snooping vs. Directory**
+
+| Option        | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Snooping**  | A cache controller initiates a request for a block by broadcasting a request message to all other coherence controllers. Coherence controllers collectively "do the right thing." The interconnection network delivers broadcast messages in a consistent order to all core                                                                                                                                              |
+| **Directory** | A cache controller initiates a request for a block by **unicasting** it to the memory controller that is the **home** for the block. The memory controller maintains a directory that holds state about each block in the LLC/memory, such as the identity of the current owner or the identities of current sharers. The memory controller forwards the message to the current owner for completion of the transaction. |
+
+**Invalidate vs. Update**
+
+| Option         | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Invalidate** | When a core wishes to write to a block, it initiates a coherence transaction to invalidate the copies in all other caches. Once the copies are invalidated, the requestor can write to the block without the possibility of another core reading the block’s old value. If another core wishes to read the block after its copy has been invalidated, it must initiate a new coherence transaction to obtain the block, and it will obtain a copy from the core that wrote it, thus preserving coherence. |
+| **Update**     | When a core wishes to write a block, it initiates a coherence transaction to update the copies in all other caches to reflect the new value it wrote to the block.                                                                                                                                                                                                                                                                                                                                        |
+
+#### Snooping
+
+The basic idea is that all coherence controllers observe (**snoop**) coherence requests in the same order and collectively "do the right thing" to maintain coherence invariants. Coherence requests typically travel on an ordered broadcast network, such as a bus. This is able to **guarantee** a **total order** of **all coherence requests** (not just per-block requests), which makes it easier to implement consistency models such as [[Memory Consistency#Sequential Consistency (SC)|SC]] and [[Memory Consistency#Total Store Order (TSO) Consistency Model|TSO]] that require a total order of memory references.
+
+| Snooping Coherence Example. All activity involves block A (denoted "A:")        |
+| ------------------------------------------------------------------------------- |
+| ![[Snooping coherence example.png]]                                             |
+| Table 7.1 https://pages.cs.wisc.edu/~markhill/papers/primer2020_2nd_edition.pdf |
+
+| Snooping Incoherence Example. All activity involves block A (denoted "A:")      |
+| ------------------------------------------------------------------------------- |
+| ![[Snooping incoherence example.png]]                                           |
+| Table 7.2 https://pages.cs.wisc.edu/~markhill/papers/primer2020_2nd_edition.pdf |
