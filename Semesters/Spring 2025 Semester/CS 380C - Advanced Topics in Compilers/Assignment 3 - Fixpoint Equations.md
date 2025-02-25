@@ -109,6 +109,6 @@ x_{5}=\frac{\left( 4+\frac{7}{12} \right)}{3}=\frac{\left( \frac{55}{12} \right)
  \\
 x_{6}=\frac{\left( 4+\frac{25}{36} \right)}{3}=\frac{\left( \frac{169}{36} \right)}{3}=\frac{169}{108}, y_{6}=\frac{\left( \frac{55}{36}-3 \right)}{2}=\frac{\left( -\frac{53}{36} \right)}{2}=-\frac{53}{72} \\
  \\
-x_{7}=\frac{\left( 4+\frac{25}{36} \right)}{3}=\frac{\left( \frac{169}{36} \right)}{3}=\frac{169}{108}
+x_{7}=\frac{\left( 4+\frac{25}{36} \right)}{3}=\frac{\left( \frac{169}{36} \right)}{3}=\frac{169}{108},y_{7}=
 \end{align}
 $$
