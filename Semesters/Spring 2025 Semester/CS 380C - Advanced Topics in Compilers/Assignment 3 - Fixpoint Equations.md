@@ -162,3 +162,11 @@ Identity function: $f(x) = x$
 
 ### Problem 4
 
+$$
+\begin{align}
+&\text{Because } D=(S,\leq) \text{ is a domain, the set } S \text{ must be partially ordered,} \\
+&\text{finite, and have a least element.} \\
+ \\
+&L \text{ is defined to be a subset of } S. \text{As a result, this must also }
+\end{align}
+$$
