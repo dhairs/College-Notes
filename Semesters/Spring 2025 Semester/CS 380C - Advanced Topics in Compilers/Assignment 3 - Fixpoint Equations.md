@@ -95,7 +95,7 @@ $$
 #### Subproblem B
 
 $$
-\begin{flalign*}
+\begin{align}
 \text{Initial Condition: }
 &x_{1}=0, y_{2}=0 \\
 \text{Iteration 1} \\
@@ -113,6 +113,16 @@ $$
 \text{Iteration 7} \\
 &x_{8}=\frac{\left( 4+\frac{155}{216} \right)}{3}=\left( \frac{\frac{1019}{216}}{3} \right)=\frac{1019}{648},y_{8}=\frac{\left( \frac{341}{216}-3 \right)}{2}=\frac{\left( -\frac{307}{216} \right)}{2}=-\frac{307}{432} \\
 \text{Iteration 8} \\
-&x_{9}=\frac{\left( 4+\frac{307}{432} \right)}{3}=\frac{\left( \frac{2035}{432} \right)}{3}=\frac{2035}{1296},y_{9}= \frac{\left( \frac{1019}{648}-3 \right)}{2}=\frac{\left( -\frac{925}{648} \right)}{2}=-\frac{925}{1296}
-\end{flalign*}
+&x_{9}=\frac{\left( 4+\frac{307}{432} \right)}{3}=\frac{\left( \frac{2035}{432} \right)}{3}=\frac{2035}{1296},y_{9}= \frac{\left( \frac{1019}{648}-3 \right)}{2}=\frac{\left( -\frac{925}{648} \right)}{2}=-\frac{925}{1296} \\
+\text{Iteration 9} \\
+&x_{10}=\frac{\left( 4+\frac{925}{1296} \right)}{3}=\frac{\left( \frac{6109}{1296} \right)}{3}=\frac{6109}{3888}, \\
+&y_{10}=\frac{\left( \frac{2035}{1296}-3 \right)}{2}=\frac{\left( -\frac{1853}{1296} \right)}{2}=-\frac{1853}{2592} \\
+\\
+\text{Iteration 10} \\
+&x_{11}=\frac{\left( 4+\frac{1853}{2592} \right)}{3}=\frac{\left( \frac{12221}{2592} \right)}{3}=\frac{12221}{7776}, \\
+&y_{11}=\frac{\left( \frac{6109}{3888}-3 \right)}{2}=\frac{\left( -\frac{5555}{3888} \right)}{2}=-\frac{5555}{7776}
+\end{align}
 $$
+
+Geogebra Rendering of the points (x, y, iteration):
+![[Pasted image 20250225011305.png]]
