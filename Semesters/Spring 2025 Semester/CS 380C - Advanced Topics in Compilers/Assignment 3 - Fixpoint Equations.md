@@ -131,7 +131,7 @@ The 3d plot shows the Jacobi iteration converging upon a solution as the iterati
 
 #### Subproblem C
 
-Not doing all this rn
+TODO
 
 ### Problem 3
 
@@ -147,7 +147,7 @@ $f(x) = x-\{a,b,c\}$
 
 #### Subproblem C
 
-
+TODO
 #### Subproblem D
 
 $f(x)=x \cup \{a\}$
@@ -157,4 +157,8 @@ $f(x)=x \cup \{a\}$
 $f(x)=\{a\}-x$
 
 #### Subproblem F
+
+Identity function: $f(x) = x$
+
+### Problem 4
 
