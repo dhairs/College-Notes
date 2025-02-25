@@ -125,4 +125,36 @@ $$
 $$
 
 Geogebra Rendering of the points (x, y, iteration):
-![[Pasted image 20250225011305.png]]
+![[Jacobi Iteration.png]]
+
+The 3d plot shows the Jacobi iteration converging upon a solution as the iterations increase. This makes sense because the iteration takes discrete steps but eventually the results start to focus on a singular point.
+
+#### Subproblem C
+
+Not doing all this rn
+
+### Problem 3
+
+#### Subproblem A
+
+![[Hasse Diagram Assignment 3.png]]
+
+#### Subproblem B
+
+Monotonic but NOT extensive:
+
+$f(x) = x-\{a,b,c\}$
+
+#### Subproblem C
+
+
+#### Subproblem D
+
+$f(x)=x \cup \{a\}$
+
+#### Subproblem E
+
+$f(x)=\{a\}-x$
+
+#### Subproblem F
+
