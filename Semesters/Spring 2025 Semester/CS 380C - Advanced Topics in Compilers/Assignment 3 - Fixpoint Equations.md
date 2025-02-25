@@ -162,11 +162,20 @@ Identity function: $f(x) = x$
 
 ### Problem 4
 
+TODO: FIX
 $$
 \begin{align}
-&\text{Because } D=(S,\leq) \text{ is a domain, the set } S \text{ must be partially ordered,} \\
-&\text{finite, and have a least element.} \\
+&\text{Because } D=(S,\leq) \text{ is a domain, the set } S \text{ must be able to be partially ordered,} \\
+&\text{must be finite, and must have a least element.} \\
  \\
-&L \text{ is defined to be a subset of } S. \text{As a result, this must also }
+&L \text{ is defined to be a subset of } S. \text{As a result, } L \text{ must also be partially-} \\
+&\text{ordered, finite, and have a least element. Therefore, } (L, \leq)\text{ must be a domain.}
 \end{align}
 $$
+
+### Problem 5
+
+
+### Problem 6
+
+Given that both $f(x)$ a
