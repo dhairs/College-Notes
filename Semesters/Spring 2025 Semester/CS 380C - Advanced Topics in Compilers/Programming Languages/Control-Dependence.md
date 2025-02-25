@@ -37,6 +37,23 @@ In this case, we would say:
 
 ## Definition
 
-For $w$ to be control-dependent on edge $u\to v$, $w$ must [[Dominators#Postdominators|postdominate]] $v$ for some CFG successor $v$ of $u$. $w$ can not $\text{pdom } u$.
+For $w$ to be control-dependent on edge $u\to v$, $w$ must [[Dominators#Postdominators|postdominate]] $v$ for some CFG successor $v$ of $u$, $w$ can not be $u$, and $w$ can not $\text{pdom } u$.
 
-Intuitively, if control flows from $u$ to $v$, it is guaranteed that $w$ will be executed. But from $u$
+Intuitively, if control flows from $u$ to $v$, it is guaranteed that $w$ will be executed. But from $u$ we can reach `END` without encountering $w$, so there is a decision being made at $u$ that determines whether or not $w$ is executed.
+
+As a result, we can rewrite this to be:
+- $w\text{ pdom }v$
+- $w$ does not [[Dominators#Strict Postdominance|strictly postdominate]] $u$
+
+### Example
+
+Using the example from before: ![[Dominators#Example CFG]]
+
+|          | A   | B   | C   | D   | E   | F   | G   |
+| -------- | --- | --- | --- | --- | --- | --- | --- |
+| Start->a | x   |     | x   |     |     | x   | x   |
+| f->b     |     | x   | x   |     |     | x   |     |
+| c->d     |     |     |     | x   |     |     |     |
+| c->e     |     |     |     |     | x   |     |     |
+| a->b     |     | x   |     |     |     |     |     |
+An `x` marks control dependence. This is **not** transitive control dependence.

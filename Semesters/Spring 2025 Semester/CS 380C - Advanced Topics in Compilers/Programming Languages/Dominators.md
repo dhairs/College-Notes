@@ -45,15 +45,15 @@ graph TD
 
 |       | Start | A   | B   | C   | D   | E   | F   | G   | END |
 | ----- | ----- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Start |       |     |     |     |     |     |     |     |     |
-| A     |       |     |     |     |     |     |     |     |     |
-| B     |       |     |     |     |     |     |     |     |     |
-| C     |       |     |     |     |     |     |     |     |     |
-| D     |       |     |     |     |     |     |     |     |     |
-| E     |       |     |     |     |     |     |     |     |     |
-| F     |       |     |     |     |     |     |     |     |     |
-| G     |       |     |     |     |     |     |     |     |     |
-| E     |       |     |     |     |     |     |     |     |     |
+| Start | x     | x   | x   | x   | x   | x   | x   | x   | x   |
+| A     |       | x   | x   | x   | x   | x   | x   | x   |     |
+| B     |       |     | x   |     |     |     |     |     |     |
+| C     |       |     |     | x   | x   | x   | x   | x   |     |
+| D     |       |     |     |     | x   |     |     |     |     |
+| E     |       |     |     |     |     | x   |     |     |     |
+| F     |       |     |     |     |     |     | x   | x   |     |
+| G     |       |     |     |     |     |     |     | x   |     |
+| END   |       |     |     |     |     |     |     |     | x   |
 
 ### Building Dominator Tree Directly
 
@@ -86,3 +86,8 @@ There is a **caveat**: $a\text{ dom } b$ does **not necessarily imply** $b\text{
 
 The immediate post-dominator of a node $n$ is the child of the node on all paths, if it exists.
 - Denoted as $\text{ipdom}$.
+
+
+## Strict Postdominance
+
+A node $w$ is said to strictly postdominate a node $u$ if $w \neq u \wedge w\text{ pdom }u$
