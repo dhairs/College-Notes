@@ -67,8 +67,22 @@ There is a linear time algorithm, but its a lot more complex and not efficient t
 
 ## Immediate Dominators
 
-The immediate dominator of a node $n$ is the parent of the node, if it exists.
+The immediate dominator of a node $n$ is the parent of the node on all paths, if it exists.
 - Denoted as $\text{idom}(n)$
 - There is no $\text{idom}$ for `START`
 
 As a result, all dominators of $n$ other than $n$ itself dominate $\text{idom}(b)$.
+
+## Postdominators
+
+Given a CFG $G$, node $b$ is said to postdominate node $a$ if every path from $a$ to `END` contains $b$
+- Denoted as $b\text{ pdom } a$ to say that $b$ postdominates $a$
+
+Postdominance is dominance in reverse CFGs obtained by reversing the direction of all edges and interchanging the roles of `START` and `END`.
+
+There is a **caveat**: $a\text{ dom } b$ does **not necessarily imply** $b\text{ pdom } a$.
+
+### Immediate Postdominator
+
+The immediate post-dominator of a node $n$ is the child of the node on all paths, if it exists.
+- Denoted as $\text{ipdom}$.
