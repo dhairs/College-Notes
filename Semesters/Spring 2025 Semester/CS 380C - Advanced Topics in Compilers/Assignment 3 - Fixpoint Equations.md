@@ -1,4 +1,3 @@
-
 ### Problem 1
 
 #### Subproblem A
@@ -96,19 +95,24 @@ $$
 #### Subproblem B
 
 $$
-\begin{align}
-x_{1}=0, y_{2}=0 \\
- \\
-x_{2} = \frac{4-0}{3}=\frac{4}{3},y_{2} = \frac{0-3}{2}=-\frac{3}{2} \\
- \\
-x_{3} = \frac{\left( 4+\frac{3}{2} \right)}{3} = \frac{\left( \frac{11}{2} \right)}{3}=\frac{11}{6},y_{3}= \frac{\left( \frac{4}{3}-3 \right)}{2} = \frac{\left( -\frac{5}{3} \right)}{2} = -\frac{5}{6} \\
- \\
-x_{4}=\frac{\left( 4+\frac{5}{6} \right)}{3} = \frac{\left( \frac{29}{6} \right)}{3}=\frac{29}{18},y_{4}=\frac{\left( \frac{11}{6}-3 \right)}{2}=\frac{\left( -\frac{7}{6} \right)}{2}=-\frac{7}{12} \\
- \\
-x_{5}=\frac{\left( 4+\frac{7}{12} \right)}{3}=\frac{\left( \frac{55}{12} \right)}{3}=\frac{55}{36},y_{5} = \frac{\left( \frac{29}{18}-3 \right)}{2} = \frac{\left( -\frac{25}{18} \right)}{2}= -\frac{25}{36} \\
- \\
-x_{6}=\frac{\left( 4+\frac{25}{36} \right)}{3}=\frac{\left( \frac{169}{36} \right)}{3}=\frac{169}{108}, y_{6}=\frac{\left( \frac{55}{36}-3 \right)}{2}=\frac{\left( -\frac{53}{36} \right)}{2}=-\frac{53}{72} \\
- \\
-x_{7}=\frac{\left( 4+\frac{25}{36} \right)}{3}=\frac{\left( \frac{169}{36} \right)}{3}=\frac{169}{108},y_{7}=
-\end{align}
+\begin{flalign*}
+\text{Initial Condition: }
+&x_{1}=0, y_{2}=0 \\
+\text{Iteration 1} \\
+&x_{2} = \frac{4-0}{3}=\frac{4}{3},y_{2} = \frac{0-3}{2}=-\frac{3}{2} \\
+\text{Iteration 2} \\
+&x_{3} = \frac{\left( 4+\frac{3}{2} \right)}{3} = \frac{\left( \frac{11}{2} \right)}{3}=\frac{11}{6},y_{3}= \frac{\left( \frac{4}{3}-3 \right)}{2} = \frac{\left( -\frac{5}{3} \right)}{2} = -\frac{5}{6} \\
+\text{Iteration 3} \\
+&x_{4}=\frac{\left( 4+\frac{5}{6} \right)}{3} = \frac{\left( \frac{29}{6} \right)}{3}=\frac{29}{18},y_{4}=\frac{\left( \frac{11}{6}-3 \right)}{2}=\frac{\left( -\frac{7}{6} \right)}{2}=-\frac{7}{12} \\
+\text{Iteration 4} \\
+&x_{5}=\frac{\left( 4+\frac{7}{12} \right)}{3}=\frac{\left( \frac{55}{12} \right)}{3}=\frac{55}{36},y_{5} = \frac{\left( \frac{29}{18}-3 \right)}{2} = \frac{\left( -\frac{25}{18} \right)}{2}= -\frac{25}{36} \\
+\text{Iteration 5} \\
+&x_{6}=\frac{\left( 4+\frac{25}{36} \right)}{3}=\frac{\left( \frac{169}{36} \right)}{3}=\frac{169}{108}, y_{6}=\frac{\left( \frac{55}{36}-3 \right)}{2}=\frac{\left( -\frac{53}{36} \right)}{2}=-\frac{53}{72} \\
+\text{Iteration 6} \\
+&x_{7}=\frac{\left( 4+\frac{53}{72} \right)}{3}=\left( \frac{\frac{341}{72}}{3} \right)=\frac{341}{216},y_{7}=\frac{\left( \frac{169}{108}-3 \right)}{2}=\frac{\left( -\frac{155}{108} \right)}{2}=-\frac{155}{216} \\
+\text{Iteration 7} \\
+&x_{8}=\frac{\left( 4+\frac{155}{216} \right)}{3}=\left( \frac{\frac{1019}{216}}{3} \right)=\frac{1019}{648},y_{8}=\frac{\left( \frac{341}{216}-3 \right)}{2}=\frac{\left( -\frac{307}{216} \right)}{2}=-\frac{307}{432} \\
+\text{Iteration 8} \\
+&x_{9}=\frac{\left( 4+\frac{307}{432} \right)}{3}=\frac{\left( \frac{2035}{432} \right)}{3}=\frac{2035}{1296},y_{9}= \frac{\left( \frac{1019}{648}-3 \right)}{2}=\frac{\left( -\frac{925}{648} \right)}{2}=-\frac{925}{1296}
+\end{flalign*}
 $$
