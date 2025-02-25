@@ -178,4 +178,10 @@ $$
 
 ### Problem 6
 
-Given that both $f(x)$ a
+Given that both $f(x)$ and $g(x)$ are monotonic, we know that if $x \leq y$, then $f(x)\leq f(y)\cap g(x) \leq g(y)$ by the definition of monotonicity. As a result, if we have the function $h(x)=f(g(x))$, a rising input into $g(x)$ will result in either the same or equivalent output. The output of $g(x)$ will then be fed into $f(x)$. Because the value must be either equal or greater, we can also use the original given that $f(x)$ is monotonic to know that the output will also be monotonic. $\text{Therefore, } h(x)=f(g(x))\text{ must be monotonic.}$
+
+
+### Problem 7
+
+#### Subproblem A
+
