@@ -3,6 +3,8 @@
 
 #### Subproblem A
 
+Inference rules for `REACHABLE`:
+
 $$
 \begin{align} \\
 \text{Start: }S\in \text{REACHABLE} \\ \\
@@ -13,7 +15,7 @@ $$
 
 #### Subproblem B
 
-Computing USELESS:
+Computing `USELESS`:
 
 ```pseudo
 USELESS = {}
@@ -60,6 +62,36 @@ $$
 
 #### Subproblem A
 
+Initial value $(x_{1}=0,y_{1}=0)$ 
 
+$$
+\begin{align}
+x=\frac{4-y}{3} \\ \\
+
+y=\frac{x-3}{2}
+\end{align}
+$$
+
+Recurrence Relation: 
+
+$$
+\begin{align}
+x_{i+1}=\frac{4-y_{i}}{3} \\
+ \\
+y_{i+1}=\frac{x_{i}-3}{2}
+\end{align}
+$$
+Rewritten in matrix form as
+$$
+\begin{pmatrix}
+x_{i+1} \\
+y_{i+1}
+\end{pmatrix}=
+\begin{pmatrix}
+\frac{4-y_{i}}{3} \\
+\frac{x_{i}-3}{2}
+\end{pmatrix}
+$$
 
 #### Subproblem B
+
