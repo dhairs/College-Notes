@@ -95,3 +95,20 @@ $$
 
 #### Subproblem B
 
+$$
+\begin{align}
+x_{1}=0, y_{2}=0 \\
+ \\
+x_{2} = \frac{4-0}{3}=\frac{4}{3},y_{2} = \frac{0-3}{2}=-\frac{3}{2} \\
+ \\
+x_{3} = \frac{\left( 4+\frac{3}{2} \right)}{3} = \frac{\left( \frac{11}{2} \right)}{3}=\frac{11}{6},y_{3}= \frac{\left( \frac{4}{3}-3 \right)}{2} = \frac{\left( -\frac{5}{3} \right)}{2} = -\frac{5}{6} \\
+ \\
+x_{4}=\frac{\left( 4+\frac{5}{6} \right)}{3} = \frac{\left( \frac{29}{6} \right)}{3}=\frac{29}{18},y_{4}=\frac{\left( \frac{11}{6}-3 \right)}{2}=\frac{\left( -\frac{7}{6} \right)}{2}=-\frac{7}{12} \\
+ \\
+x_{5}=\frac{\left( 4+\frac{7}{12} \right)}{3}=\frac{\left( \frac{55}{12} \right)}{3}=\frac{55}{36},y_{5} = \frac{\left( \frac{29}{18}-3 \right)}{2} = \frac{\left( -\frac{25}{18} \right)}{2}= -\frac{25}{36} \\
+ \\
+x_{6}=\frac{\left( 4+\frac{25}{36} \right)}{3}=\frac{\left( \frac{169}{36} \right)}{3}=\frac{169}{108}, y_{6}=\frac{\left( \frac{55}{36}-3 \right)}{2}=\frac{\left( -\frac{53}{36} \right)}{2}=-\frac{53}{72} \\
+ \\
+x_{7}=\frac{\left( 4+\frac{25}{36} \right)}{3}=\frac{\left( \frac{169}{36} \right)}{3}=\frac{169}{108}
+\end{align}
+$$
