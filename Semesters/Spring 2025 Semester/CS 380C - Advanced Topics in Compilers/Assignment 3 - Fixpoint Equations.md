@@ -196,3 +196,6 @@ Given that both $f(x)$ and $g(x)$ are monotonic, we know that if $x \leq y$, the
 
 #### Subproblem A
 
+#### Subproblem B
+
+Derivative can never be negative (non-negative derivative always)
