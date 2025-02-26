@@ -93,7 +93,7 @@ The implication of this non-blocking structure is that memory operations may be 
 
 For each missed memory block, we have an associated miss queue. In it, we can put the read/write event, word address, tag, and the store value. 
 
-On a **primary miss** (no other miss to this same block) for a memory block, and entry is created for the block in its MSHR. We can use a CAM to do the comparison for the addresses. If there are no free entries, the request blocks. We also create an entry in the miss queue of this MSHR entry.
+On a **primary miss** (no other miss to this same block) for a memory block, an entry is created for the block in its MSHR. We can use a CAM to do the comparison for the addresses. If there are no free entries, the request blocks. We also create an entry in the miss queue of this MSHR entry.
 
 Another miss to the same memory block that arrives while the primary miss is being handled is called a **secondary miss**.
 1. If it is a write, we can simply append to the tail of the miss queue.
