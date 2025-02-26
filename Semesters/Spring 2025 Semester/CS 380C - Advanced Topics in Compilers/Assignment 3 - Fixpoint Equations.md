@@ -7,7 +7,7 @@ Inference rules for `REACHABLE`:
 $$
 \begin{align} \\
 \text{Start: }S\in \text{REACHABLE} \\ \\
-\frac{{A\in \mathrm{REACHABLE}\;\;\; A \to \alpha \in P\;\;\;B\in \alpha\;\;\;B \in N}}{B \in \text{REACHABLE}}
+\frac{{A\in \mathrm{REACHABLE}\;\;\; A \to Y_{1}\dots Yi \in P\;\;\;\;\;\;B \in N}}{B \in \text{REACHABLE}}
 \end{align}
 $$
 
@@ -148,6 +148,14 @@ $f(x) = x-\{a,b,c\}$
 #### Subproblem C
 
 TODO
+
+$$
+f(x)=\begin{Bmatrix}
+\bot:x=\{a,b,c\} \\
+else:x=x
+\end{Bmatrix}
+$$
+
 #### Subproblem D
 
 $f(x)=x \cup \{a\}$
@@ -155,6 +163,8 @@ $f(x)=x \cup \{a\}$
 #### Subproblem E
 
 $f(x)=\{a\}-x$
+
+TODO: EXPLAIN
 
 #### Subproblem F
 
@@ -165,10 +175,11 @@ Identity function: $f(x) = x$
 TODO: FIX
 $$
 \begin{align}
-&\text{Because } D=(S,\leq) \text{ is a domain, the set } S \text{ must be able to be partially ordered,} \\
+&\text{Because } D=(S,\leq) \text{ is a domain, } D \text{ must be be partially ordered,} \\
 &\text{must be finite, and must have a least element.} \\
  \\
-&L \text{ is defined to be a subset of } S. \text{As a result, } L \text{ must also be partially-} \\
+&L \text{ is defined to be a subset of } S\text{ but importantly, is the set of solutions}.  \\
+&\text{As a result, } L \text{ must also be partially-} \\
 &\text{ordered, finite, and have a least element. Therefore, } (L, \leq)\text{ must be a domain.}
 \end{align}
 $$
