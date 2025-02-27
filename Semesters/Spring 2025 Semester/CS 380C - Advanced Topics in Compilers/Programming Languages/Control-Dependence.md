@@ -56,4 +56,24 @@ Using the example from before: ![[Dominators#Example CFG]]
 | c->d     |     |     |     | x   |     |     |     |
 | c->e     |     |     |     |     | x   |     |     |
 | a->b     |     | x   |     |     |     |     |     |
+
 An `x` marks control dependence. This is **not** transitive control dependence.
+
+## Computing Control-Dependence Relation
+
+Given a CFG $G$, a node $w$ is control-dependent on an edge $u\to v$ if:
+- $w$ [[Dominators#Postdominators|postdominates]] $v$
+- $w$ does not [[Dominators#Strict Postdominance|strictly postdominate]] $u$
+
+Nodes control dependent on edge $u \to v$ are nodes on the path up from the postdominator tree from $v$ to $\text{ipdom}(u)$ excluding $\text{ipdom}(u)$
+- Written as $[v,\text{ipdom}(u))$
+	- Half-open interval in tree
+
+Overlay each edge $u\to v$ on pdom tree and determine nodes in interval $[v,\text{ipdom}(u))$. The time and space complexity is $O(EV)$. 
+
+However, in practice, we don't want the full relation and only make queries:
+- cd($e$): what are the nodes control-dependent on an edge $e$
+- conds($w$): what are the edges that is $w$ is control-dependent on
+- cdequiv($w$): what nodes have the same control-dependences as node $w$
+
+It is possible to create a simple data structure that takes $O(E)$ time and space to build and that answers these queries in time proportional to the output of the query.
