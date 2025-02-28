@@ -2,6 +2,10 @@
 
 The goal of these is to maintain coherence by enforcing coherence invariants.
 
+Snooping protocols are simpler to specify, reason about, and implement, but harder to scale. It requires a totally ordered broadcast network and can be further optimized for non-atomic bus transactions. It's not a great fit for the era of scalable multicore systems beyond the single-chip boundary. 
+
+Directory protocols, however, are inherently scalable and need to have a scalable way to maintain the directory to avoid creating a bottleneck. It needs to be careful to cause deadlock during message passing (e.g., by using virtual networks). Using a network that doesn't enforce point-to-point ordering (e.g., by using adaptive routing) requires a rethink of the protocol.
+
 ### Coherence Invariants
 
 | SWMR                                                                                                                                                         | Data-Value                                                                                                                                             |
