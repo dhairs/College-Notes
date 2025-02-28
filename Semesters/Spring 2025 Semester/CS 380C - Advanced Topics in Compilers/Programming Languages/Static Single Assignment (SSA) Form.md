@@ -37,7 +37,7 @@ The dominance frontier is the same as computing the [[Control-Dependence]] in th
 
 ## Iterated Dominance Frontier
 
-Irreflexice closure of dominnacen frontier relation. Related notion: iteratied control dependence in reverse graph.
+Irreflexive closure of dominance frontier relation. Related notion: iterated control dependence in reverse graph.
 
 ## Why is SSA Form Useful?
 
