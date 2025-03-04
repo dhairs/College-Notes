@@ -41,7 +41,30 @@ Irreflexive closure of dominance frontier relation. Related notion: iterated con
 
 ## Why is SSA Form Useful?
 
+For many dataflow problems, SSA form enables sparse dataflow analysis that yields the same precision as bit-vector CFG-based dataflow analysis but is asymptotically faster since it permits the exploitation of sparsity. (ex. constant propagation)
 
-## Constant Propagation
+### Constant Propagation
 
 Understand the problem of [[Scalar Optimizations#Constant Propagation|Constant Propagation]] in terms of scalar optimizations.
+
+Intuition: discovers that the false side of the conditional is dead and allows for dead-code elimination.
+
+#### Def-use Chains Algorithm
+
+- Compute reaching definitions
+- Add def-use chains to CFG
+- Cell for each definition and use, initialized to $\bot$
+- Propagate lattice values from definitions to uses, using confluence operator to merge values from multiple definitions that reach a given use
+
+The algorithm will not find all the constants found by CFG dataflow algorithm.
+
+#### SSA Algorithm (used by LLVM)
+
+- Cells for each def and use of SSA edges initialized to $\bot$
+- Cells per edge and statement to mark liveness
+- Propagate liveness along CFG edges to mark live edges
+- Statement is live if any incoming edge is live
+- Propagate constants along SSA edges from live statements
+- At conditional, evaluate condition using propagated values to mark liveness on outgoing edges
+- At $\Phi$ function, merge values only from live CFG edges using confluence operator
+- Will find all constants found by CFG dataflow algorithm
