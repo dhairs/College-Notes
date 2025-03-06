@@ -28,7 +28,7 @@ Two variables **interfere** if:
 - both appear in $\text{out}[n]$ for any $n$
 
 
-> [!faq] How to allocate register to variables?
+> [!faq]+ How to allocate register to variables?
 > We use interference graphs and graph coloring theory.
 
 ## Interference Graphs
@@ -137,4 +137,21 @@ A caveat that arises is that you can't simplify a graph by removing a pre-colore
 Code generation produces a lot of extra move instructions
 - mov t1, t2
 - t1 and t2 are said to be **move-related**
-- If we can assign 
+- If we can assign t1 and t2 to the same register, we do not have to execute the mov
+- If t1 and t2 are not connected in the interference graph, we **coalesce** them into a single variable
+
+#### Coalescing
+
+The problem with coalescing is that it can increase the number of interference edges and make a graph uncolorable, so there are two solutions:
+- **Briggs**: avoid creation of a high-degree ($\geq K$) nodes
+- **George**: $a$ can be coalesced with $b$ if every neighbor $t$ of $a$:
+	- already interferes with $b$, or
+	- has low degree ($<K$)
+
+### Overall Algorithm
+
+| ![[overall register allocation algorithm.png]]                                    |
+| --------------------------------------------------------------------------------- |
+| https://www.cs.utexas.edu/~pingali/CS380C/2025/lectures/Register%20Allocation.pdf |
+
+![[Recording 20250306164439.m4a]]
