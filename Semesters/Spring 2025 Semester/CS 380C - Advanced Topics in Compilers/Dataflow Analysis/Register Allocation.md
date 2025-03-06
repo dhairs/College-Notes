@@ -111,9 +111,10 @@ x = ...
 
 x = <some expression>
 ...x uses...
+```
 
-// can be rewritten to be:
-
+**can be rewritten to be:**
+```
 t1 = load...
 t1 = ...
 ...t1 uses...
@@ -155,3 +156,5 @@ The problem with coalescing is that it can increase the number of interference e
 | https://www.cs.utexas.edu/~pingali/CS380C/2025/lectures/Register%20Allocation.pdf |
 
 ![[Recording 20250306164439.m4a]]
+
+![[https://drive.google.com/file/d/1KfKzvWIbygDdot7YTOvWmKKz2Mf7UXUz/view?usp=sharing]]
