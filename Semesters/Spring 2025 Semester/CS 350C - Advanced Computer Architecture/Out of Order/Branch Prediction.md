@@ -41,7 +41,7 @@ Simplified assembly can be described as:
 	cmp r0, 5
 	beq .exit
 	add r0, r0, 1
-	b .loop
+	bne .loop
 .exit:
 	NOP
 ```
@@ -75,3 +75,22 @@ This is a Moore finite state machine. We start from `01` and the misprediction r
 #### Global History
 
 We need to have a shift register that records the history of the last $k$ branches encountered by the processor.
+
+We have one bit for each branch, regardless of the PC. We record `1` for branch taken and `0` for branch not taken.
+
+Consider a 2-bit **global history register** (GHR) like this:
+
+![[BP GHR.png]]
+We have two conditional branches in the running example: `beq .exit` and `bne .inc` 
+
+Use both $k$ bits of the GHR and least-significant $n$ bits of the PC to index into the **pattern history table** (PHT). The PHT has $2^{n+k}$ entries and increased accuracy.
+
+This is also called a **GAp two-level adaptive predictor**: G for Global, A for Adaptive, p for per-branch/pc.
+
+Invented by UT professor Yale Patt! [Yeh & Patt 1991](https://www.inf.pucrs.br/~calazans/graduate/SDAC/saltos.pdf).
+
+> [!FAQ] Bits used by different configurations
+> GAp: $k + w\times {2}^k\times 2^n$
+> GAg: $k + w \times 2^k$
+> PAg: $k\times 2^n+w\times 2^k$
+> 
