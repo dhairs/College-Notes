@@ -94,3 +94,35 @@ Invented by UT professor Yale Patt! [Yeh & Patt 1991](https://www.inf.pucrs.br/~
 > GAg: $k + w \times 2^k$
 > PAg: $k\times 2^n+w\times 2^k$
 > 
+
+### Leveraging Local and Global Information
+
+The previous predictors used a ton of data and state to be able to predict branches. We can, however, just use a simple XOR with shared indexes into a prediction table. Eventually, a bunch of addresses and behaviors will converge into a behavior and be placed at a certain index in the table which will then be trained onto local history. Called the "gshare" predictor.
+
+![[gshare.png]]
+
+There are also combining or "tournament" predictors used in Alpha 21264.
+
+![[tournament predictor.png]]
+
+### Tagged Hybrid Predictors
+
+Stands for **TA**gged **GE**ometric predictor (TAGE). It keeps multiple predictions with different history lengths: $L(i)=[a^{i-1}\times L(1)+0.5]$. The hash function can once again just be an XOR. It partially tags predictions to avoid false matches and only provides a prediction on match.
+
+
+| ![[TAGE Predictor.png]]                                                                                                                   |
+| ----------------------------------------------------------------------------------------------------------------------------------------- |
+| https://www.researchgate.net/figure/The-TAGE-Predictor-with-N-Tagged-Tables-organization-of-the-TAGE-predictor-It-consists_fig1_254023355 |
+
+### Neural Branch Predictor
+
+Invented by UT Student and Professor Calvin Lin! [Jiménez & Lin 2002](https://dl.acm.org/doi/abs/10.1145/571637.571639).
+
+The algorithm is to hash the branch address to produce an index $i\in[0,N-1]$ into the table of perceptrons. Fetch perceptron $i$ from the table into a vector register $P_{0:n}$ of weights $\{w_{i}\}$. Compute $y$ as the dot product of $P$ and the global branch history register (BHR). BHR is encoded as 1 for a branch that is taken and -1 for a branch that is not taken. Predict branch as `not taken` of $y<0$ and `taken` otherwise. Once the branch is resolved, use the training algorithm to update the weights in $P$. Write back the updated $P$ into entry $i$ of the table of perceptrons.
+
+The **dot product** is the slowest/hardest operation so we need to optimize it. To approximate the dot product, we will make the weights $w_{i}$ small-width integers because we don't need insane accuracy. Since BHR entries are conceptually $\pm 1$, we just need to add to $w_{i}$ if it is 1 and subtract if -1. For subtraction we just use $-w_{i}\approx  \bar{w_{i}}$. Since we only need the sign bit to predict, the other bits can be computed slower.
+
+The **training algorithm** takes in 3 inputs: $y,t,\theta$ where $t$ is the branch outcome and $\theta$ is a training threshold parameter (hyperparameter). If $\text{sgn}(y)\neq t\text{ or }|y|\leq 0$ then `forall` $i\in [0,n]:w_{i} \leftarrow w_{i}+t \cdot x_{i}$. Empirically, the best threshold $\theta$ for a given history length $h$ is $\theta=\lfloor 1.93h+14 \rfloor$.
+
+
+### Predicting the Branch Target
