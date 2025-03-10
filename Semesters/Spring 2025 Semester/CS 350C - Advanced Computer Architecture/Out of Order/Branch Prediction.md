@@ -14,7 +14,7 @@ What we want to do is gather information from what happened before.
 
 ![[Branch Predictor Basic.png]]
 
-### Predicting Instruction Type
+## Predicting Instruction Type
 
 Observation: the type of the instruction at a program counter (PC) is static
 
@@ -125,4 +125,28 @@ The **dot product** is the slowest/hardest operation so we need to optimize it. 
 The **training algorithm** takes in 3 inputs: $y,t,\theta$ where $t$ is the branch outcome and $\theta$ is a training threshold parameter (hyperparameter). If $\text{sgn}(y)\neq t\text{ or }|y|\leq 0$ then `forall` $i\in [0,n]:w_{i} \leftarrow w_{i}+t \cdot x_{i}$. Empirically, the best threshold $\theta$ for a given history length $h$ is $\theta=\lfloor 1.93h+14 \rfloor$.
 
 
-### Predicting the Branch Target
+## Predicting the Branch Target
+
+Where is the branch target calculated?
+- For B, BL, and B.cond, in late Fetch or early Decode stages
+- For BLR or RET, in late Decode
+
+This is too late to fetch the correct branch target instruction in the next cycle, even if the prediction is correct, so we need a way of storing the data so we can access it quickly.
+
+We extend the **instruction status table** (IST) to keep this information, we call it the **Branch Target Buffer** (BTB).
+
+The variation is to keep target instructions in the BTB along with (or instead of) the branch target address. This allows branch folding: zero-cycle penalty for unconditional branches (and sometimes for conditional branches as well).
+
+![[BTB Target Predictor.png]]
+
+![[BTB State Machine.png]]
+
+### Special Case: Predicting Return Addresses
+
+Since normal call-return protocols are LIFO, use a stack of return addresses to predict branch targets of `RET` instructions with 100% accuracy (as long as the stack doesn't overflow). This is called a **Return Address Stack** (RAS). Push return address when function is called and pop return address when `RET` is encountered. There are typically 8-16 entries in the stack. 
+
+An issue arises, though, how can we handle call depths deeper than this?
+
+We just spill to memory.
+
+A RET is effectively a BR. However, they tell the module whether or not this is a function return within the ISA itself depending on if you used RET or BR, which could be used to add additional details.
