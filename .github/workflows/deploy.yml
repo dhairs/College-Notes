@@ -1,48 +1,50 @@
-name: GitHub Actions Demo
-run-name: Exporting ${{ github.actor }}'s notes
-on: [push]
+name: Deploy Notes to GitHub Pages
+
+on: push
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  checkout-repo:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Current Respository
-        uses: actions/checkout@master
+      - uses: actions/checkout@v4
         with:
-          path: temp_unexported
-
-      - name: Set up exports folder
-        run: |
-          mkdir old_exported
-          cd old_exported
-          git init
-          git remote add origin git@github.com:${{vars.EXPORTED_NOTES_REPO}}.git
-
-      # - name: Remove all files from old export
-      #   run: |
-      #     cd old_exported
-      #     git rm -rf .
-      #     git clean -fxd
-
-      - name: Download obsidian export
-        run: |
-          wget https://github.com/zoni/obsidian-export/releases/download/v22.11.0/obsidian-export_Linux-x86_64.bin
-          chmod +x obsidian-export_Linux-x86_64.bin
-
-      - name: Run obsidian export
-        run: ./obsidian-export_Linux-x86_64.bin ./temp_unexported/ ./old_exported/ --no-recursive-embeds --frontmatter=always
-
-      - name: Commit new exports
-        run: |
-          cd old_exported
-          git config --local user.email "${{secrets.USER_EMAIL}}"
-          git config --local user.name "${{secrets.USER_NAME}}"
-          git add .
-          git commit -am "New export"
-
-      - name: Push exported markdown
-        uses: ad-m/github-push-action@master
+          fetch-depth: 0 # Fetch all history for git info
+          repository: "dhairs/obsidian-published"
+      - uses: actions/setup-node@v4
         with:
-          github_token: ${{secrets.GH_PAT}}
-          directory: "./old_exported/"
-          force: true
-          repository: ${{vars.EXPORTED_NOTES_REPO}}
+          node-version: 22
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Initialize Submodule
+        run: git submodule update --init --recursive
+
+      - name: Move to submodule head
+        run: cd notes && git pull origin main && cd ..
+
+      - name: Build Quartz
+        run: npx quartz build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
