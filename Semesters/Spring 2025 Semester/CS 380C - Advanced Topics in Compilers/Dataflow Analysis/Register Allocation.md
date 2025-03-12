@@ -155,5 +155,3 @@ The problem with coalescing is that it can increase the number of interference e
 | ![[overall register allocation algorithm.png]]                                    |
 | --------------------------------------------------------------------------------- |
 | https://www.cs.utexas.edu/~pingali/CS380C/2025/lectures/Register%20Allocation.pdf |
-
-![[Recording 20250306164439.m4a]]
