@@ -23,6 +23,96 @@ The correspondence between MOPs and µops used by a processor may be 1:1, 1:N, o
 ## Pre-Decoding
 
 
-| ![[Pasted image 20250312102658.png]] |
-| ------------------------------------ |
-|                                      |
+| ![[Pre-decode Patent.png]]                        |
+| ------------------------------------------------- |
+| ![[Pre-decode patent block diagram.png]]              |
+| https://patents.google.com/patent/US10176104B2/en |
+The intuition is to identify and signal opportunities to split or fuse instructions into more efficient primitives natively supported by the µarch.
+
+There is, however, a caveat: we need to preserve the precise exception model while doing this.
+
+### Examples
+
+#### Splits
+
+We can split the instruction
+
+```armasm
+str x1, [x2], #24
+```
+
+into the MOP sequence
+
+```armasm
+AGU x2
+ALU x2, #24
+STR x1
+```
+
+
+We can split the instruction
+
+```armasm
+stp x29, x30, [sp, #-32]!
+```
+
+into
+
+```armasm
+ALU sp, #-32
+AGU sp
+STR x29
+AGU sp, #8
+STR x30
+```
+
+#### Fuses
+
+We can fuse the instruction sequence
+
+```armasm
+add x0, x1, x2
+add x3, x0, x4
+```
+
+into the single MOP
+
+```armasm
+add r3, r1, r2, r4
+```
+ (assuming the µarch supports 3 register adds)
+
+
+We can fuse the instruction sequence
+```armasm
+b tgt
+add x3, x3, 4
+tgt: ...
+```
+
+into 
+
+```armasm
+nop_pc+8
+```
+
+
+We can fuse the instruction
+
+```armasm
+cbnz x1, tgt
+add x3, x3, 1
+tgt: ...
+```
+
+into
+
+```armasm
+ifeqz_add x3, x3, 1, x1, xzr
+```
+
+### Instruction Decoding in ARM Cortex-A78
+
+A MOP can be split into two µops after the decode stage. These µops are dispatched to one of 13 issue pipelines where each pipeline can accept 1 µop/cycle.
+
+Dispatch can process up to 6 MOPs/cycle and dispatch up to 12 µops/cycle. There are limitations on each type of µop that may be simultaneously dispatched. If there are more µops available to be dispatched, they will be dispatched in oldest to youngest age-order.
