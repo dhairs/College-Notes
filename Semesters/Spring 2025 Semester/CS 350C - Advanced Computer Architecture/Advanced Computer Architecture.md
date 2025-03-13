@@ -5,6 +5,8 @@ created: 2025-03-12 20:14
 
 Notes for Advanced Computer Architecture are listed below. Notes for intro Computer Architecture can be found [here](https://notes.guptadhairya.com/Semesters/Spring-2024-Semester/CS-429---Computer-Organization-and-Architecture/)
 
+[[ACA Study Guide]]
+
 ### Modeling Hardware
 
 [[Hardware Description Languages (HDL)]]
