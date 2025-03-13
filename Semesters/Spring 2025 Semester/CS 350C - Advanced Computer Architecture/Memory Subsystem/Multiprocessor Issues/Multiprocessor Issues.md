@@ -5,4 +5,5 @@ As we start to add cores to our processor, multiple events can be happening at o
 There are a bunch of different things that need to be handled correctly, some are:
 - [[Memory Consistency]]
 - [[Cache Coherence]]
-- 
+
+The [[MESI Protocol]] is a common protocol for solving these issues.
