@@ -12,18 +12,18 @@
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "",
-  "enable_folder_templates": false,
+  "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "/",
+      "template": "templates/With Date and Time.md"
     }
   ],
   "enable_file_templates": false,
   "file_templates": [
     {
-      "regex": ".*",
-      "template": ""
+      "regex": "*",
+      "template": "templates/With Date and Time.md"
     }
   ],
   "syntax_highlighting": true,
