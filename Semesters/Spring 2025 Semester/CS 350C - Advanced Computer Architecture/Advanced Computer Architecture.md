@@ -8,36 +8,54 @@ Notes for Advanced Computer Architecture are listed below. Notes for intro Compu
 ### Modeling Hardware
 
 [[Hardware Description Languages (HDL)]]
+
 [[Verilog]]
+
 [[System Verilog]]
+
 [[Modeling and Simulating Hardware]]
+
 
 ### Floating Point
 
 [[Floating Point Numbers]]
+
 [[Floating Point Multiplication]]
 
 ### Memory Subsystem
 
 [[Memory Subsystem]]
+
 [[System Level Memory]]
+
 [[Memory Scheduler]]
+
 [[Virtual Memory and Caches]]
+
 [[Load Store Queue]]
+
 [[Cache Organization]]
+
 
 #### Multiprocessor Issues
 
 [[Memory Consistency]]
+
 [[Multiprocessor Issues]]
+
 [[Cache Coherence]]
+
 [[MESI Protocol]]
 
 ### Out of Order Execution
 
 [[Instruction Orders]]
+
 [[Renaming]]
+
 [[Example Architectures]]
+
 [[Front End]]
+
 - [[Branch Prediction]]
 - [[Decode]]
