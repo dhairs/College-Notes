@@ -6,30 +6,30 @@ A clock is a free running **binary** signal that constantly switches between 0 a
 
 > [!NOTE]- LaTeX
 > ```tikz
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.16}
-\begin{document}
-\begin{tikzpicture}
-\begin{axis}[
-width=10cm,
-height=4cm,
-x axis line style={-stealth},
-y axis line style={-stealth},
-title={Square wave},
-xticklabels={},
-ymax = 1.5,xmax=7.5,
-axis lines*=center,
-ytick={0.5,1},
-xlabel={Time $\rightarrow$},
-ylabel={Amplitude},
-xlabel near ticks,
-ylabel near ticks]
-\addplot+[thick,mark=none,const plot]
-coordinates
-{(0,0) (0,1) (1,0) (2,1) (3,0) (4,1) (5,0) (6,1) (7,0)};
-\end{axis}
-\end{tikzpicture}
-\end{document}```
+> \usepackage{pgfplots}
+> \pgfplotsset{compat=1.16}
+> \begin{document}
+> \begin{tikzpicture}
+> \begin{axis}[
+> width=10cm,
+> height=4cm,
+> x axis line style={-stealth},
+> y axis line style={-stealth},
+> title={Square wave},
+> xticklabels={},
+> ymax = 1.5,xmax=7.5,
+> axis lines*=center,
+> ytick={0.5,1},
+> xlabel={Time $\rightarrow$},
+> ylabel={Amplitude},
+> xlabel near ticks,
+> ylabel near ticks]
+> \addplot+[thick,mark=none,const plot]
+> coordinates
+> {(0,0) (0,1) (1,0) (2,1) (3,0) (4,1) (5,0) (6,1) (7,0)};
+> \end{axis}
+> \end{tikzpicture}
+> \end{document}```
 
 **Rising Edge**: When the clock transitions from $0\to1$.
 
