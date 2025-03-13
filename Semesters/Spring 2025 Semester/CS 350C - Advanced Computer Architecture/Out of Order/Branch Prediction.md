@@ -91,7 +91,9 @@ Invented by UT professor Yale Patt! [Yeh & Patt 1991](https://www.inf.pucrs.br/~
 
 > [!FAQ] Bits used by different configurations
 > GAp: $k + w\times {2}^k\times 2^n$
+> 
 > GAg: $k + w \times 2^k$
+> 
 > PAg: $k\times 2^n+w\times 2^k$
 > 
 
