@@ -56,6 +56,5 @@ Notes for Advanced Computer Architecture are listed below. Notes for intro Compu
 [[Example Architectures]]
 
 [[Front End]]
-
 - [[Branch Prediction]]
 - [[Decode]]
