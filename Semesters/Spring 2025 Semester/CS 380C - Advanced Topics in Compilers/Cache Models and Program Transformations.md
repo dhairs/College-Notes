@@ -107,4 +107,36 @@ Lets say we have an IJ loop for performing Matrix-vector products.
 
 The cache line size is 1 number. 
 
-In the **large cache model**, misses
+In the **large cache model**, we have $N^2$ misses to A, $N$ misses to y, and $N$ misses to x. The total is $N^2+2N$, so the miss ratio is $\frac{N^2+2N}{4N^2}$ which is about $\approx0.25+\frac{0.5}{N}$.
+
+In the **small cache model**, we have $N^2$ misses to A, $N$ misses to y, and $N+(N-1)$ misses to x. The total is $2N^2+N$, so the miss ratio is $\frac{2N^2+N}{4N^2}$ which is about $\approx 0.5+\frac{0.25}{N}$.
+
+As the problem size increases, when do capacity misses start to occur? This depends on the replacement policy, the most common is LRU or [[Cache Organization#Pseudo-LRU (Tree-PLRU)|Pseudo LRU (PLRU)]].
+
+### Scenario 2
+
+Lets say we have a JI loop for performing Matrix-vector products.
+
+The miss ratio is the exact same as it was in scenario 1 because the roles of x and y are just interchanged, but the cache line size is simply for a single memory location as defined in scenario 1.
+
+| ![[scenario 2 matrix vector product.png]]                                  |
+| -------------------------------------------------------------------------- |
+| https://www.cs.utexas.edu/~pingali/CS380C/2025/lectures/Cache%20Models.pdf |
+
+
+### Scenario 3
+
+Say we have the same thing but the cache line size is $b$ numbers. 
+
+
+| ![[Scenario 3 Matrix Vector Product.png]]                                       |     |
+| -------------------------------------------------------------------------- | --- |
+| https://www.cs.utexas.edu/~pingali/CS380C/2025/lectures/Cache%20Models.pdf |     |
+
+
+In the **large cache model**, we have:
+- A: $\frac{N^2}{b}$ misses
+- x: $\frac{N}{b}$ misses
+- y: $\frac{N}{b}$ misses
+- Total: $\frac{N^2+2N}{b}$ misses
+- Miss ratio: $\frac{N^2+2N}{4bN^2}\approx \frac{0.25}{b}+\frac{0.5}{bN}$
