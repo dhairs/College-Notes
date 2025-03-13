@@ -1,4 +1,4 @@
-
+This is a part of the [[Memory Subsystem]].
 ## Caches and Addressing
 
 The process issues a virtual address (VA) in connection with a memory access. The memory subsystem deals with physical addresses (PAs). The virtual memory subsystem in the OS performs the $\text{VA}\to \text{PA}$ translation. 

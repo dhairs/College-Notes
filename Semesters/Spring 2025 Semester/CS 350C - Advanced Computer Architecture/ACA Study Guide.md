@@ -2,7 +2,7 @@
 
 All my individual topic notes can be found [[Advanced Computer Architecture|here]]. A summary made by NotebookLM trained on  my notes is provided below:
 
-### System Verilog
+### [[System Verilog]]
 
 - SystemVerilog is a hardware description language (HDL) that is a successor and extension of Verilog. It addresses some common syntax issues present in the original Verilog.
 - It is a concurrent language, meaning statements are always ready to execute and are evaluated whenever a signal on the right side changes.
@@ -22,7 +22,7 @@ All my individual topic notes can be found [[Advanced Computer Architecture|here
 - SystemVerilog includes features like parameters for creating reusable and configurable modules and generate statements for defining structure in variable-sized modules.
 - Test benches can be created in SystemVerilog to verify the functionality of hardware designs.
 
-### Modeling and Simulating Hardware
+### [[Modeling and Simulating Hardware]]
 
 - Modeling and simulating hardware are crucial steps in the design process to verify correctness before physical implementation.
 - **Hardware Description Languages (HDLs)** like VHDL, Verilog, and SystemVerilog are used to create abstract models of hardware.
@@ -41,7 +41,7 @@ All my individual topic notes can be found [[Advanced Computer Architecture|here
 - Floating-point numbers are crucial for scientific and engineering applications where the magnitude of numbers can vary significantly.
 - The design of floating-point systems aims for efficiency in storage and computational time.
 
-### Floating Point Numbers
+### [[Floating Point Numbers]]
 
 - A normalized floating-point number $x$ in a system with precision $p$, exponent width $q$, and base $b$ can be represented as $x = (-1)^n \times s \times b^e$.
 - $n$ represents the sign (0 for positive, 1 for negative).
@@ -56,7 +56,7 @@ All my individual topic notes can be found [[Advanced Computer Architecture|here
 - Different floating-point systems can be defined by their $(p, q; b)$ parameters and may have specific handling of zero, subnormals, infinities, and NaNs (Not-a-Number). Some simplified systems might only include zero and normalized numbers.
 - **Rounding modes** are used to determine how the result of an operation is represented when it cannot be exactly stored with the available precision.
 
-### Floating Point Multiplication
+### [[Floating Point Multiplication]]
 
 - The multiplication of two floating-point numbers $x_1$ and $x_2$ involves the following steps:
 
@@ -76,7 +76,7 @@ All my individual topic notes can be found [[Advanced Computer Architecture|here
 - Floating-point multiplication can be implemented using a **shift-and-add multiplier** for the significand multiplication.
 - The overall process is controlled by a main control finite-state machine (FSM). The design includes an input handler, exponent adder (CLB), multiplier control (FSM), fraction shift-and-add multiplier datapath (CLB, memory), sign compute (CLB), and an output assembler. Control signals manage the flow of data between these components, such as Start, Mdone (multiplier done), Fnorm (fraction normalized), EV (exponent overflow), Load (load operands), Adx (add exponents), RSF/LSF (right/left shift fraction), Inc/Dec (increment/decrement exponent), done, and err.
 
-### Memory Subsystem
+### [[Memory Subsystem]]
 
 - The memory subsystem is responsible for storing and retrieving data and instructions for the processor. It is a critical component affecting overall system performance.
 
@@ -85,7 +85,7 @@ All my individual topic notes can be found [[Advanced Computer Architecture|here
 - At the **device level**, the fundamental storage unit in DRAM (Dynamic Random-Access Memory) is a **1T1C cell**, consisting of one transistor and one capacitor. A United States Patent (#3,387,286) for this type of memory cell was granted to Robert H. Dennard in 1968.
 - Data (a bit of information) is stored as the presence or absence of charge on the capacitor. Due to parasitic resistance, the charge on the capacitor leaks over time, necessitating periodic **refresh operations** to maintain the stored data. The refresh interval is temperature-dependent.
 - **Sense amplifiers** are used to detect and amplify the small voltage difference on the bitlines caused by the charge (or lack thereof) in the DRAM cell's capacitor during a read operation. They employ a feedback loop to drive the bitlines to full logical levels ($V_{DD}$ and 0).
-- **Access steps in a DRAM device** involve three main phases:
+- **Access steps in a [[Main Memory#DRAM|DRAM]] device** involve three main phases:
 
 1. **Sense (Open a row)**: When a row is accessed, the corresponding wordline is activated, allowing the charge from the capacitors in that row to influence the bitlines. Sense amplifiers detect this small change and amplify it. The equalization signal ($EQ$) is initially low ($E=0$), and bitlines are floating. Activating the wordline connects the capacitor to the upper bitline, causing a small voltage change (increase if the cap holds '1', decrease if it holds '0'). This starts a feedback loop that drives the bitlines to $V_{DD}$ and 0 (or vice versa).
 2. **Restore and Read/Write on the opened row**: After sensing, the values in the row are restored (by keeping the wordline active for a minimum time $t_{RAS}$). For a read operation, the amplified value is connected to the output through the chip select (CS) signal. For a write operation (when write enable $WE$ is asserted), the input data is used to charge or discharge the capacitor in the selected cell. A delay $t_{RCD}$ is needed for signal stabilization before reading or writing.
@@ -94,7 +94,7 @@ All my individual topic notes can be found [[Advanced Computer Architecture|here
 - A DRAM chip is organized as a 2D array of supercells (each containing $w$ bits), with $r$ rows and $c$ columns ($r \times c = d$, where $d \times w$ is the chip configuration, e.g., 1 Gig x 8). Access to these is managed by a **memory controller**. Modern DRAMs like DDR4 SDRAM can be internally configured with multiple banks and bank groups, each with its own sense amplifiers, to improve parallelism.
 - **Programming Mode Registers** allow for the initialization and configuration of various DRAM parameters. The **SDRAM controller** manages the state transitions (Idle, Bank active, Reading, Writing, Precharging, Refresh) based on memory requests and timing constraints. It communicates with the SDRAM chip using signals like reset, clk, addr, data, req, we, ack, valid, and q. Timing diagrams illustrate the sequence of signals for read and write operations, including chaining multiple requests.
 
-### System Level Memory
+### [[System Level Memory]]
 
 - At the **system level**, memory organization involves several key components and concepts.
 - A **memory channel** consists of the physical wires on a motherboard that form a data bus and an address/command bus connecting the memory controller to memory chips. The address/command bus is typically unidirectional (controller to memory), carrying address ($a$ bits) and command ($c$ bits) signals. The data bus is bidirectional ($d$ bits), transferring data between memory chips and the controller for read and write operations. Example dimensions are $a=17, c=5, d=64$.
@@ -113,7 +113,7 @@ All my individual topic notes can be found [[Advanced Computer Architecture|here
 - **Page-miss timing**: A different row is currently in the row buffer. Latency is the sum of precharge time ($t_{RP}$), row activation time ($t_{RCD}$), and transfer time.
 - **High Bandwidth Memory (HBM)** is a type of 3D-stacked DRAM connected using through-silicon vias (TSVs) and microbumps. It connects to the GPU/CPU via an interposer, rather than on-chip, offering much higher bandwidth and lower power consumption through very wide buses.
 
-### Memory Scheduler
+### [[Memory Scheduler]]
 
 - The **memory scheduler** is a component of the memory controller that manages the flow of memory requests to the DRAM chips.
 - When there is an LLC (Last-Level Cache) miss, a read request for a cache line is sent to the memory controller. If a dirty line in the LLC is displaced, a write request for that line is also sent.
@@ -125,7 +125,7 @@ All my individual topic notes can be found [[Advanced Computer Architecture|here
 - One example scheduling policy is **First Ready, First Come First Served (FR-FCFS)**.
 - Memory access scheduler architectures maintain information about each request, such as validity, load/store type, address (row and column), data (for writes), and any additional state needed for the scheduling algorithm.
 
-### Virtual Memory and Caches
+### [[Virtual Memory and Caches]]
 
 - When a processor needs to access memory, it issues a **virtual address (VA)**. The **memory subsystem**, however, deals with **physical addresses (PA)** that correspond to the actual locations in main memory.
 - The **virtual memory subsystem** in the operating system is responsible for performing the **VA to PA translation**. This translation often involves looking up entries in page tables, which may be cached in a Translation Lookaside Buffer (TLB).
@@ -145,7 +145,7 @@ All my individual topic notes can be found [[Advanced Computer Architecture|here
 - **Aliasing**: Two different VAs mapping to the same PA can cause coherence problems in VIVT caches. **Page coloring** (using set-associative mapping for VM) is a technique to mitigate this.
 - **Memory-Mapped I/O (MMIO)**: I/O devices are often accessed through memory addresses. These accesses typically use physical addresses and might bypass caches or have specific coherence requirements.
 
-### Load Store Queue
+### [[Load Store Queue]]
 
 - The **Load Store Queue (LSQ)** is a hardware structure in out-of-order processors that buffers load and store instructions after they have been decoded but before they are issued to the memory subsystem.
 - The LSQ plays a crucial role in handling **memory dependencies** between instructions. Two memory instructions ($I_1$ and $I_2$) can have dependencies:
@@ -165,7 +165,7 @@ All my individual topic notes can be found [[Advanced Computer Architecture|here
 - For efficient implementation, the LSQ can be organized as two separate, circular queues: a **load queue** and a **store queue**.
 - At each cycle, the LSQ can perform several operations, including computing effective addresses, finding queue locations of interest, enqueuing and dequeuing operations, resolving memory operations upon address calculation, and handling queue size limits.
 
-### Cache Organization
+### [[Cache Organization]]
 
 - A cache is organized into multiple **cache lines** (also called blocks), which are fixed-size units of data transfer between the cache and main memory.
 - The cache is divided into **sets**, and each set can hold one or more cache lines (depending on the **associativity** of the cache).
@@ -184,7 +184,7 @@ All my individual topic notes can be found [[Advanced Computer Architecture|here
 
   
 
-## Multiprocessor Issues, Memory Consistency, Cache Coherence, and MESI Protocol
+## [[Multiprocessor Issues]], [[Memory Consistency]], [[Cache Coherence]], and [[MESI Protocol]]
 
 ### I. Multiprocessor Issues
 
@@ -196,7 +196,7 @@ The advent of multicore processors introduces a new set of challenges in compute
 
 **Need for Management:** Subsystems like memory and external devices, which are not necessarily on the processor itself, need to be allocated and shared correctly among the multiple cores. This necessitates mechanisms to manage access to shared resources and maintain a coherent state across the system.
 
-### II. Memory Consistency
+### II. [[Memory Consistency]]
 
 **Definition:** Memory consistency is a precise, architecturally visible definition of shared memory correctness. It provides a set of rules that govern how memory operations (loads and stores) are executed and how they act upon the shared memory. A consistency model defines what constitutes a correct execution of a multithreaded program by specifying the permissible orderings of memory operations across different cores. It allows for many correct executions while disallowing incorrect ones.
 
@@ -234,7 +234,7 @@ The advent of multicore processors introduces a new set of challenges in compute
 
 **Relaxed Consistency Models:** TSO is an example of a consistency model that relaxes some of the requirements of SC to enable higher performance through microarchitectural optimizations like write buffers. Different consistency models offer varying degrees of relaxation, leading to different trade-offs in programmability and performance. A model Y is strictly more relaxed than a model X if all X executions are also Y executions, but not vice versa.
 
-### III. Cache Coherence
+### III. [[Cache Coherence]]
 
 **Definition:** Cache coherence is a microarchitectural mechanism that ensures that multiple caches in a shared-memory system maintain a consistent view of the same memory locations. When one processor modifies a data item that is also cached by other processors, the coherence mechanism must ensure that these other processors eventually see the updated value. Without coherence, different processors could operate on stale or incoherent data, leading to incorrect program behavior.
 
@@ -275,7 +275,7 @@ The advent of multicore processors introduces a new set of challenges in compute
 - **Invalidate:** When a core writes to a block, it sends invalidation messages to all other caches holding a copy, forcing them to mark their copies as invalid. Subsequent reads by these cores will then fetch the updated value from memory or the writing core. This is the more common approach as it avoids the overhead of updating potentially unused copies.
 - **Update:** When a core writes to a block, it sends update messages to all other caches holding a copy, providing them with the new value. This can reduce the latency of subsequent reads but introduces overhead even if the updated value is not immediately needed.
 
-### IV. MESI Protocol
+### IV. [[MESI Protocol]]
 
 The MESI protocol is a widely used **snooping-based** cache coherence protocol. The name comes from the four states that a cache line can be in:
 

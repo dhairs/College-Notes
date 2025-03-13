@@ -1,3 +1,4 @@
+This is a part of the [[Memory Subsystem]].
 ## Memory Dependences
 
 Consider two memory instructions $I_{1}$ and $I_{2}$. Generally, either a load `ld <reg>, <addrmode>`, or store `st <reg>, <addrmode>`.
