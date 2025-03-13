@@ -1,5 +1,7 @@
 ## Study Guide: Advanced Computer Architecture Topics
 
+All my individual topic notes can be found [[Advanced Computer Architecture|here]]. A summary made by NotebookLM trained on  my notes is provided below:
+
 ### System Verilog
 
 - SystemVerilog is a hardware description language (HDL) that is a successor and extension of Verilog. It addresses some common syntax issues present in the original Verilog.
