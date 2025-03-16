@@ -1,4 +1,3 @@
-
 ## Memory Amounts
 
 Because we basically do everything in binary, and everything is in powers of 2, it only makes sense if the memory we represent is also in powers of 2. It makes alignment easier, and also just makes use of all the bits we have. For this reason, we redefine certain prefixes to make more sense in the base-2 space:
