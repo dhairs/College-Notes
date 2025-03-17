@@ -5,7 +5,7 @@ A fat file system consists of an array of index nodes (or "i-nodes" or "inode")
 
 There is one i-node per file, which contains
 
-![[inode]]
+![[inode.svg]]
 
 ### File Allocation Table (FAT)
 
