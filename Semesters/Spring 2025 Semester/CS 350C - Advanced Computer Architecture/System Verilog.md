@@ -27,7 +27,7 @@ Will pick up on the syntax directly from where we left off on [[Verilog#Syntax|V
 
 ### Inverters
 
-```systemverilog
+```system-verilog
 module inv(input logic [3:0] a, output logic [3:0] y);
 	assign y = ~a; // flips individual bits of the BUS a
 endmodule
@@ -35,7 +35,7 @@ endmodule
 
 ### Logic Gates
 
-```systemverilog
+```system-verilog
 module gates(input logic[3:0] a, b, output logic [3:0] y1, y2, y3, y4, y5);
 	assign y1 = a & b; // a AND b
 	assign y2 = a | b; // a OR b
@@ -49,7 +49,7 @@ endmodule
 
 Instead of manually writing out all bits of BUS a, you can just apply the scalar AND to all of the bits of the input until we have a single result.
 
-```systemverilog
+```system-verilog
 module gates(input logic [7:0] a, output logic y);
 	assign y = &a;
 endmodule
@@ -59,7 +59,7 @@ endmodule
 
 Just a C-like ternary operator.
 
-```systemverilog
+```system-verilog
 module mux2(input logic[3:0] d0, d1, input logic s, output logic [3:0] y);
 	assign y = s ? d1 : d0;
 endmodule
@@ -69,7 +69,7 @@ endmodule
 
 We now need to add bits to s to choose. This is behavioral (not structural) because we define *what* the behavior is, not *how* to implement it.
 
-```systemverilog {2}
+```system-verilog {2}
 module mux2(input logic[3:0] d0, d1, d2, d3, input logic[1:0] s, output logic [3:0] y);
 	assign y = s[1] ? (s[0] ? d3 : d2) : (s[0] ? d1 : d0);
 endmodule
@@ -79,7 +79,7 @@ endmodule
 
 Need to use 2:1 multiplexer as a base for making this.
 
-```systemverilog
+```system-verilog
 module mux2(input logic[3:0] d0, d1, d2, d3, input logic[1:0] s, output logic [3:0] y);
 	logic [3:0] low, high;
 	mux2 lowmux(d0, d1, s[0], low);
@@ -90,7 +90,7 @@ endmodule
 
 ### Full Adder
 
-```systemverilog
+```system-verilog
 module fulladder(input logic a, b, cin, output logic s, cout);
 	logic p, g;
 	assign p = a ^ b;
@@ -101,7 +101,7 @@ endmodule
 
 ### Tristate Buffer
 
-```systemverilog
+```system-verilog
 module tristate (input logic [3:0] a, input logic en, output logic [3:0] y);
 	assign y = en ? A : 4'bz;
 endmodule
@@ -109,7 +109,7 @@ endmodule
 
 ### Logic Gates with Delays
 
-```systemverilog
+```system-verilog
 `timescale 1ns/1ps
 module example(input logic a, b, c, output logic y);
 	logic ab, bb, cb, n1, n2, n3;
@@ -119,7 +119,7 @@ endmodule
 
 ### Register
 
-```systemverilog
+```system-verilog
 module flop(input logic clk, input logic [3:0] d, output logic [3:0] q);
 	always_ff @(posedge clk)
 		q <= d;
@@ -139,7 +139,7 @@ Three types of always:
 
 ### Resettable Register (Asynchronous)
 
-```systemverilog
+```system-verilog
 module flopr_async(input logic clk, reset, input logic [3:0] d, output logic [3:0] q);
 	always_ff @(posedge clk, posedge reset)
 	if (reset) q <= 'b0;
@@ -149,7 +149,7 @@ endmodule
 
 ### Resettable Register (Synchronous)
 
-```systemverilog
+```system-verilog
 module flopr_sync(input logic clk, reset, input logic [3:0] d, output logic [3:0] q);
 	always_ff @(posedge clk)
 	if (reset) q <= 'b0;
@@ -159,7 +159,7 @@ endmodule
 
 ### Resettable Enabled Register (Synchronous)
 
-```systemverilog
+```system-verilog
 module flopr_sync(input logic clk, reset, en, input logic [3:0] d, output logic [3:0] q);
 	always_ff @(posedge clk)
 	if (reset) q <= 'b0;
@@ -169,7 +169,7 @@ endmodule
 
 ### Synchronizer
 
-```systemverilog
+```system-verilog
 module sync(input logic clk, d, output logic q);
 	logic n1;
 	
@@ -183,7 +183,7 @@ endmodule
 
 ### Level Sensitive D Latch
 
-```systemverilog
+```system-verilog
 module latch(input logic clk, d, output logic q);
 	always_latch @(clk,d)
 	if (clk) q <= d
@@ -192,7 +192,7 @@ endmodule
 
 ### Inverter Using `always`
 
-```systemverilog
+```system-verilog
 module inv(input logic [3:0] a, output logic [3:0] y);
 	always_comb @(*) // anything happens
 		y = ~a;
@@ -211,7 +211,7 @@ Inside an `always` block:
 
 ### Full Adder using `always`
 
-```systemverilog
+```system-verilog
 module fulladder(input logic a, b, cin, output logic s, cout);
 	logic p, g;
 	
@@ -227,7 +227,7 @@ endmodule
 
 ### Seven-Segment Display Decoder
 
-```systemverilog
+```system-verilog
 module sevenseg(input logic[3:0] data, output logic [6:0] segments);
 	always_comb
 		case(data)
@@ -244,7 +244,7 @@ endmodule
 
 #### With Don't Cares
 
-```systemverilog
+```system-verilog
 module priority_casez(input logic[3:0] a, output logic[3:0] y);
 	always_comb
 		casez(a) 
@@ -261,7 +261,7 @@ endmodule
 
 ### Parameterized N: $2^N$ Decoder
 
-```systemverilog
+```system-verilog
 module decoder
 	#(parameter N=3)
 	(input logic[N=1:0] a, output logic[2**N-1:0] y);
@@ -278,7 +278,7 @@ endmodule
 
 Be careful when using this.
 
-```systemverilog
+```system-verilog
 module andN
 	#(parameter width=8)
 	(input logic[width-1:0] a, output logic y);
@@ -302,7 +302,7 @@ When we need to define structure in variable sized modules/subsystems, we have t
 
 #### Basic Test Bench
 
-```systemverilog
+```system-verilog
 module testbench2();
 	logic a, b, c, y;
 	// instantiate device under test
@@ -321,7 +321,7 @@ endmodule
 
 It can be better to create a system with a behavioral implementation.
 
-```systemverilog
+```system-verilog
 module testbench3();
 	logic a, b, c, y;
 	logic[31:0] vectornum, errors;

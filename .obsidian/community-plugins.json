@@ -10,5 +10,6 @@
   "omnisearch",
   "obsidian-linter",
   "circuit-sketcher",
-  "mermaid-tools"
+  "mermaid-tools",
+  "shiki-highlighter"
 ]
