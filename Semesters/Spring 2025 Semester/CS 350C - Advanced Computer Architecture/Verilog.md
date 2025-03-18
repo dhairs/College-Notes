@@ -46,8 +46,6 @@ module [module_name] (module interface list);
 [list-of-interface-ports]
 
 [port-declarations]
-
-
 ```
 
 #### Example
