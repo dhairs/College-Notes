@@ -4,3 +4,4 @@ See [[Instruction Orders]]. We can see data dependences start to occur in progra
 
 ## Tomasulo's Algorithm
 
+WIP—will fill out these notes soon.
