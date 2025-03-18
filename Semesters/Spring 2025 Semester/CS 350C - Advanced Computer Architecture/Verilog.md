@@ -88,4 +88,3 @@ FullAdder FA3(A[3], B[3], C[3], Co, S[3]);
 
 endmodule
 ```
-
