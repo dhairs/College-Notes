@@ -9,9 +9,12 @@ A consistency model $Y$ is strictly more **relaxed** (**weaker**) than a model $
 
 > [!NOTE] What makes a good consistency model (the 4 Ps)
 > **Programmability**: Should make it relatively easy to write multithreaded programs
+> 
 > **Performance**: Should facilitate high-performance implementations at a reasonable power, cost, etc.
+> 
 > **Portability**: Should be adopted widely.
-> **Precision**: Should be precisely defined, usually with mathematics.
+>
+**Precision**: Should be precisely defined, usually with mathematics.
 
 ## Shared Memory Parallelism
 
@@ -19,6 +22,7 @@ There are multiple processor cores, each of which may read and write to a single
 
 > [!FAQ] What does correctness of such a shared memory system mean?
 > Memory consistency
+> 
 > Cache Coherence
 
 ## Consistency vs. Coherence
