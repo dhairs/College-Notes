@@ -37,13 +37,13 @@ There is, however, a caveat: we need to preserve the precise exception model whi
 
 We can split the instruction
 
-```armasm
+```asm
 str x1, [x2], #24
 ```
 
 into the MOP sequence
 
-```armasm
+```asm
 AGU x2
 ALU x2, #24
 STR x1
@@ -52,13 +52,13 @@ STR x1
 
 We can split the instruction
 
-```armasm
+```asm
 stp x29, x30, [sp, #-32]!
 ```
 
 into
 
-```armasm
+```asm
 ALU sp, #-32
 AGU sp
 STR x29
@@ -70,21 +70,21 @@ STR x30
 
 We can fuse the instruction sequence
 
-```armasm
+```asm
 add x0, x1, x2
 add x3, x0, x4
 ```
 
 into the single MOP
 
-```armasm
+```asm
 add r3, r1, r2, r4
 ```
  (assuming the µarch supports 3 register adds)
 
 
 We can fuse the instruction sequence
-```armasm
+```asm
 b tgt
 add x3, x3, 4
 tgt: ...
@@ -92,14 +92,14 @@ tgt: ...
 
 into 
 
-```armasm
+```asm
 nop_pc+8
 ```
 
 
 We can fuse the instruction
 
-```armasm
+```asm
 cbnz x1, tgt
 add x3, x3, 1
 tgt: ...
@@ -107,7 +107,7 @@ tgt: ...
 
 into
 
-```armasm
+```asm
 ifeqz_add x3, x3, 1, x1, xzr
 ```
 
