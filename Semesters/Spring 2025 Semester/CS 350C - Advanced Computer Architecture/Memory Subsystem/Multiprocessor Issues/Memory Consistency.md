@@ -14,7 +14,7 @@ A consistency model $Y$ is strictly more **relaxed** (**weaker**) than a model $
 > 
 > **Portability**: Should be adopted widely.
 >
-**Precision**: Should be precisely defined, usually with mathematics.
+> **Precision**: Should be precisely defined, usually with mathematics.
 
 ## Shared Memory Parallelism
 
