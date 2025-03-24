@@ -65,3 +65,27 @@ Take care of dependences between instructions renamed in the same cycle.
 ### Free Register List (FRL)
 
 Maintain a list of unmapped physical registers.
+
+## Instruction Commit for a Superscalar Machine
+
+Commit width $W$ of process is the maximum number of instructions to commit per cycle. If our fetch width is 4, we should be committing at a matching rate to avoid a backlog.
+
+We need to examine the first $W$ entires of the reorder buffer and commit the longest prefix of these entries that are ready to commit. 
+
+### Aspects of Committing
+
+- Remove the instruction from the ROB
+- Other actions depend on the type of instructions
+- Consider instructions with a register destination
+	- Inst J: r1 = r2 + r3
+	- Assume that r1 is mapped to py and that it was mapped to px before this instruction
+	- When can we free px? After J commits, there are no instructions earlier than J in the pipeline, there is no instruction that requires the value in px. Therefore, px can be reclaimed and added to the free list.
+- When should a store be written to memory?
+	- When we are sure that it is not in the wrong path of a branch, or no interrupt will come before it
+	- This is only possible at commit time, so that's when we send the stores. At the same time, we can remove them from the store queue.
+
+## Updates to Renaming
+
+Whenever you see an instruction of the form: `J: r1 = ...`, remember the previous mapping of r1 by reading the rename table. Suppose that r1 was mapped to px, save this mapping in the ROB entry for the instruction J. When J is committed, unmap px, and return it to the free list.
+
+This can be done to all instructions that have a register as the destination: ALU instructions, load instruction.
