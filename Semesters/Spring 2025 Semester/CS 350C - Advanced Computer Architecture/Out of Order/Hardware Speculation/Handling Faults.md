@@ -37,3 +37,7 @@ Keep a small register file (of size 16 in this example) in the commit stage. Thi
 We once again have to worry about commit widths of greater than 1. Covered in [[Multiple-Issue Processor]].
 
 Restoring the table involves transferring the entire contents of the RRF to the regular register file with appropriate changes made to the rename table. Since we are initializing from a clean state, we can transfer the contents of **architectural** register $r_{i}$ in the RRF **to** **physical** register $p_{i}$ and create a corresponding mapping.
+
+### Retirement Register Alias Table (RRAT) (Approach 2)
+
+Keep an additional [[Multiple-Issue Processor#Register Alias Table (RAT) (AKA Register Rename Table)|RAT]] in the commit stage. Recall that if an instruction $i$ is $r_{d}=\text{op}(r_{m},r_{n})$
