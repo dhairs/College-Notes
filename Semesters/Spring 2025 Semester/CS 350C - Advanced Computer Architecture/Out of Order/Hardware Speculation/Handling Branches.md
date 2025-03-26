@@ -14,4 +14,4 @@ If branch prediction and resolution disagree, then additional actions need to be
 
 ![[OOO IF Queue flushing.png]]
 
-To be able to handle stuff like this, we need a very strict exception model. Branch mispredictions are faults, so we need a way to [[Handing Faults|handle faults]].
+To be able to handle stuff like this, we need a very strict exception model. Branch mispredictions are faults, so we need a way to [[Handling Faults|handle faults]].
