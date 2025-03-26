@@ -100,7 +100,7 @@ If for every pair of elements $x,y\in D$ glb({x,y}) exists, we can define a func
 - $x\wedge y=glb(\{x,y\})$
 - Meet is idempotent ($\text{meet}(x) = x$), commutative, and associative
 
-**Meet semilattice**: a partially ordered set inw hich every pair of elements has a glb
+**Meet semilattice**: a partially ordered set in which every pair of elements has a glb
 
 Analogous notions: upper bounds, least upper bounds, join ($\vee$)
 
