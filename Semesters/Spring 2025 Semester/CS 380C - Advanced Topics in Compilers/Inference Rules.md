@@ -1,4 +1,3 @@
-
 ## Role of inference rules
 
 Given [[Context-Free Grammars|grammar]], we need to compute certain sets that will be used by the parser. These sets are usually specified recursively (e.g. if $A$ is a member of the set, then $B$ is also a member of the set).
