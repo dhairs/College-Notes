@@ -102,4 +102,31 @@ Solutions:
 ### Security
 
 Vulnerabilities:
-- Side-channel attacks (e.g., SP)
+- Side-channel attacks (e.g., Spectre/Meltdown variants)
+- Resource sharing enables cross-thread information leakage
+
+Mitigations:
+- OS-level scheduling constraints
+- Hardware partitioning of critical resources
+- Option to disable SMT for security-critical applications
+
+### OS Scheduling
+
+Thread placement matters for performance
+
+Modern OSes are SMT-aware:
+- Linux: CPU affinity, thread grouping
+- WIndows: logical processor groups
+- macOS: thread affinity APIs
+
+Some workloads benefit from disabling SMT and using physical cores only.
+
+## Key Takeaways
+
+SMT significantly improves processor resource utilization with modest hardware changes. The register file is the most challenging resource to scale with SMT. Intelligent fetch policies like ICOUNT provide substantial performance improvements. 
+
+Commercial implementations usually use 2-way SMT for clients, and 8-way for servers. SMT complements multicore designs, improving both throughput and utilization. 
+
+Best cache organization: Private instruction caches with shared data caches. 
+
+Fetch throughput remains a primary bottleneck.
