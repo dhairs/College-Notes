@@ -1,3 +1,0 @@
-## Definition
-
-Technique that permits 
