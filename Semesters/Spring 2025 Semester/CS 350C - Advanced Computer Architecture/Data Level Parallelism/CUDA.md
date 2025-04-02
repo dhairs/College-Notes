@@ -45,6 +45,52 @@ The index of a thread and its thread ID relate to each other in a straightforwar
 - For a two-dimensional block of size $(Dx,Dy)$, the thread ID of a thread of index $(x,y)$ is $(x+y\;Dx)$
 - For a three-dimensional block of size $(Dx,Dy,Dz)$, the thread ID of a thread of index $(x,y,z)$ is $(x+y\;Dx+z\;Dx\;Dy)$
 
+```cpp
+__global__
+void MatAdd(float A[N][N], float B[N][N], float C[N][N])  
+{  
+	int i = threadIdx.x;  
+	int j = threadIdx.y;  
+	C[i][j] = A[i][j] + B[i][j];  
+}  
+int main()  
+{  
+	...  
+	// Kernel invocation with one block of N * N * 1  
+	threads  
+	int numBlocks = 1;  
+	dim3 threadsPerBlock(N, N);  
+	MatAdd<<<numBlocks, threadsPerBlock>>>(A, B, C);  
+	...  
+}
+```
+
 #### Grids of Thread Blocks
 
-There is once again a hierarchical feature above 
+There is once again a hierarchical feature above blocks. Blocks are organized into a one-dimensional, two-dimensional, or three-dimensional **grid** of thread blocks. The number of thread blocks in a grid is usually dictated by the amount of data being processed, which typically exceeds the number of processors in the system.
+
+![[Thread Grid CUDA.png]]
+
+### Thread Block Clusters
+
+Optional level of hierarchy.
+
+Thread blocks in a cluster are guaranteed to be co-scheduled on a GPU Processing Cluster (GPC) in the GPU. Can be 1-, 2-, or 3-D. There is a max of 8 thread blocks per cluster. Can be enabled either statically or dynamically.
+
+![[Thread Block Clusters CUDA.png]]
+
+## Memory Hierarchy
+
+Each thread has private local memory. Each thread *block* has shared memory visible to all threads of the block and with the same lifetime as the block. Thread blocks in a thread block cluster can perform read, write, and atomic operations on each others' shared memory (DSM). All threads have access to the same global memory.
+
+![[Memory Hierarchy with CUDA Threads.png]]
+
+## Heterogeneous Programming
+
+CUDA threads execute on a physically separate device that operates as a coprocessor to the host running the C++ program.
+
+Both the host and the device maintain their own separate memory spaces in DRAM, called **host memory** and **device memory**.
+
+Unified Memory provides **managed memory** to bridge the host and device memory spaces. It is accessible from all CPU and GPUs in the system as a single, coherent memory image with a common address space.
+
+![[Heterogeneous Programming.png]]
