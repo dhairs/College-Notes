@@ -99,7 +99,7 @@ Invented by UT professor Yale Patt! [Yeh & Patt 1991](https://www.inf.pucrs.br/~
 
 ### Leveraging Local and Global Information
 
-The previous predictors used a ton of data and state to be able to predict branches. We can, however, just use a simple XOR with shared indexes into a prediction table. Eventually, a bunch of addresses and behaviors will converge into a behavior and be placed at a certain index in the table which will then be trained onto local history. Called the "gshare" predictor.
+The previous predictors used a ton of data and state to be able to predict branches. We can, however, just use a simple XOR with shared indexes into a prediction table. Eventually, a bunch of addresses and behaviors will con[]()verge into a behavior and be placed at a certain index in the table which will then be trained onto local history. Called the "gshare" predictor.
 
 ![[gshare.png]]
 
