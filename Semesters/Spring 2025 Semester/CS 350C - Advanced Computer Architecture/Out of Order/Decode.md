@@ -25,7 +25,7 @@ The correspondence between MOPs and µops used by a processor may be 1:1, 1:N, o
 
 | ![[Pre-decode Patent.png]]                        |
 | ------------------------------------------------- |
-| ![[Pre-decode patent block diagram.png]]              |
+| ![[Pre-decode patent block diagram.png]]          |
 | https://patents.google.com/patent/US10176104B2/en |
 The intuition is to identify and signal opportunities to split or fuse instructions into more efficient primitives natively supported by the µarch.
 

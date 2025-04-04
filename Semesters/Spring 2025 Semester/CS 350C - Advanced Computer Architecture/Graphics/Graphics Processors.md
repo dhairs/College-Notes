@@ -34,3 +34,18 @@ This is analogous to a vector instruction with $VL=32,16$ hardware lanes and $\t
 
 ## Code with Conditional Branches
 
+## Deadlock
+
+Deadlock **is** possible because of the concept of lockstep. Assume we have 2 threads. If we have one wait on a variable $x$ to be updated to 1, the else part of the conditional won't be executed because of lockstep. All the threads will be stuck waiting at the same PC.
+
+## Pipeline Structure
+
+
+
+## Register File
+
+The register file is massive. We access 32 registers in a single go (warps are 32 threads). As a result, we need to read $32\times 32=1024$ bits (128B). This means that we need a very very high register reading bandwidth. 
+
+The **simple solution** is to make each entry in a register file bank 1024 bits wide, but this is impractical. 
+
+Instead, the **better solution** would be to distribute the bytes across the banks in the register file. Then, we can use a dedicated set of operand collectors to collect the values of all the registers from different banks. We can have a small on-chip network to route register values between the banks and the operand collector.
