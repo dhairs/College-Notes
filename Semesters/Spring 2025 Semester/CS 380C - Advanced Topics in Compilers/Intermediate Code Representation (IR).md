@@ -10,7 +10,6 @@ There are two kinds:
 
 This way, we can get rid of the need to have a unique compiler for each language-architecture combination. We can just have a specified high- and low- level IR, and allow languages to have a front end that compiles to one of those.
 
-
 ## High-Level IR
 
 Consists of a tree-node structure (ASTs). Includes high level constructs that are common to many languages: expression nodes, statement nodes, etc. 
