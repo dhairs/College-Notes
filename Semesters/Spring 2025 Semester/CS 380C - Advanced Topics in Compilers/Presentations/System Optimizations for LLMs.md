@@ -63,8 +63,18 @@ Faster response times for users, higher throughput, no data dependences, lower c
 
 Tensor parallelism — allows you to split the model cores horizontally across GPUs, but this means you have to combine results from multiple GPUs.
 
+### ZeRO-Inference
+
+Load and support larger models using DRAM, NVMe memories. Higher throughput but high latency per PCIe (?) — the solution is to limit GPU memory usage so we have larger batch sizes.
+
+Compute dominates latency of fetching weights for a larger batch size, so the efficiency is improved. 
+
 ### More Optimizations
 
 Parallelism Coordinated Communication (PCC).
 
 Replace sparse tensors with dense representation.
+
+Prefetching Cache and other data.
+
+Multi-GPU PCIe Bandwidth Utilization.
