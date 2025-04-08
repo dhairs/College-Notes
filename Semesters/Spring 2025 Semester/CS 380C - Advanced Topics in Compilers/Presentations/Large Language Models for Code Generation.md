@@ -68,3 +68,17 @@ The datasets can be skewed towards a few languages (i.e. Python). How can we ext
 
 - Have one model specialized for each language
 - Identify instructions that one model can handle very well while others struggle. use that model to create test cases and train other models to get better on that instruction. Finally, identify knowledge gaps across languages and fix them.
+
+## Beam Search
+
+Maintains multiple candidate sequences concurrently.
+
+1. Start with a set of "beams" (initial sequences)
+2. At each step, expand every beam by considering the top candidate tokens
+3. Keep only the top 'b' beams based on cumulative probabilities
+
+Pros:
+- Explores multiple paths to potentially find better sequences than
+
+Cons:
+- Computationally expensive
