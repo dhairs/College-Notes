@@ -57,5 +57,8 @@ DeepSpeed introduces two fixes: the **DeepSpeed Transformer** and **ZeRO-Inferen
 
 Faster response times for users, higher throughput, no data dependences, lower computation cost. Scaling parameters can also be done.
 
+### Eliminating Kernel Invocation Overhead
 
+[[CUDA]] graph — data flows between the results of each GPU, there is a lot of overhead. We can use something called *stream capture* where you run all the kernels into a CUDA graph and then at each timestep you invoke the entire graph. This is vertical splitting of model cores.
 
+Tensor parallelism — allows you to split the model cores horizontally across GPUs, but this means you have to combine results from multiple GPUs.
