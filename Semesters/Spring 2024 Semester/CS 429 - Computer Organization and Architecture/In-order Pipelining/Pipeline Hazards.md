@@ -73,7 +73,7 @@ The pipeline is synchronous — so we need to keep every pipeline stage busy at 
 
 How can we insert it?
 
-- The mechanism for "inserting `nop`s" is called **bubble insertion**.
+- The mechanism for "inserting `nop`s" is called **bubble insertion**. ^3be0cf
 - We will call inserting the `nop` "inserting a bubble".
 - We may need to repeat the bubble for multiple cycles
 
