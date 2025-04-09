@@ -9,3 +9,13 @@ If you don't have the ability to do computation with a cache in parallel, you us
 
 ## Systolic Operation of TPU
 
+
+## TPU Guidelines
+
+Use dedicated memories: 24 MiB dedicated buffer, 4 MiB accumulator buffers
+
+Invest resources in arithmetic units and dedicated memories: 60% of the memory and 250x the arithmetic units of a server-class CPU
+
+Use the easiest form of parallelism that matches the domain: exploits 2D SIMD parallelism
+
+Reduce the data size
