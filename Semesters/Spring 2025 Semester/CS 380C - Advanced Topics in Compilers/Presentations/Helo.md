@@ -1,0 +1,3 @@
+Hello, CAN setup should be straightforward now!!!!!!!!!!!!
+
+Longhorn Lib setup on [Notion](https://www.notion.so/lhrelectric/Longhorn-Lib-Setup-2025-18ee26707bba806cbc81e65fa6b64689?pvs=4) is updated with the setup instructions and the [CAN sheet](https://utexas.sharepoint.com/:x:/r/sites/ENGR-LonghornRacing/_layouts/15/Doc.aspx?sourcedoc=%7BE4600CD1-8229-483C-8B61-D76BD54DD0D5%7D&file=2025%20Data%20Flow.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1%3Fweb%3D1) has 

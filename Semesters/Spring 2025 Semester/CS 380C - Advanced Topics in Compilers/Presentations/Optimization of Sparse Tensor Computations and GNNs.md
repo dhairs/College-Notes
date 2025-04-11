@@ -30,6 +30,6 @@ SpMM dominates GNN execution time due to the sparsity of real-world graphs.
 
 Performance depends significantly on the choice of sparse matrix format.
 
-$$J(x,y)=\begin{pmatrix}\frac{\partial f}{\partial x} & \frac{\partial f}{\partial y} \\ \frac{\partial g}{\partial x} & \frac{\partial g}{\partial y}\end{pmatrix}=\begin{pmatrix}y-2 & x-1 \\ y & x\end{pmatrix}$$
+
 
 
