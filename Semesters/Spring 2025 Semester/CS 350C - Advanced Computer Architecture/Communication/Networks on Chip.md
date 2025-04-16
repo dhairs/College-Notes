@@ -1,10 +1,10 @@
-## Principles and Foundations
+## Principles and Foundations of NoCs
 
 Networks on Chip (NoC) are specialized interconnection networks facilitating communication between different components within a single chip using packet-based communication.
 
 NoCs emerged in the early 2000s as a solution to the limitations of traditional bus based point-to-point interconnects.
 
-### History
+### History 
 
 **Early 2000s**: First conceptual NoC papers by Dally & Towles and Benini & De Micheli
 
@@ -26,5 +26,53 @@ Instead, we could create a Network on Chip (NoC). We can arrange a set of nodes 
 
 Routers are connected to adjacent routers with **links**.
 
-> [!FAQ] How does latency grow when the load increases?
-> Latency grows **exponentially** as the load increases.
+> [!FAQ]+ How does latency grow when the load increases?
+> Latency grows **exponentially** as the load increases. This means at near full loads we can get into a bunch of arbitration and latency issues.
+
+## Fundamentals of NoCs
+
+### Routers
+
+Routers direct and buffer packets between input and output ports. They include routing logic, virtual channel allocators, and switch allocators. Typically, they use a 5-port design in a 2D mesh network (North, East, South, West, Local).
+
+### Network Interfaces (NI)
+
+Bridge between IP cores and the NoC as well as performing packetization/depacketization. Additionally, they do protocol conversion and address translation.
+
+### Links
+
+Links are physical connections between routers and are *typically* bidirectional. May contain multiple virtual channels.
+
+## Communications Hierarchy
+
+| Name                                              | Purpose                                                                                                                                                          |
+| ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Message**                                       | Sequence of bytes sent from a sending node to a receiving node.                                                                                                  |
+| **Packet**                                        | Basic unit of data transfer containing routing information and payload. Every byte in a packet takes the same route.                                             |
+| **Flit (FLow control unIT)**                      | Smaller units that make up packets. **Head flit**: contains routing information, **Body flits**: contains data payload, **Tail flit**: Marks end of packet.      |
+| **Phit (PHysical transfer unIT, hardware-level)** | Transmitting a flit may take multiple cycles. Phit defines the number of cycles needed. E.g, if channel width is 32b, it takes 4 cycles to transmit a 128b flit. |
+Thus, the communication hierarchy is as follows: $\text{Message}\to\text{Packet}\to\text{Flit}/\text{Phit}$.
+
+### Interconnection Network Characteristics
+
+**Topology**: the arrangement of nodes and channels into a graph where $G=(N,C),C\subseteq N\times N$.
+
+**Routing**: the specification of how a packet chooses a path in this graph. The routing relation $R \subseteq C\times N\times C$ specifies a (possibly singleton) set of channels on which the packet can be routed given the channel occupied by the head of the packet and the destination node of the packet.
+
+**Flow Control**: The protocol determining the allocation of channel and buffer resources to a packet as it traverses this path. E.g.: how resources are collected, how packet collisions over resources are resolved.
+
+#### Topology of Interconnection Networks
+
+A lot of different topologies: mesh, torus, folded torus, ring, fat tree.
+
+Higher-radix topologies are generally harder to implement in NoCs.
+
+#### Routing Algorithms
+
+We want to avoid cycles (to avoid deadlock) while also allowing a diverse number of paths. This will allow us to avoid network congestion.
+
+**X-Y Routing (Dimension-Ordered Routing)**: first route along X dimension, and then Y. This is a simple implementation without deadlock. It can extend naturally to more dimensions, but it has no adaptivity to network conditions. It's mainly used in mesh NoCs. This is a simple and **deterministic** scheme. This method has a lack of diversity in the routes.
+
+**Partially Adaptive**: west-first, North-last, Negative-first. Restrict turns to avoid deadlock. Limited adaptivity to congestion.
+
+**Fully Adaptive**: Use virtual channels to avoid deadlock. Odd-even turn model. They have better load balancing and fault tolerance, however they require quite a bit more implementation complexity.
