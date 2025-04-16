@@ -67,12 +67,38 @@ A lot of different topologies: mesh, torus, folded torus, ring, fat tree.
 
 Higher-radix topologies are generally harder to implement in NoCs.
 
+In order for us to be able to route a packet from any node to any other node, we need a cyclic topology.
+
 #### Routing Algorithms
 
-We want to avoid cycles (to avoid deadlock) while also allowing a diverse number of paths. This will allow us to avoid network congestion.
+We want to avoid routing cycles (to avoid deadlock) while also allowing a diverse number of paths. This will allow us to avoid network congestion.
 
 **X-Y Routing (Dimension-Ordered Routing)**: first route along X dimension, and then Y. This is a simple implementation without deadlock. It can extend naturally to more dimensions, but it has no adaptivity to network conditions. It's mainly used in mesh NoCs. This is a simple and **deterministic** scheme. This method has a lack of diversity in the routes.
 
 **Partially Adaptive**: west-first, North-last, Negative-first. Restrict turns to avoid deadlock. Limited adaptivity to congestion.
 
 **Fully Adaptive**: Use virtual channels to avoid deadlock. Odd-even turn model. They have better load balancing and fault tolerance, however they require quite a bit more implementation complexity.
+
+#### Flow Control
+
+##### Credit Based
+
+The basic problem is that we don't what what we should do if we don't have enough buffer space on the receiver's side. We can't just *drop* a flit. 
+
+For this reason, we must also have some information at the sender about the free buffer space available at the receiver.
+
+**Credit-based flow control**: the sender (A) maintains an estimate of the number of free buffers at the receiver (B). The sender sends a flit iff it thinks that the receiver has enough free buffers. Once the receiver frees a buffer, it sends a credit to the sender.
+
+An improvement is on-off flow control:
+- Off-threshold: stop sending messages
+- On-threshold: resume sending messages.
+
+##### Switching Techniques
+
+**Circuit Switching**: establish complete path before transmission. 
+
+**Packet Switching**:
+- **Store-and-Forward**: full packet must arrive and be stored at a router before being forwarded.
+- **Virtual Cut Through**: send flits before entire packet is buffered. Need to ensure that there is space for the entire packet.
+
+**Wormholer S**
