@@ -101,4 +101,10 @@ An improvement is on-off flow control:
 - **Store-and-Forward**: full packet must arrive and be stored at a router before being forwarded.
 - **Virtual Cut Through**: send flits before entire packet is buffered. Need to ensure that there is space for the entire packet.
 
-**Wormholer S**
+**Wormhole Switching**: forward flits as soon as output port is available.
+
+###### Virtual Channels
+
+The basic idea is to multiplex a single physical channel among different virtual channels and have a separate buffer queue for each virtual channel.
+
+The benefits of this method are that you can avoid deadlock and mitigate head-of-line blocking. Also, Quality of Service can be allowed, and you can also have increased throughput.
