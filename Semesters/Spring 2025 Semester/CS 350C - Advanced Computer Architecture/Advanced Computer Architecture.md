@@ -60,3 +60,30 @@ Notes for Advanced Computer Architecture are listed below. Notes for intro Compu
 [[Front End]]
 - [[Branch Prediction]]
 - [[Decode]]
+
+[[Tomasulo's Algorithm]]
+
+[[Handling Faults]]
+
+### Graphics and AI
+
+[[Graphics Processors]]
+
+[[Data Parallelism]]
+
+[[CUDA]]
+
+[[Google Tensor Processing Unit (TPU)]]
+
+### Miscellaneous Topics
+
+[[Simultaneous Multithreading (SMT)]]
+
+[[Networks on Chip]]
+
+#### Security
+
+[[RowHammer]]
+
+[[Side-Channel Attacks]]
+
