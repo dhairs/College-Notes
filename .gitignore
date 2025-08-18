@@ -8,3 +8,4 @@ flowershow/
 *.m4a
 /Chats
 .obsidian/plugins/smart-second-brain/data.json
+/.obsidian/plugins/smart-second-brain/vectorstores
