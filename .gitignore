@@ -6,3 +6,5 @@ flowershow/
 .obsidian/workspace*
 .obsidian/workspace-mobile*
 *.m4a
+/Chats
+.obsidian/plugins/smart-second-brain/data.json
