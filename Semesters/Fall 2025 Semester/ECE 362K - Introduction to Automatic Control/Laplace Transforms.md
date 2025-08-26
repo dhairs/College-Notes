@@ -1,0 +1,43 @@
+
+## System Response
+
+Imagine we have $x(t)\to H\to y(t)$. Where $H$ is some black box that performs a function on input signal $x(t)$. We want to find output signal $y(t)$.
+
+The **system** $H$ can be described as:
+- Differential Equation (ODE) $a_{2}y''(t)+a_{1}y'(t)+a_{0}y(t)=b_{0}x(t)$
+- Difference Equation $a_{0}y[n]+a_{1}y[n-1]+a_{2}y[n-2]=\beta_{0}x[n]$
+- Impulse Response $h(t)$
+- Step Response $h_{1}(t)$
+- Frequency Response $H(jw)$
+- Transfer Function $H(S)$
+- Block Diagrams
+
+## Input Signals
+
+The input signal $x(t)$ was generally limited to either
+- Impulse $x(t)=S(t)$
+- Step $x(t)=u(t)$
+- Ramp $x(t)=t(wt)$
+
+
+## Transforms
+
+Time domain:
+
+$$
+1. \text{Convolution: } \; y(t)=x(t)\times h(t)=\int_{-\infty}^\infty x(\tau)h(t-\tau)dt
+$$
+
+
+
+By transforming the time domain problem into the frequency domain, we changed from **convolution to multiplication**. That means that the ODE is solved by algebraic techniques.
+
+Eventually, we get to to $Y(s)$, but we want to get $Y(t)$.
+
+We look to the **Inverse Laplace Transform**.
+
+## Laplace Transform
+
+$$
+F(s) 
+$$
