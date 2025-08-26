@@ -1,4 +1,28 @@
 
+
+## Laplace Transform
+
+Extremely useful for solving differential equations, but also helps transforms functions/waveforms **from** the **time** domain **to** the **frequency** domain.
+
+The notation for Laplace transforms is:
+
+$$
+\cal L\{f(t)\} \to F(s)
+$$
+
+### What is a Transform?
+
+Sort of a function of functions. Similar to how some functions take us from one set of numbers to another set. **Transforms** take us from one set of functions to another set of functions. 
+
+### Definition of Laplace Transform
+
+$$
+\cal L\{f(t)\}=\int_{0}^\infty e^{-st}f(t)dt
+$$
+
+This is an [[Improper Integrals|improper integral]].
+
+### Example of Laplace Transform on 1
 ## System Response
 
 Imagine we have $x(t)\to H\to y(t)$. Where $H$ is some black box that performs a function on input signal $x(t)$. We want to find output signal $y(t)$.
@@ -36,15 +60,3 @@ Eventually, we get to to $Y(s)$, but we want to get $Y(t)$.
 
 We look to the **Inverse Laplace Transform**.
 
-## Laplace Transform
-
-$$
-F(s) 
-$$
-
-
-### Example Laplace Transform
-
-Given $H(s)=\frac{1}{(S+1)}$, find the step response $h_{1}(t)$ and plot out to 10 seconds.
-
-We start with $I(t)\to \frac{1}{S+1} \to y(t)=h_{1}(t)$ We change into the Laplace to get
