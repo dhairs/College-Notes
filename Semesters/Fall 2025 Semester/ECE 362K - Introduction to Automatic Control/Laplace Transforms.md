@@ -23,6 +23,20 @@ $$
 This is an [[Improper Integrals|improper integral]].
 
 ### Example of Laplace Transform on 1
+
+$$
+\begin{align}
+\cal L\{1\}=\int_{0}^\infty e^{-st}dt  = \lim_{ A \to \infty } \int_{0}^Ae^{-st}dt \\
+= \lim_{ A \to \infty } \left[  -\frac{1}{s}e^{-st} \right]^A_{0} =\lim_{ A \to \infty } \left( -\frac{1}{s}e^{-sA}-\left( -\frac{1}{s} \right) \right)  \\
+\lim_{ A \to \infty } \left[ -\frac{1}{s}e^{-sA}+\frac{1}{s} \right] \text{for } s>0 =\frac{1}{s}
+\end{align}
+$$
+### Laplace Transform Table
+
+$$
+\cal L\{1\}=\frac{1}{s}
+$$
+
 ## System Response
 
 Imagine we have $x(t)\to H\to y(t)$. Where $H$ is some black box that performs a function on input signal $x(t)$. We want to find output signal $y(t)$.
