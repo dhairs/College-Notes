@@ -22,7 +22,15 @@ $$
 
 This is an [[Improper Integrals|improper integral]].
 
-### Example of Laplace Transform on 1
+### Laplace Transform Table
+
+These are well known Laplace transforms. Some of the derivations are shown below.
+
+$$
+\cal L\{1\}=\frac{1}{s}
+$$
+
+### Derivation of Laplace Transform on 1
 
 $$
 \begin{align}
@@ -31,10 +39,14 @@ $$
 \lim_{ A \to \infty } \left[ -\frac{1}{s}e^{-sA}+\frac{1}{s} \right] \text{for } s>0 =\frac{1}{s}
 \end{align}
 $$
-### Laplace Transform Table
+
+### Derivation of Laplace Transform on $e^{at}$
 
 $$
-\cal L\{1\}=\frac{1}{s}
+\begin{align}
+\cal L\{e^{at}\}=\int_{0}^\infty e^{-st} e^{at}dt=\int_{0}^\infty e^{(a-s)t}dt \\
+=\frac{1}{a-s}[e^{(a-s)t}]^\infty_{0}=\frac{1}{a-s}[]
+\end{align}
 $$
 
 ## System Response
