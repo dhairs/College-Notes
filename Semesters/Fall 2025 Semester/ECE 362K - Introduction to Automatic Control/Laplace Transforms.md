@@ -41,3 +41,10 @@ We look to the **Inverse Laplace Transform**.
 $$
 F(s) 
 $$
+
+
+### Example Laplace Transform
+
+Given $H(s)=\frac{1}{(S+1)}$, find the step response $h_{1}(t)$ and plot out to 10 seconds.
+
+We start with $I(t)\to \frac{1}{S+1} \to y(t)=h_{1}(t)$ We change into the Laplace to get
