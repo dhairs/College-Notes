@@ -68,4 +68,9 @@ At some point in the execution, $m$ was rejected by $w$ in favor of a man $m'$. 
 
 There can be multiple stable outcomes.
 
-## Man Optim
+## Man Optimality
+
+Fix an instance of the stable marriage problem and let $S$ denote the set of all stable matchings. For any man $m$, we say that a matching $\mu$ in $S$ is $m$-optimal if the following condition holds: for any matching $\mu'$ in $S$, man $m$ likes $\mu(m)$ at least as well as $\mu'(m)$.
+
+We say that a matching $\mu$ in $S$ is man-optimal if it is $m$-optimal for every man $m$.
+
