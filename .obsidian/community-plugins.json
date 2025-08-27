@@ -12,5 +12,6 @@
   "circuit-sketcher",
   "mermaid-tools",
   "shiki-highlighter",
-  "smart-second-brain"
+  "smart-second-brain",
+  "better-export-pdf"
 ]
