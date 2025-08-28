@@ -22,6 +22,6 @@ $$
 \begin{align}
 Y_{2}(s)=\frac{2}{(s+1)^2+1^2}=s\left[ \frac{1}{(s+1)^2+1^2} \right] \\
 \text{This looks like one of our standard Laplace transforms, we just need to rearrange.} \\
-
+y_{2}(t)=2e^{-t}\sin t\cdot 1(t)
 \end{align}
 $$
