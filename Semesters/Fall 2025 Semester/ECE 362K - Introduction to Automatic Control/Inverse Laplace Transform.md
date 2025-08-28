@@ -14,7 +14,7 @@ Y_{1}(s)=\frac{2}{s+1}-\frac{2}{s+2} \\ \\
 $$
 Note that in step 4, we used the Laplace transform of $\frac{1}{s+a}$, which is $e^{-at}$.
 
-When you have poles, the pole that is closer to the origin w/o going over (e.g. without making it unstable), will persist longer in time domain response than the other terms.
+When you have poles, the pole that is closer to the origin without going over (e.g. without making it unstable), will persist longer in time domain response than the other terms.
 
 So in this case, we just look at the slowest decay and estimate the steady state to be arrived when we reach 5x the time constant. In this case, that's ~5s because $s=1$ and $\tau=1$.
 
@@ -22,6 +22,10 @@ $$
 \begin{align}
 Y_{2}(s)=\frac{2}{(s+1)^2+1^2}=s\left[ \frac{1}{(s+1)^2+1^2} \right] \\
 \text{This looks like one of our standard Laplace transforms, we just need to rearrange.} \\
-y_{2}(t)=2e^{-t}\sin t\cdot 1(t)
+\boxed{y_{2}(t)=2e^{-t}\sin t\cdot 1(t)}
 \end{align}
 $$
+
+
+<iframe src="https://www.desmos.com/calculator/9n5ib5ofmm?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+

@@ -68,7 +68,6 @@ The input signal $x(t)$ was generally limited to either
 - Step $x(t)=u(t)$
 - Ramp $x(t)=t(wt)$
 
-
 ## Transforms
 
 Time domain:
@@ -77,11 +76,9 @@ $$
 1. \text{Convolution: } \; y(t)=x(t)\times h(t)=\int_{-\infty}^\infty x(\tau)h(t-\tau)dt
 $$
 
-
-
 By transforming the time domain problem into the frequency domain, we changed from **convolution to multiplication**. That means that the ODE is solved by algebraic techniques.
 
 Eventually, we get to to $Y(s)$, but we want to get $Y(t)$.
 
-We look to the **Inverse Laplace Transform**.
+We look to the [[Inverse Laplace Transform]].
 
