@@ -64,4 +64,4 @@ Let $G=(V,E)$ be a given digraph and let $s$ be a specified vertex in $V$.
 
 Recall that an undirected graph $G$ contains a cycle if and only if any DFS of $G$ yields a non-tree edge.
 
-W
+For digraphs, we can say the following: A digraph $G$ contains a directed cycle if and only if any DFS of $G$ yields a back edge.
