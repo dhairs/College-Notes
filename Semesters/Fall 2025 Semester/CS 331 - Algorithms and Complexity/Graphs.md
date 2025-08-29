@@ -9,7 +9,9 @@ In graph **breadth-first search (BFS)**, we explore by distance from the source 
 
 We can use a first-in first-out (FIFO) queue to find what we need to discover.
 
-In graph **depth-first search (DFS)**, 
+In graph **depth-first search (DFS)**, we start at $s$ and look for a new node. Once we find new node $A$, we recursively add a search starting at $A$ to the call stack and mark the edge as a tree edge. We keep searching until we reach a base case (no more new tree edges). Then, we pop out of the stack and continue the search until we reach a base case at each call in the call stack. 
+
+If we run BFS/DFS from a single source vertex $s$, we only explore the connected component of $s$. To ensure that we explore the entire graph, we introduce an "outer loop" over all vertices in $V$. When the outer loop reaches a vertex, we check if we have visited it already. If we've visited it already, don't do anything, otherwise do a DFS/BFS from that vertex.
 
 ## Spanning Tree
 
@@ -17,4 +19,16 @@ The spanning tree of an undirected graph is simply a **connected, acyclic subgra
 
 The spanning tree of $G=(V,E)$ where $G$ is undirected, can only exist if $G$ is connected.  If it is not connected, we can have a **spanning forest**.
 
-If we do a BFS and mark edges that allow us to find a new node as tree edges, once we're done exploring the graph, the tree edges form a spanning tree.
+If we do a BFS or DFS and mark edges that allow us to find a new node as tree edges, once we're done exploring the graph, the tree edges form a spanning tree.
+
+## Recognizing Bipartite Graphs
+
+An undirected graph $G=(V,E)$ is bipartite if the vertex set $V$ can be partitioned into two sets $V'$ and $V''$ such that every edge in $E$ has exactly one endpoint in $V'$ (and thus also one in $V''$).
+
+It's easy to prove that $G$ is bipartite if and only if $G$ does not contain and odd-length cycle.
+
+Alternatively, $G$ is bipartite if and only if it is [[Coloring of a Graph|2-colorable]].
+
+
+> [!faq] How can we use BFS/DFS to determine whether $G$ is 2 colorable in linear time?
+> We can assign a color to each edge as we explore it. Whenever we label an edge as non-tree, we need to make sure that the two vertices of the edge violate the coloring of the graph. If it does, then the graph is not two-colorable.
