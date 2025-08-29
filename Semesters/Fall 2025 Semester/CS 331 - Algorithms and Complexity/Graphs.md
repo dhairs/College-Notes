@@ -32,3 +32,36 @@ Alternatively, $G$ is bipartite if and only if it is [[Coloring of a Graph|2-col
 
 > [!faq] How can we use BFS/DFS to determine whether $G$ is 2 colorable in linear time?
 > We can assign a color to each edge as we explore it. Whenever we label an edge as non-tree, we need to make sure that the two vertices of the edge violate the coloring of the graph. If it does, then the graph is not two-colorable.
+
+## Single Source Shortest Paths (SSSP)
+
+Let $G=(V,E)$ be an undirected graph with a specified vertex $s$. If we run BFS from $s$, we get a spanning tree $T$ of the connected component of $G$ that contains $s$, we'll call it $G'=(V',E')$.
+
+## BFS/DFS in a Digraph $G=(V,E)$
+
+The procedures for BFS/DFS in undirected graphs generalize in a natural way to digraphs. In the directed case, each edge is encountered exactly once. The 
+
+## Strongly Connected Components (SCC)
+
+Let $G=(V,E)$ be a given digraph. We say that vertices $u$ and $v$ belong to the same **strongly connected component (SCC)** of $G$ if $v$ is reachable (via a directed path) from $u$ and $u$ is reachable from $v$.
+
+Let the binary relation $R$ denote the set of pairs $(u,v)$ in $V\times V$ such that $u$ and $v$ belong to the same SCC. The relation $R$ is reflexive, symmetric, and transitive. It is an equivalence relation.
+
+$R$ thus partitions $V$ into equivalence classes, each of which corresponds to the vertex set of an SCC of $G$.
+
+### Identifying the SCC of a Given Vertex
+
+Let $G=(V,E)$ be a given digraph and let $s$ be a specified vertex in $V$. 
+
+
+> [!FAQ] How can we use BFS/DFS to determine the SCC of $s$ in linear time?
+> Contents
+
+## Applications of Directed DFS
+
+
+## Directed Cycle Detection in Digraphs
+
+Recall that an undirected graph $G$ contains a cycle if and only if any DFS of $G$ yields a non-tree edge.
+
+W
