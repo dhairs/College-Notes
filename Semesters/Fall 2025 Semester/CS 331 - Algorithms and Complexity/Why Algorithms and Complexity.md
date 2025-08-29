@@ -1,4 +1,3 @@
-
 ## Algorithmic Efficiency
 
 Typically, computational problems correspond to an infinite family of instances. 
