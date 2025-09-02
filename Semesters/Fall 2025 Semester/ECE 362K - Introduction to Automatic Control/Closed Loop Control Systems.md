@@ -26,7 +26,8 @@ We always want $y(t)$.
 3. What does the impulse response, step response, and ramp response look like?
 4. Is the time-domain behavior acceptable?
 
-## Review
+## Reviewid1((Some text))
+
 
 <iframe src="https://www.desmos.com/calculator/jwltflzedt?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
@@ -57,4 +58,42 @@ $$
 If $c(s)=a(s)$, we can cancel the poles of the Plant and replace them with $d(s)$. The plant **must** be **stable** for us to do this. Pole cancellation **does not** work on unstable plants.
 
 ## Closed Loop Topology
+
+```mermaid
+flowchart LR
+id1((Σ)) --> id2("Dc(s)")
+id2 --> id3("G(s)")
+```
+
+
+If the output 
+
+### Example of Closed Loop Inspection
+
+$$
+\begin{align}
+G(s)=\frac{1}{s^2+3s-4}=\frac{b(s)}{a(s)} \\
+a(s)=s^2+3s-4 = a_{2}s^2+a_{1}s+a_{0} \\
+\text{Stable if a}<0 \\
+\text{Do quadratic equation/factor to find poles} \\
+s=-4,s=+1 \\
+\end{align}
+$$
+
+This must be unstable because there is a pole in the Ride-hand plane/
+
+**Can the plant be made stable?**
+
+2. Move the unstable pole from the RHP to the LHP. How do we do this? **feedback**
+
+In a PID controller, $Dc(s)=k$, where $k$ is a constant gain.
+
+Note that $\to \boxed{k}\to \boxed{G(s)}\to$ is forward gain, which is equivalent to $\to \boxed{KG(s)}\to$
+
+The $H(s)$ is the feedback gain.
+
+
+When $k=1$, we call it **unity gain**.
+
+### Example of Control System with Unity Gain
 
