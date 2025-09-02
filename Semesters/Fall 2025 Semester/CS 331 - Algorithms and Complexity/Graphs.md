@@ -1,4 +1,3 @@
-
 ## Exploring an Undirected Graph from a Specified Vertex
 
 Assume we're given a graph $G=(V,E)$ in adjacency list format. Let $s$ be a specified source vertex. We want to systematically visit all of the vertices and edges of the connected component of $G$ that contains $s$.
