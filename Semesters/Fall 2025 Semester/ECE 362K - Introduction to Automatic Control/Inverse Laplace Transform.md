@@ -1,4 +1,3 @@
-
 ## Impulse Response
 
 $y(s)=x(s)G(s)$. Here, $x(s)=1$
