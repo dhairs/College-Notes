@@ -68,3 +68,25 @@ We note that from the quadratic equation result, $s=\frac{{-3\pm \sqrt{ 24-4k }}
 This happens when $25-4k\to k=6.25$.
 
 When the poles are real, we get an exponential solution: $y(t)=k_{1}e^{-\sigma_{1}t}+k_{2}e^{-\sigma_{2}t}$ which is real and distinct.
+
+Rise time is until 90% of setpoint, not the full setpoint.
+
+We see that when poles are real, we get an exponential solution.
+
+**Figure 3.16 in textbook**. $b(s)=b_{0}x(t)$. NO zeros.
+
+## Canonical Form of the 2nd-order ODE
+
+This is very important for understanding our time-domain responses.
+
+If we have $a(s)=a_{2}y''(t)+a_{1}y'(t)$
+
+$a(s)=a_{2}s^2+a_{1}s+a_{0}=0$
+
+We want $a(s)$ to be **monic**, divide by $G_{2}$
+
+$$
+1\cdot s^2+\frac{a_{1}}{a_{2}}+\frac{a_{0}}{a_{2}}=0
+$$
+
+where $a_{2}$ is just constant.
