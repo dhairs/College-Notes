@@ -6,4 +6,10 @@ We can restrict our attention to gap-free schedules so we are optimizing over $n
 
 ## Important Observation/Lemma
 
-Suppose $S$ is a schedule in which task $j$ is executed immediately after task $i$ and $d_{j}\leq d_{i}$. Let $l_{1}$
+Suppose $S$ is a schedule in which task $j$ is executed immediately after task $i$ and $d_{j}\leq d_{i}$. Let $l_{1}$ denote the lateness of task $i$ in $S$.
+
+Let $S'$ be the schedule that is the same as $S$ except that the order of execution of tasks $i$ and $j$ is interchanged. Let $l_{1}'$ denote the lateness of task $i$ in $S'$.
+
+The lemma is that $l_{j}\geq \text{max}(l_{i}',l_{j}')$
+
+This lemma implies that the earliest deadline rule yields an optimal schedule. Ties can be broken arbitrarily.
