@@ -135,7 +135,7 @@ Disadvantages:
 
 ##### Preemptive vs. Non Preemptive
 
-In non preemptive, once a process starts, it is allowed to run until it finishes
+In non preemptive, once a process starts, it is allowed to run until it finishes ^7479de
 - Simple, efficient
 - Creates problems
 		- Infinite loops can cause queue to never move
