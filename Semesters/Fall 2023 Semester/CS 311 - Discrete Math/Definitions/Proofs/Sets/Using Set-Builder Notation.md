@@ -23,4 +23,3 @@ $$\begin{align}
 \overline{A}\cup\overline{B}
 \end{align}$$
 
-
