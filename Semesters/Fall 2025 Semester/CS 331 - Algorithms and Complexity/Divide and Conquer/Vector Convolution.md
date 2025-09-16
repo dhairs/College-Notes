@@ -5,3 +5,8 @@ oLet $u=(u_{0},\dots,u_{m-1})$ and $v=(v-,\dots,v_{n-1})$ be vectors of length $
 
 ### Polynomial Multiplication
 
+
+
+$3y''+5y'+y=7x$
+
+find transfer function, poles + zeros, ODE gain/DC gain, impulse/step response, time to reach percentage of final value.
