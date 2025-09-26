@@ -2,4 +2,4 @@ Use $n$-bits to represent *virtual* or *logical* addresses. A process perceives 
 
 As a result, each process has the belief, the illusion, that it has access to all the memory on the system.
 
-Virtual processes of different process are independent. Two or more may have the same mappings between them.
+Virtual addresses of different processes are independent. Two or more may have the same mappings between them.
