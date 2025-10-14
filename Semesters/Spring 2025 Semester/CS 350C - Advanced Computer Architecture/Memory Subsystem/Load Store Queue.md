@@ -23,7 +23,7 @@ $\text{OP}(I_{1})=LD, \text{OP}(I_{2})=LD$
 - We can reorder instructions
 - Value from one load can be forwarded to the other load
 
-### After after Read
+### Write after Read
 
 $\text{OP}(I_{1})=LD, \text{OP}(I_{2})=ST$
 
