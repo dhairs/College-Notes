@@ -189,3 +189,16 @@ Image that is **not** detected correctly (Airplane is detected as "wing"):
 
 ![[image1.jpg|300]]
 
+## Cell Detection with CNNs
+
+### Report 7.1
+
+My approach was to train a traditional CNN. I did not do anything special for segmentation, like the YOLO model or anything. The labeling was bad, so I had to make sure I could do something about it. I generated "pseudo-labels" by applying the blob detection algorithms we made previously (`gaussian_filter` and `find_maxima`) to the training images. This process created 2D segmentation masks that, while imperfect, provided a decent way to train off of. Then, I just made a fully convolutional network with 4 `Conv2d` layers and 1 `Sigmoid` activation, which outputs a 256x256 map. This network was trained using `BCELoss` and an `Adam` optimizer (used Adam because it was used previously in the assignment and fresh on my mind), learning to map the input microscopy images to their corresponding pseudo-label masks.
+
+For evaluation, the trained model's output probability maps were processed using the same `find_maxima` algorithm to get the (x, y) coordinates of cells. These predictions got compared to the true ground truth in the valid set, noy my custom pseudo labels. The results were as follows: 
+
+```
+Final Metrics - Precision: 0.5526, Recall: 0.6382, F1: 0.5923
+```
+
+By training on automatically generated pseudolabels, the CNN learns some features representative of cells, allowing it to detect cells kind of effectively (~50%) and be able to predict across the whole data set better than a simple guess.
