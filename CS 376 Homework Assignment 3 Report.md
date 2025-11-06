@@ -97,3 +97,38 @@ Loading model from checkpoint.pkl
 Test-set accuracy: 43.52
 ```
 
+### Report 4.2
+
+Hyperparameters used to train the model:
+
+```py
+# How much data to use for training
+num_train = 200
+
+# Model architecture hyperparameters.
+hidden_dim = 512
+
+# Optimization hyperparameters.
+batch_size = 128
+num_epochs = 500
+learning_rate = 6e-2
+reg = 0.0
+```
+
+![[overfit.png]]
+
+Final test-set accuracy for the model:
+
+```
+Loading model from checkpoint.pkl
+Test-set accuracy: 23.76
+```
+
+## Train Your Own Classification Model
+
+### Report 5.1
+
+Attached as separate PDF.
+
+### Report 5.2
+
