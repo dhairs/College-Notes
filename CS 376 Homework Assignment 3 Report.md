@@ -132,3 +132,47 @@ Attached as separate PDF.
 
 ### Report 5.2
 
+Model details:
+
+```py
+Your network:
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 6, 24, 24]             156
+              ReLU-2            [-1, 6, 24, 24]               0
+         MaxPool2d-3            [-1, 6, 12, 12]               0
+            Conv2d-4             [-1, 16, 8, 8]           2,416
+              ReLU-5             [-1, 16, 8, 8]               0
+         MaxPool2d-6             [-1, 16, 4, 4]               0
+            Linear-7                  [-1, 120]          30,840
+              ReLU-8                  [-1, 120]               0
+            Linear-9                   [-1, 10]           1,210
+================================================================
+Total params: 34,622
+Trainable params: 34,622
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.08
+Params size (MB): 0.13
+Estimated Total Size (MB): 0.21
+```
+
+Training and validation accuracy:
+
+![[5.2.png]]
+
+My hyperparameters:
+
+```py
+learning_rate = 1e-3
+weight_decay = 1e-5
+num_epoch = 10
+```
+
+### Report 5.3
+
+I was able to get an accuracy of 89.4% (0.8937) with my best model.
+
+###
