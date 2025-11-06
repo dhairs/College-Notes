@@ -159,6 +159,8 @@ Params size (MB): 0.13
 Estimated Total Size (MB): 0.21
 ```
 
+I am using a Convolutional layer, followed by ReLU and a Maxpool layer. Then, I do that again with different kernels and strides. Finally, the classifier is just a linear fit with ReLU and Linear again.
+
 Training and validation accuracy:
 
 ![[5.2.png]]
@@ -175,4 +177,15 @@ num_epoch = 10
 
 I was able to get an accuracy of 89.4% (0.8937) with my best model.
 
-###
+## Pre-Trained NN
+
+### Report 6.1
+
+Image that is detected correctly (Bulbul):
+
+![[image2.jpg|300]]
+
+Image that is **not** detected correctly (Airplane is detected as "wing"):
+
+![[image1.jpg|300]]
+
