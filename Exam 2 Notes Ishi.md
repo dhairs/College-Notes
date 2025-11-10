@@ -138,6 +138,52 @@ $$
 	- If $n<k$, then $e_{ss}\rightarrow\infty$
 	- If $n=k=0$, then $e_{ss}=\frac{1}{1+k_{n}}$
 	- If $n=k\neq0$, then $e_{ss} = \frac{1}{k_{n}}$
-
-## PID Control
 ## Root Locus
+- A way to determine how the poles move as $K$ varies between $0<K<\infty$
+- Follows a set of rules to draw out the loci
+- $n=\text{Number of Poles}$
+- $m=\text{Number of Zeros}$
+### Rule 1
+**The $n$ branches of the locus start at the poles of $L(s)$ and $m$ of those branches end on zeroes of $L(s)$**
+### Rule 2
+**Any portion of the real axis to the left of an odd number of poles and zeros is on the locus**
+#### Examples of Rules 1-2 Together
+##### $L(s)=\frac{s}{s+4}$
+The loci goes from the $-4$ pole to the $0$ pole
+- Goes from the pole to the zero according to rule 1
+- Is on the real axis because it is to the left of an odd number of poles and zeroes ($1$)
+##### $L(s)=\frac{s+4}{s}$
+The loci goes from the $0$ pole to the $-4$ zero
+- Goes from the pole to the zero according to rule 1
+- Is on the real axis because it is to the left of an odd number of poles and zeroes ($1$)
+##### $L(s)=\frac{1}{s}$
+The loci goes from the $0$ pole to $-\infty$
+- Goes from the pole to $-\infty$ according to rule 1
+- Is on the real axis because it is to the left of an odd number of poles and zeroes ($1$)
+##### $L(s)=\frac{1}{s^3}$
+The loci goes from the $0$ pole to $-\infty$
+- Goes from the pole to $-\infty$ according to rule 1
+- Is on the real axis because it is to the left of an odd number of poles and zeroes ($3$)
+- The remaining two loci will be determined using rule 3
+### Rule 3
+**For large values of $s$ and $K$, the remaining $n-m$ branches of the locus are asymptotic to the lines at angles $\phi_{l}$ radiating out from the point $s=\alpha$ on the real axis**
+- $\phi_{l}=\frac{180^{\circ}+360(l-1)}{n-m}$ where $l=1,2,\dots ,(n-m)$
+- $\alpha=\frac{\sum p_{i}-\sum z_{i}/}{n-m}$
+
+### Rule 4
+**The angles of departure of departure of a locus branch from a pole is given by $\phi_{l}$ and the angles of arrival of a locus branch to a zero is given by $\psi_{l}$**
+- $\phi_{l}=\sum \psi_{i}-\sum \phi_{i}-180^{\circ}-360^{\circ}(l-1)$ where $l=1,2,\dots,n$
+	- $\sum \psi_{i}$ is the sum of the angles to all the zeros
+	- $\sum \phi_{i}$ is the sum of the angles to the remaining poles
+- $\psi_{l}=\sum \phi_{i}-\sum \psi_{i}+180^{\circ}+360^{\circ}(l-1)$
+	- $\sum \phi_{i}$ is the sum of the angles to all the poles
+	- $\sum \psi_{i}$ is the sum of the angles to all the remaining zeros
+### Rule 5
+**The locus can have multiple roots at points on the locus and the branches will approach a point of $q$ roots at angles separated by $\frac{180^{\circ}+360(l-1)}{q}$ and will depart at angles with the same separation**
+### Breakaway and Rejoining Points
+- Breakaway points and rejoining points are where the locus break from the real axis and rejoin with it at a later point
+- These points occur when $\frac{d}{ds}K(s)=0$
+- In root locus form, $1+KL(s)=0$ so $K=-\frac{1}{L(s)}$
+- Usually use quotient rule to solve the derivative
+$$\frac{d}{dx}\left[ \frac{f(x)}{g(x)} \right]=\frac{g(x)f'(x)-f(x)g'(x)}{(g(x))^2}$$
+- Solve for when $g(x)f'(x)-f(x)g'(x)=0$, the roots are the breakaway/rejoining points
