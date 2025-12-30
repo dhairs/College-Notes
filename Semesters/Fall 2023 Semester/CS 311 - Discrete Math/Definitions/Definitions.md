@@ -59,12 +59,14 @@ Note that there are **parentheses instead of curly brackets**. When this is the 
 
 $(a_1, a_2, \ldots, a_n) = (b_1, b_2, \ldots, b_n)$ as long as
 
-$$\begin{align}
+$$
+\begin{align}
 a_1=b_1 \\
 a_2=b_2 \\ 
 \vdots \\
-a_n=b_n
-\end{align}$$
+a_n=b_n \\
+\end{align}
+$$
 If $n=2$, then we have an **ordered pair.**
 
 ### Union
@@ -100,7 +102,9 @@ $|A\cup B| = |A| + |B| - |A\cap B|$
 
 $|A\cup B\cup C| = |A|+|B|+|C|-|A\cap B| - |B\cap C| - |C\cap A| + |A\cap B\cap C|$
 
-$$|A\cup B\cup C\cup D| = |A|+|B|+|C|+|D|-|A\cap B| - |B\cap C| - |C\cap D| - |C\cap D| - |A\cap B| - |A\cap C| + |A\cap B\cap C| + |A\cap C\cap D|+|B\cap C\cap D|+|A\cap B\cap D|-|A\cap B\cap C\cap D|$$
+$$
+|A\cup B\cup C\cup D| = |A|+|B|+|C|+|D|-|A\cap B| - |B\cap C| - |C\cap D| - |C\cap D| - |A\cap B| - |A\cap C| + |A\cap B\cap C| + |A\cap C\cap D|+|B\cap C\cap D|+|A\cap B\cap D|-|A\cap B\cap C\cap D|
+$$
 
 
 
