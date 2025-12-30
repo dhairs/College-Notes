@@ -1,5 +1,4 @@
-![[Basic Equivalences#Law of Excluded Middle]]
-
+![[Basic Equivalences#Excluded Middle]]
 ## Definition
 
 For any statement $p$, either it is true or false. There is nothing in the middle.
