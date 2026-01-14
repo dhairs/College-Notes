@@ -60,6 +60,15 @@ A non-preemptible kernel requires for highly-cooperative processes in the kernel
 ### Virtual Memory ❗
 
 Need a very strong notion of address spaces, establish grouping between threads and address spaces.
+#### Demand Paging ❗
+
+User space applications should be able to get more memory if they need it. They should be able to demand more data if required.
+
+#### Page Swapping and Caching ❗
+
+Need to be able to swap pages to disk or file system if physical memory is full to ensure that other processes can continue to see their illusion of "unlimited" memory. 
+
+Page cache is necessary for making sure that popular pages stay in memory, especially for things like dynamically linked libraries.
 
 ### Processes ❗
 
