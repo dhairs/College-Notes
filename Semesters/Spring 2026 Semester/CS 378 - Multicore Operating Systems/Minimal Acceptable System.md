@@ -4,7 +4,7 @@ Recall the [[Operating System Constraints|constraints]] there are to create the 
 
 Things with ❗ are minimum requirements. 
 
-Unmarked or ➕ are extras/secret sauce/good to haves.
+Things with ➕ are extras/secret sauce/good to haves.
 
 ## Kernel (running on top of hardware) ❗
 
@@ -128,3 +128,46 @@ This is a place you want to use [[Minimal Acceptable System#Copy-on-Write ❗|co
 
 User program should itself decide to load in a library during runtime, using an API from the OS similar to UNIX's `dlopen`.
 
+### Hierarchical File System ❗
+
+Something like the `ext` filesystems are a good starting point/example.
+
+Need to have some mechanism for ensuring recovery in crashes. ❗
+- Minimum requirement is *no surprises*
+	- Machine should be able to do some sanity check and report whether or not the filesystem has been corrupted. **Never** give users incorrect data. Refuse to mount devices if the filesystem is corrupted.
+
+#### Recoverable File System ➕
+
+Something like a log filesystem that is able to ensure consistency even when recovering from a crashed state.
+
+#### Snapshots ➕
+
+Being able to take an **atomic** snapshot of the state of a filesystem. (never see things in the middle of an update, only before or after).
+
+You could do something like copy-on-write for this as well, so that you preserve the state of the file system when taking a snapshot. 
+
+Examples: VideoFS, ZFS, NILFS, BTRFS 
+
+#### Users/Groups/Access Control ❗
+
+Need a way of handling user IDs and group IDs like UNIX does at a minimum. Need to have access control bits for making sure only certain groups can access like read/write to the file system in spots.
+
+#### Structures
+
+Needs to represents files, directories, sockets, special files for devices, symbolic links.
+
+##### Ref Link ➕
+
+Copy-on-write in the file system itself. Allows copying large files very efficiently and cheaply.
+
+#### Deduplication
+
+Being able to deduplicate files if there are multiple copies of the same file on the filesystem.
+
+### Additional Requirements ❗
+- Login/Logout System ❗
+- Shells ❗
+- GUI ❗
+- Networking ❗
+- Music ❗
+- Graphics ❗
