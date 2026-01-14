@@ -60,6 +60,7 @@ A non-preemptible kernel requires for highly-cooperative processes in the kernel
 ### Virtual Memory ❗
 
 Need a very strong notion of address spaces, establish grouping between threads and address spaces.
+
 #### Demand Paging ❗
 
 User space applications should be able to get more memory if they need it. They should be able to demand more data if required.
