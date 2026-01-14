@@ -78,10 +78,43 @@ Need a very strong notion of address spaces, establish grouping between threads 
 
 Need to be able to create new processes. Things like `fork`/`exec` or follow your own convention. 
 
-Need to also be able to create new threads.
+Need to also be able to create new threads. ❗
 
-Do not force user processes to spin (e.g. give them constructs so that they can receive signals or interrupts).
+#### Blocking Constructs ❗
 
-#### Prevent Spin Locking ➕
+Do not force user processes to spin (e.g. give them constructs so that they can receive signals or interrupts). 
+
+This means you need to solve race conditions that could occur between process resource contention. There are creative ways to approach this; things like `futex` in Linux ("very ugly abstraction but it works").
+
+#### Detect Spin Locking ➕
 
 Detect when a process is spinning and make it yield.
+
+#### Copy-on-Write ❗
+
+We **need** to be able to copy-on-write because doing things like forking can be very expensive. May as well share memory until we need to change anything. Then, we *incrementally* copy our memory.
+
+This shows up in executables (you're *usually* not changing executable code), forks, dynamic linking/loading.
+
+#### Signals ❗
+
+Need a way to be able to handle and send signals to programs that are running on the machine. Usually very easy — essentially an interrupt but instead of hardware to kernel, it is kernel to user space.
+
+UNIX systems have a (not-so-great) legacy system of handling signals.
+
+### Dynamic Linking ❗
+
+Need to have dynamic linking for shared libraries. Need them to work efficiently. 
+
+This happens at **link time**. As such, it exists in the final executable as a reference or stub to the dynamically linked library.
+
+➕ Preferably find a way to make sure that the shared libraries get mapped to the same addresses so the TLB doesn't need to be fully flushed. 
+
+Additionally, we need to ensure that each process using a dynamically linked library has its **own copy** of the variables and stack and heap of the library. This ensure the processes are not able to modify other system memory.
+
+This is a place you want to use [[Minimal Acceptable System#Copy-on-Write ❗|copy on write]].
+
+#### Dynamic Loading ❗
+
+User program should itself decide to load in a library during runtime, using an API from the OS similar to UNIX's `dlopen`.
+
