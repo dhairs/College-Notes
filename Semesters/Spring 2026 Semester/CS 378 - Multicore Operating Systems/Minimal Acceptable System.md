@@ -152,7 +152,7 @@ Examples: VideoFS, ZFS, NILFS, BTRFS
 
 Need a way of handling user IDs and group IDs like UNIX does at a minimum. Need to have access control bits for making sure only certain groups can access like read/write to the file system in spots.
 
-#### Structures
+#### Structures ❗
 
 Needs to represents files, directories, sockets, special files for devices, symbolic links.
 
@@ -160,7 +160,7 @@ Needs to represents files, directories, sockets, special files for devices, symb
 
 Copy-on-write in the file system itself. Allows copying large files very efficiently and cheaply.
 
-#### Deduplication
+#### Deduplication ➕
 
 Being able to deduplicate files if there are multiple copies of the same file on the filesystem.
 
