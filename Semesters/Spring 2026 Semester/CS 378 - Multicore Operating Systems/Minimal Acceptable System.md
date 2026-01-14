@@ -2,7 +2,9 @@
 
 Recall the [[Operating System Constraints|constraints]] there are to create the kernel in the first place.
 
-Things with ❗ are minimum requirements.
+Things with ❗ are minimum requirements. 
+
+Unmarked or ➕ are extras/secret sauce/good to haves.
 
 ## Kernel (running on top of hardware) ❗
 
@@ -12,7 +14,7 @@ Needs to express **[[Problems with Concurrency|concurrency]]** in some way, crea
 
 The kernel should always **get out of the way quickly**. Looking for the shortest critical path for the kernel to do a task and getting out of the way.
 
-### Maximize Parallelism
+### Maximize Parallelism ❗
 
 Need to extract the maximum available parallelism from the system (e.g. the number of cores in the system). If you have $n$ cores and $n$ activities in the system, we should be able to run all $n$ of those activities in parallel.
 
@@ -20,7 +22,7 @@ Need to extract the maximum available parallelism from the system (e.g. the numb
 
 Extracts a lot of extra parallelism without needing to do any extra computation. You need to be able to ask I/O to write directly to a DMA buffer.
 
-#### GPU (Secret Sauce)
+#### GPU (Secret Sauce) ➕
 
 GPUs ensure thousands of parallel streams, and this will be something that expands the requirement. They run different tasks, so you should try to use GPU as much as possible but not necessary to do CPU tasks (etc.).
 
@@ -55,3 +57,31 @@ A non-preemptible kernel **is** conceivable. It can be difficult, and requires m
 
 A non-preemptible kernel requires for highly-cooperative processes in the kernel space that yield for other processes at the end of their cycles, instead of waiting for the [[Process Abstraction#Context Switching|scheduler to preempt]].
 
+### Virtual Memory ❗
+
+Need a very strong notion of address spaces, establish grouping between threads and address spaces.
+
+### Processes ❗
+
+[[Process Abstraction|Process]] needs its own context
+- User ID
+- Group ID
+- Current Working Directory (`cwd`)
+- Environment
+- Open file descriptors
+- Sockets
+- Network connections
+	- Mapped files
+- Virtual address space (similar to any other OS)
+- $n$-threads
+	- Open-ended, but threads should allow sharing address spaces
+
+Need to be able to create new processes. Things like `fork`/`exec` or follow your own convention. 
+
+Need to also be able to create new threads.
+
+Do not force user processes to spin (e.g. give them constructs so that they can receive signals or interrupts).
+
+#### Prevent Spin Locking ➕
+
+Detect when a process is spinning and make it yield.
