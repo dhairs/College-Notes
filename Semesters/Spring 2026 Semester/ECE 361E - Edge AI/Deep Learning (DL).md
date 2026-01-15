@@ -32,6 +32,19 @@ Classification predicts integers/classes. The objective is to *guess* the right 
 
 Regression predicts real values. The objective is to get close to the actual value. Essentially, try to take some set of inputs and guess what the value of those inputs may result in (think linear regression).
 
+#### Supervised Classification and Regression Tasks
+
+Maps input data to an output prediction.
+
+**Classification** tasks predict a **discrete** category/label. E.g. predict main object in an image.
+
+**Regression** tasks predict a **continous** set of values.
+
+
+> [!FAQ] Which of these are regression tasks?
+> Contents
+
+
 ### Unsupervised Learning
 
 Two big classes of problems within unsupervised learning: Clustering and Association.
