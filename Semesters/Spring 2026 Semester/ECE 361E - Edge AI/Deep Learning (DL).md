@@ -38,11 +38,17 @@ Maps input data to an output prediction.
 
 **Classification** tasks predict a **discrete** category/label. E.g. predict main object in an image.
 
-**Regression** tasks predict a **continous** set of values.
+**Regression** tasks predict a **continuous** set of values.
 
 
-> [!FAQ] Which of these are regression tasks?
-> Contents
+> [!FAQ]+ What is Inside the Model?
+> Real world input → Model input → **Model** → Model output → Real world output
+> 
+> A machine learning model is a mathematical equation described by a set of parameters that determine the input-output relationship. A learning algorithm uses examples of input-output pairs to find a set of parameters (**train** the model) which predict the relationship most accurately.
+
+
+
+
 
 
 ### Unsupervised Learning
