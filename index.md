@@ -1,8 +1,6 @@
 ---
 title: Welcome to my Notes!
 ---
-
-
 They are from college, you can see them using the sidebar on the left.
 
 You can find my notes for classes in `Semesters > [Semester] > [Course #/Name]`. 
@@ -11,6 +9,7 @@ Most notes will have connections to other notes, you can see those on the right 
 
 Here's a few links to get you started (not by any means comprehensive):
 - [[Minimal Acceptable System|Multicore Operating Systems]] (currently taking)
+- [[Deep Learning (DL)|Machine Learning & Edge AI]] (currently taking)
 - [[Advanced Computer Architecture]]
 - [[What is Discrete Math|Discrete Math]]
 	- [[Rules of Inference]]
