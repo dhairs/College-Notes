@@ -46,11 +46,6 @@ Maps input data to an output prediction.
 > 
 > A machine learning model is a mathematical equation described by a set of parameters that determine the input-output relationship. A learning algorithm uses examples of input-output pairs to find a set of parameters (**train** the model) which predict the relationship most accurately.
 
-
-
-
-
-
 ### Unsupervised Learning
 
 Two big classes of problems within unsupervised learning: Clustering and Association.
