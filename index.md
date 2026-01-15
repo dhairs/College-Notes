@@ -10,6 +10,7 @@ You can find my notes for classes in `Semesters > [Semester] > [Course #/Name]`.
 Most notes will have connections to other notes, you can see those on the right with the graph view. The graph is automatically populated based on what notes link to the note you're currently viewing, as well as outbound links. Links are highlighted, so make sure to click around to see all the notes!
 
 Here's a few links to get you started (not by any means comprehensive):
+- [[Minimal Acceptable System|Multicore Operating Systems]] (currently taking)
 - [[Advanced Computer Architecture]]
 - [[What is Discrete Math|Discrete Math]]
 	- [[Rules of Inference]]
