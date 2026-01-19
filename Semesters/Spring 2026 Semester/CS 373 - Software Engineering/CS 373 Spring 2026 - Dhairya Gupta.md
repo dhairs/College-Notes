@@ -20,11 +20,11 @@ I would have gone to UIUC or UW Madison instead.
 
 Electrical and Computer Engineering.
 
-Why are you in this class?
+### Why are you in this class?
 
 I like software engineering!
 
-What are your expectations of this class?
+### What are your expectations of this class?
 
 Looking forward to getting better at writing software.
 
