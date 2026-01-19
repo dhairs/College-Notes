@@ -38,7 +38,7 @@ I don't like not being able to take notes myself and the cold calling, but other
 
 ### How did you feel about the cold calling?
 
-Not a huge fan of it.
+Not a huge fan of it, but I can see how it could be helpful in understanding material.
 
 ### What made you happy this week?
 
