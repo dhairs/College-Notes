@@ -21,6 +21,13 @@ The assembler generates machine code which is then consumed by the linkage edito
 The `.a` file extension signifies a collection of `.o` object files.
 
 > [!NOTE] Shared Object Files/Dynamically Linked Libraries
-> *Note*: there is also the possibility of shared object files (`.so` Linux, `.dll` Windows, `.dylib` macOS). These can be referenced by other programs without necessarily needing to copy the actual object file to the program. It helps with decreasing program size.
+> *Note*: there is also the possibility of shared object files (`.so` Linux, `.dll` Windows, `.dylib` macOS). These can be referenced by other programs without necessarily needing to copy the actual object file to the program. It helps with decreasing program size. 
+> 
+> In the above picture, you can see the inclusion of `libc.so` as a reference in the linking stage.
+
+Additionally, you also need to have a `LinkerScript` (`.ld`) file that defines the way the compiler will place object sections in memory. This is **very** important for embedded systems and kernels that are running directly on hardware. It defines where things exist in memory, where data will be, how things should be loaded into memory, etc. 
+
+> [!faq] Why have I never needed to write a LinkerScript?
+> The compiler provides a default when there is no linker script explicitly defined. This allows for defining a stable linked executable for a machine, without giving the user control over placement in memory. 
 
 In a kernel, you need to have direct control over where things will be placed by the compiler to ensure hardware works correctly. We can usually ensure things happen with `__attribute__(<attribute>)` (compiler extension directives) in order to tell the compiler to do something. In C++, we can do `[[<attribute>]]`.
