@@ -31,3 +31,11 @@ Additionally, you also need to have a `LinkerScript` (`.ld`) file that defines t
 > The compiler provides a default when there is no linker script explicitly defined. This allows for defining a stable linked executable for a machine, without giving the user control over placement in memory. 
 
 In a kernel, you need to have direct control over where things will be placed by the compiler to ensure hardware works correctly. We can usually ensure things happen with `__attribute__(<attribute>)` (compiler extension directives) in order to tell the compiler to do something. In C++, we can do `[[<attribute>]]`.
+
+### Structure of a Compiled Object
+
+![[Object File Format.png]]
+
+The common Linux ELF format contains the following:
+
+![[Object Modules and Linking#ELF Format Structure]]

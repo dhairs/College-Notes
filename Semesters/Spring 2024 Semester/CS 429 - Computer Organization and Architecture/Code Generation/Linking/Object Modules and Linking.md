@@ -37,6 +37,8 @@ The header is stored in 16 bytes, and it contains all the necessary information 
 
 All sections are variable-length.
 
+#### ELF Format Structure
+
 | ELF header (16 Bytes)      |     | bootstrapping information for the file                                                                                                                                                                                                                                                                                   |
 | -------------------------- | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `.text`                    |     | Machine code of compiled module. All the code goes into this section.                                                                                                                                                                                                                                                    |
