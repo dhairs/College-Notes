@@ -17,3 +17,5 @@ Then, the preprocessed code is able to go through the [[Introduction to Compiler
 That compiled code, which is now in assembly, is then passed to the assembler for the platform.
 
 The assembler generates machine code which is then consumed by the linkage editor (linker) which then finally takes in all of the files to produce a runnable binary.
+
+In a kernel, you need to have direct control over where things will be placed by the compiler to ensure hardware works correctly. We can usually ensure things happen with `__attribute__(<attribute>)` (compiler extension directives) in order to tell the compiler to do something. In C++, we can do `[[<attribute>]]`.
