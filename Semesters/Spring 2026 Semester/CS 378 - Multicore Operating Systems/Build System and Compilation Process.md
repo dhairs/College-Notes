@@ -18,4 +18,9 @@ That compiled code, which is now in assembly, is then passed to the assembler fo
 
 The assembler generates machine code which is then consumed by the linkage editor (linker) which then finally takes in all of the files to produce a runnable binary.
 
+The `.a` file extension signifies a collection of `.o` object files.
+
+> [!NOTE] Shared Object Files/Dynamically Linked Libraries
+> *Note*: there is also the possibility of shared object files (`.so` Linux, `.dll` Windows, `.dylib` macOS). These can be referenced by other programs without necessarily needing to copy the actual object file to the program. It helps with decreasing program size.
+
 In a kernel, you need to have direct control over where things will be placed by the compiler to ensure hardware works correctly. We can usually ensure things happen with `__attribute__(<attribute>)` (compiler extension directives) in order to tell the compiler to do something. In C++, we can do `[[<attribute>]]`.
