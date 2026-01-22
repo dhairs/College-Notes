@@ -54,3 +54,16 @@ Two big classes of problems within unsupervised learning: Clustering and Associa
 ### Reinforcement Learning
 
 Mainly its own field. 
+
+## Building off of Linear Models
+
+Linear models can separate non-linear data if we transform the features
+
+
+| ![[Linear Model Separation.png]]                                                                           |
+| ---------------------------------------------------------------------------------------------------------- |
+| [Source](https://medium.com/@sachinkun21/using-a-linear-model-to-deal-with-nonlinear-dataset-c6ed0f7f3f51) |
+However manual feature engineering becomes complex in high dimensions. E.g. an MNIST image is $x \in \mathbb{R}^{28\times 28}$ if we treat it as a vector. 
+
+As a result, we want to find if we can somehow automate or *learn* this linearization.
+
