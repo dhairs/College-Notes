@@ -29,3 +29,7 @@ Then, each core runs `Thread::boostrap()` which simply "dresses up" the core to 
 It then points the thread to the thread control block in the FS register.
 
 Finally, one real thread is created that runs kernel main. Kernel main is then added to the thread ready queue, and we run `impl:event_loop()` which then starts to do the logic for checking thread status and adding things to the ready queue / running it.
+
+### Physical Memory
+
+`src/physmem.cc` requests from limine the mapping of memory in the system. Limine then responds with its own format for physical memory mappings.
