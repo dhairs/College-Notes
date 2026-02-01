@@ -474,9 +474,7 @@ To manage this diversity, the kernel requires an Object-Oriented hardware abstra
 
 The core unit is the `device` struct, forming a tree that mirrors the physical topology.
 
-C
-
-```
+```c
 typedef struct device {
     char name;              // e.g., "pci0", "nvme0"
     uint32_t flags;             // Status flags (Initialized, Suspended)
@@ -502,9 +500,7 @@ typedef struct device {
 
 Drivers are registered in a global list. During enumeration (e.g., scanning the PCI bus), the `device_manager` iterates the driver list calling the `probe()` method.
 
-C
-
-```
+```c
 typedef struct driver {
     const char *name;
     bus_type_t bus;             // PCI, USB, ACPI
