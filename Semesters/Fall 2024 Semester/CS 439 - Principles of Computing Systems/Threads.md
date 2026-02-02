@@ -52,7 +52,7 @@ At the point CreateThread is called, execution continues in parent thread in the
 
 So how can this help?
 
-Remember the code segment from [[Threads#Example 1|Example 1]]. We can rewrite this as:
+Remember the code segment from [[Semesters/Fall 2024 Semester/CS 439 - Principles of Computing Systems/Threads#Example 1|Example 1]]. We can rewrite this as:
 
 ```c
 main()
@@ -63,7 +63,7 @@ main()
 	endfor
 ```
 
-Alternatively, look back at the code from [[Threads#Example 2|Example 2]]. We can rewrite as:
+Alternatively, look back at the code from [[Semesters/Fall 2024 Semester/CS 439 - Principles of Computing Systems/Threads#Example 2|Example 2]]. We can rewrite as:
 ```c
 CreateThread(fn, 0, n/2);
 CreateThread(fn, n/2, n);
@@ -75,7 +75,7 @@ fn(I, m)
 
 In a two processor system, this is the fastest we can go because any more threads will force context switching.
 
-Finally, look back at the web server from [[Threads#Example 3|Example 3]], we can rewrite this as:
+Finally, look back at the web server from [[Semesters/Fall 2024 Semester/CS 439 - Principles of Computing Systems/Threads#Example 3|Example 3]], we can rewrite this as:
 ```
 create a number of threads, and for each thread, do:
 	get network message from client
