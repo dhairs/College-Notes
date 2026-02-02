@@ -6,7 +6,7 @@
 
 `AArch64` defines `R18` as a **platform register**. The platform tells the compiler what to do with this register.
 
-These registers point to the thread control block (or whatever in the kernel defines what is unique to that thread).
+These registers point to the thread control block (TCB) (or whatever in the kernel defines what is unique to that thread).
 
 ### x86
 
@@ -34,3 +34,17 @@ $$
 
 
 The segment register also contains a limit that is enforced by hardware.
+
+The `gs` register is only 16 bits but we want 64 bit offsets. As a result, there is another register called `fsbase` and instructions `wrfsbase` and `rdfsbase`.
+
+#### In Software
+
+We should create some sort of structure (like a TCB) and then update the `fsbase` to point to the TCB.
+
+Thread local variables need to be accessed with `fsbase`.
+
+In C/C++/Rust, we have the `thread_local` specifier that defines that each thread will have this data.
+
+## ELF Format
+
+In the elf format, there is a `PT_TLS` segment that defines the thread local storage variables. The symbol table will mark variable `x` as `tls` and will generate an additional field defined as `xoff` (or something similar) to tell you where that variable is within the `PT_TLS` segment.
