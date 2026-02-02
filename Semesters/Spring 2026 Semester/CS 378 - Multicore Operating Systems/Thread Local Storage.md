@@ -14,7 +14,7 @@ x86 address translation involves two-step, which affects the `fsbase`.
 
 Traditionally, [[Paging|paging]] takes a virtual address and produces a physical address. However, on x86, there is first the **segmentation** step. The instruction being run produces an **effective address (EA)**.
 
-#### Effective Addresses (EA)
+#### Effective Address (EA)
 
 Take on the form of $\text{displacment} +(\underbrace{\text{base}}_{\mathbb{R}}, \underbrace{\text{index}}_{\mathbb{R}}, \underbrace{\text{scale}}_{\{1, 2, 4, 8\}})$.
 
@@ -52,3 +52,9 @@ In the elf format, there is a `PT_TLS` segment that defines the thread local sto
 The `fsbase` or `r18` is used to access the TCB, which points to itself (enforced). Then, the offset is applied to the thread control block as a negative offset. This means that if the thread control block is "under" the `fsbase` address, the thread local variables are "above" the `fsbase` address, and vice-versa. 
 
 This structure above the TCB needs to be allocated by the kernel at load-time. It must be the size of the `PT_TLS` segment of the loaded file.
+
+## `gsbase`
+
+The `gsbase` register is often used by the kernel to manage data specific to a core (like core number, running thread, etc.). The user space can define its own use case for the register as well. 
+
+*e.g.* in Windows, `GSBASE` is used for thread local storage.
