@@ -28,3 +28,7 @@ lazy<int> f(long n) {
 After reaching the await, the function will still return but store the state in the struct. Then, the calling function (the first one to have called `f`) needs to make sure that `f` continues running. 
 
 So, there needs to be a `while not done` to ensure execution of the `f` coroutines.
+
+### Structs
+
+When the compiler sees you do a call to a function that returns a `promise_type`, it goes to the `await_ready` function within the struct. If the task is ready, then we don't need to suspend the caller. If it is **not** ready, the function has to be suspended.
