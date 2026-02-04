@@ -32,3 +32,6 @@ So, there needs to be a `while not done` to ensure execution of the `f` coroutin
 ### Structs
 
 When the compiler sees you do a call to a function that returns a `promise_type`, it goes to the `await_ready` function within the struct. If the task is ready, then we don't need to suspend the caller. If it is **not** ready, the function has to be suspended.
+
+
+p2 - disks, nics, keyboard, display, pics, interrupt handlers, timer calibration, qemu doesnt implement CPUID correctly, need to communicate host TSE freq to guest OS, DMA
