@@ -1,0 +1,11 @@
+![[0331DF37-2B1F-463F-91DC-1CDBD67FC7FF2022-10-25_18-28-50_700.jpeg|300]]
+
+Hi! This past week we covered quite a bit of content. Some of those things include `read-only` pointers. Those were something that I had never understood at all in the past. I always assumed that const pointers were pointers that could not actually change.
+
+That finally clicked in class, though, when we learned that `const <ptr>` denotes a read-only pointer that disallows compilation if you attempt to *update* a value at some address. Doing something like `<ptr> const` is more what I had initially understood it to be. These are pointer values that cannot be updated.
+
+Additionally, this week made it much more clear on how C++ avoids complicated logic in compilation for making sure that pointers are correctly accessed. Instead of somehow checking to make sure that a pointer is not pointing at a const, it just doesn't allow a read-write pointer to point to a const int type. That makes it much easier to guarantee things at runtime (though we did learn that it is possible to cast away the read-only-ness of a pointer and somehow write to a const value). That is terrible practice, though, and I can only hope that no one uses it!
+
+The programming challenge this week was pretty fun! I enjoyed writing strcmp and liked the idea of being able to compare lexicographic ordering in a very elegant way (just subtracing ASCII character codes). That turned into a very clean and straightforward solution. The quizzes made me realize that I still need to do some studying up on the pointer types to clear up any confusion I may still have for them.
+
+For my tip of the week, I want to talk about compiler explorer. As something that is very relevant to programming in general, I think it is useful to know how your code can get optimized or cleaned up in ways. Compiler Explorer (or GodBolt) 
