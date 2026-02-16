@@ -1,0 +1,11 @@
+![[0331DF37-2B1F-463F-91DC-1CDBD67FC7FF2022-10-25_18-28-50_700.jpeg|300]]
+
+Hi! This past week we covered quite a bit of content. Some of those things include iterators. Though we had used iterators in Java previously, I had never considered their usage in C++. Seeing that there were different types of iterators and seeing how they could differently be indexed or compared did confuse me quite a bit.
+
+That finally clicked in class, though, when we learned how there were forward iterators and those were only able to move forward using the `++` operator. Seeing that there were other types of iterators made more sense in the context of their naming. Though, I am still confused how some of these are implemented, because we didn't go into detail on that in class.
+
+Additionally, this week made it much more clear on how C++ is able to ensure that comparisons work for things like the `std::equal` and `fill` functions. The iterator comparisons made a lot of sense in the sense that the functions could just expect templated types that then get consumed by the code itself. I did wonder how C++ must compile the code to make sure there isn't a ton of duplication when having templates. I wonder if this is handled just by the fact that the iterators must take the same form and have the same rules, or if something else is going on under the hood.
+
+The programming challenge this week was pretty fun! I liked writing the reverse function and thought it was pretty cool seeing how certain iterators forced us to think outside of the box. Namely, having to move forward and backward to compare pointers and make sure we're at the end.
+
+For my tip of the week, I want to mention committing code often. Sometimes, it makes sense to just commit your code if you have a very simple change. Though you might think it clutters up your commit history, it really is useful and serves 2 purposes. One: it helps you get more green on your GitHub commit history! But more seriously, it also enables you to rollback code if you need to and ensures you have a backup. Also, if you make sure to create new branches for your commits, you can squash your commits into a single one when merging. That means you get the benefits of more commits without the drawbacks!
