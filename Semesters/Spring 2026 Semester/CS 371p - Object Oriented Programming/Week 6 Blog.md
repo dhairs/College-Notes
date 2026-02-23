@@ -1,0 +1,13 @@
+![[0331DF37-2B1F-463F-91DC-1CDBD67FC7FF2022-10-25_18-28-50_700.jpeg|300]]
+
+This week we covered quite a bit of more content, specifically building on those iterators from last week. I mentioned being confused about how they were implemented "under the hood," and this week we actually got into the meat of that with `std::iterator_traits` and `iterator_tags`.
+
+It finally clicked for me how C++ handles the "dispatching" for different algorithms. Like, if you have a random access iterator versus a forward iterator, the compiler can actually choose a more efficient version of a function. Seeing `iterator_tags` made it make more sense why we need to define those types in our own classes if we want them to work with the STL. I'm still wrapping my head around the syntax for `std::iterator_traits` though, because the template nesting gets a little messy and hard to read at first glance.
+
+The programming challenge this week was writing a `reverse` function. It was a bit more challenging than last week because we had to think about how to handle different iterator categories. If you only have a bidirectional iterator, you can't just jump to the end with `+ n`, so you have to be more careful with how you increment and decrement to swap the elements. It definitely made me think more about the constraints of the data structures we use.
+
+Another thing that made a lot of sense was the member initialization list. I used to just assign values inside the constructor body, but learning that it actually default-constructs the member first and _then_ assigns it was a bit of a "wow" moment. Using the initialization list is just more efficient.
+
+For Project #2: Voting, it's been a lot of work getting the logic right. Reading Paper #6 on the Open-Closed Principle was actually super relevant here. It talks about how code should be open for extension but closed for modification. I'm trying to apply that to the voting project so that if we had to add a different type of ballot or counting system later, we wouldn't have to rewrite the whole core logic. It's a lot harder to do in practice than it is to read about it, though!
+
+**Tip of the Week:** My tip this week is to use `static_assert` for template debugging. If you are writing a function that _requires_ a certain type of iterator, you can use `static_assert` with `std::is_base_of` to check the iterator tag at compile time. It gives you a much better error message than the huge wall of text C++ usually gives you when a template fails. It’s saved me a lot of headache already.
