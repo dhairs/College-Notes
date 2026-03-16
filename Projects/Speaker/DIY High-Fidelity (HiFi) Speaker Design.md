@@ -35,3 +35,10 @@ To handle high fidelity sound and to process it locally, we need to have a way t
 It is easy to come by (we can also buy samples). Since we are not currently looking to make our speaker portable with a battery, we don't need to worry much about having a low power consumption chip. We also have experience with STM32.
 
 ### Bluetooth Audio
+
+#### BM83
+
+| ![[BM83 Reference Design.png\|600]]                                                                         |
+| ----------------------------------------------------------------------------------------------------------- |
+| https://ww1.microchip.com/downloads/en/DeviceDoc/BM83%20Embedded%20Mode%20Reference%20Circuit.pdf#page=4.00 |
+
