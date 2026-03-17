@@ -58,4 +58,4 @@ This chipset comes with 16 bit ADCs, which should be good enough to sample analo
 
 Acceptable from a regular headphone jack leading directly into our MCU.
 
-16-bit resolution audio will then be passed to the DSP running on the MCU and be used to 
+16-bit resolution audio will then be passed to the DSP running on the MCU and be used to form the digital crossover. 
