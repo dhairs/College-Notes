@@ -32,7 +32,7 @@ We will design with a secondary source: a analog audio input. This will be fed t
 
 ### [Crossover](https://en.wikipedia.org/wiki/Audio_crossover)
 
-We have the option between a digital DSP, or a passive crossover. Passive crossovers are inherently limited in that they are only able to separate set frequencies without the ability to tune without re-soldering and re-spec-ing components. 
+We have the option between a digital DSP, or a passive crossover. Passive crossovers are inherently limited in that they are only able to separate set frequencies without the ability to tune without re-soldering and re-spec-ing components (but they are very cool to design). 
 
 For this reason, it makes more sense for us to go with a digital crossover. DSPs can handle frequency separation, given there is a sufficiently powerful MCU running it. 
 
