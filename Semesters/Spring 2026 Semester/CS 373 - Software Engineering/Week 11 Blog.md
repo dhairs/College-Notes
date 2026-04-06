@@ -1,0 +1,11 @@
+![[0331DF37-2B1F-463F-91DC-1CDBD67FC7FF2022-10-25_18-28-50_700.jpeg|250]]
+
+This week involved several exercises and a new project. Exercise 8 used the cross join. One tool creates a result from two data groups. It was a good way to see how large a data set can get when you combine everything. After that, we moved to Exercise 9. This exercise covered the natural join. I liked that the natural join finds shared columns on its own. It helps when you write queries. We also practiced using the query tool and the where part of SQL. These are basic tools. They are used to pick columns and filter rows that are not needed.
+
+The assigned paper was about getters and setters. This reading was helpful because it changed how I think about programming. The writer says that providing many getters and setters can be bad for your code. It shows the internal parts of a class to other areas of the program. This makes it difficult to change the code later. I used to think these methods were always needed. Now I know that I should use them only when there is a good reason.
+
+We also spent time on Project 4 which is IDB3. This project requires a lot of talking with my team. We have to split the tasks and make sure all the parts function together. The quizzes we took as a group were useful. They showed us where we had different ideas about the material. It is better to find these differences early so we can resolve them. The programming challenges were also a major part of the week. They are quick and require a lot of attention. I learned that I need to read the instructions twice before I start to write code. If I rush, I usually create an error that is hard to find. Remaining calm helps me solve the problems effectively.
+
+SQL is hard to learn at first because the order of the code is not the order of how the computer runs it. I have to remember that the from part happens before the select part. This was a surprise to me. Learning this helped me write better filters to organize the data. I feel I understand the database concepts better now. I am ready to use them for the rest of the project.
+
+**Pick of the week:** SQLBolt is a website with lessons. It is a good way to practice the rules of the language.
