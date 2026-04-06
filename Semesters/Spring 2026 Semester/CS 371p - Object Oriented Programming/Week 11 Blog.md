@@ -1,0 +1,13 @@
+![[0331DF37-2B1F-463F-91DC-1CDBD67FC7FF2022-10-25_18-28-50_700.jpeg|250]]
+
+This week felt like a transition from simply making code work to making it meaningful. We covered a lot of ground, from the granular mechanics of Vector2 to the high-level architectural decisions required for Project #4: Darwin.
+
+If there was a significant moment this week, it was definitely move semantics. For the longest time, C++ felt like a language obsessed with making copies of everything. Understanding the difference between copying a resource and simply transferring ownership was a major hurdle. It finally clicked when looking at it through the lens of performance: there is no reason to pay the tax of a deep copy when the original is just going to be destroyed anyway. It is about being a better steward of memory and resources.
+
+Working on Darwin has been a lesson in managing complexity. Building a 2D grid world where different species interact based on specific instructions requires a level of foresight that earlier projects did not. It is easy to write a simple loop, but it is much harder to design an interface where a creature can act on its environment without violating the encapsulation of the grid.
+
+The reading on getters and setters was also challenging to my previous habits. In introductory courses, you are often taught that private data combined with public getters and setters equals encapsulation. Paper #11 argued the opposite: that excessive accessors actually leak implementation details. It pushed the idea of "Tell, Don't Ask." Instead of asking an object for its data to perform a calculation elsewhere, I should tell the object to perform that calculation itself.
+
+The collaborative quizzes continue to be a necessary reality check. There is a specific kind of humility that comes from being confident in an answer during an individual quiz, only to have a peer explain why your logic fails in a specific edge case during the group portion. It is a reminder that software engineering is a team sport.
+
+Pick of the week: Excalidraw. If you are struggling to visualize the logic for the Darwin project, especially how creatures move or turn on the grid, check out Excalidraw. It is a virtual whiteboard tool that feels like sketching on a napkin but produces clean, hand-drawn-style diagrams. It is perfect for mapping out class hierarchies or state machines without the overhead of heavy UML software.
