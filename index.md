@@ -28,3 +28,7 @@ Here's a few links to get you started (not by any means comprehensive):
 	- [[Process Abstraction]]
 	- [[Problems with Concurrency]]
 	- You can find more under the [folder](https://notes.guptadhairya.com/Semesters/Fall-2024-Semester/CS-439---Principles-of-Computing-Systems/)
+
+
+Crubit Testing:
+<iframe src="https://crubit-explorer-749456143212.us-central1.run.app/embed#code=eyJ2IjoxLCJ0b29sIjoiY2NfYmluZGluZ3NfZnJvbV9ycyIsImVkaXRhYmxlIjpmYWxzZSwidmlldyI6InNwbGl0IiwiZmlsZXMiOlt7Im5hbWUiOiJpbnB1dC5ycyIsImNvbnRlbnQiOiIvLyBXcml0ZSBSdXN0IGNvZGUgaGVyZVxucHViIHN0cnVjdCBNeVN0cnVjdCB7XG4gICAgcHViIGE6IGkzMixcbn1cblxucHViIGV4dGVybiBcIkNcIiBmbiBoZWxsbygpIHt9XG4ifV19" width="100%" height="400" frameborder="5"></iframe>
